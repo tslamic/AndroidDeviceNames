@@ -6,6 +6,7 @@ user friendly String.
 from string import Template
 import time
 import os
+import re
 
 try:
     import requests
@@ -164,9 +165,28 @@ class MeetupSource(Source):
         return model, name
 
 
+class CachedSource(Source):
+    regex = re.compile("[a-z0-9_\s]+", re.IGNORECASE)
+
+    def get_dict(self, collision_handler=None):
+        handle = lambda l: self.device_handler(l, self.regex)
+        return create_content_dict('cached.devices', handle, collision_handler)
+
+    @staticmethod
+    def device_handler(device_line, regex):
+        model, name = (d.strip() for d in device_line.split('='))
+        if not name:
+            name = model.replace("_", " ")
+        if not re.match(regex, model):
+            raise Exception("model syntax failure: %s" % model)
+        if not re.match(regex, name):
+            raise Exception("name syntax failure: %s" % name)
+        return model, name
+
+
 # Main
 
 if __name__ == "__main__":
-    source_list = [MeetupSource(), ]
+    source_list = [CachedSource(), ]
     generate_java_class(source_list,
                         collision_handler=exception_collision_handler)
