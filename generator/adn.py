@@ -7,7 +7,10 @@ from string import Template
 import time
 import os
 
-import requests
+try:
+    import requests
+except ImportError:
+    requests = None  # Downloading disabled.
 
 JAVA_ELSE_IF = 'else if ("%s".equals(%s)) { return "%s"; }\n'
 JAVA_ELSE = 'else { return %s; }'
@@ -17,30 +20,59 @@ JAVA_TEMPLATE = "java.template"
 JAVA_CLASS_NAME = "DeviceNames.java"
 
 
-def generate_java_class(*sources):
-    java_content = set()
+def generate_java_class(sources, collision_handler=None):
+    """
+    Generates the Java class.
+
+    :param sources: a list of Source objects.
+    :param collision_handler: (optional) a function for resolving duplicate
+    entries.
+    """
+    java_dict = merge_source_dicts(sources, collision_handler)
+    if not java_dict:
+        raise Exception("sources contain no model-name pairs")
+    content = []
+    for model, name in java_dict.iteritems():
+        java_statement = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
+        content.append(java_statement)
+    content.append(JAVA_ELSE % JAVA_PARAM_FALLBACK)
+    with open(JAVA_TEMPLATE, 'rb') as template:
+        class_template = template.read()
+    content = Template(class_template).substitute(
+        template=''.join(content))
+    with open(JAVA_CLASS_NAME, 'wb') as java_class:
+        java_class.write(content)
+
+
+def merge_source_dicts(sources, collision_handler=None):
+    """
+    Merges multiple source model-name dicts into a single dict and returns it.
+
+    :param sources: a list of Source objects.
+    :param collision_handler: (optional) a function for resolving duplicate
+    entries.
+    """
+    java_dict = {}
     for source in sources:
-        source_content = source.get_tuple_set()
-        java_content = java_content.union(source_content)
-    if java_content:
-        content = list(java_content)
-        content.append(JAVA_ELSE % JAVA_PARAM_FALLBACK)
-        with open(JAVA_TEMPLATE, 'rb') as template:
-            class_template = template.read()
-        content = Template(class_template).substitute(
-            template=''.join(content))
-        with open(JAVA_CLASS_NAME, 'wb') as java_class:
-            java_class.write(content)
+        source_dict = source.get_dict(collision_handler)
+        if collision_handler is None:
+            for model, name in source_dict.iteritems():
+                java_dict[model] = name
+        else:
+            for model, name in source_dict.iteritems():
+                if model in java_dict:
+                    old_name = java_dict[model]
+                    java_dict[model] = collision_handler(model, old_name, name)
+                else:
+                    java_dict[model] = name
+    return java_dict
 
 
 class Source(object):
-    """ Simple class providing random device name sources. """
-
-    def get_tuple_set(self):
+    def get_dict(self, collision_handler=None):
         """
-        Returns a set of string tuples where the first item is the device
-        model and the second item is a user-friendly name, e.g.:
-            ("GT-I9500", "Samsung Galaxy S4")
+        Returns a dictionary where keys are device models and values are
+        user-friendly name, e.g.: "GT-I9500" : "Samsung Galaxy S4"
         """
         raise NotImplementedError("implementation missing")
 
@@ -54,6 +86,8 @@ def download_device_list(url, target, chunk=2048):
     :param url: the device list location
     :param target: the file path where device list will be saved
     """
+    if requests is None:
+        raise Exception("please install 'requests' lib")
     if not url:
         raise Exception("url not specified")
     with open(target, 'wb') as t:
@@ -81,30 +115,32 @@ def is_stale(target, freshness_interval):
     return True
 
 
-def create_tuple_content(target, line_handler, empty_name_handler=None):
+def create_content_dict(target, device_handler, collision_handler):
     """
-    Returns a set of string tuples where the first item is the device model
-    and the second item is a user-friendly name, e.g.: ("GT-I9500", "Samsung
-    Galaxy S4")
+    Returns a set containing java if-else statements, mapping device models
+    to its user-friendly names.
 
     :param target: the file path source
-    :param line_handler: a function with the one param - currently read
-    line. Returns a (model, name) string tuple, e.g.
+    :param device_handler: a function with one param (currently read
+    line) returning a (model, name) string tuple, e.g.
     ("GT-I9500", "Samsung Galaxy S4")
-    :param empty_name_handler: (optional) a function with one param - the
-    device model string. This is only invoked if the second item returned from
-    line_handler is empty. Returns a string.
+    :param collision_handler: a function with three params:
+    model, existing model name and a new model name. Returns a single name
+    string.
     """
-    content = set()
     with open(target, 'rb') as device_list:
         devices = device_list.readlines()
+    content_dict = {}
     for device in devices:
-        model, name = line_handler(device)
-        if not name and empty_name_handler:
-            name = empty_name_handler(model)
-        java_statement = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
-        content.add(java_statement)
-    return content
+        model, name = device_handler(device)
+        if collision_handler is not None and model in content_dict:
+            name = collision_handler(model, content_dict[model], name)
+        content_dict[model] = name
+    return content_dict
+
+
+def exception_collision_handler(model, old, new):
+    raise Exception("multiple names for '%s': '%s', '%s'" % (model, old, new))
 
 
 # Sources
@@ -114,23 +150,23 @@ class MeetupSource(Source):
     source_url = "https://raw.githubusercontent.com/meetup/android-device" \
                  "-names/master/android_models.properties"
 
-    def get_tuple_set(self):
+    def get_dict(self, collision_handler=exception_collision_handler):
         if is_stale(self.source_file, ONE_WEEK):
             download_device_list(self.source_url, self.source_file)
-        line_h = lambda l: (item.strip() for item in l.split('='))
-        name_h = lambda m: m.replace("_", " ")
-        return create_tuple_content(self.source_file, line_h, name_h)
+        return create_content_dict(self.source_file, self.device_handler,
+                                   collision_handler)
 
-
-class CustomDevicesSource(Source):
-    source_file = "custom_devices.devices"
-
-    def get_tuple_set(self):
-        line_h = lambda l: (item.strip() for item in l.split('='))
-        return create_tuple_content(self.source_file, line_h)
+    @staticmethod
+    def device_handler(device_line):
+        model, name = (d.strip() for d in device_line.split('='))
+        if not name:
+            name = model.replace("_", " ")
+        return model, name
 
 
 # Main
 
 if __name__ == "__main__":
-    generate_java_class(MeetupSource(), CustomDevicesSource())
+    source_list = [MeetupSource(), ]
+    generate_java_class(source_list,
+                        collision_handler=exception_collision_handler)
