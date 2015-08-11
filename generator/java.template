@@ -1,0 +1,35 @@
+package tslamic.github.io.adn;
+
+public final class DeviceNames {
+
+    /**
+     * Returns a user-friendly name of this device. Same as calling {@code
+     * getDeviceName(android.os.Build.MODEL, fallback)}.
+     *
+     * @param fallback fallback name if the device model is not listed.
+     * @return {@code String} name of this device or fallback if device model
+     * is not listed.
+     */
+    public static String getThisDeviceName(String fallback) {
+        return getDeviceName(android.os.Build.MODEL, fallback);
+    }
+
+    /**
+     * Returns a user-friendly name of the specified device model.
+     *
+     * @param model    the device model, e.g. {@code android.os.Build.MODEL}.
+     * @param fallback fallback name if the device model is not listed.
+     * @return {@code String} name of this device or fallback if device model
+     * is not listed.
+     */
+    public static String getDeviceName(String model, String fallback) {
+        if (android.text.TextUtils.isEmpty(model)) {
+            return fallback;
+        }
+        $template
+    }
+
+    private DeviceNames() {
+    }
+
+}
