@@ -9,37 +9,6 @@ import os
 
 import requests
 
-MEETUP_FILE = 'devices.properties'
-MEETUP_URL = "https://raw.githubusercontent.com/meetup/android-device-names" \
-             "/master/android_models.properties"
-CHUNK = 2048
-
-
-def download_device_list(source):
-    """ Downloads a file containing a number of device mappings from a url
-    and saves it to the target file."""
-    url = source.url()
-    if not url:
-        return
-    with open(source.local_file_path(), 'wb') as devices:
-        response = requests.get(url, stream=True)
-        if not response.ok:
-            raise Exception("cannot download the device list")
-        for block in response.iter_content(CHUNK):
-            devices.write(block)
-
-
-WEEK_IN_SECONDS = 604800
-
-
-def should_update_source(source):
-    path = source.local_file_path()
-    if os.path.exists(path):
-        last_modified = os.path.getmtime(path)
-        return time.time() - last_modified > WEEK_IN_SECONDS
-    return True
-
-
 JAVA_ELSE_IF = 'else if ("%s".equals(%s)) { return "%s"; }\n'
 JAVA_ELSE = 'else { return %s; }'
 JAVA_PARAM_MODEL = "model"
@@ -51,7 +20,7 @@ JAVA_CLASS_NAME = "DeviceNames.java"
 def generate_java_class(*sources):
     java_content = set()
     for source in sources:
-        source_content = generate_java_content(source)
+        source_content = source.get_tuple_set()
         java_content = java_content.union(source_content)
     if java_content:
         content = list(java_content)
@@ -64,54 +33,104 @@ def generate_java_class(*sources):
             java_class.write(content)
 
 
-def merge_java_content(*args):
-    return {item for arg in args for item in arg}
+class Source(object):
+    """ Simple class providing random device name sources. """
+
+    def get_tuple_set(self):
+        """
+        Returns a set of string tuples where the first item is the device
+        model and the second item is a user-friendly name, e.g.:
+            ("GT-I9500", "Samsung Galaxy S4")
+        """
+        raise NotImplementedError("implementation missing")
 
 
-def generate_java_content(source):
-    if should_update_source(source):
-        download_device_list(source)
+# Utils
+
+def download_device_list(url, target, chunk=2048):
+    """
+    Downloads a file containing device information.
+
+    :param url: the device list location
+    :param target: the file path where device list will be saved
+    """
+    if not url:
+        raise Exception("url not specified")
+    with open(target, 'wb') as t:
+        response = requests.get(url, stream=True)
+        if not response.ok:
+            raise Exception("download failed")
+        for block in response.iter_content(chunk):
+            t.write(block)
+
+
+ONE_WEEK = 604800  # in seconds.
+
+
+def is_stale(target, freshness_interval):
+    """
+    Determines if a device list is stale.
+
+    :param target: the file path to be checked
+    :param freshness_interval: elapsed seconds the target is considered fresh
+    :return: True if device list should be refreshed, False otherwise
+    """
+    if os.path.exists(target):
+        last_modified = os.path.getmtime(target)
+        return time.time() - last_modified > freshness_interval
+    return True
+
+
+def create_tuple_content(target, line_handler, empty_name_handler=None):
+    """
+    Returns a set of string tuples where the first item is the device model
+    and the second item is a user-friendly name, e.g.: ("GT-I9500", "Samsung
+    Galaxy S4")
+
+    :param target: the file path source
+    :param line_handler: a function with the one param - currently read
+    line. Returns a (model, name) string tuple, e.g.
+    ("GT-I9500", "Samsung Galaxy S4")
+    :param empty_name_handler: (optional) a function with one param - the
+    device model string. This is only invoked if the second item returned from
+    line_handler is empty. Returns a string.
+    """
     content = set()
-    with open(source.local_file_path(), 'rb') as device_list:
+    with open(target, 'rb') as device_list:
         devices = device_list.readlines()
-    if devices:
-        for device in devices:
-            model, name = source.line_splitter(device)
-            if not name:
-                name = source.empty_name_handler(model)
-            java_statement = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
-            content.add(java_statement)
+    for device in devices:
+        model, name = line_handler(device)
+        if not name and empty_name_handler:
+            name = empty_name_handler(model)
+        java_statement = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
+        content.add(java_statement)
     return content
 
 
-class Source(object):
-    def url(self):
-        raise NotImplementedError("implementation missing")
-
-    def local_file_path(self):
-        raise NotImplementedError("implementation missing")
-
-    def line_splitter(self, line):
-        raise NotImplementedError("implementation missing")
-
-    def empty_name_handler(self, model):
-        raise NotImplementedError("implementation missing")
-
+# Sources
 
 class MeetupSource(Source):
-    def url(self):
-        return "https://raw.githubusercontent.com/meetup/android-device" \
-               "-names/master/android_models.properties"
+    source_file = "meetup.devices"
+    source_url = "https://raw.githubusercontent.com/meetup/android-device" \
+                 "-names/master/android_models.properties"
 
-    def local_file_path(self):
-        return "meetup.devices"
+    def get_tuple_set(self):
+        if is_stale(self.source_file, ONE_WEEK):
+            download_device_list(self.source_url, self.source_file)
+        line_h = lambda l: (item.strip() for item in l.split('='))
+        name_h = lambda m: m.replace("_", " ")
+        return create_tuple_content(self.source_file, line_h, name_h)
 
-    def line_splitter(self, line):
-        return (item.strip() for item in line.split('='))
 
-    def empty_name_handler(self, model):
-        return model.replace("_", " ")
+class CustomDevicesSource(Source):
+    source_file = "custom_devices.devices"
 
+    def get_tuple_set(self):
+        line_h = lambda l: (item.strip() for item in l.split('='))
+        return create_tuple_content(self.source_file, line_h)
+
+
+# Main
 
 if __name__ == "__main__":
-    generate_java_class(MeetupSource())
+    generate_java_class(MeetupSource(), CustomDevicesSource())
