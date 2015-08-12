@@ -16,15 +16,15 @@ try:
 except ImportError:
     requests = None  # Downloading disabled.
 
-VALID_MODEL_REGEX = re.compile("^\S+$")
-VALID_NAME_REGEX = re.compile("^[a-zA-Z0-9-+\.\s]+$")
+VALID_MODEL_REGEX = re.compile('^\S+$')
+VALID_NAME_REGEX = re.compile('^[a-zA-Z0-9-+\.\s]+$')
 
 JAVA_ELSE_IF = 'else if ("%s".equals(%s)) { return "%s"; }\n'
 JAVA_ELSE = 'else { return %s; }'
-JAVA_PARAM_MODEL = "model"
-JAVA_PARAM_FALLBACK = "fallback"
-JAVA_TEMPLATE = "java.template"
-JAVA_CLASS_NAME = "DeviceNames.java"
+JAVA_PARAM_MODEL = 'model'
+JAVA_PARAM_FALLBACK = 'fallback'
+JAVA_TEMPLATE = 'java.template'
+JAVA_CLASS_NAME = 'DeviceNames.java'
 
 
 def generate_java_class(sources, collision_handler=None):
@@ -38,7 +38,7 @@ def generate_java_class(sources, collision_handler=None):
     """
     merged = merge_source_dicts(sources, collision_handler)
     if not merged:
-        raise Exception("sources contain no model-name pairs")
+        raise Exception('sources contain no model-name pairs')
     content = []
     for model, name in merged.iteritems():
         java_statement = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
@@ -79,7 +79,7 @@ class Source(object):
         Returns a dictionary where keys are device models and values are
         user-friendly name, e.g.: "GT-I9500" : "Samsung Galaxy S4"
         """
-        raise NotImplementedError("implementation missing")
+        raise NotImplementedError('implementation missing')
 
 
 # Utils
@@ -94,11 +94,11 @@ def download_device_list(url, target, chunk=2048):
     if requests is None:
         raise Exception("'requests' lib missing")
     if not url:
-        raise Exception("url not specified")
+        raise Exception('url not specified')
     with open(target, 'wb') as t:
         response = requests.get(url, stream=True)
         if not response.ok:
-            raise Exception("download failed")
+            raise Exception('download failed')
         for block in response.iter_content(chunk):
             t.write(block)
 
@@ -152,9 +152,9 @@ def exception_collision_handler(model, old, new):
 class MeetupSource(Source):
     """ Meetup Github source. """
 
-    source_file = "meetup.devices"
-    source_url = "https://raw.githubusercontent.com/meetup/android-device" \
-                 "-names/master/android_models.properties"
+    source_file = 'meetup.devices'
+    source_url = 'https://raw.githubusercontent.com/meetup/android-device' \
+                 '-names/master/android_models.properties'
 
     def get_dict(self, collision_handler=exception_collision_handler):
         if is_stale(self.source_file, ONE_WEEK):
@@ -166,7 +166,7 @@ class MeetupSource(Source):
     def device_handler(device_line):
         model, name = (d.strip() for d in device_line.split('='))
         if not name:
-            name = model.replace("_", " ")
+            name = model.replace('_', ' ')
         return model, name
 
 
@@ -181,16 +181,17 @@ class CachedSource(Source):
     def device_handler(device_line):
         model, name = (d.strip() for d in device_line.split('='))
         if not name:
-            name = model.replace("_", " ")
+            name = model.replace('_', ' ')
         if not re.match(VALID_MODEL_REGEX, model):
-            raise Exception("invalid model: %s" % model)
+            raise Exception("invalid model: '%s'" % model)
         if not re.match(VALID_NAME_REGEX, name):
-            raise Exception("invalid name: %s" % name)
+            raise Exception("invalid name: '%s'" % name)
         return model, name
+
 
 # Main
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     source_list = [CachedSource(), ]
     generate_java_class(source_list,
                         collision_handler=exception_collision_handler)
