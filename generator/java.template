@@ -28,7 +28,11 @@ public final class DeviceNames {
         if (android.text.TextUtils.isEmpty(model)) {
             return fallback;
         }
-        $devices
+        final char c = Character.toUpperCase(model.charAt(0));
+        switch (c) {
+            $devices
+        }
+        return fallback;
     }
 
     private DeviceNames() {

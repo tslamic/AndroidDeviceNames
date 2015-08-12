@@ -5,8 +5,8 @@ user friendly String.
 
 __version__ = '0.0.1'
 
-from string import Template
 from datetime import datetime
+import string
 import time
 import os
 import re
@@ -16,15 +16,23 @@ try:
 except ImportError:
     requests = None  # Downloading disabled.
 
-VALID_MODEL_REGEX = re.compile('^\S+$')
-VALID_NAME_REGEX = re.compile('^[a-zA-Z0-9-+\.\s]+$')
+VALID_MODEL_REGEX = re.compile(r'^\S+$')
+VALID_NAME_REGEX = re.compile(r'^[a-zA-Z0-9-+\.\s]+$')
 
-JAVA_ELSE_IF = 'else if ("%s".equals(%s)) { return "%s"; }\n'
-JAVA_ELSE = 'else { return %s; }'
 JAVA_PARAM_MODEL = 'model'
-JAVA_PARAM_FALLBACK = 'fallback'
 JAVA_TEMPLATE = 'java.template'
 JAVA_CLASS_NAME = 'DeviceNames.java'
+
+JAVA_TEST_TEMPLATE = 'test.template'
+JAVA_TEST_CASE_TEMPLATE = 'test_case.template'
+JAVA_TEST_CLASS_NAME = 'DeviceNamesTest.java'
+
+JAVA_IF = 'if ("%s".equals(%s)) { return "%s"; }\n'
+JAVA_ELSE_IF = 'else ' + JAVA_IF
+
+JAVA_CASE = "case '%s':\n"
+JAVA_BREAK = 'break;\n'
+JAVA_DEFAULT_CASE = 'default:\n'
 
 
 def generate_java_class(sources, collision_handler=None):
@@ -39,20 +47,45 @@ def generate_java_class(sources, collision_handler=None):
     merged = merge_source_dicts(sources, collision_handler)
     if not merged:
         raise Exception('sources contain no model-name pairs')
-    content = []
-    for model, name in merged.iteritems():
-        java_statement = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
-        content.append(java_statement)
-    content.append(JAVA_ELSE % JAVA_PARAM_FALLBACK)
+    switch_statement = generate_switch_statement(merged)
+    assert switch_statement
     with open(JAVA_TEMPLATE, 'rb') as template:
         class_template = template.read()
-    content = Template(class_template).substitute(
+    content = string.Template(class_template).substitute(
         datetime=datetime.now().strftime('%d %b %Y %H:%M:%S'),
         version=__version__,
         count=len(merged),
-        devices=''.join(content))
+        devices=switch_statement)
     with open(JAVA_CLASS_NAME, 'wb') as java_class:
         java_class.write(content)
+    generate_java_test_class(merged)
+
+
+def generate_java_test_class(merged_dict):
+    """
+    Generates a Java test class for the class created by generate_java_class.
+
+    :param merged_dict: a model:name dict with unique entries
+    """
+    with open(JAVA_TEST_CASE_TEMPLATE, 'rb') as template:
+        test_case_template = template.read()
+    test_cases = []
+    test_case_id = 0
+    for model, name in merged_dict.iteritems():
+        test_case_id += 1
+        test = string.Template(test_case_template).substitute(
+            method=test_case_id,
+            model=model,
+            name=name
+        )
+        test_cases.append(test)
+    with open(JAVA_TEST_TEMPLATE, 'rb') as template:
+        class_template = template.read()
+    tests = string.Template(class_template).substitute(
+        tests=''.join(test_cases)
+    )
+    with open(JAVA_TEST_CLASS_NAME, 'wb') as java_class:
+        java_class.write(tests)
 
 
 def merge_source_dicts(sources, collision_handler=None):
@@ -72,6 +105,50 @@ def merge_source_dicts(sources, collision_handler=None):
                 name = collision_handler(model, merged[model], name)
             merged[model] = name
     return merged
+
+
+def generate_switch_statement(merged_dict):
+    """
+    Generates and returns the following switch statement:
+        switch(first_model_letter):
+            case 'A':
+                // here are all models starting with letter 'A'
+                break;
+            case 'B':
+                // here are all models starting with letter 'B'
+                break;
+            etc.
+
+    :param merged_dict: a model:name dict with unique entries
+    """
+    alphabet_dict = {letter: [] for letter in string.ascii_uppercase}
+    others = []
+    for model, name in merged_dict.iteritems():
+        letter = model[0]  # Use the first letter for branching.
+        lst = alphabet_dict[letter.upper()] if letter.isalpha() else others
+        lst.append((model, name))
+    statement = []
+    for letter, pairs in alphabet_dict.iteritems():
+        statement.append(JAVA_CASE % letter)
+        statement.append(generate_if_elif_else(pairs))
+    statement.append(JAVA_DEFAULT_CASE)
+    statement.append(generate_if_elif_else(others))
+    return ''.join(statement)
+
+
+def generate_if_elif_else(pairs):
+    block = []
+    if pairs:
+        model, name = pairs[0]
+        java_if = JAVA_IF % (model, JAVA_PARAM_MODEL, name)
+        block.append(java_if)
+        del pairs[0]
+        for pair in pairs:
+            model, name = pair
+            else_if = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
+            block.append(else_if)
+    block.append(JAVA_BREAK)
+    return ''.join(block)
 
 
 class Source(object):
