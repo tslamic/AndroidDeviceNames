@@ -1,17 +1,18 @@
 package tslamic.github.io.androiddevicenames;
 
-// Generated on 12 Aug 2015 07:53:29 with version 0.0.1
+// Generated on 12 Aug 2015 14:40:10 with adn.py version 0.0.1
+// Number of supported devices: 419
 public final class DeviceNames {
 
     /**
-     * Returns a user-friendly name of this device. Same as calling {@code
+     * Returns a user-friendly name of current device. Same as calling {@code
      * getDeviceName(android.os.Build.MODEL, fallback)}.
      *
      * @param fallback fallback name if the device model is not listed.
      * @return {@code String} name of this device or fallback if device model
      * is not listed.
      */
-    public static String getThisDeviceName(String fallback) {
+    public static String getCurrentDeviceName(String fallback) {
         return getDeviceName(android.os.Build.MODEL, fallback);
     }
 

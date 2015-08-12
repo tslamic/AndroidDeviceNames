@@ -49,6 +49,7 @@ def generate_java_class(sources, collision_handler=None):
     content = Template(class_template).substitute(
         datetime=datetime.now().strftime('%d %b %Y %H:%M:%S'),
         version=__version__,
+        count=len(merged),
         devices=''.join(content))
     with open(JAVA_CLASS_NAME, 'wb') as java_class:
         java_class.write(content)
