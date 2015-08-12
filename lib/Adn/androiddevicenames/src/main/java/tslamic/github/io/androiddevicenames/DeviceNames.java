@@ -1,5 +1,6 @@
 package tslamic.github.io.androiddevicenames;
 
+// Generated on 12 Aug 2015 07:53:29 with version 0.0.1
 public final class DeviceNames {
 
     /**
@@ -121,8 +122,6 @@ public final class DeviceNames {
             return "Samsung Galaxy Note 10.1";
         } else if ("Nexus_S".equals(model)) {
             return "Samsung Nexus S";
-        } else if ("NEXUS_5".equals(model)) {
-            return "Nexus 5";
         } else if ("LG-E411g".equals(model)) {
             return "LG Optimus L1 II";
         } else if ("google_sdk".equals(model)) {
@@ -593,12 +592,8 @@ public final class DeviceNames {
             return "HTC Desire 500";
         } else if ("SM-G920W8".equals(model)) {
             return "Galaxy S6";
-        } else if ("NEXUS_6".equals(model)) {
-            return "Nexus 6";
         } else if ("SAMSUNG-SGH-I537".equals(model)) {
             return "Samsung Galaxy S4 Active";
-        } else if ("NEXUS_4".equals(model)) {
-            return "Nexus 4";
         } else if ("LGMS323".equals(model)) {
             return "LG Optimus L70";
         } else if ("DROID4".equals(model)) {

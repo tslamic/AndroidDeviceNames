@@ -1,5 +1,6 @@
 package tslamic.github.io.androiddevicenames;
 
+// Generated on $datetime with version $version
 public final class DeviceNames {
 
     /**
@@ -26,7 +27,7 @@ public final class DeviceNames {
         if (android.text.TextUtils.isEmpty(model)) {
             return fallback;
         }
-        $template
+        $devices
     }
 
     private DeviceNames() {
