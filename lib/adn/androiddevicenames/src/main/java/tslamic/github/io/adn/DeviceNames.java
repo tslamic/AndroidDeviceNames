@@ -19,6 +19,7 @@ package tslamic.github.io.adn;
 // Number of supported devices: 419
 public final class DeviceNames {
 
+
     /**
      * Returns a user-friendly name of current device. Same as calling {@code
      * getDeviceName(android.os.Build.MODEL, fallback)}.
