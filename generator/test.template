@@ -5,14 +5,9 @@ import android.os.Debug;
 import junit.framework.Assert;
 import junit.framework.TestCase;
 
-import java.util.concurrent.TimeUnit;
-
 public class DeviceNamesTest extends TestCase {
 
     private static final String FALLBACK = "fallback";
-
-    private static final long DURATION_THRESHOLD =
-            TimeUnit.NANOSECONDS.convert(10, TimeUnit.MILLISECONDS);
 
     public void testNull() throws Exception {
         final String result = DeviceNames.getDeviceName(null, FALLBACK);
@@ -21,6 +16,11 @@ public class DeviceNamesTest extends TestCase {
 
     public void testEmpty() throws Exception {
         final String result = DeviceNames.getDeviceName("", FALLBACK);
+        Assert.assertEquals(FALLBACK, result);
+    }
+
+    public void testNotListed() throws Exception {
+        final String result = DeviceNames.getDeviceName("UNKNOWN", FALLBACK);
         Assert.assertEquals(FALLBACK, result);
     }
 

@@ -1,10 +1,4 @@
 public void testDevice$method() throws Exception {
-    final long start = System.nanoTime();
     final String result = DeviceNames.getDeviceName("$model", FALLBACK);
-    final long duration = System.nanoTime() - start;
-
     Assert.assertEquals("$name", result);
-    final String err = String.format("duration over threshold for %s: " +
-            "expected: %d, actual: %d", "$model", DURATION_THRESHOLD, duration);
-    Assert.assertTrue(err, duration < DURATION_THRESHOLD);
 }

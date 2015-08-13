@@ -1,5 +1,5 @@
 """
-Generates a simple Java class that can map an Android device model String to a
+Generates a Java class that can map an Android device model String to a
 user friendly String.
 """
 
@@ -37,7 +37,7 @@ JAVA_DEFAULT_CASE = 'default:\n'
 
 def generate_java_class(sources, collision_handler=None):
     """
-    Generates the Java class.
+    Generates the mapping Java class.
 
     :param sources: a list of Source objects.
     :param collision_handler: (optional) a function for resolving duplicate
@@ -72,20 +72,21 @@ def generate_java_test_class(merged_dict):
     test_cases = []
     test_case_id = 0
     for model, name in merged_dict.iteritems():
-        test_case_id += 1
+        test_case_id += 1  # Used for the test case method name
         test = string.Template(test_case_template).substitute(
             method=test_case_id,
             model=model,
             name=name
         )
         test_cases.append(test)
+    assert test_cases
     with open(JAVA_TEST_TEMPLATE, 'rb') as template:
         class_template = template.read()
     tests = string.Template(class_template).substitute(
         tests=''.join(test_cases)
     )
-    with open(JAVA_TEST_CLASS_NAME, 'wb') as java_class:
-        java_class.write(tests)
+    with open(JAVA_TEST_CLASS_NAME, 'wb') as java_test_class:
+        java_test_class.write(tests)
 
 
 def merge_source_dicts(sources, collision_handler=None):
@@ -109,44 +110,54 @@ def merge_source_dicts(sources, collision_handler=None):
 
 def generate_switch_statement(merged_dict):
     """
-    Generates and returns the following switch statement:
-        switch(first_model_letter):
-            case 'A':
-                // here are all models starting with letter 'A'
-                break;
-            case 'B':
-                // here are all models starting with letter 'B'
-                break;
-            etc.
+    Generates a java switch statement where cases are based on the first
+    model letter, e.g.:
+        case 'A':
+            // models starting with letter 'A'
+            break;
+        case 'B':
+            // models starting with letter 'B'
+            break;
+        case 'C':
+            // etc.
 
     :param merged_dict: a model:name dict with unique entries
     """
     alphabet_dict = {letter: [] for letter in string.ascii_uppercase}
-    others = []
+    others = []  # For models not starting with an alphabet letter.
     for model, name in merged_dict.iteritems():
-        letter = model[0]  # Use the first letter for branching.
-        lst = alphabet_dict[letter.upper()] if letter.isalpha() else others
-        lst.append((model, name))
+        letter = model[0].upper()  # Use the first letter for branching.
+        alphabet_dict.get(letter, others).append((model, name))
     statement = []
     for letter, pairs in alphabet_dict.iteritems():
         statement.append(JAVA_CASE % letter)
-        statement.append(generate_if_elif_else(pairs))
+        statement.append(generate_ifs(pairs))
     statement.append(JAVA_DEFAULT_CASE)
-    statement.append(generate_if_elif_else(others))
+    statement.append(generate_ifs(others))
     return ''.join(statement)
 
 
-def generate_if_elif_else(pairs):
+def generate_ifs(pairs):
+    """
+    Generates the if - elseif block from given pairs, e.g.:
+        if ("model_name".equals(model)) { return "model_name"; }
+    and so on.
+
+    :param pairs: a list of (model, name) tuples
+    :return: the generated if else block
+    """
     block = []
     if pairs:
+        # Generates the first if
         model, name = pairs[0]
         java_if = JAVA_IF % (model, JAVA_PARAM_MODEL, name)
         block.append(java_if)
         del pairs[0]
+        # Generates a bunch of else-ifs
         for pair in pairs:
             model, name = pair
-            else_if = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
-            block.append(else_if)
+            java_else_if = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
+            block.append(java_else_if)
     block.append(JAVA_BREAK)
     return ''.join(block)
 
@@ -265,7 +276,6 @@ class CachedSource(Source):
         if not re.match(VALID_NAME_REGEX, name):
             raise Exception("invalid name: '%s'" % name)
         return model, name
-
 
 # Main
 
