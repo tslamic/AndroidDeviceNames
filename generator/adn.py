@@ -20,11 +20,11 @@ VALID_MODEL_REGEX = re.compile(r'^\S+$')
 VALID_NAME_REGEX = re.compile(r'^[a-zA-Z0-9-+\.\s]+$')
 
 JAVA_PARAM_MODEL = 'model'
-JAVA_TEMPLATE = 'java.template'
+JAVA_TEMPLATE = 'templates/java.template'
 JAVA_CLASS_NAME = 'DeviceNames.java'
 
-JAVA_TEST_TEMPLATE = 'test.template'
-JAVA_TEST_CASE_TEMPLATE = 'test_case.template'
+JAVA_TEST_TEMPLATE = 'templates/test.template'
+JAVA_TEST_CASE_TEMPLATE = 'templates/test_case.template'
 JAVA_TEST_CLASS_NAME = 'DeviceNamesTest.java'
 
 JAVA_IF = 'if ("%s".equals(%s)) { return "%s"; }\n'
@@ -263,8 +263,8 @@ class CachedSource(Source):
     """ Local source, see cached.devices file. """
 
     def get_dict(self, collision_handler=None):
-        return create_content_dict('cached.devices', self.device_handler,
-                                   collision_handler)
+        return create_content_dict('devices/cached.devices',
+                                   self.device_handler, collision_handler)
 
     @staticmethod
     def device_handler(device_line):
@@ -276,6 +276,7 @@ class CachedSource(Source):
         if not re.match(VALID_NAME_REGEX, name):
             raise Exception("invalid name: '%s'" % name)
         return model, name
+
 
 # Main
 

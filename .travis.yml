@@ -6,7 +6,7 @@ android:
     - android-22
 
 before_install:
-    - cd lib/Adn/
+    - cd lib/adn/
 
 # Emulator Management: Create, Start and Wait
 before_script:

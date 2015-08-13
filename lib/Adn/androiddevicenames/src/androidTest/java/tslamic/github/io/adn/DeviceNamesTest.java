@@ -1,4 +1,4 @@
-package tslamic.github.io.androiddevicenames;
+package tslamic.github.io.adn;
 
 import junit.framework.Assert;
 import junit.framework.TestCase;

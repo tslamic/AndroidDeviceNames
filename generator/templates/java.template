@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package tslamic.github.io.androiddevicenames;
+package tslamic.github.io.adn;
 
 // Generated on $datetime with adn.py version $version
 // Number of supported devices: $count

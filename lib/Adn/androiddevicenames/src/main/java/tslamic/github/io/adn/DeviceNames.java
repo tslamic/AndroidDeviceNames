@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package tslamic.github.io.androiddevicenames;
+package tslamic.github.io.adn;
 
-// Generated on 13 Aug 2015 07:54:49 with adn.py version 0.0.1
+// Generated on 13 Aug 2015 14:08:08 with adn.py version 0.0.1
 // Number of supported devices: 419
 public final class DeviceNames {
 
