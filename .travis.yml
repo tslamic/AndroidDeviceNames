@@ -12,4 +12,4 @@ android:
 
 # Move to the actual Android dir
 before_install:
-	- cd lib/Adn/
+    - cd lib/Adn/
