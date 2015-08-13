@@ -4,7 +4,6 @@ android:
   components:
     - build-tools-22.0.1
     - android-22
-    - sys-img-armeabi-v7a-android-19
 
 before_install:
     - cd lib/Adn/
@@ -12,5 +11,5 @@ before_install:
     - emulator -avd test -no-skin -no-audio -no-window &
 
 before_script:
-  - ./wait_for_emulator
-  - adb shell input keyevent 82 &
+    - wait_for_emulator
+    - adb shell input keyevent 82 &
