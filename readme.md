@@ -36,6 +36,8 @@ How to get it?
 
 The library will be available on maven central in a few days. Until then, just copy-paste the [`DeviceNames`](https://github.com/tslamic/AndroidDeviceNames/blob/master/lib/Adn/androiddevicenames/src/main/java/tslamic/github/io/androiddevicenames/DeviceNames.java) class into your project.
 
+A big thanks to [Meetup](https://github.com/meetup/android-device-names) where the idea for this project was born (and some files stolen). Cheers guys!
+
 License
 ---
 
