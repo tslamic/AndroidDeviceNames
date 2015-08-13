@@ -1,42 +1,39 @@
-Android Device Names
+
+Android Device Names [![Build Status](https://travis-ci.org/tslamic/AndroidDeviceNames.svg?branch=master)](https://travis-ci.org/tslamic/AndroidDeviceNames)
 ===================
 
 Android Device Names is a tiny 14 kB library that transforms the device model name into something people can understand. For example:
 
 ```
-// returns "Samsung Galaxy Note 4"
-DeviceNames.getDeviceName("SM-N910W8", "Unknown Device");
+DeviceNames.getDeviceName("SM-N910W8", "Unknown Device"); // returns "Samsung Galaxy Note 4"
 ```
 
 To get the name of the device you're currently running on, use
 
 ```
-DeviceNames.getCurrentDeviceName("Unknown Device");
+DeviceNames.getCurrentDeviceName("Unknown Device"); // returns the current device name, e.g. "Nexus 7"
 ```
 
 What if my device is not on the list?
 ---
 
-Currently, the library recognises about [400 devices](https://github.com/tslamic/AndroidDeviceNames/blob/master/generator/cached.devices). In case the device model is missing, a fallback is used instead:
+Currently, the library recognises about 400 devices. In case the device model is missing, a fallback is used instead:
 
 ```
-// probably returns "My Awesome Fallback"
-DeviceNames.getDeviceName("OMG-WTF-LOL", "My Awesome Fallback");
+DeviceNames.getDeviceName("OMG-WTF-LOL", "My Awesome Fallback"); // probably returns "My Awesome Fallback"
 ```
 
 Memory and performance?
 ---
 
-The `DeviceNames` class is generated with a [Python script](https://github.com/tslamic/AndroidDeviceNames/blob/master/generator/adn.py). `getDeviceName` method consists of if-elif-else statements, so there is no memory footprint, bar the string pool. 
+There is no data container holding the device names. The `DeviceNames` class is generated with a Python script. `getDeviceName` method consists of if-elif-else statements, so there is absolutely no memory footprint, bar the string pool. 
 
 The performance is great. With over 400 device names, a battered Samsung Galaxy S3 handles the worst case scenario, according to *Traceview*, in less than **5 ms**.
 
 How to get it?
 ---
 
-The library will be available on maven central in a few days. Until then, just copy-paste the [`DeviceNames`](https://github.com/tslamic/AndroidDeviceNames/blob/master/lib/Adn/androiddevicenames/src/main/java/tslamic/github/io/androiddevicenames/DeviceNames.java) class into your project.
-
-A big thanks to [Meetup](https://github.com/meetup/android-device-names) where the idea for this project was born (and some files stolen). Cheers guys!
+The library will be available on maven central in a few days. Until then, just copy-paste the `DeviceNames` class into your project.
 
 License
 ---
