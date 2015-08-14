@@ -15,10 +15,9 @@
  */
 package tslamic.github.io.adn;
 
-// Generated on 13 Aug 2015 14:08:08 with adn.py version 0.0.1
+// Generated on 14 Aug 2015 07:40:37 with adn.py version 0.0.1
 // Number of supported devices: 419
 public final class DeviceNames {
-
 
     /**
      * Returns a user-friendly name of current device. Same as calling {@code

@@ -3,6 +3,8 @@ Generates a Java class that can map an Android device model String to a
 user friendly String.
 """
 
+__author__ = 'tslamic'
+__license__ = 'Apache 2.0'
 __version__ = '0.0.1'
 
 from datetime import datetime
@@ -37,7 +39,7 @@ JAVA_DEFAULT_CASE = 'default:\n'
 
 def generate_java_class(sources, collision_handler=None):
     """
-    Generates the mapping Java class.
+    Generates a mapping Java class.
 
     :param sources: a list of Source objects.
     :param collision_handler: (optional) a function for resolving duplicate
@@ -63,7 +65,7 @@ def generate_java_class(sources, collision_handler=None):
 
 def generate_java_test_class(merged_dict):
     """
-    Generates a Java test class for the class created by generate_java_class.
+    Generates a mapping Java test class.
 
     :param merged_dict: a model:name dict with unique entries
     """
@@ -141,7 +143,7 @@ def generate_ifs(pairs):
     """
     Generates the if - elseif block from given pairs, e.g.:
         if ("model_name".equals(model)) { return "model_name"; }
-    and so on.
+        else if ("model_name".equals(model)) { return "model_name"; }
 
     :param pairs: a list of (model, name) tuples
     :return: the generated if else block
@@ -277,10 +279,8 @@ class CachedSource(Source):
             raise Exception("invalid name: '%s'" % name)
         return model, name
 
-
 # Main
 
 if __name__ == '__main__':
-    source_list = [CachedSource(), ]
-    generate_java_class(source_list,
+    generate_java_class((CachedSource(),),
                         collision_handler=exception_collision_handler)
