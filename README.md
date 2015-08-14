@@ -22,6 +22,23 @@ Currently, the library recognises about [400 devices](https://github.com/tslamic
 DeviceNames.getDeviceName("unknown_device_model", "Unknown Device");
 ```
 
+Download
+---
+
+Download a [jar file](http://search.maven.org/remotecontent?filepath=com/github/tslamic/adn/library/1.0/library-1.0.aar), get it via Gradle:
+```groovy
+compile 'com.github.tslamic.adn:library:1.0'
+```
+Maven:
+```xml
+<dependency>
+    <groupId>com.github.tslamic.adn</groupId>
+    <artifactId>library</artifactId>
+    <version>1.0</version>
+</dependency>
+```
+or just copy-paste the [`DeviceNames`](https://github.com/tslamic/AndroidDeviceNames/blob/master/lib/adn/androiddevicenames/src/main/java/tslamic/github/io/adn/DeviceNames.java) class into your project.
+
 How does it work?
 ---
 
@@ -54,11 +71,6 @@ public static String getDeviceName(String model, String fallback) {
 ```
 
 There's no memory overhead and performance is great. With over 400 device names, a battered Samsung Galaxy S3 handles the worst case scenario, according to *Traceview*, in less than **5 ms**.
-
-How to get it?
----
-
-The library will be available on maven central in a few days. Until then, just copy-paste the [`DeviceNames`](https://github.com/tslamic/AndroidDeviceNames/blob/master/lib/adn/androiddevicenames/src/main/java/tslamic/github/io/adn/DeviceNames.java) class into your project.
 
 Acknowledgements
 ---
