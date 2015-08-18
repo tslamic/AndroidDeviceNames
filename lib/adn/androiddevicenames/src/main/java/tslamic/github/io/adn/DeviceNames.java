@@ -78,6 +78,13 @@ public final class DeviceNames {
                     return "HTC Droid Incredible";
                 }
                 break;
+            case 'B':
+                if ("bq_Aquaris_5".equals(model)) {
+                    return "bq Aquaris 5";
+                } else if ("bq_Aquaris_5_HD".equals(model)) {
+                    return "bq Aquaris 5 HD";
+                }
+                break;
             case 'C':
                 if ("C6833".equals(model)) {
                     return "Sony Xperia Z Ultra";
@@ -107,18 +114,6 @@ public final class DeviceNames {
                     return "Sony Xperia Z";
                 } else if ("C6603".equals(model)) {
                     return "Sony Xperia Z";
-                }
-                break;
-            case 'B':
-                if ("bq_Aquaris_5".equals(model)) {
-                    return "bq Aquaris 5";
-                } else if ("bq_Aquaris_5_HD".equals(model)) {
-                    return "bq Aquaris 5 HD";
-                }
-                break;
-            case 'E':
-                if ("EVO".equals(model)) {
-                    return "HTC Evo";
                 }
                 break;
             case 'D':
@@ -171,6 +166,13 @@ public final class DeviceNames {
                 } else if ("Desire_HD".equals(model)) {
                     return "HTC Desire HD";
                 }
+                break;
+            case 'E':
+                if ("EVO".equals(model)) {
+                    return "HTC Evo";
+                }
+                break;
+            case 'F':
                 break;
             case 'G':
                 if ("GT-I9295".equals(model)) {
@@ -297,13 +299,6 @@ public final class DeviceNames {
                     return "Samsung Galaxy Note II";
                 }
                 break;
-            case 'F':
-                break;
-            case 'I':
-                if ("ISW11SC".equals(model)) {
-                    return "Galaxy S2";
-                }
-                break;
             case 'H':
                 if ("HTC_Incredible_S".equals(model)) {
                     return "HTC Incredible S";
@@ -371,6 +366,13 @@ public final class DeviceNames {
                     return "HTC One";
                 }
                 break;
+            case 'I':
+                if ("ISW11SC".equals(model)) {
+                    return "Galaxy S2";
+                }
+                break;
+            case 'J':
+                break;
             case 'K':
                 if ("Kindle_Fire".equals(model)) {
                     return "Kindle Fire";
@@ -382,29 +384,6 @@ public final class DeviceNames {
                     return "Kindle Fire HD 7";
                 } else if ("KFOT".equals(model)) {
                     return "Kindle Fire";
-                }
-                break;
-            case 'J':
-                break;
-            case 'M':
-                if ("Motorola_Electrify".equals(model)) {
-                    return "Motorola Electrify";
-                } else if ("myTouch_4G_Slide".equals(model)) {
-                    return "HTC myTouch 4G Slide";
-                } else if ("MB886".equals(model)) {
-                    return "Motorola Atrix HD";
-                } else if ("MOTWX435KT".equals(model)) {
-                    return "Motorola Triumph";
-                } else if ("MI_3W".equals(model)) {
-                    return "Xiaomi Mi 3";
-                } else if ("MB865".equals(model)) {
-                    return "Motorola Atrix 2";
-                } else if ("MB860".equals(model)) {
-                    return "Motorola Atrix 4G";
-                } else if ("MB855".equals(model)) {
-                    return "Motorola Photon 4G";
-                } else if ("ME173X".equals(model)) {
-                    return "Asus MeMO Pad HD 7";
                 }
                 break;
             case 'L':
@@ -510,9 +489,25 @@ public final class DeviceNames {
                     return "LG Optimus L5 II";
                 }
                 break;
-            case 'O':
-                if ("Orange_Daytona".equals(model)) {
-                    return "Huawei Ascend G510";
+            case 'M':
+                if ("Motorola_Electrify".equals(model)) {
+                    return "Motorola Electrify";
+                } else if ("myTouch_4G_Slide".equals(model)) {
+                    return "HTC myTouch 4G Slide";
+                } else if ("MB886".equals(model)) {
+                    return "Motorola Atrix HD";
+                } else if ("MOTWX435KT".equals(model)) {
+                    return "Motorola Triumph";
+                } else if ("MI_3W".equals(model)) {
+                    return "Xiaomi Mi 3";
+                } else if ("MB865".equals(model)) {
+                    return "Motorola Atrix 2";
+                } else if ("MB860".equals(model)) {
+                    return "Motorola Atrix 4G";
+                } else if ("MB855".equals(model)) {
+                    return "Motorola Photon 4G";
+                } else if ("ME173X".equals(model)) {
+                    return "Asus MeMO Pad HD 7";
                 }
                 break;
             case 'N':
@@ -538,9 +533,9 @@ public final class DeviceNames {
                     return "Star NO.1 N3";
                 }
                 break;
-            case 'Q':
-                if ("QMV7A".equals(model)) {
-                    return "Verizon Ellipsis 7";
+            case 'O':
+                if ("Orange_Daytona".equals(model)) {
+                    return "Huawei Ascend G510";
                 }
                 break;
             case 'P':
@@ -555,6 +550,13 @@ public final class DeviceNames {
                 } else if ("PG86100".equals(model)) {
                     return "HTC Evo 3D";
                 }
+                break;
+            case 'Q':
+                if ("QMV7A".equals(model)) {
+                    return "Verizon Ellipsis 7";
+                }
+                break;
+            case 'R':
                 break;
             case 'S':
                 if ("SCH-I415".equals(model)) {
@@ -857,10 +859,6 @@ public final class DeviceNames {
                     return "Samsung Conquer 4G";
                 }
                 break;
-            case 'R':
-                break;
-            case 'U':
-                break;
             case 'T':
                 if ("T-Mobile_myTouch_Q".equals(model)) {
                     return "T-Mobile myTouch Q";
@@ -872,7 +870,7 @@ public final class DeviceNames {
                     return "T-Mobile G2";
                 }
                 break;
-            case 'W':
+            case 'U':
                 break;
             case 'V':
                 if ("VS985_4G".equals(model)) {
@@ -893,7 +891,7 @@ public final class DeviceNames {
                     return "LG Optimus V";
                 }
                 break;
-            case 'Y':
+            case 'W':
                 break;
             case 'X':
                 if ("XT1080".equals(model)) {
@@ -944,10 +942,12 @@ public final class DeviceNames {
                     return "Motorola Xoom";
                 }
                 break;
+            case 'Y':
+                break;
             case 'Z':
                 if ("Z970".equals(model)) {
                     return "ZTE ZMax";
-                }
+                } 
                 break;
             default:
                 if ("5860E".equals(model)) {
