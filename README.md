@@ -2,75 +2,40 @@
 Android Device Names [![Build Status](https://travis-ci.org/tslamic/AndroidDeviceNames.svg?branch=master)](https://travis-ci.org/tslamic/AndroidDeviceNames)
 ===================
 
-Android Device Names is a 14 kB library that transforms the device model name into something people can understand. For example, a useless `SM-N910W8` becomes `Samsung Galaxy Note 4`. Here's how to use it:
+Android Device Names is a 14 kB library that transforms the device model name into something people can understand. For example, a useless `SM-N910W8` becomes `Samsung Galaxy Note 4`. 
 
-```java
-// returns "Samsung Galaxy Note 4"
-DeviceNames.getDeviceName("SM-N910W8", "Unknown Device");
+First, add the following to your list of dependencies:
+
+```groovy
+compile 'com.github.tslamic.adn:library:1.1'
 ```
 
-To get the name of the device you're currently running on, use
+Then, use it:
 
 ```java
+// Returns the device name or null if the device model 
+// is not in the list.
+DeviceNames.getCurrentDeviceName();
+```
+
+You can provide your own default value, if `null` is not good enough:
+
+```java
+// Returns the device name or "Unknown Device" 
+// if the device model is not in the list.
 DeviceNames.getCurrentDeviceName("Unknown Device");
 ```
 
-Currently, the library recognises about [400 devices](https://github.com/tslamic/AndroidDeviceNames/blob/master/generator/devices/cached.devices). In case the device model is not in the list, a fallback is returned:
+If you want to provide the device model yourself, the following should do the trick:
 
 ```java
-// returns "Unknown Device"
-DeviceNames.getDeviceName("unknown_device_model", "Unknown Device");
+DeviceNames.getDeviceName("SM-N910W8", "Unknown Device");
 ```
 
-Download
+About
 ---
 
-Download the [aar file](http://search.maven.org/remotecontent?filepath=com/github/tslamic/adn/library/1.0/library-1.0.aar), get it via Gradle:
-```groovy
-compile 'com.github.tslamic.adn:library:1.0'
-```
-Maven:
-```xml
-<dependency>
-    <groupId>com.github.tslamic.adn</groupId>
-    <artifactId>library</artifactId>
-    <version>1.0</version>
-</dependency>
-```
-or just copy-paste the [`DeviceNames`](https://github.com/tslamic/AndroidDeviceNames/blob/master/lib/adn/androiddevicenames/src/main/java/tslamic/github/io/adn/DeviceNames.java) class into your project.
-
-How does it work?
----
-
-The `DeviceNames` class is generated with a [Python script](https://github.com/tslamic/AndroidDeviceNames/blob/master/generator/adn.py). `getDeviceName` uses if-elif-else statements to determine the device name. Here's an excerpt:
-
-```java
-public static String getDeviceName(String model, String fallback) {
-    if (android.text.TextUtils.isEmpty(model)) {
-        return fallback;
-    }
-    final char c = Character.toUpperCase(model.charAt(0));
-    switch (c) {
-        // before stuff
-        case 'B':
-            if ("bq_Aquaris_5".equals(model)) {
-                return "bq Aquaris 5";
-            } else if ("bq_Aquaris_5_HD".equals(model)) {
-                return "bq Aquaris 5 HD";
-            }
-            break;
-        case 'E':
-            if ("EVO".equals(model)) {
-                return "HTC Evo";
-            }
-            break;
-        // after stuff
-    }
-    return fallback;
-}
-```
-
-There's no memory overhead and performance is great. With over 400 device names, a battered Samsung Galaxy S3 handles the worst case scenario, according to *Traceview*, in less than **5 ms**. I've also [blogged](http://tslamic.github.io/creating-android-device-names/) about the approach I've taken, in case you want to know more.
+This library was designed with a specific goal in mind - avoiding memory overhead. Here's a detailed [blog post](http://tslamic.github.io/creating-android-device-names/) in case you're interested in details. Currently, the library recognises [473 devices](https://github.com/tslamic/AndroidDeviceNames/blob/master/generator/devices/cached.devices).
 
 Acknowledgements
 ---
