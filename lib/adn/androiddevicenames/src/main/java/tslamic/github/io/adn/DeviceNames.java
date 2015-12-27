@@ -21,6 +21,17 @@ public final class DeviceNames {
 
     /**
      * Returns a user-friendly name of current device. Same as calling {@code
+     * getDeviceName(android.os.Build.MODEL, null)}.
+     *
+     * @return {@code String} name of this device or {@code null} if device model
+     * is not listed.
+     */
+    public static String getCurrentDeviceName() {
+        return getDeviceName(android.os.Build.MODEL, null);
+    }
+
+    /**
+     * Returns a user-friendly name of current device. Same as calling {@code
      * getDeviceName(android.os.Build.MODEL, fallback)}.
      *
      * @param fallback fallback name if the device model is not listed.
