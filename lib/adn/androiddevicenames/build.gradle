@@ -18,4 +18,12 @@ android {
     }
 }
 
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'io.fabianterhorst:iron:0.1'
+}
+
 apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
