@@ -50,22 +50,29 @@ def generate_java_class(sources, collision_handler=None):
     lambda model, old_name, new_name: raise Exception("collision")
     """
     merged = merge_source_dicts(sources, collision_handler)
+
     if not merged:
         raise Exception('sources contain no model-name pairs')
+
     switch_statement = generate_switch_statement()
     assert switch_statement
+
     letter_functions = generate_letter_functions(merged)
-    assert switch_statement
+    assert letter_functions
+
     with open(JAVA_TEMPLATE, 'rb') as template:
         class_template = template.read()
+
     content = string.Template(class_template).substitute(
         datetime=datetime.now().strftime('%d %b %Y %H:%M:%S'),
         version=__version__,
         count=len(merged),
         devices=switch_statement,
         device_methods=letter_functions)
+
     with open(JAVA_CLASS_NAME, 'wb') as java_class:
         java_class.write(content)
+
     generate_java_test_class(merged)
 
 
@@ -88,11 +95,14 @@ def generate_java_test_class(merged_dict):
         )
         test_cases.append(test)
     assert test_cases
+
     with open(JAVA_TEST_TEMPLATE, 'rb') as template:
         class_template = template.read()
+
     tests = string.Template(class_template).substitute(
         tests=''.join(test_cases)
     )
+
     with open(JAVA_TEST_CLASS_NAME, 'wb') as java_test_class:
         java_test_class.write(tests)
 
@@ -130,11 +140,13 @@ def generate_letter_functions(merged_dict):
     """
     with open(JAVA_LETTER_TEMPLATE, 'rb') as letter_template:
         class_letter_template = letter_template.read()
+
     alphabet_dict = {letter: [] for letter in string.ascii_uppercase}
     others = []  # For models not starting with an alphabet letter.
     for model, name in merged_dict.iteritems():
         letter = model[0].upper()  # Use the first letter for branching.
         alphabet_dict.get(letter, others).append((model, name))
+
     statement = []
     for letter, pairs in alphabet_dict.iteritems():
         template_copy = class_letter_template
@@ -142,11 +154,13 @@ def generate_letter_functions(merged_dict):
                     "letter_method": "%sMethod" % letter.lower(),
                     "letter_devices": generate_ifs(pairs)})
         statement.append(content)
+
     template_copy = class_letter_template
     content = string.Template(template_copy).substitute({
                 "letter_method": "otherMethod",
                 "letter_devices": generate_ifs(others)})
     statement.append(content)
+
     return ''.join(statement)
 
 
