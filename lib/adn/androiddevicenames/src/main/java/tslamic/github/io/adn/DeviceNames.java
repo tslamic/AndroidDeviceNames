@@ -15,7 +15,7 @@
  */
 package tslamic.github.io.adn;
 
-// Generated on 14 Jan 2016 02:33:18 with adn.py version 0.0.1
+// Generated on 14 Jan 2016 02:46:57 with adn.py version 0.0.1
 // Number of supported devices: 5533
 public final class DeviceNames {
 
@@ -58,85 +58,85 @@ public final class DeviceNames {
         final char c = Character.toUpperCase(model.charAt(0));
         switch (c) {
             case 'A':
-                sdeviceName = aMethod(model);
+                deviceName = aMethod(model);
                 break;
             case 'B':
-                sdeviceName = bMethod(model);
+                deviceName = bMethod(model);
                 break;
             case 'C':
-                sdeviceName = cMethod(model);
+                deviceName = cMethod(model);
                 break;
             case 'D':
-                sdeviceName = dMethod(model);
+                deviceName = dMethod(model);
                 break;
             case 'E':
-                sdeviceName = eMethod(model);
+                deviceName = eMethod(model);
                 break;
             case 'F':
-                sdeviceName = fMethod(model);
+                deviceName = fMethod(model);
                 break;
             case 'G':
-                sdeviceName = gMethod(model);
+                deviceName = gMethod(model);
                 break;
             case 'H':
-                sdeviceName = hMethod(model);
+                deviceName = hMethod(model);
                 break;
             case 'I':
-                sdeviceName = iMethod(model);
+                deviceName = iMethod(model);
                 break;
             case 'J':
-                sdeviceName = jMethod(model);
+                deviceName = jMethod(model);
                 break;
             case 'K':
-                sdeviceName = kMethod(model);
+                deviceName = kMethod(model);
                 break;
             case 'L':
-                sdeviceName = lMethod(model);
+                deviceName = lMethod(model);
                 break;
             case 'M':
-                sdeviceName = mMethod(model);
+                deviceName = mMethod(model);
                 break;
             case 'N':
-                sdeviceName = nMethod(model);
+                deviceName = nMethod(model);
                 break;
             case 'O':
-                sdeviceName = oMethod(model);
+                deviceName = oMethod(model);
                 break;
             case 'P':
-                sdeviceName = pMethod(model);
+                deviceName = pMethod(model);
                 break;
             case 'Q':
-                sdeviceName = qMethod(model);
+                deviceName = qMethod(model);
                 break;
             case 'R':
-                sdeviceName = rMethod(model);
+                deviceName = rMethod(model);
                 break;
             case 'S':
-                sdeviceName = sMethod(model);
+                deviceName = sMethod(model);
                 break;
             case 'T':
-                sdeviceName = tMethod(model);
+                deviceName = tMethod(model);
                 break;
             case 'U':
-                sdeviceName = uMethod(model);
+                deviceName = uMethod(model);
                 break;
             case 'V':
-                sdeviceName = vMethod(model);
+                deviceName = vMethod(model);
                 break;
             case 'W':
-                sdeviceName = wMethod(model);
+                deviceName = wMethod(model);
                 break;
             case 'X':
-                sdeviceName = xMethod(model);
+                deviceName = xMethod(model);
                 break;
             case 'Y':
-                sdeviceName = yMethod(model);
+                deviceName = yMethod(model);
                 break;
             case 'Z':
-                sdeviceName = zMethod(model);
+                deviceName = zMethod(model);
                 break;
                 default:
-                sdeviceName = otherMethod(model);
+                deviceName = otherMethod(model);
 
         }
         if (deviceName.isEmpty()) deviceName = fallback;
@@ -382,7 +382,7 @@ public final class DeviceNames {
         else if ("A1-850".equals(model)) { return "Acer Iconia One 8"; }
         else if ("A204".equals(model)) { return "Toshiba A204"; }
         else if ("A200".equals(model)) { return "Acer Iconia Tab A200"; }
-            return "";
+        return "";
 
     }
     public static String cMethod (String model) {
@@ -547,7 +547,7 @@ public final class DeviceNames {
         else if ("C2304".equals(model)) { return "Sony Xperia C"; }
         else if ("C6530".equals(model)) { return "Kyocera Hydro LIFE"; }
         else if ("CT1010".equals(model)) { return "Enspert Carrefour CT1010"; }
-            return "";
+        return "";
 
     }
     public static String bMethod (String model) {
@@ -597,7 +597,7 @@ public final class DeviceNames {
         else if ("B1-723".equals(model)) { return "Acer B1-723"; }
         else if ("BHX-S100".equals(model)) { return "SK Broadband B tv smart"; }
         else if ("B50".equals(model)) { return "BenQ B50"; }
-            return "";
+        return "";
 
     }
     public static String eMethod (String model) {
@@ -764,7 +764,7 @@ public final class DeviceNames {
         else if ("EIII".equals(model)) { return "Cellon EIII"; }
         else if ("Etab5".equals(model)) { return "General Mobile Etab5"; }
         else if ("EK-GN100".equals(model)) { return "Samsung Galaxy Camera"; }
-            return "";
+        return "";
 
     }
     public static String dMethod (String model) {
@@ -914,7 +914,7 @@ public final class DeviceNames {
         else if ("D5303".equals(model)) { return "Sony Xperia T2 Ultra"; }
         else if ("DT7v51B".equals(model)) { return "ESI Enterprises DT7v51B"; }
         else if ("DL750".equals(model)) { return "TCT (Alcatel) TCL DL750"; }
-            return "";
+        return "";
 
     }
     public static String gMethod (String model) {
@@ -1368,7 +1368,7 @@ public final class DeviceNames {
         else if ("GT-I9228".equals(model)) { return "Samsung Galaxy Note"; }
         else if ("Golf".equals(model)) { return "WIKO IGGY"; }
         else if ("GT-P7300".equals(model)) { return "Samsung Galaxy Tab 8.9"; }
-            return "";
+        return "";
 
     }
     public static String fMethod (String model) {
@@ -1472,7 +1472,7 @@ public final class DeviceNames {
         else if ("FLY_IQ4400_AF".equals(model)) { return "Fly Iris"; }
         else if ("FWSP-S1000".equals(model)) { return "Finggo FWSP-S1000"; }
         else if ("FP-U320-711-WIFI".equals(model)) { return "SAKAISIO FP-U320-711-WIFI"; }
-            return "";
+        return "";
 
     }
     public static String iMethod (String model) {
@@ -1623,7 +1623,7 @@ public final class DeviceNames {
         else if ("IM-A860K".equals(model)) { return "Pantech IM-A860K"; }
         else if ("Infinity-10.1-v2".equals(model)) { return "Infinity-10.1-v2"; }
         else if ("Infinity-10.1-v3".equals(model)) { return "Infinity-10.1-v3"; }
-            return "";
+        return "";
 
     }
     public static String hMethod (String model) {
@@ -1867,7 +1867,7 @@ public final class DeviceNames {
         else if ("HTC_Sensation_Z710e".equals(model)) { return "HTC Sensation"; }
         else if ("HM_NOTE_1W".equals(model)) { return "Xiaomi Redmi Note"; }
         else if ("HTC-PG762".equals(model)) { return "HTC Wildfire S A515c"; }
-            return "";
+        return "";
 
     }
     public static String kMethod (String model) {
@@ -1946,7 +1946,7 @@ public final class DeviceNames {
         else if ("KFTT".equals(model)) { return "Kindle Fire HD 7"; }
         else if ("K1".equals(model)) { return "Lenovo K1"; }
         else if ("K5".equals(model)) { return "Kubo K5"; }
-            return "";
+        return "";
 
     }
     public static String jMethod (String model) {
@@ -1958,7 +1958,7 @@ public final class DeviceNames {
         else if ("JM-250".equals(model)) { return "BenQ JM-250"; }
         else if ("J630".equals(model)) { return "TCT (Alcatel) TCL J630"; }
         else if ("JD-150".equals(model)) { return "BenQ JD-150"; }
-            return "";
+        return "";
 
     }
     public static String mMethod (String model) {
@@ -2183,7 +2183,7 @@ public final class DeviceNames {
         else if ("M97".equals(model)) { return "Anydata Matsunichi M97"; }
         else if ("MT11i".equals(model)) { return "Sony Ericsson Xperia neo V"; }
         else if ("MY15ADA".equals(model)) { return "Honda Pilot"; }
-            return "";
+        return "";
 
     }
     public static String lMethod (String model) {
@@ -2986,7 +2986,7 @@ public final class DeviceNames {
         else if ("LED32K360X3D".equals(model)) { return "Hisense LED32K360X3D"; }
         else if ("LG-D722AR".equals(model)) { return "LGE G3 S"; }
         else if ("LG-VK700".equals(model)) { return "LGE G Pad 10.1 LTE"; }
-            return "";
+        return "";
 
     }
     public static String oMethod (String model) {
@@ -3012,7 +3012,7 @@ public final class DeviceNames {
         else if ("ODYSSEY".equals(model)) { return "Crosscall ODYSSEY"; }
         else if ("ONYX".equals(model)) { return "Mobicell ONYX"; }
         else if ("one7_0_4_coho".equals(model)) { return "CloudFone Cloudpad One 7.0"; }
-            return "";
+        return "";
 
     }
     public static String nMethod (String model) {
@@ -3157,7 +3157,7 @@ public final class DeviceNames {
         else if ("N9100".equals(model)) { return "ZTE N9100"; }
         else if ("N850L".equals(model)) { return "ZTE N850L"; }
         else if ("NB7850S".equals(model)) { return "Nobis NB7850S"; }
-            return "";
+        return "";
 
     }
     public static String qMethod (String model) {
@@ -3186,7 +3186,7 @@ public final class DeviceNames {
         else if ("QTAQZ3".equals(model)) { return "Verizon Wireless Ellipsis 8"; }
         else if ("QTAIR7".equals(model)) { return "Verizon Wireless Ellipsis 10"; }
         else if ("QTAQZ3KID".equals(model)) { return "Verizon Wireless QTAQZ3KID"; }
-            return "";
+        return "";
 
     }
     public static String pMethod (String model) {
@@ -3419,7 +3419,7 @@ public final class DeviceNames {
         else if ("PLT9602G".equals(model)) { return "Proscan PLT9602G"; }
         else if ("PNDPP48GP".equals(model)) { return "Anydata Pendo PNDPP48GP"; }
         else if ("PX2000".equals(model)) { return "Hisense PX2000"; }
-            return "";
+        return "";
 
     }
     public static String sMethod (String model) {
@@ -4710,7 +4710,7 @@ public final class DeviceNames {
         else if ("SGH-N075T".equals(model)) { return "Samsung Galaxy J"; }
         else if ("SCH-W789".equals(model)) { return "Samsung Hennessy"; }
         else if ("SH825Wi".equals(model)) { return "Sharp SH825wi"; }
-            return "";
+        return "";
 
     }
     public static String rMethod (String model) {
@@ -4814,7 +4814,7 @@ public final class DeviceNames {
         else if ("R370L".equals(model)) { return "Orbic R370H"; }
         else if ("Roar_A50".equals(model)) { return "Symphony Roar A50"; }
         else if ("RCT6203W46".equals(model)) { return "RCA RCT6203W46"; }
-            return "";
+        return "";
 
     }
     public static String uMethod (String model) {
@@ -4852,7 +4852,7 @@ public final class DeviceNames {
         else if ("unknown".equals(model)) { return "Motorola Defy"; }
         else if ("U8220".equals(model)) { return "Huawei U8220"; }
         else if ("US740".equals(model)) { return "LGE Ally"; }
-            return "";
+        return "";
 
     }
     public static String tMethod (String model) {
@@ -5044,7 +5044,7 @@ public final class DeviceNames {
         else if ("TECNO-M6S".equals(model)) { return "TECNO-M6S"; }
         else if ("Telenor_OneTouch".equals(model)) { return "TCT (Alcatel) One Touch 990"; }
         else if ("TBQG884".equals(model)) { return "Zeki TBQG884"; }
-            return "";
+        return "";
 
     }
     public static String wMethod (String model) {
@@ -5091,7 +5091,7 @@ public final class DeviceNames {
         else if ("WM8".equals(model)) { return "Hisense WM8"; }
         else if ("WT19i".equals(model)) { return "Sony Ericsson Live with Walkman"; }
         else if ("WT19a".equals(model)) { return "Sony Ericsson Xperia live"; }
-            return "";
+        return "";
 
     }
     public static String vMethod (String model) {
@@ -5233,7 +5233,7 @@ public final class DeviceNames {
         else if ("V8200plus".equals(model)) { return "ZTE V8200plus"; }
         else if ("VT10E2".equals(model)) { return "Vestel VT10E2"; }
         else if ("VT785P2-Cleverpad".equals(model)) { return "Vestel VT785P2"; }
-            return "";
+        return "";
 
     }
     public static String yMethod (String model) {
@@ -5297,7 +5297,7 @@ public final class DeviceNames {
         else if ("Y220-U17".equals(model)) { return "Huawei Y220"; }
         else if ("Y220-U10".equals(model)) { return "Huawei Y220-U10"; }
         else if ("YU5010".equals(model)) { return "YUPHORIA"; }
-            return "";
+        return "";
 
     }
     public static String xMethod (String model) {
@@ -5448,7 +5448,7 @@ public final class DeviceNames {
         else if ("XT1580".equals(model)) { return "Motorola Moto X Force"; }
         else if ("x600".equals(model)) { return "LeTV Le1"; }
         else if ("XT560".equals(model)) { return "Motorola Defy Pro"; }
-            return "";
+        return "";
 
     }
     public static String zMethod (String model) {
@@ -5528,7 +5528,7 @@ public final class DeviceNames {
         else if ("Z812".equals(model)) { return "ZTE Z812"; }
         else if ("ZTE-V6500".equals(model)) { return "ZTE-V6500"; }
         else if ("Z932L".equals(model)) { return "ZTE Z932L"; }
-            return "";
+        return "";
 
     }
     public static String otherMethod (String model) {
@@ -5781,7 +5781,7 @@ public final class DeviceNames {
         else if ("801EM".equals(model)) { return "Coolpad 801EM"; }
         else if ("801ES".equals(model)) { return "Coolpad801ES"; }
         else if ("101P51C".equals(model)) { return "Mecer 101P51C"; }
-            return "";
+        return "";
 
     }
 
