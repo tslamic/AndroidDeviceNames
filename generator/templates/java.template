@@ -21,6 +21,17 @@ public final class DeviceNames {
 
     /**
      * Returns a user-friendly name of current device. Same as calling {@code
+     * getDeviceName(android.os.Build.MODEL, null)}.
+     *
+     * @return {@code String} name of this device or {@code null} if device model
+     * is not listed.
+     */
+    public static String getCurrentDeviceName() {
+        return getDeviceName(android.os.Build.MODEL, null);
+    }
+
+    /**
+     * Returns a user-friendly name of current device. Same as calling {@code
      * getDeviceName(android.os.Build.MODEL, fallback)}.
      *
      * @param fallback fallback name if the device model is not listed.
@@ -43,12 +54,16 @@ public final class DeviceNames {
         if (android.text.TextUtils.isEmpty(model)) {
             return fallback;
         }
+        String deviceName;
         final char c = Character.toUpperCase(model.charAt(0));
         switch (c) {
-            $devices
+$devices
         }
-        return fallback;
+        if (deviceName.isEmpty()) deviceName = fallback;
+        return deviceName;
     }
+
+$device_methods
 
     private DeviceNames() {
     }

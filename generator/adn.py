@@ -23,6 +23,7 @@ VALID_NAME_REGEX = re.compile(r'^[a-zA-Z0-9-+\.\s\(\)]+$')
 
 JAVA_PARAM_MODEL = 'model'
 JAVA_TEMPLATE = 'templates/java.template'
+JAVA_LETTER_TEMPLATE = 'templates/java_letter.template'
 JAVA_CLASS_NAME = 'DeviceNames.java'
 
 JAVA_TEST_TEMPLATE = 'templates/test.template'
@@ -30,11 +31,13 @@ JAVA_TEST_CASE_TEMPLATE = 'templates/test_case.template'
 JAVA_TEST_CLASS_NAME = 'DeviceNamesTest.java'
 
 JAVA_IF = 'if ("%s".equals(%s)) { return "%s"; }\n'
-JAVA_ELSE_IF = 'else ' + JAVA_IF
+JAVA_ELSE_IF = '        else ' + JAVA_IF
 
-JAVA_CASE = "case '%s':\n"
-JAVA_BREAK = 'break;\n'
-JAVA_DEFAULT_CASE = 'default:\n'
+JAVA_CASE = "            case '%s':\n"
+JAVA_FUNCTION = "                deviceName = %sMethod(model);\n"
+JAVA_BREAK = '                break;\n'
+JAVA_RETURN = '        return "";\n'
+JAVA_DEFAULT_CASE = '                default:\n'
 
 
 def generate_java_class(sources, collision_handler=None):
@@ -49,7 +52,9 @@ def generate_java_class(sources, collision_handler=None):
     merged = merge_source_dicts(sources, collision_handler)
     if not merged:
         raise Exception('sources contain no model-name pairs')
-    switch_statement = generate_switch_statement(merged)
+    switch_statement = generate_switch_statement()
+    assert switch_statement
+    letter_functions = generate_letter_functions(merged)
     assert switch_statement
     with open(JAVA_TEMPLATE, 'rb') as template:
         class_template = template.read()
@@ -57,7 +62,8 @@ def generate_java_class(sources, collision_handler=None):
         datetime=datetime.now().strftime('%d %b %Y %H:%M:%S'),
         version=__version__,
         count=len(merged),
-        devices=switch_statement)
+        devices=switch_statement,
+        device_methods=letter_functions)
     with open(JAVA_CLASS_NAME, 'wb') as java_class:
         java_class.write(content)
     generate_java_test_class(merged)
@@ -110,21 +116,20 @@ def merge_source_dicts(sources, collision_handler=None):
     return merged
 
 
-def generate_switch_statement(merged_dict):
+def generate_letter_functions(merged_dict):
     """
-    Generates a java switch statement where cases are based on the first
-    model letter, e.g.:
-        case 'A':
-            // models starting with letter 'A'
-            break;
-        case 'B':
-            // models starting with letter 'B'
-            break;
-        case 'C':
-            // etc.
+    Generates a java method for each letter to make sure each method
+    is below the 64K java limit.  e.g.
+
+        public static String $letterMethod(String model) {
+            // models starting with letter $letter
+            $letter_devices
+        }
 
     :param merged_dict: a model:name dict with unique entries
     """
+    with open(JAVA_LETTER_TEMPLATE, 'rb') as letter_template:
+        class_letter_template = letter_template.read()
     alphabet_dict = {letter: [] for letter in string.ascii_uppercase}
     others = []  # For models not starting with an alphabet letter.
     for model, name in merged_dict.iteritems():
@@ -132,10 +137,41 @@ def generate_switch_statement(merged_dict):
         alphabet_dict.get(letter, others).append((model, name))
     statement = []
     for letter, pairs in alphabet_dict.iteritems():
+        template_copy = class_letter_template
+        content = string.Template(template_copy).substitute({
+                    "letter_method": "%sMethod" % letter.lower(),
+                    "letter_devices": generate_ifs(pairs)})
+        statement.append(content)
+    template_copy = class_letter_template
+    content = string.Template(template_copy).substitute({
+                "letter_method": "otherMethod",
+                "letter_devices": generate_ifs(others)})
+    statement.append(content)
+    return ''.join(statement)
+
+
+def generate_switch_statement():
+    """
+    Generates a java switch statement where cases are based on the first
+    model letter, e.g.:
+        case 'A':
+            aMethod(model);
+            break;
+        case 'B':
+            bMethod(model);
+            break;
+        case 'C':
+            // etc.
+
+    """
+    statement = []
+    alphabet_list = list(string.ascii_uppercase)
+    for letter in alphabet_list:
         statement.append(JAVA_CASE % letter)
-        statement.append(generate_ifs(pairs))
+        statement.append(JAVA_FUNCTION % letter.lower())
+        statement.append(JAVA_BREAK)
     statement.append(JAVA_DEFAULT_CASE)
-    statement.append(generate_ifs(others))
+    statement.append(JAVA_FUNCTION % "other")
     return ''.join(statement)
 
 
@@ -153,14 +189,14 @@ def generate_ifs(pairs):
         # Generates the first if
         model, name = pairs[0]
         java_if = JAVA_IF % (model, JAVA_PARAM_MODEL, name)
-        block.append(java_if)
+        block.append("%s" % java_if)
         del pairs[0]
         # Generates a bunch of else-ifs
         for pair in pairs:
             model, name = pair
             java_else_if = JAVA_ELSE_IF % (model, JAVA_PARAM_MODEL, name)
-            block.append(java_else_if)
-    block.append(JAVA_BREAK)
+            block.append("%s" % java_else_if)
+    block.append(JAVA_RETURN)
     return ''.join(block)
 
 
