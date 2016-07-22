@@ -18,8 +18,8 @@ try:
 except ImportError:
     requests = None  # Downloading disabled.
 
-VALID_MODEL_REGEX = re.compile(r'^\S+$')
-VALID_NAME_REGEX = re.compile(r'^[a-zA-Z0-9-+\.\s\(\)]+$')
+VALID_MODEL_REGEX = re.compile(r'^[a-zA-Z0-9-_+\.\s]+$')
+VALID_NAME_REGEX = re.compile(r'^[a-zA-Z0-9-_+/\.\s\(\)]+$')
 
 JAVA_PARAM_MODEL = 'model'
 JAVA_TEMPLATE = 'templates/java.template'
@@ -279,7 +279,8 @@ def create_content_dict(target, device_handler, collision_handler):
     for device in devices:
         try:
             model, name = device_handler(device)
-        except:
+        except Exception as e:
+            print e
             continue
         if model in content_dict:
             name = collision_handler(model, content_dict[model], name)
