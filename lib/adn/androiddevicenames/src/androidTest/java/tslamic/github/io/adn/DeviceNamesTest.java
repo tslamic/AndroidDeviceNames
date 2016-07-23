@@ -300,7 +300,7 @@ public void testDevice69() throws Exception {
 }
 public void testDevice70() throws Exception {
     final String result = DeviceNames.getDeviceName("C6943", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia Z1", result);
+    Assert.assertEquals("Sony Xperia Z1", result);
 }
 public void testDevice71() throws Exception {
     final String result = DeviceNames.getDeviceName("IdeaTabA1000L-F", FALLBACK);
@@ -4816,7 +4816,7 @@ public void testDevice1198() throws Exception {
 }
 public void testDevice1199() throws Exception {
     final String result = DeviceNames.getDeviceName("IS11S", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia Acro", result);
+    Assert.assertEquals("Sony Xperia Acro", result);
 }
 public void testDevice1200() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-SU760", FALLBACK);
@@ -11352,7 +11352,7 @@ public void testDevice2832() throws Exception {
 }
 public void testDevice2833() throws Exception {
     final String result = DeviceNames.getDeviceName("C6806", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia Z Ultra", result);
+    Assert.assertEquals("Sony Xperia Z Ultra", result);
 }
 public void testDevice2834() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 70 Helium", FALLBACK);
@@ -11964,7 +11964,7 @@ public void testDevice2985() throws Exception {
 }
 public void testDevice2986() throws Exception {
     final String result = DeviceNames.getDeviceName("SGP341", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia Tablet Z", result);
+    Assert.assertEquals("Sony Xperia Tablet Z", result);
 }
 public void testDevice2987() throws Exception {
     final String result = DeviceNames.getDeviceName("FLOW2", FALLBACK);
@@ -13384,7 +13384,7 @@ public void testDevice3340() throws Exception {
 }
 public void testDevice3341() throws Exception {
     final String result = DeviceNames.getDeviceName("SGP321", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia Tablet Z", result);
+    Assert.assertEquals("Sony Xperia Tablet Z", result);
 }
 public void testDevice3342() throws Exception {
     final String result = DeviceNames.getDeviceName("Le Pan TC802A", FALLBACK);
@@ -15268,7 +15268,7 @@ public void testDevice3811() throws Exception {
 }
 public void testDevice3812() throws Exception {
     final String result = DeviceNames.getDeviceName("S39h", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia C", result);
+    Assert.assertEquals("Sony Xperia C", result);
 }
 public void testDevice3813() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Rhyme S510b", FALLBACK);
@@ -17076,7 +17076,7 @@ public void testDevice4263() throws Exception {
 }
 public void testDevice4264() throws Exception {
     final String result = DeviceNames.getDeviceName("C6906", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia Z1", result);
+    Assert.assertEquals("Sony Xperia Z1", result);
 }
 public void testDevice4265() throws Exception {
     final String result = DeviceNames.getDeviceName("FLOW", FALLBACK);
@@ -26884,7 +26884,7 @@ public void testDevice6715() throws Exception {
 }
 public void testDevice6716() throws Exception {
     final String result = DeviceNames.getDeviceName("IS12S", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia acro HD", result);
+    Assert.assertEquals("Sony Xperia acro HD", result);
 }
 public void testDevice6717() throws Exception {
     final String result = DeviceNames.getDeviceName("D6616", FALLBACK);
@@ -29383,8990 +29383,8994 @@ public void testDevice7340() throws Exception {
     Assert.assertEquals("Hisense LED48K360X3D", result);
 }
 public void testDevice7341() throws Exception {
+    final String result = DeviceNames.getDeviceName("One S", FALLBACK);
+    Assert.assertEquals("HTC One S", result);
+}
+public void testDevice7342() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G9350", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S7 Edge", result);
 }
-public void testDevice7342() throws Exception {
+public void testDevice7343() throws Exception {
     final String result = DeviceNames.getDeviceName("4017A", FALLBACK);
     Assert.assertEquals("PIXI4 (3.5)", result);
 }
-public void testDevice7343() throws Exception {
+public void testDevice7344() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J3110", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J3 Pro", result);
 }
-public void testDevice7344() throws Exception {
+public void testDevice7345() throws Exception {
     final String result = DeviceNames.getDeviceName("Meitu M4", FALLBACK);
     Assert.assertEquals("Meitu M4", result);
 }
-public void testDevice7345() throws Exception {
+public void testDevice7346() throws Exception {
     final String result = DeviceNames.getDeviceName("Smartfren Andromax AD682H", FALLBACK);
     Assert.assertEquals("Smartfren Andromax AD682H", result);
 }
-public void testDevice7346() throws Exception {
+public void testDevice7347() throws Exception {
     final String result = DeviceNames.getDeviceName("E505plus", FALLBACK);
     Assert.assertEquals("NGM Italia SRL E505 Plus", result);
 }
-public void testDevice7347() throws Exception {
+public void testDevice7348() throws Exception {
     final String result = DeviceNames.getDeviceName("VS910 4G", FALLBACK);
     Assert.assertEquals("LG Revolution", result);
 }
-public void testDevice7348() throws Exception {
+public void testDevice7349() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 918", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 918", result);
 }
-public void testDevice7349() throws Exception {
+public void testDevice7350() throws Exception {
     final String result = DeviceNames.getDeviceName("MediaPad M1 8.0", FALLBACK);
     Assert.assertEquals("HUAWEI MediaPad M1 8.0", result);
 }
-public void testDevice7350() throws Exception {
+public void testDevice7351() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G900FG", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 Google Play Edition", result);
 }
-public void testDevice7351() throws Exception {
+public void testDevice7352() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G900FD", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 Dual SIM", result);
 }
-public void testDevice7352() throws Exception {
+public void testDevice7353() throws Exception {
     final String result = DeviceNames.getDeviceName("M.T.T. Master", FALLBACK);
     Assert.assertEquals("MTT Master", result);
 }
-public void testDevice7353() throws Exception {
+public void testDevice7354() throws Exception {
     final String result = DeviceNames.getDeviceName("Xylo X", FALLBACK);
     Assert.assertEquals("Vonino Xylo X", result);
 }
-public void testDevice7354() throws Exception {
+public void testDevice7355() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y511-T00", FALLBACK);
     Assert.assertEquals("Huawei Y511", result);
 }
-public void testDevice7355() throws Exception {
+public void testDevice7356() throws Exception {
     final String result = DeviceNames.getDeviceName("ILIUM L1000", FALLBACK);
     Assert.assertEquals("Lanix ILIUM L1000", result);
 }
-public void testDevice7356() throws Exception {
+public void testDevice7357() throws Exception {
     final String result = DeviceNames.getDeviceName("Bit", FALLBACK);
     Assert.assertEquals("Explay Bit", result);
 }
-public void testDevice7357() throws Exception {
+public void testDevice7358() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G900FQ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5", result);
 }
-public void testDevice7358() throws Exception {
+public void testDevice7359() throws Exception {
     final String result = DeviceNames.getDeviceName("I7A-LE", FALLBACK);
     Assert.assertEquals("Haier GF88", result);
 }
-public void testDevice7359() throws Exception {
+public void testDevice7360() throws Exception {
     final String result = DeviceNames.getDeviceName("SH631W", FALLBACK);
     Assert.assertEquals("Foxconn SHARP SH631W", result);
 }
-public void testDevice7360() throws Exception {
+public void testDevice7361() throws Exception {
     final String result = DeviceNames.getDeviceName("Vexia Zippers", FALLBACK);
     Assert.assertEquals("BYD Zippers", result);
 }
-public void testDevice7361() throws Exception {
+public void testDevice7362() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT3027_Wi", FALLBACK);
     Assert.assertEquals("Prestigio MULTIPAD WIZE 3027", result);
 }
-public void testDevice7362() throws Exception {
+public void testDevice7363() throws Exception {
     final String result = DeviceNames.getDeviceName("PSP5455DUO", FALLBACK);
     Assert.assertEquals("Prestigio MultiPhone 5455 DUO", result);
 }
-public void testDevice7363() throws Exception {
+public void testDevice7364() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-02H", FALLBACK);
     Assert.assertEquals("Sony Xperia Z5 Compact", result);
 }
-public void testDevice7364() throws Exception {
+public void testDevice7365() throws Exception {
     final String result = DeviceNames.getDeviceName("UZTE GRAND V7", FALLBACK);
     Assert.assertEquals("ZTE V815W", result);
 }
-public void testDevice7365() throws Exception {
+public void testDevice7366() throws Exception {
     final String result = DeviceNames.getDeviceName("Blade Apex", FALLBACK);
     Assert.assertEquals("ZTE Blade Apex", result);
 }
-public void testDevice7366() throws Exception {
+public void testDevice7367() throws Exception {
     final String result = DeviceNames.getDeviceName("ASUS_Z00YD", FALLBACK);
     Assert.assertEquals("ASUS Live", result);
 }
-public void testDevice7367() throws Exception {
+public void testDevice7368() throws Exception {
     final String result = DeviceNames.getDeviceName("BGH Joy X5", FALLBACK);
     Assert.assertEquals("ZTE BGH Joy X5", result);
 }
-public void testDevice7368() throws Exception {
+public void testDevice7369() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC-A510a", FALLBACK);
     Assert.assertEquals("HTC Wildfire S", result);
 }
-public void testDevice7369() throws Exception {
+public void testDevice7370() throws Exception {
     final String result = DeviceNames.getDeviceName("RCT6673W-V1", FALLBACK);
     Assert.assertEquals("RCA RCT6673W-V1", result);
 }
-public void testDevice7370() throws Exception {
+public void testDevice7371() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo K50-T5", FALLBACK);
     Assert.assertEquals("Lenovo K50", result);
 }
-public void testDevice7371() throws Exception {
+public void testDevice7372() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade G Lux", FALLBACK);
     Assert.assertEquals("ZTE Blade G Lux", result);
 }
-public void testDevice7372() throws Exception {
+public void testDevice7373() throws Exception {
     final String result = DeviceNames.getDeviceName("XT303", FALLBACK);
     Assert.assertEquals("Motorola Motosmart", result);
 }
-public void testDevice7373() throws Exception {
+public void testDevice7374() throws Exception {
     final String result = DeviceNames.getDeviceName("XT300", FALLBACK);
     Assert.assertEquals("Motorola Spice", result);
 }
-public void testDevice7374() throws Exception {
+public void testDevice7375() throws Exception {
     final String result = DeviceNames.getDeviceName("XT301", FALLBACK);
     Assert.assertEquals("Motorola Citrus", result);
 }
-public void testDevice7375() throws Exception {
+public void testDevice7376() throws Exception {
     final String result = DeviceNames.getDeviceName("Xlife-450Q", FALLBACK);
     Assert.assertEquals("Spice Xlife", result);
 }
-public void testDevice7376() throws Exception {
+public void testDevice7377() throws Exception {
     final String result = DeviceNames.getDeviceName("XT305", FALLBACK);
     Assert.assertEquals("Motorola Motosmart", result);
 }
-public void testDevice7377() throws Exception {
+public void testDevice7378() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-02E", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia Z", result);
 }
-public void testDevice7378() throws Exception {
+public void testDevice7379() throws Exception {
     final String result = DeviceNames.getDeviceName("L10", FALLBACK);
     Assert.assertEquals("Camelus L10", result);
 }
-public void testDevice7379() throws Exception {
+public void testDevice7380() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-02G", FALLBACK);
     Assert.assertEquals("Sony Xperia Z3 Compact", result);
 }
-public void testDevice7380() throws Exception {
+public void testDevice7381() throws Exception {
     final String result = DeviceNames.getDeviceName("MTS-SP100", FALLBACK);
     Assert.assertEquals("ZTE Racer", result);
 }
-public void testDevice7381() throws Exception {
+public void testDevice7382() throws Exception {
     final String result = DeviceNames.getDeviceName("TAB A10-80HC", FALLBACK);
     Assert.assertEquals("Lenovo TAB A10-80HC", result);
 }
-public void testDevice7382() throws Exception {
+public void testDevice7383() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI SCC-U21", FALLBACK);
     Assert.assertEquals("Huawei Y6", result);
 }
-public void testDevice7383() throws Exception {
+public void testDevice7384() throws Exception {
     final String result = DeviceNames.getDeviceName("Venus_V3_5570", FALLBACK);
     Assert.assertEquals("Vestel Venus V3 5570", result);
 }
-public void testDevice7384() throws Exception {
+public void testDevice7385() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G360R6", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice7385() throws Exception {
+public void testDevice7386() throws Exception {
     final String result = DeviceNames.getDeviceName("LED40K360X3D", FALLBACK);
     Assert.assertEquals("Hisense LED40K360X3D", result);
 }
-public void testDevice7386() throws Exception {
+public void testDevice7387() throws Exception {
     final String result = DeviceNames.getDeviceName("S7842", FALLBACK);
     Assert.assertEquals("Logicom S7842", result);
 }
-public void testDevice7387() throws Exception {
+public void testDevice7388() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I497", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab2 10.1", result);
 }
-public void testDevice7388() throws Exception {
+public void testDevice7389() throws Exception {
     final String result = DeviceNames.getDeviceName("ST950I-LN", FALLBACK);
     Assert.assertEquals("LinkNet ST950I-LN", result);
 }
-public void testDevice7389() throws Exception {
+public void testDevice7390() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E475f", FALLBACK);
     Assert.assertEquals("LG Optimus L1II", result);
 }
-public void testDevice7390() throws Exception {
+public void testDevice7391() throws Exception {
     final String result = DeviceNames.getDeviceName("D6653", FALLBACK);
     Assert.assertEquals("Sony Xperia Z3", result);
 }
-public void testDevice7391() throws Exception {
+public void testDevice7392() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5310B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pocket Neo", result);
 }
-public void testDevice7392() throws Exception {
+public void testDevice7393() throws Exception {
     final String result = DeviceNames.getDeviceName("Siru", FALLBACK);
     Assert.assertEquals("POP S3", result);
 }
-public void testDevice7393() throws Exception {
+public void testDevice7394() throws Exception {
     final String result = DeviceNames.getDeviceName("Kis T3", FALLBACK);
     Assert.assertEquals("ZTE Kis T3", result);
 }
-public void testDevice7394() throws Exception {
+public void testDevice7395() throws Exception {
     final String result = DeviceNames.getDeviceName("Monterra", FALLBACK);
     Assert.assertEquals("Garmin Monterra", result);
 }
-public void testDevice7395() throws Exception {
+public void testDevice7396() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J200H", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J2", result);
 }
-public void testDevice7396() throws Exception {
+public void testDevice7397() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC DLXUB1", FALLBACK);
     Assert.assertEquals("HTC Butterfly", result);
 }
-public void testDevice7397() throws Exception {
+public void testDevice7398() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J200M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J2", result);
 }
-public void testDevice7398() throws Exception {
+public void testDevice7399() throws Exception {
     final String result = DeviceNames.getDeviceName("NX511J", FALLBACK);
     Assert.assertEquals("ZTE NX511J", result);
 }
-public void testDevice7399() throws Exception {
+public void testDevice7400() throws Exception {
     final String result = DeviceNames.getDeviceName("myPad P3", FALLBACK);
     Assert.assertEquals("ZTE V9A", result);
 }
-public void testDevice7400() throws Exception {
+public void testDevice7401() throws Exception {
     final String result = DeviceNames.getDeviceName("myPad P2", FALLBACK);
     Assert.assertEquals("ZTE V9", result);
 }
-public void testDevice7401() throws Exception {
+public void testDevice7402() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT3037_3G", FALLBACK);
     Assert.assertEquals("Prestigio MultiPad Wize 3037 3G", result);
 }
-public void testDevice7402() throws Exception {
+public void testDevice7403() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J200G", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J2", result);
 }
-public void testDevice7403() throws Exception {
+public void testDevice7404() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J200F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J2", result);
 }
-public void testDevice7404() throws Exception {
+public void testDevice7405() throws Exception {
     final String result = DeviceNames.getDeviceName("myPad P5", FALLBACK);
     Assert.assertEquals("ZTE myPad P5", result);
 }
-public void testDevice7405() throws Exception {
+public void testDevice7406() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6810M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7406() throws Exception {
+public void testDevice7407() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J200Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J2", result);
 }
-public void testDevice7407() throws Exception {
+public void testDevice7408() throws Exception {
     final String result = DeviceNames.getDeviceName("TabMini", FALLBACK);
     Assert.assertEquals("Explay Tab Mini", result);
 }
-public void testDevice7408() throws Exception {
+public void testDevice7409() throws Exception {
     final String result = DeviceNames.getDeviceName("JCI VA-10J", FALLBACK);
     Assert.assertEquals("VAIO VA-10J", result);
 }
-public void testDevice7409() throws Exception {
+public void testDevice7410() throws Exception {
     final String result = DeviceNames.getDeviceName("SH-12C", FALLBACK);
     Assert.assertEquals("Sharp AQUOS PHONE SH-12C", result);
 }
-public void testDevice7410() throws Exception {
+public void testDevice7411() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E470S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Active", result);
 }
-public void testDevice7411() throws Exception {
+public void testDevice7412() throws Exception {
     final String result = DeviceNames.getDeviceName("S4S5IN3G", FALLBACK);
     Assert.assertEquals("Auchan S4S5IN3G", result);
 }
-public void testDevice7412() throws Exception {
+public void testDevice7413() throws Exception {
     final String result = DeviceNames.getDeviceName("NEO10-1", FALLBACK);
     Assert.assertEquals("Haier NEO10-1", result);
 }
-public void testDevice7413() throws Exception {
+public void testDevice7414() throws Exception {
     final String result = DeviceNames.getDeviceName("Idea ULTRA", FALLBACK);
     Assert.assertEquals("Coolpad Idea ULTRA", result);
 }
-public void testDevice7414() throws Exception {
+public void testDevice7415() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_603h", FALLBACK);
     Assert.assertEquals("HTC Desire 501", result);
 }
-public void testDevice7415() throws Exception {
+public void testDevice7416() throws Exception {
     final String result = DeviceNames.getDeviceName("Alcatel one touch 990S", FALLBACK);
     Assert.assertEquals("One Touch 990S", result);
 }
-public void testDevice7416() throws Exception {
+public void testDevice7417() throws Exception {
     final String result = DeviceNames.getDeviceName("Prime10ES", FALLBACK);
     Assert.assertEquals("Visual Land Prestige Prime10ES", result);
 }
-public void testDevice7417() throws Exception {
+public void testDevice7418() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5310N", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pocket Neo", result);
 }
-public void testDevice7418() throws Exception {
+public void testDevice7419() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T807R4", FALLBACK);
     Assert.assertEquals("Samsung Galaxy TabS 10.5", result);
 }
-public void testDevice7419() throws Exception {
+public void testDevice7420() throws Exception {
     final String result = DeviceNames.getDeviceName("MG080D1T", FALLBACK);
     Assert.assertEquals("TSUNAMi Tablet Tsunami TSTA080D1", result);
 }
-public void testDevice7420() throws Exception {
+public void testDevice7421() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5310M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pocket SS", result);
 }
-public void testDevice7421() throws Exception {
+public void testDevice7422() throws Exception {
     final String result = DeviceNames.getDeviceName("404KC", FALLBACK);
     Assert.assertEquals("Kyocera 404KC", result);
 }
-public void testDevice7422() throws Exception {
+public void testDevice7423() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade V220", FALLBACK);
     Assert.assertEquals("ZTE Blade V220", result);
 }
-public void testDevice7423() throws Exception {
+public void testDevice7424() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Acquire", FALLBACK);
     Assert.assertEquals("HTCEVODesign4G", result);
 }
-public void testDevice7424() throws Exception {
+public void testDevice7425() throws Exception {
     final String result = DeviceNames.getDeviceName("ISW11SC", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S2", result);
 }
-public void testDevice7425() throws Exception {
+public void testDevice7426() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE N919D", FALLBACK);
     Assert.assertEquals("ZTE N919D", result);
 }
-public void testDevice7426() throws Exception {
+public void testDevice7427() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Flyer P512", FALLBACK);
     Assert.assertEquals("HTC Flyer", result);
 }
-public void testDevice7427() throws Exception {
+public void testDevice7428() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 8729", FALLBACK);
     Assert.assertEquals("Coolpad 8729", result);
 }
-public void testDevice7428() throws Exception {
+public void testDevice7429() throws Exception {
     final String result = DeviceNames.getDeviceName("SGP412", FALLBACK);
     Assert.assertEquals("Sony Xperia Z Ultra", result);
 }
-public void testDevice7429() throws Exception {
+public void testDevice7430() throws Exception {
     final String result = DeviceNames.getDeviceName("DIGICEL DL800", FALLBACK);
     Assert.assertEquals("ZTE Blade G Lux", result);
 }
-public void testDevice7430() throws Exception {
+public void testDevice7431() throws Exception {
     final String result = DeviceNames.getDeviceName("MEDION E4001", FALLBACK);
     Assert.assertEquals("Hisense MEDION E4001", result);
 }
-public void testDevice7431() throws Exception {
+public void testDevice7432() throws Exception {
     final String result = DeviceNames.getDeviceName("G735-L12", FALLBACK);
     Assert.assertEquals("Huawei G735", result);
 }
-public void testDevice7432() throws Exception {
+public void testDevice7433() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-P605L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 10.1", result);
 }
-public void testDevice7433() throws Exception {
+public void testDevice7434() throws Exception {
     final String result = DeviceNames.getDeviceName("MIT700", FALLBACK);
     Assert.assertEquals("iRiver DMT580D", result);
 }
-public void testDevice7434() throws Exception {
+public void testDevice7435() throws Exception {
     final String result = DeviceNames.getDeviceName("D5306", FALLBACK);
     Assert.assertEquals("Sony Xperia T2 Ultra", result);
 }
-public void testDevice7435() throws Exception {
+public void testDevice7436() throws Exception {
     final String result = DeviceNames.getDeviceName("INFINIX-X600", FALLBACK);
     Assert.assertEquals("INFINIX-X600", result);
 }
-public void testDevice7436() throws Exception {
+public void testDevice7437() throws Exception {
     final String result = DeviceNames.getDeviceName("SPH-D700", FALLBACK);
     Assert.assertEquals("Samsung Epic 4G", result);
 }
-public void testDevice7437() throws Exception {
+public void testDevice7438() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T110", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3 Lite", result);
 }
-public void testDevice7438() throws Exception {
+public void testDevice7439() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T111", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3 Lite", result);
 }
-public void testDevice7439() throws Exception {
+public void testDevice7440() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T113", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3 Lite 7.0", result);
 }
-public void testDevice7440() throws Exception {
+public void testDevice7441() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T116", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3 VE 7.0", result);
 }
-public void testDevice7441() throws Exception {
+public void testDevice7442() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 918N", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH918N", result);
 }
-public void testDevice7442() throws Exception {
+public void testDevice7443() throws Exception {
     final String result = DeviceNames.getDeviceName("VIVO 5", FALLBACK);
     Assert.assertEquals("Blu VIVO 5", result);
 }
-public void testDevice7443() throws Exception {
+public void testDevice7444() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9305T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S III", result);
 }
-public void testDevice7444() throws Exception {
+public void testDevice7445() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P936", FALLBACK);
     Assert.assertEquals("LG Optimus LTE", result);
 }
-public void testDevice7445() throws Exception {
+public void testDevice7446() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P935", FALLBACK);
     Assert.assertEquals("LG Optimus LTE", result);
 }
-public void testDevice7446() throws Exception {
+public void testDevice7447() throws Exception {
     final String result = DeviceNames.getDeviceName("PX3100", FALLBACK);
     Assert.assertEquals("Hisense PX3100", result);
 }
-public void testDevice7447() throws Exception {
+public void testDevice7448() throws Exception {
     final String result = DeviceNames.getDeviceName("Milestone X2", FALLBACK);
     Assert.assertEquals("Motorola Droid X2", result);
 }
-public void testDevice7448() throws Exception {
+public void testDevice7449() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H868", FALLBACK);
     Assert.assertEquals("LG G5", result);
 }
-public void testDevice7449() throws Exception {
+public void testDevice7450() throws Exception {
     final String result = DeviceNames.getDeviceName("PULP FAB 4G", FALLBACK);
     Assert.assertEquals("Wiko PULP FAB 4G", result);
 }
-public void testDevice7450() throws Exception {
+public void testDevice7451() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC0P4E1", FALLBACK);
     Assert.assertEquals("HTC Desire 601", result);
 }
-public void testDevice7451() throws Exception {
+public void testDevice7452() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9100", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S II", result);
 }
-public void testDevice7452() throws Exception {
+public void testDevice7453() throws Exception {
     final String result = DeviceNames.getDeviceName("BLU STUDIO SELFIE 2", FALLBACK);
     Assert.assertEquals("Blu STUDIO SELFIE 2", result);
 }
-public void testDevice7453() throws Exception {
+public void testDevice7454() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H860", FALLBACK);
     Assert.assertEquals("LG G5", result);
 }
-public void testDevice7454() throws Exception {
+public void testDevice7455() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T589R", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Q", result);
 }
-public void testDevice7455() throws Exception {
+public void testDevice7456() throws Exception {
     final String result = DeviceNames.getDeviceName("A53fw", FALLBACK);
     Assert.assertEquals("Oppo A53fw", result);
 }
-public void testDevice7456() throws Exception {
+public void testDevice7457() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T589W", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Q", result);
 }
-public void testDevice7457() throws Exception {
+public void testDevice7458() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo X5MaxV", FALLBACK);
     Assert.assertEquals("Vivo X5MaxV", result);
 }
-public void testDevice7458() throws Exception {
+public void testDevice7459() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D107", FALLBACK);
     Assert.assertEquals("LG L20", result);
 }
-public void testDevice7459() throws Exception {
+public void testDevice7460() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D105", FALLBACK);
     Assert.assertEquals("LG L20", result);
 }
-public void testDevice7460() throws Exception {
+public void testDevice7461() throws Exception {
     final String result = DeviceNames.getDeviceName("ONE TOUCH TAB 8HD", FALLBACK);
     Assert.assertEquals("ONE TOUCH TAB 8HD", result);
 }
-public void testDevice7461() throws Exception {
+public void testDevice7462() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE N918St", FALLBACK);
     Assert.assertEquals("ZTE N918St", result);
 }
-public void testDevice7462() throws Exception {
+public void testDevice7463() throws Exception {
     final String result = DeviceNames.getDeviceName("TRIO-7.85", FALLBACK);
     Assert.assertEquals("TRIO-7.85", result);
 }
-public void testDevice7463() throws Exception {
+public void testDevice7464() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-P5113", FALLBACK);
     Assert.assertEquals("Samsnung Galaxy Tab 2 10.1", result);
 }
-public void testDevice7464() throws Exception {
+public void testDevice7465() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-P5110", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 2", result);
 }
-public void testDevice7465() throws Exception {
+public void testDevice7466() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI LUA-U23", FALLBACK);
     Assert.assertEquals("HUAWEI ECO", result);
 }
-public void testDevice7466() throws Exception {
+public void testDevice7467() throws Exception {
     final String result = DeviceNames.getDeviceName("P791", FALLBACK);
     Assert.assertEquals("Polaroid P791", result);
 }
-public void testDevice7467() throws Exception {
+public void testDevice7468() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE U988S", FALLBACK);
     Assert.assertEquals("ZTE U988S", result);
 }
-public void testDevice7468() throws Exception {
+public void testDevice7469() throws Exception {
     final String result = DeviceNames.getDeviceName("T1-A22L", FALLBACK);
     Assert.assertEquals("Huawei T1 10", result);
 }
-public void testDevice7469() throws Exception {
+public void testDevice7470() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9108", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S2", result);
 }
-public void testDevice7470() throws Exception {
+public void testDevice7471() throws Exception {
     final String result = DeviceNames.getDeviceName("Qilive 40", FALLBACK);
     Assert.assertEquals("Archos Auchan Qilive 40", result);
 }
-public void testDevice7471() throws Exception {
+public void testDevice7472() throws Exception {
     final String result = DeviceNames.getDeviceName("VP74-Celcus", FALLBACK);
     Assert.assertEquals("Vestel VP74", result);
 }
-public void testDevice7472() throws Exception {
+public void testDevice7473() throws Exception {
     final String result = DeviceNames.getDeviceName("HP 10", FALLBACK);
     Assert.assertEquals("HP 10", result);
 }
-public void testDevice7473() throws Exception {
+public void testDevice7474() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G910S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Round", result);
 }
-public void testDevice7474() throws Exception {
+public void testDevice7475() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6310T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Young", result);
 }
-public void testDevice7475() throws Exception {
+public void testDevice7476() throws Exception {
     final String result = DeviceNames.getDeviceName("MediaPad T1 8.0", FALLBACK);
     Assert.assertEquals("Huawei t1_8p0", result);
 }
-public void testDevice7476() throws Exception {
+public void testDevice7477() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-U980", FALLBACK);
     Assert.assertEquals("Hisense HS-U980", result);
 }
-public void testDevice7477() throws Exception {
+public void testDevice7478() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S7582L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S Duos2", result);
 }
-public void testDevice7478() throws Exception {
+public void testDevice7479() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E975T", FALLBACK);
     Assert.assertEquals("LG Optimus G", result);
 }
-public void testDevice7479() throws Exception {
+public void testDevice7480() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6310L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Young", result);
 }
-public void testDevice7480() throws Exception {
+public void testDevice7481() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E975K", FALLBACK);
     Assert.assertEquals("LG Optimus G", result);
 }
-public void testDevice7481() throws Exception {
+public void testDevice7482() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6310N", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Young", result);
 }
-public void testDevice7482() throws Exception {
+public void testDevice7483() throws Exception {
     final String result = DeviceNames.getDeviceName("RS988", FALLBACK);
     Assert.assertEquals("LG G5", result);
 }
-public void testDevice7483() throws Exception {
+public void testDevice7484() throws Exception {
     final String result = DeviceNames.getDeviceName("G621-TL00", FALLBACK);
     Assert.assertEquals("Huawei G621", result);
 }
-public void testDevice7484() throws Exception {
+public void testDevice7485() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A830", FALLBACK);
     Assert.assertEquals("Lenovo A830", result);
 }
-public void testDevice7485() throws Exception {
+public void testDevice7486() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T113NU", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3V 7.0", result);
 }
-public void testDevice7486() throws Exception {
+public void testDevice7487() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6310B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Young", result);
 }
-public void testDevice7487() throws Exception {
+public void testDevice7488() throws Exception {
     final String result = DeviceNames.getDeviceName("PC-TE307N1W", FALLBACK);
     Assert.assertEquals("NEC PC-TE307N1W", result);
 }
-public void testDevice7488() throws Exception {
+public void testDevice7489() throws Exception {
     final String result = DeviceNames.getDeviceName("SHW-M190S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S", result);
 }
-public void testDevice7489() throws Exception {
+public void testDevice7490() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-S970G", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4", result);
 }
-public void testDevice7490() throws Exception {
+public void testDevice7491() throws Exception {
     final String result = DeviceNames.getDeviceName("W70", FALLBACK);
     Assert.assertEquals("QMobile W70", result);
 }
-public void testDevice7491() throws Exception {
+public void testDevice7492() throws Exception {
     final String result = DeviceNames.getDeviceName("JLab PRO-7", FALLBACK);
     Assert.assertEquals("JLab_PRO-7", result);
 }
-public void testDevice7492() throws Exception {
+public void testDevice7493() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E975w", FALLBACK);
     Assert.assertEquals("LG Optimus GJ", result);
 }
-public void testDevice7493() throws Exception {
+public void testDevice7494() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9305N", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S3", result);
 }
-public void testDevice7494() throws Exception {
+public void testDevice7495() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 820q dual sim", FALLBACK);
     Assert.assertEquals("HTC Desire 820q dual sim", result);
 }
-public void testDevice7495() throws Exception {
+public void testDevice7496() throws Exception {
     final String result = DeviceNames.getDeviceName("ONE_TOUCH_960C", FALLBACK);
     Assert.assertEquals("ONE TOUCH Ultra 960c", result);
 }
-public void testDevice7496() throws Exception {
+public void testDevice7497() throws Exception {
     final String result = DeviceNames.getDeviceName("Doro Liberto 810", FALLBACK);
     Assert.assertEquals("Doro Liberto 810", result);
 }
-public void testDevice7497() throws Exception {
+public void testDevice7498() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G850M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Alpha", result);
 }
-public void testDevice7498() throws Exception {
+public void testDevice7499() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-T100K", FALLBACK);
     Assert.assertEquals("Pantech AT1", result);
 }
-public void testDevice7499() throws Exception {
+public void testDevice7500() throws Exception {
     final String result = DeviceNames.getDeviceName("DSlide 1013", FALLBACK);
     Assert.assertEquals("Danew Dslide 1013", result);
 }
-public void testDevice7500() throws Exception {
+public void testDevice7501() throws Exception {
     final String result = DeviceNames.getDeviceName("MEO SMART A16", FALLBACK);
     Assert.assertEquals("ZTE Kis 3", result);
 }
-public void testDevice7501() throws Exception {
+public void testDevice7502() throws Exception {
     final String result = DeviceNames.getDeviceName("Venue 10 5050", FALLBACK);
     Assert.assertEquals("Dell Venue 10", result);
 }
-public void testDevice7502() throws Exception {
+public void testDevice7503() throws Exception {
     final String result = DeviceNames.getDeviceName("Venus_V3_5010", FALLBACK);
     Assert.assertEquals("Vestel venus_v3_5010", result);
 }
-public void testDevice7503() throws Exception {
+public void testDevice7504() throws Exception {
     final String result = DeviceNames.getDeviceName("XT1049", FALLBACK);
     Assert.assertEquals("Motorola Moto X", result);
 }
-public void testDevice7504() throws Exception {
+public void testDevice7505() throws Exception {
     final String result = DeviceNames.getDeviceName("MF97A", FALLBACK);
     Assert.assertEquals("ZTE MF97A", result);
 }
-public void testDevice7505() throws Exception {
+public void testDevice7506() throws Exception {
     final String result = DeviceNames.getDeviceName("Positivo Ypy L700+", FALLBACK);
     Assert.assertEquals("Positivo Ypy L700", result);
 }
-public void testDevice7506() throws Exception {
+public void testDevice7507() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5310C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pocket SS", result);
 }
-public void testDevice7507() throws Exception {
+public void testDevice7508() throws Exception {
     final String result = DeviceNames.getDeviceName("Netphone 701", FALLBACK);
     Assert.assertEquals("ZTE Blade", result);
 }
-public void testDevice7508() throws Exception {
+public void testDevice7509() throws Exception {
     final String result = DeviceNames.getDeviceName("AD7003", FALLBACK);
     Assert.assertEquals("COMIO AD7003", result);
 }
-public void testDevice7509() throws Exception {
+public void testDevice7510() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5310G", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pocket Neo", result);
 }
-public void testDevice7510() throws Exception {
+public void testDevice7511() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5310E", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pocket Neo", result);
 }
-public void testDevice7511() throws Exception {
+public void testDevice7512() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6810B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7512() throws Exception {
+public void testDevice7513() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC ONE V", FALLBACK);
     Assert.assertEquals("HTC One V", result);
 }
-public void testDevice7513() throws Exception {
+public void testDevice7514() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6810L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7514() throws Exception {
+public void testDevice7515() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5310I", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pocket Neo", result);
 }
-public void testDevice7515() throws Exception {
+public void testDevice7516() throws Exception {
     final String result = DeviceNames.getDeviceName("FMT-NM7054-01", FALLBACK);
     Assert.assertEquals("Future Mobile Technology FMT-NM7054-01", result);
 }
-public void testDevice7516() throws Exception {
+public void testDevice7517() throws Exception {
     final String result = DeviceNames.getDeviceName("DP-X1", FALLBACK);
     Assert.assertEquals("Onkyo DP-X1", result);
 }
-public void testDevice7517() throws Exception {
+public void testDevice7518() throws Exception {
     final String result = DeviceNames.getDeviceName("FMT-NM7054-03", FALLBACK);
     Assert.assertEquals("Future Mobile Technology FMT-NM7054-03", result);
 }
-public void testDevice7518() throws Exception {
+public void testDevice7519() throws Exception {
     final String result = DeviceNames.getDeviceName("STUDIO 5.5 HD", FALLBACK);
     Assert.assertEquals("Blu Studio 5.5 HD", result);
 }
-public void testDevice7519() throws Exception {
+public void testDevice7520() throws Exception {
     final String result = DeviceNames.getDeviceName("FAR70B", FALLBACK);
     Assert.assertEquals("Fujitsu ARROWS Tab Wi-Fi FAR70B", result);
 }
-public void testDevice7520() throws Exception {
+public void testDevice7521() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6810P", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7521() throws Exception {
+public void testDevice7522() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5310T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pocket Neo", result);
 }
-public void testDevice7522() throws Exception {
+public void testDevice7523() throws Exception {
     final String result = DeviceNames.getDeviceName("HM NOTE 1LTE", FALLBACK);
     Assert.assertEquals("Xiaomi HM NOTE 1LTETD", result);
 }
-public void testDevice7523() throws Exception {
+public void testDevice7524() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G850Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Alpha", result);
 }
-public void testDevice7524() throws Exception {
+public void testDevice7525() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G850X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Alpha", result);
 }
-public void testDevice7525() throws Exception {
+public void testDevice7526() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9103", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S2", result);
 }
-public void testDevice7526() throws Exception {
+public void testDevice7527() throws Exception {
     final String result = DeviceNames.getDeviceName("Che2-UL00", FALLBACK);
     Assert.assertEquals("Huawei Che2", result);
 }
-public void testDevice7527() throws Exception {
+public void testDevice7528() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S850", FALLBACK);
     Assert.assertEquals("Lenovo S850", result);
 }
-public void testDevice7528() throws Exception {
+public void testDevice7529() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E435", FALLBACK);
     Assert.assertEquals("LG Optimus L3 II", result);
 }
-public void testDevice7529() throws Exception {
+public void testDevice7530() throws Exception {
     final String result = DeviceNames.getDeviceName("SMT-i9100", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab", result);
 }
-public void testDevice7530() throws Exception {
+public void testDevice7531() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G850S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Alpha", result);
 }
-public void testDevice7531() throws Exception {
+public void testDevice7532() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E430", FALLBACK);
     Assert.assertEquals("LG Optimus L3 II", result);
 }
-public void testDevice7532() throws Exception {
+public void testDevice7533() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G850W", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Alpha", result);
 }
-public void testDevice7533() throws Exception {
+public void testDevice7534() throws Exception {
     final String result = DeviceNames.getDeviceName("XT1040", FALLBACK);
     Assert.assertEquals("Motorola Moto G w/4G LTE", result);
 }
-public void testDevice7534() throws Exception {
+public void testDevice7535() throws Exception {
     final String result = DeviceNames.getDeviceName("MF97V", FALLBACK);
     Assert.assertEquals("ZTE Spro 2", result);
 }
-public void testDevice7535() throws Exception {
+public void testDevice7536() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G850K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Alpha", result);
 }
-public void testDevice7536() throws Exception {
+public void testDevice7537() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL D40 DUAL", FALLBACK);
     Assert.assertEquals("TCL D40 DUAL", result);
 }
-public void testDevice7537() throws Exception {
+public void testDevice7538() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO P5S", FALLBACK);
     Assert.assertEquals("Techno P5", result);
 }
-public void testDevice7538() throws Exception {
+public void testDevice7539() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G850L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Alpha", result);
 }
-public void testDevice7539() throws Exception {
+public void testDevice7540() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E455f", FALLBACK);
     Assert.assertEquals("LG Optimus L5 II", result);
 }
-public void testDevice7540() throws Exception {
+public void testDevice7541() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G850F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Alpha", result);
 }
-public void testDevice7541() throws Exception {
+public void testDevice7542() throws Exception {
     final String result = DeviceNames.getDeviceName("Primo GH5 mini", FALLBACK);
     Assert.assertEquals("Walton Primo GH5 mini", result);
 }
-public void testDevice7542() throws Exception {
+public void testDevice7543() throws Exception {
     final String result = DeviceNames.getDeviceName("ITP-R208W", FALLBACK);
     Assert.assertEquals("SK Telesys ITP-R208W", result);
 }
-public void testDevice7543() throws Exception {
+public void testDevice7544() throws Exception {
     final String result = DeviceNames.getDeviceName("GTB 1050", FALLBACK);
     Assert.assertEquals("Grundig GTB1050", result);
 }
-public void testDevice7544() throws Exception {
+public void testDevice7545() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE-SKATE", FALLBACK);
     Assert.assertEquals("ZTE-SKATE", result);
 }
-public void testDevice7545() throws Exception {
+public void testDevice7546() throws Exception {
     final String result = DeviceNames.getDeviceName("LS-4004", FALLBACK);
     Assert.assertEquals("Hipstreet LS-4004", result);
 }
-public void testDevice7546() throws Exception {
+public void testDevice7547() throws Exception {
     final String result = DeviceNames.getDeviceName("Primo73", FALLBACK);
     Assert.assertEquals("MSI Primo73", result);
 }
-public void testDevice7547() throws Exception {
+public void testDevice7548() throws Exception {
     final String result = DeviceNames.getDeviceName("EGS004", FALLBACK);
     Assert.assertEquals("Anydata ematic EGS004", result);
 }
-public void testDevice7548() throws Exception {
+public void testDevice7549() throws Exception {
     final String result = DeviceNames.getDeviceName("Primo76", FALLBACK);
     Assert.assertEquals("MSI Primo76", result);
 }
-public void testDevice7549() throws Exception {
+public void testDevice7550() throws Exception {
     final String result = DeviceNames.getDeviceName("HTX21", FALLBACK);
     Assert.assertEquals("HTC KDDI Infobar A02", result);
 }
-public void testDevice7550() throws Exception {
+public void testDevice7551() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC 0P9C8", FALLBACK);
     Assert.assertEquals("HTC 0P9C8", result);
 }
-public void testDevice7551() throws Exception {
+public void testDevice7552() throws Exception {
     final String result = DeviceNames.getDeviceName("ILIUM L950", FALLBACK);
     Assert.assertEquals("Lanix ILIUM L950", result);
 }
-public void testDevice7552() throws Exception {
+public void testDevice7553() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC One_M8", FALLBACK);
     Assert.assertEquals("HTC One (M8)", result);
 }
-public void testDevice7553() throws Exception {
+public void testDevice7554() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6790L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7554() throws Exception {
+public void testDevice7555() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6790N", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7555() throws Exception {
+public void testDevice7556() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P999", FALLBACK);
     Assert.assertEquals("LG G2X P999", result);
 }
-public void testDevice7556() throws Exception {
+public void testDevice7557() throws Exception {
     final String result = DeviceNames.getDeviceName("Tostab03", FALLBACK);
     Assert.assertEquals("Toshiba AT100", result);
 }
-public void testDevice7557() throws Exception {
+public void testDevice7558() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL J738M", FALLBACK);
     Assert.assertEquals("TCL 738M", result);
 }
-public void testDevice7558() throws Exception {
+public void testDevice7559() throws Exception {
     final String result = DeviceNames.getDeviceName("Life", FALLBACK);
     Assert.assertEquals("NGM Italia SRL LIFE", result);
 }
-public void testDevice7559() throws Exception {
+public void testDevice7560() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G350E", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Star2 Plus", result);
 }
-public void testDevice7560() throws Exception {
+public void testDevice7561() throws Exception {
     final String result = DeviceNames.getDeviceName("Aster", FALLBACK);
     Assert.assertEquals("Vertu Aster", result);
 }
-public void testDevice7561() throws Exception {
+public void testDevice7562() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G350M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Plus", result);
 }
-public void testDevice7562() throws Exception {
+public void testDevice7563() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G930T1", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S7", result);
 }
-public void testDevice7563() throws Exception {
+public void testDevice7564() throws Exception {
     final String result = DeviceNames.getDeviceName("LED55K600A3D", FALLBACK);
     Assert.assertEquals("Hisense LED55K600A3D", result);
 }
-public void testDevice7564() throws Exception {
+public void testDevice7565() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 55 Helium Plus", FALLBACK);
     Assert.assertEquals("Archos 55 Helium Plus", result);
 }
-public void testDevice7565() throws Exception {
+public void testDevice7566() throws Exception {
     final String result = DeviceNames.getDeviceName("10DTB42", FALLBACK);
     Assert.assertEquals("Hipstreet Pilot", result);
 }
-public void testDevice7566() throws Exception {
+public void testDevice7567() throws Exception {
     final String result = DeviceNames.getDeviceName("10DTB44", FALLBACK);
     Assert.assertEquals("Hipstreet Phantom2", result);
 }
-public void testDevice7567() throws Exception {
+public void testDevice7568() throws Exception {
     final String result = DeviceNames.getDeviceName("LG Watch Urbane", FALLBACK);
     Assert.assertEquals("LG Watch Urbane 2nd Edition LTE", result);
 }
-public void testDevice7568() throws Exception {
+public void testDevice7569() throws Exception {
     final String result = DeviceNames.getDeviceName("LGLS751", FALLBACK);
     Assert.assertEquals("LG Volt II", result);
 }
-public void testDevice7569() throws Exception {
+public void testDevice7570() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G730-U00", FALLBACK);
     Assert.assertEquals("Huawei G730", result);
 }
-public void testDevice7570() throws Exception {
+public void testDevice7571() throws Exception {
     final String result = DeviceNames.getDeviceName("SPH-M840", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Prevail 2", result);
 }
-public void testDevice7571() throws Exception {
+public void testDevice7572() throws Exception {
     final String result = DeviceNames.getDeviceName("M3s", FALLBACK);
     Assert.assertEquals("CZ Electronics M3s", result);
 }
-public void testDevice7572() throws Exception {
+public void testDevice7573() throws Exception {
     final String result = DeviceNames.getDeviceName("S8-303LT", FALLBACK);
     Assert.assertEquals("HUAWEI MediaPad M1 8.0", result);
 }
-public void testDevice7573() throws Exception {
+public void testDevice7574() throws Exception {
     final String result = DeviceNames.getDeviceName("PantechP4100", FALLBACK);
     Assert.assertEquals("Pantech Element", result);
 }
-public void testDevice7574() throws Exception {
+public void testDevice7575() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 6010X-orange", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 6010X", result);
 }
-public void testDevice7575() throws Exception {
+public void testDevice7576() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3502", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Plus", result);
 }
-public void testDevice7576() throws Exception {
+public void testDevice7577() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I537", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Active", result);
 }
-public void testDevice7577() throws Exception {
+public void testDevice7578() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-X6T", FALLBACK);
     Assert.assertEquals("Hisense HS-X6T", result);
 }
-public void testDevice7578() throws Exception {
+public void testDevice7579() throws Exception {
     final String result = DeviceNames.getDeviceName("Fly IQ4602", FALLBACK);
     Assert.assertEquals("Fly IQ4602", result);
 }
-public void testDevice7579() throws Exception {
+public void testDevice7580() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3508", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Trend3", result);
 }
-public void testDevice7580() throws Exception {
+public void testDevice7581() throws Exception {
     final String result = DeviceNames.getDeviceName("LED32K360", FALLBACK);
     Assert.assertEquals("Hisense LED32K360", result);
 }
-public void testDevice7581() throws Exception {
+public void testDevice7582() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G628-TL00", FALLBACK);
     Assert.assertEquals("Huawei G628", result);
 }
-public void testDevice7582() throws Exception {
+public void testDevice7583() throws Exception {
     final String result = DeviceNames.getDeviceName("M3-2200", FALLBACK);
     Assert.assertEquals("Acer M3-2200", result);
 }
-public void testDevice7583() throws Exception {
+public void testDevice7584() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T2519", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab Q", result);
 }
-public void testDevice7584() throws Exception {
+public void testDevice7585() throws Exception {
     final String result = DeviceNames.getDeviceName("LS-4008", FALLBACK);
     Assert.assertEquals("Reliance LS-4008", result);
 }
-public void testDevice7585() throws Exception {
+public void testDevice7586() throws Exception {
     final String result = DeviceNames.getDeviceName("CJ-1984", FALLBACK);
     Assert.assertEquals("Cellon CJ-1984", result);
 }
-public void testDevice7586() throws Exception {
+public void testDevice7587() throws Exception {
     final String result = DeviceNames.getDeviceName("M3S", FALLBACK);
     Assert.assertEquals("Gionee M3S", result);
 }
-public void testDevice7587() throws Exception {
+public void testDevice7588() throws Exception {
     final String result = DeviceNames.getDeviceName("H7", FALLBACK);
     Assert.assertEquals("Hisense Vidaa", result);
 }
-public void testDevice7588() throws Exception {
+public void testDevice7589() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-B7810", FALLBACK);
     Assert.assertEquals("Samsung Galaxy M Pro2", result);
 }
-public void testDevice7589() throws Exception {
+public void testDevice7590() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G630-U251", FALLBACK);
     Assert.assertEquals("Huawei G630", result);
 }
-public void testDevice7590() throws Exception {
+public void testDevice7591() throws Exception {
     final String result = DeviceNames.getDeviceName("PLT7649G", FALLBACK);
     Assert.assertEquals("Proscan PLT7649G", result);
 }
-public void testDevice7591() throws Exception {
+public void testDevice7592() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC D728w", FALLBACK);
     Assert.assertEquals("HTC D728w", result);
 }
-public void testDevice7592() throws Exception {
+public void testDevice7593() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL A995L", FALLBACK);
     Assert.assertEquals("POP S9", result);
 }
-public void testDevice7593() throws Exception {
+public void testDevice7594() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 50 Oxygen Plus", FALLBACK);
     Assert.assertEquals("Archos 50 Oxygen plus", result);
 }
-public void testDevice7594() throws Exception {
+public void testDevice7595() throws Exception {
     final String result = DeviceNames.getDeviceName("QTAQZ3", FALLBACK);
     Assert.assertEquals("Verizon Wireless Ellipsis 8", result);
 }
-public void testDevice7595() throws Exception {
+public void testDevice7596() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N915FY", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note Edge", result);
 }
-public void testDevice7596() throws Exception {
+public void testDevice7597() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E270L", FALLBACK);
     Assert.assertEquals("Samsung Baffin", result);
 }
-public void testDevice7597() throws Exception {
+public void testDevice7598() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade Q Lux 3G", FALLBACK);
     Assert.assertEquals("ZTE Blade Q Lux", result);
 }
-public void testDevice7598() throws Exception {
+public void testDevice7599() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G318H", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace4 Lite", result);
 }
-public void testDevice7599() throws Exception {
+public void testDevice7600() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_D816d", FALLBACK);
     Assert.assertEquals("HTC D816d", result);
 }
-public void testDevice7600() throws Exception {
+public void testDevice7601() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I957D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 8.9", result);
 }
-public void testDevice7601() throws Exception {
+public void testDevice7602() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-EG966", FALLBACK);
     Assert.assertEquals("Hisense HS-EG966", result);
 }
-public void testDevice7602() throws Exception {
+public void testDevice7603() throws Exception {
     final String result = DeviceNames.getDeviceName("SK17i", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia mini pro", result);
 }
-public void testDevice7603() throws Exception {
+public void testDevice7604() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I957M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 8.9", result);
 }
-public void testDevice7604() throws Exception {
+public void testDevice7605() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T989D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S II", result);
 }
-public void testDevice7605() throws Exception {
+public void testDevice7606() throws Exception {
     final String result = DeviceNames.getDeviceName("STUDIO ENERGY 2", FALLBACK);
     Assert.assertEquals("Blu SUTDIO ENERGY 2", result);
 }
-public void testDevice7606() throws Exception {
+public void testDevice7607() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I957R", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 8.9", result);
 }
-public void testDevice7607() throws Exception {
+public void testDevice7608() throws Exception {
     final String result = DeviceNames.getDeviceName("Hashtag", FALLBACK);
     Assert.assertEquals("AG Mobile HASHTAG", result);
 }
-public void testDevice7608() throws Exception {
+public void testDevice7609() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-I110", FALLBACK);
     Assert.assertEquals("Samsung Illusion", result);
 }
-public void testDevice7609() throws Exception {
+public void testDevice7610() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_D816x", FALLBACK);
     Assert.assertEquals("HTC Desire 816", result);
 }
-public void testDevice7610() throws Exception {
+public void testDevice7611() throws Exception {
     final String result = DeviceNames.getDeviceName("Tele2_Mini", FALLBACK);
     Assert.assertEquals("Tele2 Mini", result);
 }
-public void testDevice7611() throws Exception {
+public void testDevice7612() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y560-U02", FALLBACK);
     Assert.assertEquals("Huawei Y560", result);
 }
-public void testDevice7612() throws Exception {
+public void testDevice7613() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y560-U03", FALLBACK);
     Assert.assertEquals("HUAWEI Y5", result);
 }
-public void testDevice7613() throws Exception {
+public void testDevice7614() throws Exception {
     final String result = DeviceNames.getDeviceName("SBM203SH", FALLBACK);
     Assert.assertEquals("Sharp SoftBank AQUOS PHONE Xx 203SH", result);
 }
-public void testDevice7614() throws Exception {
+public void testDevice7615() throws Exception {
     final String result = DeviceNames.getDeviceName("sico pro", FALLBACK);
     Assert.assertEquals("Sico SmartPhone SSR1-5-8M", result);
 }
-public void testDevice7615() throws Exception {
+public void testDevice7616() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A300XU", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A3", result);
 }
-public void testDevice7616() throws Exception {
+public void testDevice7617() throws Exception {
     final String result = DeviceNames.getDeviceName("AS870 4G", FALLBACK);
     Assert.assertEquals("LG Optimus F5", result);
 }
-public void testDevice7617() throws Exception {
+public void testDevice7618() throws Exception {
     final String result = DeviceNames.getDeviceName("VP800", FALLBACK);
     Assert.assertEquals("Foxconn vizio VP800", result);
 }
-public void testDevice7618() throws Exception {
+public void testDevice7619() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 601", FALLBACK);
     Assert.assertEquals("HTC Desire 601", result);
 }
-public void testDevice7619() throws Exception {
+public void testDevice7620() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 600", FALLBACK);
     Assert.assertEquals("HTC Desire 600", result);
 }
-public void testDevice7620() throws Exception {
+public void testDevice7621() throws Exception {
     final String result = DeviceNames.getDeviceName("D2305", FALLBACK);
     Assert.assertEquals("Sony Xperia M2", result);
 }
-public void testDevice7621() throws Exception {
+public void testDevice7622() throws Exception {
     final String result = DeviceNames.getDeviceName("D2306", FALLBACK);
     Assert.assertEquals("Sony Xperia M2", result);
 }
-public void testDevice7622() throws Exception {
+public void testDevice7623() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 45 Neon", FALLBACK);
     Assert.assertEquals("Archos 45 Neon", result);
 }
-public void testDevice7623() throws Exception {
+public void testDevice7624() throws Exception {
     final String result = DeviceNames.getDeviceName("D2302", FALLBACK);
     Assert.assertEquals("Sony Xperia M2", result);
 }
-public void testDevice7624() throws Exception {
+public void testDevice7625() throws Exception {
     final String result = DeviceNames.getDeviceName("D2303", FALLBACK);
     Assert.assertEquals("Sony Xperia M2", result);
 }
-public void testDevice7625() throws Exception {
+public void testDevice7626() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y530", FALLBACK);
     Assert.assertEquals("Huawei Y530", result);
 }
-public void testDevice7626() throws Exception {
+public void testDevice7627() throws Exception {
     final String result = DeviceNames.getDeviceName("USCC-E6762", FALLBACK);
     Assert.assertEquals("Kyocera DuraForce", result);
 }
-public void testDevice7627() throws Exception {
+public void testDevice7628() throws Exception {
     final String result = DeviceNames.getDeviceName("K97", FALLBACK);
     Assert.assertEquals("ZTE K97", result);
 }
-public void testDevice7628() throws Exception {
+public void testDevice7629() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Geek 2 pro", FALLBACK);
     Assert.assertEquals("ZTE Geek 2 pro", result);
 }
-public void testDevice7629() throws Exception {
+public void testDevice7630() throws Exception {
     final String result = DeviceNames.getDeviceName("SGP351", FALLBACK);
     Assert.assertEquals("Sony Xperia Tablet Z", result);
 }
-public void testDevice7630() throws Exception {
+public void testDevice7631() throws Exception {
     final String result = DeviceNames.getDeviceName("TR10RS1", FALLBACK);
     Assert.assertEquals("ECS TR10RS1", result);
 }
-public void testDevice7631() throws Exception {
+public void testDevice7632() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G318MZ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace4 Lite", result);
 }
-public void testDevice7632() throws Exception {
+public void testDevice7633() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo TAB 2 A8-50LC", FALLBACK);
     Assert.assertEquals("Lenovo A8", result);
 }
-public void testDevice7633() throws Exception {
+public void testDevice7634() throws Exception {
     final String result = DeviceNames.getDeviceName("Positivo BGH 7Di-A", FALLBACK);
     Assert.assertEquals("Positivo BGH Y210", result);
 }
-public void testDevice7634() throws Exception {
+public void testDevice7635() throws Exception {
     final String result = DeviceNames.getDeviceName("F-08D", FALLBACK);
     Assert.assertEquals("Fujitsu Disney Mobile on docomo F-08D", result);
 }
-public void testDevice7635() throws Exception {
+public void testDevice7636() throws Exception {
     final String result = DeviceNames.getDeviceName("F-08E", FALLBACK);
     Assert.assertEquals("Fujitsu Raku-Raku SMART PHONE2 F-08E", result);
 }
-public void testDevice7636() throws Exception {
+public void testDevice7637() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G318ML", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace4 Lite", result);
 }
-public void testDevice7637() throws Exception {
+public void testDevice7638() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI C8812", FALLBACK);
     Assert.assertEquals("Huawei C8812", result);
 }
-public void testDevice7638() throws Exception {
+public void testDevice7639() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI C8816", FALLBACK);
     Assert.assertEquals("Huawei C8816", result);
 }
-public void testDevice7639() throws Exception {
+public void testDevice7640() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI C8815", FALLBACK);
     Assert.assertEquals("Huawei C8815", result);
 }
-public void testDevice7640() throws Exception {
+public void testDevice7641() throws Exception {
     final String result = DeviceNames.getDeviceName("CINK SLIM", FALLBACK);
     Assert.assertEquals("Enspert CINK SLIM", result);
 }
-public void testDevice7641() throws Exception {
+public void testDevice7642() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC 9088", FALLBACK);
     Assert.assertEquals("HTC 9088", result);
 }
-public void testDevice7642() throws Exception {
+public void testDevice7643() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI C8818", FALLBACK);
     Assert.assertEquals("Huawei C8818", result);
 }
-public void testDevice7643() throws Exception {
+public void testDevice7644() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6790E", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7644() throws Exception {
+public void testDevice7645() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo Xplay5A", FALLBACK);
     Assert.assertEquals("Vivo Xplay5A", result);
 }
-public void testDevice7645() throws Exception {
+public void testDevice7646() throws Exception {
     final String result = DeviceNames.getDeviceName("E2281CA", FALLBACK);
     Assert.assertEquals("Hisense Sero 8", result);
 }
-public void testDevice7646() throws Exception {
+public void testDevice7647() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-C105A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Zoom", result);
 }
-public void testDevice7647() throws Exception {
+public void testDevice7648() throws Exception {
     final String result = DeviceNames.getDeviceName("Nexus S 4G", FALLBACK);
     Assert.assertEquals("Samsung Nexus S", result);
 }
-public void testDevice7648() throws Exception {
+public void testDevice7649() throws Exception {
     final String result = DeviceNames.getDeviceName("Elite7QL", FALLBACK);
     Assert.assertEquals("Visual Land Prestige Elite7QL", result);
 }
-public void testDevice7649() throws Exception {
+public void testDevice7650() throws Exception {
     final String result = DeviceNames.getDeviceName("Elite7QS", FALLBACK);
     Assert.assertEquals("Visual Land Prestige Elite7QS", result);
 }
-public void testDevice7650() throws Exception {
+public void testDevice7651() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G5108", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Max", result);
 }
-public void testDevice7651() throws Exception {
+public void testDevice7652() throws Exception {
     final String result = DeviceNames.getDeviceName("Hisense L682", FALLBACK);
     Assert.assertEquals("Hisense L682", result);
 }
-public void testDevice7652() throws Exception {
+public void testDevice7653() throws Exception {
     final String result = DeviceNames.getDeviceName("P300", FALLBACK);
     Assert.assertEquals("Micromax P300", result);
 }
-public void testDevice7653() throws Exception {
+public void testDevice7654() throws Exception {
     final String result = DeviceNames.getDeviceName("T1060", FALLBACK);
     Assert.assertEquals("Positivo T1060", result);
 }
-public void testDevice7654() throws Exception {
+public void testDevice7655() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC M9w", FALLBACK);
     Assert.assertEquals("HTC M9w", result);
 }
-public void testDevice7655() throws Exception {
+public void testDevice7656() throws Exception {
     final String result = DeviceNames.getDeviceName("TX201LAF", FALLBACK);
     Assert.assertEquals("Asus TX201LAF", result);
 }
-public void testDevice7656() throws Exception {
+public void testDevice7657() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SGH-I257", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Mini", result);
 }
-public void testDevice7657() throws Exception {
+public void testDevice7658() throws Exception {
     final String result = DeviceNames.getDeviceName("A40C", FALLBACK);
     Assert.assertEquals("Azumi A40C", result);
 }
-public void testDevice7658() throws Exception {
+public void testDevice7659() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 7251", FALLBACK);
     Assert.assertEquals("Coolpad 7251", result);
 }
-public void testDevice7659() throws Exception {
+public void testDevice7660() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo V3Lite", FALLBACK);
     Assert.assertEquals("Vivo V3Lite", result);
 }
-public void testDevice7660() throws Exception {
+public void testDevice7661() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G350L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Plus", result);
 }
-public void testDevice7661() throws Exception {
+public void testDevice7662() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E500S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Win", result);
 }
-public void testDevice7662() throws Exception {
+public void testDevice7663() throws Exception {
     final String result = DeviceNames.getDeviceName("Che2-TL00M", FALLBACK);
     Assert.assertEquals("Huawei Che2", result);
 }
-public void testDevice7663() throws Exception {
+public void testDevice7664() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E500L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Win", result);
 }
-public void testDevice7664() throws Exception {
+public void testDevice7665() throws Exception {
     final String result = DeviceNames.getDeviceName("Graphos A10", FALLBACK);
     Assert.assertEquals("Olivetti Graphos A10", result);
 }
-public void testDevice7665() throws Exception {
+public void testDevice7666() throws Exception {
     final String result = DeviceNames.getDeviceName("Che2-TL00H", FALLBACK);
     Assert.assertEquals("Huawei Che2", result);
 }
-public void testDevice7666() throws Exception {
+public void testDevice7667() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-LU6500", FALLBACK);
     Assert.assertEquals("LG Optimus Q2", result);
 }
-public void testDevice7667() throws Exception {
+public void testDevice7668() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R970", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4", result);
 }
-public void testDevice7668() throws Exception {
+public void testDevice7669() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-P7500D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 10.1", result);
 }
-public void testDevice7669() throws Exception {
+public void testDevice7670() throws Exception {
     final String result = DeviceNames.getDeviceName("W6500", FALLBACK);
     Assert.assertEquals("Philips W6500", result);
 }
-public void testDevice7670() throws Exception {
+public void testDevice7671() throws Exception {
     final String result = DeviceNames.getDeviceName("BLU NEO ENERGY MINI", FALLBACK);
     Assert.assertEquals("Blu NEO ENERGY MINI", result);
 }
-public void testDevice7671() throws Exception {
+public void testDevice7672() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T705", FALLBACK);
     Assert.assertEquals("Samsung Galaxy TabS 8.4", result);
 }
-public void testDevice7672() throws Exception {
+public void testDevice7673() throws Exception {
     final String result = DeviceNames.getDeviceName("LED58K680X3DU", FALLBACK);
     Assert.assertEquals("Hisense LED58K680X3DU", result);
 }
-public void testDevice7673() throws Exception {
+public void testDevice7674() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G6-L22", FALLBACK);
     Assert.assertEquals("Huawei G6", result);
 }
-public void testDevice7674() throws Exception {
+public void testDevice7675() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T700", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S", result);
 }
-public void testDevice7675() throws Exception {
+public void testDevice7676() throws Exception {
     final String result = DeviceNames.getDeviceName("Milestone", FALLBACK);
     Assert.assertEquals("Motorola Droid", result);
 }
-public void testDevice7676() throws Exception {
+public void testDevice7677() throws Exception {
     final String result = DeviceNames.getDeviceName("T-Mobile_myTouch_Q", FALLBACK);
     Assert.assertEquals("T-Mobile myTouch Q", result);
 }
-public void testDevice7677() throws Exception {
+public void testDevice7678() throws Exception {
     final String result = DeviceNames.getDeviceName("MB200", FALLBACK);
     Assert.assertEquals("Motorola CLIQ", result);
 }
-public void testDevice7678() throws Exception {
+public void testDevice7679() throws Exception {
     final String result = DeviceNames.getDeviceName("MiBOX2", FALLBACK);
     Assert.assertEquals("Xiaomi MiBOX2", result);
 }
-public void testDevice7679() throws Exception {
+public void testDevice7680() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-P7503", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 10.1", result);
 }
-public void testDevice7680() throws Exception {
+public void testDevice7681() throws Exception {
     final String result = DeviceNames.getDeviceName("F270BW", FALLBACK);
     Assert.assertEquals("Hisense F270BW", result);
 }
-public void testDevice7681() throws Exception {
+public void testDevice7682() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-P7501", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 10.1 N", result);
 }
-public void testDevice7682() throws Exception {
+public void testDevice7683() throws Exception {
     final String result = DeviceNames.getDeviceName("CT820", FALLBACK);
     Assert.assertEquals("Carrefour CT820", result);
 }
-public void testDevice7683() throws Exception {
+public void testDevice7684() throws Exception {
     final String result = DeviceNames.getDeviceName("P2M", FALLBACK);
     Assert.assertEquals("Gionee P2M", result);
 }
-public void testDevice7684() throws Exception {
+public void testDevice7685() throws Exception {
     final String result = DeviceNames.getDeviceName("VS890 4G", FALLBACK);
     Assert.assertEquals("LG Enact", result);
 }
-public void testDevice7685() throws Exception {
+public void testDevice7686() throws Exception {
     final String result = DeviceNames.getDeviceName("LS-5017", FALLBACK);
     Assert.assertEquals("Hipstreet LS-5017", result);
 }
-public void testDevice7686() throws Exception {
+public void testDevice7687() throws Exception {
     final String result = DeviceNames.getDeviceName("CT825", FALLBACK);
     Assert.assertEquals("Haier CT825", result);
 }
-public void testDevice7687() throws Exception {
+public void testDevice7688() throws Exception {
     final String result = DeviceNames.getDeviceName("CT826", FALLBACK);
     Assert.assertEquals("Carrefour CT826", result);
 }
-public void testDevice7688() throws Exception {
+public void testDevice7689() throws Exception {
     final String result = DeviceNames.getDeviceName("T1-701ua", FALLBACK);
     Assert.assertEquals("Huawei MediaPad", result);
 }
-public void testDevice7689() throws Exception {
+public void testDevice7690() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-i509", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Y", result);
 }
-public void testDevice7690() throws Exception {
+public void testDevice7691() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V817", FALLBACK);
     Assert.assertEquals("ZTE V817", result);
 }
-public void testDevice7691() throws Exception {
+public void testDevice7692() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P705f", FALLBACK);
     Assert.assertEquals("LG Optimus L7", result);
 }
-public void testDevice7692() throws Exception {
+public void testDevice7693() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P705g", FALLBACK);
     Assert.assertEquals("LG Optimus L7", result);
 }
-public void testDevice7693() throws Exception {
+public void testDevice7694() throws Exception {
     final String result = DeviceNames.getDeviceName("MTC 982", FALLBACK);
     Assert.assertEquals("Vodafone 785", result);
 }
-public void testDevice7694() throws Exception {
+public void testDevice7695() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI CRR-UL20", FALLBACK);
     Assert.assertEquals("Huawei Mate S", result);
 }
-public void testDevice7695() throws Exception {
+public void testDevice7696() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V818", FALLBACK);
     Assert.assertEquals("ZTE V818", result);
 }
-public void testDevice7696() throws Exception {
+public void testDevice7697() throws Exception {
     final String result = DeviceNames.getDeviceName("5098S", FALLBACK);
     Assert.assertEquals("5098S", result);
 }
-public void testDevice7697() throws Exception {
+public void testDevice7698() throws Exception {
     final String result = DeviceNames.getDeviceName("9005X", FALLBACK);
     Assert.assertEquals("9005X", result);
 }
-public void testDevice7698() throws Exception {
+public void testDevice7699() throws Exception {
     final String result = DeviceNames.getDeviceName("U8100", FALLBACK);
     Assert.assertEquals("Huawei T-Mobile Pulse", result);
 }
-public void testDevice7699() throws Exception {
+public void testDevice7700() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I717", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note", result);
 }
-public void testDevice7700() throws Exception {
+public void testDevice7701() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S720", FALLBACK);
     Assert.assertEquals("Lenovo S720", result);
 }
-public void testDevice7701() throws Exception {
+public void testDevice7702() throws Exception {
     final String result = DeviceNames.getDeviceName("V75", FALLBACK);
     Assert.assertEquals("SYMPHONY V75", result);
 }
-public void testDevice7702() throws Exception {
+public void testDevice7703() throws Exception {
     final String result = DeviceNames.getDeviceName("MicromaxP680", FALLBACK);
     Assert.assertEquals("Micromax Canvas tab", result);
 }
-public void testDevice7703() throws Exception {
+public void testDevice7704() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONETOUCH 6032A", FALLBACK);
     Assert.assertEquals("ALCATEL ONETOUCH 6032A", result);
 }
-public void testDevice7704() throws Exception {
+public void testDevice7705() throws Exception {
     final String result = DeviceNames.getDeviceName("Y635-L01", FALLBACK);
     Assert.assertEquals("Huawei Y635", result);
 }
-public void testDevice7705() throws Exception {
+public void testDevice7706() throws Exception {
     final String result = DeviceNames.getDeviceName("LaVieTab PC-TE508S1", FALLBACK);
     Assert.assertEquals("NEC LaVieTab PC-TE508S1W/LaVieTab PC", result);
 }
-public void testDevice7706() throws Exception {
+public void testDevice7707() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade Q Lux", FALLBACK);
     Assert.assertEquals("ZTE Blade Q Lux", result);
 }
-public void testDevice7707() throws Exception {
+public void testDevice7708() throws Exception {
     final String result = DeviceNames.getDeviceName("E310", FALLBACK);
     Assert.assertEquals("Acer Liquid Mini", result);
 }
-public void testDevice7708() throws Exception {
+public void testDevice7709() throws Exception {
     final String result = DeviceNames.getDeviceName("P6_eMagic", FALLBACK);
     Assert.assertEquals("AllView P6 eMagic", result);
 }
-public void testDevice7709() throws Exception {
+public void testDevice7710() throws Exception {
     final String result = DeviceNames.getDeviceName("arc 7", FALLBACK);
     Assert.assertEquals("Kobo Arc 7", result);
 }
-public void testDevice7710() throws Exception {
+public void testDevice7711() throws Exception {
     final String result = DeviceNames.getDeviceName("Gravity", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S3", result);
 }
-public void testDevice7711() throws Exception {
+public void testDevice7712() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE X850", FALLBACK);
     Assert.assertEquals("ZTE Racer", result);
 }
-public void testDevice7712() throws Exception {
+public void testDevice7713() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T859", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 10.1", result);
 }
-public void testDevice7713() throws Exception {
+public void testDevice7714() throws Exception {
     final String result = DeviceNames.getDeviceName("L-ITE 502 PLUS", FALLBACK);
     Assert.assertEquals("Logicom L-ITE 502 PLUS", result);
 }
-public void testDevice7714() throws Exception {
+public void testDevice7715() throws Exception {
     final String result = DeviceNames.getDeviceName("LNV-Lenovo A380e", FALLBACK);
     Assert.assertEquals("Lenovo A380e", result);
 }
-public void testDevice7715() throws Exception {
+public void testDevice7716() throws Exception {
     final String result = DeviceNames.getDeviceName("F103L", FALLBACK);
     Assert.assertEquals("Gionee F103L", result);
 }
-public void testDevice7716() throws Exception {
+public void testDevice7717() throws Exception {
     final String result = DeviceNames.getDeviceName("EB-L76G-B", FALLBACK);
     Assert.assertEquals("Sharp Media Tablet", result);
 }
-public void testDevice7717() throws Exception {
+public void testDevice7718() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T699", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S Relay", result);
 }
-public void testDevice7718() throws Exception {
+public void testDevice7719() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T325", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab Pro 8.4", result);
 }
-public void testDevice7719() throws Exception {
+public void testDevice7720() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo P70-t", FALLBACK);
     Assert.assertEquals("Lenovo P70", result);
 }
-public void testDevice7720() throws Exception {
+public void testDevice7721() throws Exception {
     final String result = DeviceNames.getDeviceName("MID7055", FALLBACK);
     Assert.assertEquals("Anydata COBY MID7055", result);
 }
-public void testDevice7721() throws Exception {
+public void testDevice7722() throws Exception {
     final String result = DeviceNames.getDeviceName("Hisense M20-T", FALLBACK);
     Assert.assertEquals("Hisense M20- T", result);
 }
-public void testDevice7722() throws Exception {
+public void testDevice7723() throws Exception {
     final String result = DeviceNames.getDeviceName("M2mini", FALLBACK);
     Assert.assertEquals("Gionee M2mini", result);
 }
-public void testDevice7723() throws Exception {
+public void testDevice7724() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I467M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 8.0", result);
 }
-public void testDevice7724() throws Exception {
+public void testDevice7725() throws Exception {
     final String result = DeviceNames.getDeviceName("R7t", FALLBACK);
     Assert.assertEquals("Oppo R7t", result);
 }
-public void testDevice7725() throws Exception {
+public void testDevice7726() throws Exception {
     final String result = DeviceNames.getDeviceName("VFD 1400", FALLBACK);
     Assert.assertEquals("Vodafone Tab Prime 7", result);
 }
-public void testDevice7726() throws Exception {
+public void testDevice7727() throws Exception {
     final String result = DeviceNames.getDeviceName("F103S", FALLBACK);
     Assert.assertEquals("Gionee F103S", result);
 }
-public void testDevice7727() throws Exception {
+public void testDevice7728() throws Exception {
     final String result = DeviceNames.getDeviceName("LBOX500", FALLBACK);
     Assert.assertEquals("Lexibook Playdroid", result);
 }
-public void testDevice7728() throws Exception {
+public void testDevice7729() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G530R7", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand Prime", result);
 }
-public void testDevice7729() throws Exception {
+public void testDevice7730() throws Exception {
     final String result = DeviceNames.getDeviceName("E5643", FALLBACK);
     Assert.assertEquals("Sony Xperia M5 Dual", result);
 }
-public void testDevice7730() throws Exception {
+public void testDevice7731() throws Exception {
     final String result = DeviceNames.getDeviceName("4033L", FALLBACK);
     Assert.assertEquals("ONE TOUCH 4033X", result);
 }
-public void testDevice7731() throws Exception {
+public void testDevice7732() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F100S", FALLBACK);
     Assert.assertEquals("LG Optimus Vu", result);
 }
-public void testDevice7732() throws Exception {
+public void testDevice7733() throws Exception {
     final String result = DeviceNames.getDeviceName("TM1088", FALLBACK);
     Assert.assertEquals("Nuvision TM1088", result);
 }
-public void testDevice7733() throws Exception {
+public void testDevice7734() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F100L", FALLBACK);
     Assert.assertEquals("LG Optimus Vu", result);
 }
-public void testDevice7734() throws Exception {
+public void testDevice7735() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-N8013", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 10.1", result);
 }
-public void testDevice7735() throws Exception {
+public void testDevice7736() throws Exception {
     final String result = DeviceNames.getDeviceName("L681", FALLBACK);
     Assert.assertEquals("Hisense L681", result);
 }
-public void testDevice7736() throws Exception {
+public void testDevice7737() throws Exception {
     final String result = DeviceNames.getDeviceName("XT320", FALLBACK);
     Assert.assertEquals("Motorola Defy Mini", result);
 }
-public void testDevice7737() throws Exception {
+public void testDevice7738() throws Exception {
     final String result = DeviceNames.getDeviceName("XT321", FALLBACK);
     Assert.assertEquals("Motorola Defy Mini", result);
 }
-public void testDevice7738() throws Exception {
+public void testDevice7739() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE A2015", FALLBACK);
     Assert.assertEquals("ZTE A2015", result);
 }
-public void testDevice7739() throws Exception {
+public void testDevice7740() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-G925A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice7740() throws Exception {
+public void testDevice7741() throws Exception {
     final String result = DeviceNames.getDeviceName("google_sdk", FALLBACK);
     Assert.assertEquals("Android Emulator", result);
 }
-public void testDevice7741() throws Exception {
+public void testDevice7742() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6812C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7742() throws Exception {
+public void testDevice7743() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_S710E", FALLBACK);
     Assert.assertEquals("HTC Incredible S", result);
 }
-public void testDevice7743() throws Exception {
+public void testDevice7744() throws Exception {
     final String result = DeviceNames.getDeviceName("F105", FALLBACK);
     Assert.assertEquals("Gionee F105", result);
 }
-public void testDevice7744() throws Exception {
+public void testDevice7745() throws Exception {
     final String result = DeviceNames.getDeviceName("Onliner4", FALLBACK);
     Assert.assertEquals("Explay Onliner 4", result);
 }
-public void testDevice7745() throws Exception {
+public void testDevice7746() throws Exception {
     final String result = DeviceNames.getDeviceName("F103", FALLBACK);
     Assert.assertEquals("Gionee F103", result);
 }
-public void testDevice7746() throws Exception {
+public void testDevice7747() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E610", FALLBACK);
     Assert.assertEquals("LG Optimus L5", result);
 }
-public void testDevice7747() throws Exception {
+public void testDevice7748() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G530FZ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand Prime", result);
 }
-public void testDevice7748() throws Exception {
+public void testDevice7749() throws Exception {
     final String result = DeviceNames.getDeviceName("Bush 10.0 MyTablet", FALLBACK);
     Assert.assertEquals("Archos Bush 10.0 MyTablet", result);
 }
-public void testDevice7749() throws Exception {
+public void testDevice7750() throws Exception {
     final String result = DeviceNames.getDeviceName("OPPO A37tm", FALLBACK);
     Assert.assertEquals("OPPO A37tm", result);
 }
-public void testDevice7750() throws Exception {
+public void testDevice7751() throws Exception {
     final String result = DeviceNames.getDeviceName("0PCV1", FALLBACK);
     Assert.assertEquals("HTC Desire 510", result);
 }
-public void testDevice7751() throws Exception {
+public void testDevice7752() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4503 Quad", FALLBACK);
     Assert.assertEquals("Fly IQ4503 Quad", result);
 }
-public void testDevice7752() throws Exception {
+public void testDevice7753() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3509", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Trend3", result);
 }
-public void testDevice7753() throws Exception {
+public void testDevice7754() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire X dual sim", FALLBACK);
     Assert.assertEquals("HTC Desire X dual sim", result);
 }
-public void testDevice7754() throws Exception {
+public void testDevice7755() throws Exception {
     final String result = DeviceNames.getDeviceName("LED42K330X3D", FALLBACK);
     Assert.assertEquals("Hisense LED42K330X3D", result);
 }
-public void testDevice7755() throws Exception {
+public void testDevice7756() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F340S", FALLBACK);
     Assert.assertEquals("LG G Flex", result);
 }
-public void testDevice7756() throws Exception {
+public void testDevice7757() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A710X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7(2016)", result);
 }
-public void testDevice7757() throws Exception {
+public void testDevice7758() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A710Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7(2016)", result);
 }
-public void testDevice7758() throws Exception {
+public void testDevice7759() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A710S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7(2016)", result);
 }
-public void testDevice7759() throws Exception {
+public void testDevice7760() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N9200", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7760() throws Exception {
+public void testDevice7761() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4513 Octa", FALLBACK);
     Assert.assertEquals("Fly IQ4513 Octa", result);
 }
-public void testDevice7761() throws Exception {
+public void testDevice7762() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J320FN", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J3(2016)", result);
 }
-public void testDevice7762() throws Exception {
+public void testDevice7763() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A710L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7(2016)", result);
 }
-public void testDevice7763() throws Exception {
+public void testDevice7764() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A710M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7(2016)", result);
 }
-public void testDevice7764() throws Exception {
+public void testDevice7765() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F340K", FALLBACK);
     Assert.assertEquals("LG G Flex", result);
 }
-public void testDevice7765() throws Exception {
+public void testDevice7766() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A710F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7(2016)", result);
 }
-public void testDevice7766() throws Exception {
+public void testDevice7767() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F340L", FALLBACK);
     Assert.assertEquals("LG G Flex", result);
 }
-public void testDevice7767() throws Exception {
+public void testDevice7768() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 6032X", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 6032X", result);
 }
-public void testDevice7768() throws Exception {
+public void testDevice7769() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL P631M", FALLBACK);
     Assert.assertEquals("TCL P631M", result);
 }
-public void testDevice7769() throws Exception {
+public void testDevice7770() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7770() throws Exception {
+public void testDevice7771() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920G", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7771() throws Exception {
+public void testDevice7772() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920I", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7772() throws Exception {
+public void testDevice7773() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A7100", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7(2016)", result);
 }
-public void testDevice7773() throws Exception {
+public void testDevice7774() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7774() throws Exception {
+public void testDevice7775() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7775() throws Exception {
+public void testDevice7776() throws Exception {
     final String result = DeviceNames.getDeviceName("E-Tab 4G", FALLBACK);
     Assert.assertEquals("Pegatron chagall", result);
 }
-public void testDevice7776() throws Exception {
+public void testDevice7777() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920P", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7777() throws Exception {
+public void testDevice7778() throws Exception {
     final String result = DeviceNames.getDeviceName("LED40K370", FALLBACK);
     Assert.assertEquals("Hisense LED40K370", result);
 }
-public void testDevice7778() throws Exception {
+public void testDevice7779() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7779() throws Exception {
+public void testDevice7780() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7780() throws Exception {
+public void testDevice7781() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice7781() throws Exception {
+public void testDevice7782() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-I589", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace Duos", result);
 }
-public void testDevice7782() throws Exception {
+public void testDevice7783() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 70 Copper", FALLBACK);
     Assert.assertEquals("Archos 70 Copper", result);
 }
-public void testDevice7783() throws Exception {
+public void testDevice7784() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A500F1", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A5", result);
 }
-public void testDevice7784() throws Exception {
+public void testDevice7785() throws Exception {
     final String result = DeviceNames.getDeviceName("AT100", FALLBACK);
     Assert.assertEquals("Toshiba AT100", result);
 }
-public void testDevice7785() throws Exception {
+public void testDevice7786() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC A9w", FALLBACK);
     Assert.assertEquals("HTC One A9", result);
 }
-public void testDevice7786() throws Exception {
+public void testDevice7787() throws Exception {
     final String result = DeviceNames.getDeviceName("NX513J", FALLBACK);
     Assert.assertEquals("ZTE NX513J", result);
 }
-public void testDevice7787() throws Exception {
+public void testDevice7788() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G610-C00", FALLBACK);
     Assert.assertEquals("Huawei G610C", result);
 }
-public void testDevice7788() throws Exception {
+public void testDevice7789() throws Exception {
     final String result = DeviceNames.getDeviceName("C6743", FALLBACK);
     Assert.assertEquals("Kyocera Hydro REACH", result);
 }
-public void testDevice7789() throws Exception {
+public void testDevice7790() throws Exception {
     final String result = DeviceNames.getDeviceName("C6742", FALLBACK);
     Assert.assertEquals("Kyocera Hydro VIEW", result);
 }
-public void testDevice7790() throws Exception {
+public void testDevice7791() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade A452", FALLBACK);
     Assert.assertEquals("ZTE Blade A452", result);
 }
-public void testDevice7791() throws Exception {
+public void testDevice7792() throws Exception {
     final String result = DeviceNames.getDeviceName("LT971", FALLBACK);
     Assert.assertEquals("hisense lt971", result);
 }
-public void testDevice7792() throws Exception {
+public void testDevice7793() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G620", FALLBACK);
     Assert.assertEquals("Huawei G620S", result);
 }
-public void testDevice7793() throws Exception {
+public void testDevice7794() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 997D", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 997D", result);
 }
-public void testDevice7794() throws Exception {
+public void testDevice7795() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F580L", FALLBACK);
     Assert.assertEquals("LG Gentle", result);
 }
-public void testDevice7795() throws Exception {
+public void testDevice7796() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 8705", FALLBACK);
     Assert.assertEquals("Coolpad8705", result);
 }
-public void testDevice7796() throws Exception {
+public void testDevice7797() throws Exception {
     final String result = DeviceNames.getDeviceName("DMT580D", FALLBACK);
     Assert.assertEquals("iRiver DMT580D", result);
 }
-public void testDevice7797() throws Exception {
+public void testDevice7798() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 7061", FALLBACK);
     Assert.assertEquals("Coolpad 7061", result);
 }
-public void testDevice7798() throws Exception {
+public void testDevice7799() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A500YZ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A5", result);
 }
-public void testDevice7799() throws Exception {
+public void testDevice7800() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T111M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3 Lite", result);
 }
-public void testDevice7800() throws Exception {
+public void testDevice7801() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo K900", FALLBACK);
     Assert.assertEquals("Lenovo K900", result);
 }
-public void testDevice7801() throws Exception {
+public void testDevice7802() throws Exception {
     final String result = DeviceNames.getDeviceName("S30", FALLBACK);
     Assert.assertEquals("Cat S30", result);
 }
-public void testDevice7802() throws Exception {
+public void testDevice7803() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 70 Neon", FALLBACK);
     Assert.assertEquals("Archos 70 Neon", result);
 }
-public void testDevice7803() throws Exception {
+public void testDevice7804() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H950", FALLBACK);
     Assert.assertEquals("LG G Flex2", result);
 }
-public void testDevice7804() throws Exception {
+public void testDevice7805() throws Exception {
     final String result = DeviceNames.getDeviceName("LED46K280J3D", FALLBACK);
     Assert.assertEquals("Hisense LED46K280J3D", result);
 }
-public void testDevice7805() throws Exception {
+public void testDevice7806() throws Exception {
     final String result = DeviceNames.getDeviceName("myPhone Cube", FALLBACK);
     Assert.assertEquals("myPhone CUBE", result);
 }
-public void testDevice7806() throws Exception {
+public void testDevice7807() throws Exception {
     final String result = DeviceNames.getDeviceName("PRO7DS", FALLBACK);
     Assert.assertEquals("Prestige PRO7DS", result);
 }
-public void testDevice7807() throws Exception {
+public void testDevice7808() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL S830U", FALLBACK);
     Assert.assertEquals("IDOL 2 S", result);
 }
-public void testDevice7808() throws Exception {
+public void testDevice7809() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo Y51A", FALLBACK);
     Assert.assertEquals("Vivo Y51A", result);
 }
-public void testDevice7809() throws Exception {
+public void testDevice7810() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A7-60HC", FALLBACK);
     Assert.assertEquals("Lenovo A7-60HC", result);
 }
-public void testDevice7810() throws Exception {
+public void testDevice7811() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y560-L23", FALLBACK);
     Assert.assertEquals("HUAWEI Y5", result);
 }
-public void testDevice7811() throws Exception {
+public void testDevice7812() throws Exception {
     final String result = DeviceNames.getDeviceName("D5322", FALLBACK);
     Assert.assertEquals("Sony Xperia T2 Ultra dual", result);
 }
-public void testDevice7812() throws Exception {
+public void testDevice7813() throws Exception {
     final String result = DeviceNames.getDeviceName("BLU STUDIO ONE PLUS", FALLBACK);
     Assert.assertEquals("Blu STUDIO ONE PLUS", result);
 }
-public void testDevice7813() throws Exception {
+public void testDevice7814() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-L38C", FALLBACK);
     Assert.assertEquals("LG Optimus L3", result);
 }
-public void testDevice7814() throws Exception {
+public void testDevice7815() throws Exception {
     final String result = DeviceNames.getDeviceName("Viva_H801", FALLBACK);
     Assert.assertEquals("AllView Viva H801", result);
 }
-public void testDevice7815() throws Exception {
+public void testDevice7816() throws Exception {
     final String result = DeviceNames.getDeviceName("DAA738R", FALLBACK);
     Assert.assertEquals("RCA DAA730R / RCA DAA738R", result);
 }
-public void testDevice7816() throws Exception {
+public void testDevice7817() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-B5330", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Chat", result);
 }
-public void testDevice7817() throws Exception {
+public void testDevice7818() throws Exception {
     final String result = DeviceNames.getDeviceName("DX00C", FALLBACK);
     Assert.assertEquals("Panasonic TH-49DX400C", result);
 }
-public void testDevice7818() throws Exception {
+public void testDevice7819() throws Exception {
     final String result = DeviceNames.getDeviceName("NE-103T", FALLBACK);
     Assert.assertEquals("NEC MEDIAS U NE-103T", result);
 }
-public void testDevice7819() throws Exception {
+public void testDevice7820() throws Exception {
     final String result = DeviceNames.getDeviceName("ONE TOUCH 4007E", FALLBACK);
     Assert.assertEquals("ONE TOUCH 4007X", result);
 }
-public void testDevice7820() throws Exception {
+public void testDevice7821() throws Exception {
     final String result = DeviceNames.getDeviceName("ONE TOUCH 4007D", FALLBACK);
     Assert.assertEquals("ONE TOUCH 4007X", result);
 }
-public void testDevice7821() throws Exception {
+public void testDevice7822() throws Exception {
     final String result = DeviceNames.getDeviceName("ONE TOUCH 4007A", FALLBACK);
     Assert.assertEquals("ONE TOUCH 4007X", result);
 }
-public void testDevice7822() throws Exception {
+public void testDevice7823() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D331AR", FALLBACK);
     Assert.assertEquals("LG LBello", result);
 }
-public void testDevice7823() throws Exception {
+public void testDevice7824() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade HN", FALLBACK);
     Assert.assertEquals("ZTE Blade HN", result);
 }
-public void testDevice7824() throws Exception {
+public void testDevice7825() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D160", FALLBACK);
     Assert.assertEquals("LG Optimus L40", result);
 }
-public void testDevice7825() throws Exception {
+public void testDevice7826() throws Exception {
     final String result = DeviceNames.getDeviceName("K-KOOL", FALLBACK);
     Assert.assertEquals("Wiko K-KOOL", result);
 }
-public void testDevice7826() throws Exception {
+public void testDevice7827() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D165", FALLBACK);
     Assert.assertEquals("LG Optimus L40", result);
 }
-public void testDevice7827() throws Exception {
+public void testDevice7828() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S968t", FALLBACK);
     Assert.assertEquals("Lenovo S968t", result);
 }
-public void testDevice7828() throws Exception {
+public void testDevice7829() throws Exception {
     final String result = DeviceNames.getDeviceName("Zio", FALLBACK);
     Assert.assertEquals("Kyocera zio", result);
 }
-public void testDevice7829() throws Exception {
+public void testDevice7830() throws Exception {
     final String result = DeviceNames.getDeviceName("AX4Nano_plus", FALLBACK);
     Assert.assertEquals("AllView AX4 Nano Plus", result);
 }
-public void testDevice7830() throws Exception {
+public void testDevice7831() throws Exception {
     final String result = DeviceNames.getDeviceName("ONE TOUCH 4007X", FALLBACK);
     Assert.assertEquals("ONE TOUCH 4007X", result);
 }
-public void testDevice7831() throws Exception {
+public void testDevice7832() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T810X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 9.7", result);
 }
-public void testDevice7832() throws Exception {
+public void testDevice7833() throws Exception {
     final String result = DeviceNames.getDeviceName("e-tab4", FALLBACK);
     Assert.assertEquals("General Mobile E-tab 4", result);
 }
-public void testDevice7833() throws Exception {
+public void testDevice7834() throws Exception {
     final String result = DeviceNames.getDeviceName("XT920", FALLBACK);
     Assert.assertEquals("Motorola RAZR D3", result);
 }
-public void testDevice7834() throws Exception {
+public void testDevice7835() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade VEC", FALLBACK);
     Assert.assertEquals("ZTE Blade VEC", result);
 }
-public void testDevice7835() throws Exception {
+public void testDevice7836() throws Exception {
     final String result = DeviceNames.getDeviceName("XT925", FALLBACK);
     Assert.assertEquals("Motorola DROID RAZR HD", result);
 }
-public void testDevice7836() throws Exception {
+public void testDevice7837() throws Exception {
     final String result = DeviceNames.getDeviceName("Infinix X454", FALLBACK);
     Assert.assertEquals("Infinix RACE Blot2", result);
 }
-public void testDevice7837() throws Exception {
+public void testDevice7838() throws Exception {
     final String result = DeviceNames.getDeviceName("Infinix X455", FALLBACK);
     Assert.assertEquals("Infinix RACE Bolt 3", result);
 }
-public void testDevice7838() throws Exception {
+public void testDevice7839() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 96 Xenon", FALLBACK);
     Assert.assertEquals("Archos 96 Xenon", result);
 }
-public void testDevice7839() throws Exception {
+public void testDevice7840() throws Exception {
     final String result = DeviceNames.getDeviceName("Ilium L1050", FALLBACK);
     Assert.assertEquals("Lanix Ilium L1050", result);
 }
-public void testDevice7840() throws Exception {
+public void testDevice7841() throws Exception {
     final String result = DeviceNames.getDeviceName("C6740N", FALLBACK);
     Assert.assertEquals("Kyocera Hydro WAVE", result);
 }
-public void testDevice7841() throws Exception {
+public void testDevice7842() throws Exception {
     final String result = DeviceNames.getDeviceName("PSP5453DUO", FALLBACK);
     Assert.assertEquals("Prestigio MultiPhone 5453 DUO", result);
 }
-public void testDevice7842() throws Exception {
+public void testDevice7843() throws Exception {
     final String result = DeviceNames.getDeviceName("ITQ1000", FALLBACK);
     Assert.assertEquals("iRiver WOW Tab+(ITQ1000)", result);
 }
-public void testDevice7843() throws Exception {
+public void testDevice7844() throws Exception {
     final String result = DeviceNames.getDeviceName("Elite10Q", FALLBACK);
     Assert.assertEquals("Prestige ELITE10Q", result);
 }
-public void testDevice7844() throws Exception {
+public void testDevice7845() throws Exception {
     final String result = DeviceNames.getDeviceName("YPY_AB7K", FALLBACK);
     Assert.assertEquals("Positivo Ypy AB7K", result);
 }
-public void testDevice7845() throws Exception {
+public void testDevice7846() throws Exception {
     final String result = DeviceNames.getDeviceName("LED55K680X3DU", FALLBACK);
     Assert.assertEquals("Hisense LED55K680X3DU", result);
 }
-public void testDevice7846() throws Exception {
+public void testDevice7847() throws Exception {
     final String result = DeviceNames.getDeviceName("Le Pan TC1020", FALLBACK);
     Assert.assertEquals("Le Pan TC1020", result);
 }
-public void testDevice7847() throws Exception {
+public void testDevice7848() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade G LTE", FALLBACK);
     Assert.assertEquals("ZTE Blade G LTE", result);
 }
-public void testDevice7848() throws Exception {
+public void testDevice7849() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC6535LVW", FALLBACK);
     Assert.assertEquals("HTC One M9", result);
 }
-public void testDevice7849() throws Exception {
+public void testDevice7850() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I5510L", FALLBACK);
     Assert.assertEquals("Samsung Europa", result);
 }
-public void testDevice7850() throws Exception {
+public void testDevice7851() throws Exception {
     final String result = DeviceNames.getDeviceName("Smart_TAB_1003s", FALLBACK);
     Assert.assertEquals("Sourcing Creation ST1003S", result);
 }
-public void testDevice7851() throws Exception {
+public void testDevice7852() throws Exception {
     final String result = DeviceNames.getDeviceName("Idea ULTRA Pro", FALLBACK);
     Assert.assertEquals("Coolpad 7270I", result);
 }
-public void testDevice7852() throws Exception {
+public void testDevice7853() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_709d", FALLBACK);
     Assert.assertEquals("HTC Desire 700 dual sim", result);
 }
-public void testDevice7853() throws Exception {
+public void testDevice7854() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T759", FALLBACK);
     Assert.assertEquals("Samsung Exhibit", result);
 }
-public void testDevice7854() throws Exception {
+public void testDevice7855() throws Exception {
     final String result = DeviceNames.getDeviceName("P01V", FALLBACK);
     Assert.assertEquals("Asus ZenPad 7.0 (Z370CG)", result);
 }
-public void testDevice7855() throws Exception {
+public void testDevice7856() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC EVO 3D X515m", FALLBACK);
     Assert.assertEquals("HTC EVO 3D X515m", result);
 }
-public void testDevice7856() throws Exception {
+public void testDevice7857() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 50c Oxygen", FALLBACK);
     Assert.assertEquals("Archos 50c Oxygen", result);
 }
-public void testDevice7857() throws Exception {
+public void testDevice7858() throws Exception {
     final String result = DeviceNames.getDeviceName("F1f", FALLBACK);
     Assert.assertEquals("Oppo F1w", result);
 }
-public void testDevice7858() throws Exception {
+public void testDevice7859() throws Exception {
     final String result = DeviceNames.getDeviceName("V23GB", FALLBACK);
     Assert.assertEquals("Lava V2 3GB", result);
 }
-public void testDevice7859() throws Exception {
+public void testDevice7860() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H222", FALLBACK);
     Assert.assertEquals("LG Joy", result);
 }
-public void testDevice7860() throws Exception {
+public void testDevice7861() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6812i", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7861() throws Exception {
+public void testDevice7862() throws Exception {
     final String result = DeviceNames.getDeviceName("P01T", FALLBACK);
     Assert.assertEquals("ASUSPRO Tablet-M1000CL", result);
 }
-public void testDevice7862() throws Exception {
+public void testDevice7863() throws Exception {
     final String result = DeviceNames.getDeviceName("Momodesign MD Droid", FALLBACK);
     Assert.assertEquals("ZTE Momodesign MD Droid", result);
 }
-public void testDevice7863() throws Exception {
+public void testDevice7864() throws Exception {
     final String result = DeviceNames.getDeviceName("S7-721u", FALLBACK);
     Assert.assertEquals("HUAWEI MediaPad 7 Youth2", result);
 }
-public void testDevice7864() throws Exception {
+public void testDevice7865() throws Exception {
     final String result = DeviceNames.getDeviceName("Vodafone Blade V", FALLBACK);
     Assert.assertEquals("ZTE Blade V", result);
 }
-public void testDevice7865() throws Exception {
+public void testDevice7866() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G629-UL00", FALLBACK);
     Assert.assertEquals("Huawei G629", result);
 }
-public void testDevice7866() throws Exception {
+public void testDevice7867() throws Exception {
     final String result = DeviceNames.getDeviceName("F1w", FALLBACK);
     Assert.assertEquals("Oppo F1w", result);
 }
-public void testDevice7867() throws Exception {
+public void testDevice7868() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A890L", FALLBACK);
     Assert.assertEquals("Pantech VEGA Secret Note", result);
 }
-public void testDevice7868() throws Exception {
+public void testDevice7869() throws Exception {
     final String result = DeviceNames.getDeviceName("U FEEL LITE", FALLBACK);
     Assert.assertEquals("Wiko U FEEL LITE", result);
 }
-public void testDevice7869() throws Exception {
+public void testDevice7870() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A890K", FALLBACK);
     Assert.assertEquals("Pantech VEGA Secret Note", result);
 }
-public void testDevice7870() throws Exception {
+public void testDevice7871() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Grand Memo lite", FALLBACK);
     Assert.assertEquals("ZTE V5S", result);
 }
-public void testDevice7871() throws Exception {
+public void testDevice7872() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-K121", FALLBACK);
     Assert.assertEquals("LG K4", result);
 }
-public void testDevice7872() throws Exception {
+public void testDevice7873() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-K120", FALLBACK);
     Assert.assertEquals("LG K4 LTE", result);
 }
-public void testDevice7873() throws Exception {
+public void testDevice7874() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H731", FALLBACK);
     Assert.assertEquals("LG G4 vigor", result);
 }
-public void testDevice7874() throws Exception {
+public void testDevice7875() throws Exception {
     final String result = DeviceNames.getDeviceName("ONE TOUCH 4015X-orange", FALLBACK);
     Assert.assertEquals("ONE TOUCH 4015X", result);
 }
-public void testDevice7875() throws Exception {
+public void testDevice7876() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H734", FALLBACK);
     Assert.assertEquals("LG G4s", result);
 }
-public void testDevice7876() throws Exception {
+public void testDevice7877() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H736", FALLBACK);
     Assert.assertEquals("LG G4 Beat", result);
 }
-public void testDevice7877() throws Exception {
+public void testDevice7878() throws Exception {
     final String result = DeviceNames.getDeviceName("OWN_S4025", FALLBACK);
     Assert.assertEquals("OWN_S4025", result);
 }
-public void testDevice7878() throws Exception {
+public void testDevice7879() throws Exception {
     final String result = DeviceNames.getDeviceName("304SH", FALLBACK);
     Assert.assertEquals("Sharp AQUOS Xx 304SH", result);
 }
-public void testDevice7879() throws Exception {
+public void testDevice7880() throws Exception {
     final String result = DeviceNames.getDeviceName("LenovoA588t", FALLBACK);
     Assert.assertEquals("Lenovo A588t", result);
 }
-public void testDevice7880() throws Exception {
+public void testDevice7881() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A890S", FALLBACK);
     Assert.assertEquals("Pantech VEGA Secret Note", result);
 }
-public void testDevice7881() throws Exception {
+public void testDevice7882() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 6034M", FALLBACK);
     Assert.assertEquals("Idol S", result);
 }
-public void testDevice7882() throws Exception {
+public void testDevice7883() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 6034L", FALLBACK);
     Assert.assertEquals("Idol S", result);
 }
-public void testDevice7883() throws Exception {
+public void testDevice7884() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D838", FALLBACK);
     Assert.assertEquals("LG G Pro2", result);
 }
-public void testDevice7884() throws Exception {
+public void testDevice7885() throws Exception {
     final String result = DeviceNames.getDeviceName("X40E", FALLBACK);
     Assert.assertEquals("Enspert Lazer X40E", result);
 }
-public void testDevice7885() throws Exception {
+public void testDevice7886() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO P3S", FALLBACK);
     Assert.assertEquals("Gigabyte TECNO P3S", result);
 }
-public void testDevice7886() throws Exception {
+public void testDevice7887() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9168", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand Neo", result);
 }
-public void testDevice7887() throws Exception {
+public void testDevice7888() throws Exception {
     final String result = DeviceNames.getDeviceName("LNV-Lenovo A780e", FALLBACK);
     Assert.assertEquals("Lenovo A780e", result);
 }
-public void testDevice7888() throws Exception {
+public void testDevice7889() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 6034Y", FALLBACK);
     Assert.assertEquals("Idol S", result);
 }
-public void testDevice7889() throws Exception {
+public void testDevice7890() throws Exception {
     final String result = DeviceNames.getDeviceName("N9180", FALLBACK);
     Assert.assertEquals("ZTE N9180", result);
 }
-public void testDevice7890() throws Exception {
+public void testDevice7891() throws Exception {
     final String result = DeviceNames.getDeviceName("InFocus M808", FALLBACK);
     Assert.assertEquals("InFocus M808", result);
 }
-public void testDevice7891() throws Exception {
+public void testDevice7892() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC T327w", FALLBACK);
     Assert.assertEquals("HTC Desire V", result);
 }
-public void testDevice7892() throws Exception {
+public void testDevice7893() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-SU370", FALLBACK);
     Assert.assertEquals("LG Optimus One", result);
 }
-public void testDevice7893() throws Exception {
+public void testDevice7894() throws Exception {
     final String result = DeviceNames.getDeviceName("Omnis One", FALLBACK);
     Assert.assertEquals("tecmobile OmnisOne", result);
 }
-public void testDevice7894() throws Exception {
+public void testDevice7895() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 6034R", FALLBACK);
     Assert.assertEquals("Idol S", result);
 }
-public void testDevice7895() throws Exception {
+public void testDevice7896() throws Exception {
     final String result = DeviceNames.getDeviceName("M220c", FALLBACK);
     Assert.assertEquals("Huawei M220", result);
 }
-public void testDevice7896() throws Exception {
+public void testDevice7897() throws Exception {
     final String result = DeviceNames.getDeviceName("Z987", FALLBACK);
     Assert.assertEquals("ZTE Z987", result);
 }
-public void testDevice7897() throws Exception {
+public void testDevice7898() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL J620", FALLBACK);
     Assert.assertEquals("TCL J620", result);
 }
-public void testDevice7898() throws Exception {
+public void testDevice7899() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-G730A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S3 Mini", result);
 }
-public void testDevice7899() throws Exception {
+public void testDevice7900() throws Exception {
     final String result = DeviceNames.getDeviceName("Z988", FALLBACK);
     Assert.assertEquals("ZTE Grand X Max 2", result);
 }
-public void testDevice7900() throws Exception {
+public void testDevice7901() throws Exception {
     final String result = DeviceNames.getDeviceName("VS985_4G", FALLBACK);
     Assert.assertEquals("LG G3 4G", result);
 }
-public void testDevice7901() throws Exception {
+public void testDevice7902() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo 2 A8-50LC", FALLBACK);
     Assert.assertEquals("Lenovo A8", result);
 }
-public void testDevice7902() throws Exception {
+public void testDevice7903() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6810E", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice7903() throws Exception {
+public void testDevice7904() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8190N", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S III Mini", result);
 }
-public void testDevice7904() throws Exception {
+public void testDevice7905() throws Exception {
     final String result = DeviceNames.getDeviceName("P6_Energy_TM", FALLBACK);
     Assert.assertEquals("AllView P6 Energy", result);
 }
-public void testDevice7905() throws Exception {
+public void testDevice7906() throws Exception {
     final String result = DeviceNames.getDeviceName("PLK-TL01H", FALLBACK);
     Assert.assertEquals("Huawei PLK-TL01H", result);
 }
-public void testDevice7906() throws Exception {
+public void testDevice7907() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G710", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand2", result);
 }
-public void testDevice7907() throws Exception {
+public void testDevice7908() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL D662", FALLBACK);
     Assert.assertEquals("TCL D662", result);
 }
-public void testDevice7908() throws Exception {
+public void testDevice7909() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-E936", FALLBACK);
     Assert.assertEquals("Hisense HS-E936", result);
 }
-public void testDevice7909() throws Exception {
+public void testDevice7910() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC 301e", FALLBACK);
     Assert.assertEquals("HTC Desire 300", result);
 }
-public void testDevice7910() throws Exception {
+public void testDevice7911() throws Exception {
     final String result = DeviceNames.getDeviceName("Telpad QS", FALLBACK);
     Assert.assertEquals("Huawei S7", result);
 }
-public void testDevice7911() throws Exception {
+public void testDevice7912() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL D668", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH D668", result);
 }
-public void testDevice7912() throws Exception {
+public void testDevice7913() throws Exception {
     final String result = DeviceNames.getDeviceName("T-Mobile G2", FALLBACK);
     Assert.assertEquals("HTC G2", result);
 }
-public void testDevice7913() throws Exception {
+public void testDevice7914() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J105F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J1 Mini", result);
 }
-public void testDevice7914() throws Exception {
+public void testDevice7915() throws Exception {
     final String result = DeviceNames.getDeviceName("SHW-M440S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S3", result);
 }
-public void testDevice7915() throws Exception {
+public void testDevice7916() throws Exception {
     final String result = DeviceNames.getDeviceName("LC-xxLE570X", FALLBACK);
     Assert.assertEquals("Sharp LC-50LE570X", result);
 }
-public void testDevice7916() throws Exception {
+public void testDevice7917() throws Exception {
     final String result = DeviceNames.getDeviceName("Fly IQ4514 AF", FALLBACK);
     Assert.assertEquals("Fly IQ4514 Quad", result);
 }
-public void testDevice7917() throws Exception {
+public void testDevice7918() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R760X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S2", result);
 }
-public void testDevice7918() throws Exception {
+public void testDevice7919() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8190T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S3 Mini", result);
 }
-public void testDevice7919() throws Exception {
+public void testDevice7920() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 991A", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 991A", result);
 }
-public void testDevice7920() throws Exception {
+public void testDevice7921() throws Exception {
     final String result = DeviceNames.getDeviceName("Qilive 97R-2", FALLBACK);
     Assert.assertEquals("Archos Qilive 97R2", result);
 }
-public void testDevice7921() throws Exception {
+public void testDevice7922() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9105", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S2 Plus", result);
 }
-public void testDevice7922() throws Exception {
+public void testDevice7923() throws Exception {
     final String result = DeviceNames.getDeviceName("SLIDE2", FALLBACK);
     Assert.assertEquals("Wiko PULP FAB", result);
 }
-public void testDevice7923() throws Exception {
+public void testDevice7924() throws Exception {
     final String result = DeviceNames.getDeviceName("IM5", FALLBACK);
     Assert.assertEquals("Kodak IM5", result);
 }
-public void testDevice7924() throws Exception {
+public void testDevice7925() throws Exception {
     final String result = DeviceNames.getDeviceName("SL930", FALLBACK);
     Assert.assertEquals("Gigaset SL930", result);
 }
-public void testDevice7925() throws Exception {
+public void testDevice7926() throws Exception {
     final String result = DeviceNames.getDeviceName("Orange Reyo", FALLBACK);
     Assert.assertEquals("ZTE Orange Reyo", result);
 }
-public void testDevice7926() throws Exception {
+public void testDevice7927() throws Exception {
     final String result = DeviceNames.getDeviceName("P5_Pro", FALLBACK);
     Assert.assertEquals("AllView P5 Pro", result);
 }
-public void testDevice7927() throws Exception {
+public void testDevice7928() throws Exception {
     final String result = DeviceNames.getDeviceName("Andromax B16C2G", FALLBACK);
     Assert.assertEquals("Smartfren B16C2G", result);
 }
-public void testDevice7928() throws Exception {
+public void testDevice7929() throws Exception {
     final String result = DeviceNames.getDeviceName("LGLS775", FALLBACK);
     Assert.assertEquals("LG Stylo 2", result);
 }
-public void testDevice7929() throws Exception {
+public void testDevice7930() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G930VL", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S7", result);
 }
-public void testDevice7930() throws Exception {
+public void testDevice7931() throws Exception {
     final String result = DeviceNames.getDeviceName("LGLS770", FALLBACK);
     Assert.assertEquals("LG G Stylo", result);
 }
-public void testDevice7931() throws Exception {
+public void testDevice7932() throws Exception {
     final String result = DeviceNames.getDeviceName("Andromax B16C2H", FALLBACK);
     Assert.assertEquals("Smartfren B16C2H", result);
 }
-public void testDevice7932() throws Exception {
+public void testDevice7933() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G800HQ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 mini", result);
 }
-public void testDevice7933() throws Exception {
+public void testDevice7934() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G6000", FALLBACK);
     Assert.assertEquals("Samsung Galaxy On7", result);
 }
-public void testDevice7934() throws Exception {
+public void testDevice7935() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire VC T328d", FALLBACK);
     Assert.assertEquals("HTC Desire VC", result);
 }
-public void testDevice7935() throws Exception {
+public void testDevice7936() throws Exception {
     final String result = DeviceNames.getDeviceName("W3620", FALLBACK);
     Assert.assertEquals("Philips W3620", result);
 }
-public void testDevice7936() throws Exception {
+public void testDevice7937() throws Exception {
     final String result = DeviceNames.getDeviceName("4045O", FALLBACK);
     Assert.assertEquals("POP2 (4)", result);
 }
-public void testDevice7937() throws Exception {
+public void testDevice7938() throws Exception {
     final String result = DeviceNames.getDeviceName("4045L", FALLBACK);
     Assert.assertEquals("POP2 (4)", result);
 }
-public void testDevice7938() throws Exception {
+public void testDevice7939() throws Exception {
     final String result = DeviceNames.getDeviceName("4045A", FALLBACK);
     Assert.assertEquals("POP2 (4)", result);
 }
-public void testDevice7939() throws Exception {
+public void testDevice7940() throws Exception {
     final String result = DeviceNames.getDeviceName("4045D", FALLBACK);
     Assert.assertEquals("POP2 (4)", result);
 }
-public void testDevice7940() throws Exception {
+public void testDevice7941() throws Exception {
     final String result = DeviceNames.getDeviceName("M10", FALLBACK);
     Assert.assertEquals("Monster M10", result);
 }
-public void testDevice7941() throws Exception {
+public void testDevice7942() throws Exception {
     final String result = DeviceNames.getDeviceName("4045X", FALLBACK);
     Assert.assertEquals("POP2 (4)", result);
 }
-public void testDevice7942() throws Exception {
+public void testDevice7943() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V9800", FALLBACK);
     Assert.assertEquals("ZTE V9800", result);
 }
-public void testDevice7943() throws Exception {
+public void testDevice7944() throws Exception {
     final String result = DeviceNames.getDeviceName("BRAVIA 4K 2015", FALLBACK);
     Assert.assertEquals("Sony BRAVIA 4K 2015", result);
 }
-public void testDevice7944() throws Exception {
+public void testDevice7945() throws Exception {
     final String result = DeviceNames.getDeviceName("NXA8QC116", FALLBACK);
     Assert.assertEquals("Nextbook NXA8QC116", result);
 }
-public void testDevice7945() throws Exception {
+public void testDevice7946() throws Exception {
     final String result = DeviceNames.getDeviceName("Classic_Pro", FALLBACK);
     Assert.assertEquals("GSmart Classic_Pro", result);
 }
-public void testDevice7946() throws Exception {
+public void testDevice7947() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 79 Neon", FALLBACK);
     Assert.assertEquals("Archos 79 Neon", result);
 }
-public void testDevice7947() throws Exception {
+public void testDevice7948() throws Exception {
     final String result = DeviceNames.getDeviceName("E2371", FALLBACK);
     Assert.assertEquals("Hisense Sero7 LE", result);
 }
-public void testDevice7948() throws Exception {
+public void testDevice7949() throws Exception {
     final String result = DeviceNames.getDeviceName("NEC-STR", FALLBACK);
     Assert.assertEquals("NEC LifeTouch L", result);
 }
-public void testDevice7949() throws Exception {
+public void testDevice7950() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC M8si", FALLBACK);
     Assert.assertEquals("HTC M8si", result);
 }
-public void testDevice7950() throws Exception {
+public void testDevice7951() throws Exception {
     final String result = DeviceNames.getDeviceName("Navo_QS", FALLBACK);
     Assert.assertEquals("Vonino Navo QS", result);
 }
-public void testDevice7951() throws Exception {
+public void testDevice7952() throws Exception {
     final String result = DeviceNames.getDeviceName("Alpha Ice", FALLBACK);
     Assert.assertEquals("Cellon Alpha Ice", result);
 }
-public void testDevice7952() throws Exception {
+public void testDevice7953() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 626s", FALLBACK);
     Assert.assertEquals("HTC Desire 626s", result);
 }
-public void testDevice7953() throws Exception {
+public void testDevice7954() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire", FALLBACK);
     Assert.assertEquals("HTC Desire", result);
 }
-public void testDevice7954() throws Exception {
+public void testDevice7955() throws Exception {
     final String result = DeviceNames.getDeviceName("ICRAIG_CLP291", FALLBACK);
     Assert.assertEquals("ICRAIG_CLP_291", result);
 }
-public void testDevice7955() throws Exception {
+public void testDevice7956() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J100FN", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J1", result);
 }
-public void testDevice7956() throws Exception {
+public void testDevice7957() throws Exception {
     final String result = DeviceNames.getDeviceName("Venue 8 HSPA+", FALLBACK);
     Assert.assertEquals("Dell Venue 8", result);
 }
-public void testDevice7957() throws Exception {
+public void testDevice7958() throws Exception {
     final String result = DeviceNames.getDeviceName("Oysters Pacific 800", FALLBACK);
     Assert.assertEquals("Hisense Oysters Pacific 800", result);
 }
-public void testDevice7958() throws Exception {
+public void testDevice7959() throws Exception {
     final String result = DeviceNames.getDeviceName("T55", FALLBACK);
     Assert.assertEquals("BenQ T55", result);
 }
-public void testDevice7959() throws Exception {
+public void testDevice7960() throws Exception {
     final String result = DeviceNames.getDeviceName("MT-733G", FALLBACK);
     Assert.assertEquals("MiiA MT-733G", result);
 }
-public void testDevice7960() throws Exception {
+public void testDevice7961() throws Exception {
     final String result = DeviceNames.getDeviceName("PLK-UL00", FALLBACK);
     Assert.assertEquals("Huawei PLK-UL00", result);
 }
-public void testDevice7961() throws Exception {
+public void testDevice7962() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 5021E", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 5020D", result);
 }
-public void testDevice7962() throws Exception {
+public void testDevice7963() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G730-U27", FALLBACK);
     Assert.assertEquals("Huawei G730", result);
 }
-public void testDevice7963() throws Exception {
+public void testDevice7964() throws Exception {
     final String result = DeviceNames.getDeviceName("PTBPT5QCB7", FALLBACK);
     Assert.assertEquals("Protab PTBPT5QCB7", result);
 }
-public void testDevice7964() throws Exception {
+public void testDevice7965() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-V400S1", FALLBACK);
     Assert.assertEquals("LG G Pad 7.0", result);
 }
-public void testDevice7965() throws Exception {
+public void testDevice7966() throws Exception {
     final String result = DeviceNames.getDeviceName("H60-L21", FALLBACK);
     Assert.assertEquals("Huawei H60", result);
 }
-public void testDevice7966() throws Exception {
+public void testDevice7967() throws Exception {
     final String result = DeviceNames.getDeviceName("tolino tab 8.9", FALLBACK);
     Assert.assertEquals("TrekStor tolino tab 8.9", result);
 }
-public void testDevice7967() throws Exception {
+public void testDevice7968() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 5892", FALLBACK);
     Assert.assertEquals("Coolpad5892", result);
 }
-public void testDevice7968() throws Exception {
+public void testDevice7969() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 5891", FALLBACK);
     Assert.assertEquals("Coolpad 5891", result);
 }
-public void testDevice7969() throws Exception {
+public void testDevice7970() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire U dual sim", FALLBACK);
     Assert.assertEquals("HTC Desire V", result);
 }
-public void testDevice7970() throws Exception {
+public void testDevice7971() throws Exception {
     final String result = DeviceNames.getDeviceName("GOA", FALLBACK);
     Assert.assertEquals("Wiko GOA", result);
 }
-public void testDevice7971() throws Exception {
+public void testDevice7972() throws Exception {
     final String result = DeviceNames.getDeviceName("VT785P2-Finlux", FALLBACK);
     Assert.assertEquals("Vestel VT785P2", result);
 }
-public void testDevice7972() throws Exception {
+public void testDevice7973() throws Exception {
     final String result = DeviceNames.getDeviceName("EGQ337", FALLBACK);
     Assert.assertEquals("Ematic EGQ337", result);
 }
-public void testDevice7973() throws Exception {
+public void testDevice7974() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S90-e", FALLBACK);
     Assert.assertEquals("Lenovo S90", result);
 }
-public void testDevice7974() throws Exception {
+public void testDevice7975() throws Exception {
     final String result = DeviceNames.getDeviceName("G3SMNTS23", FALLBACK);
     Assert.assertEquals("Philips PHP", result);
 }
-public void testDevice7975() throws Exception {
+public void testDevice7976() throws Exception {
     final String result = DeviceNames.getDeviceName("KAZAM TV 45", FALLBACK);
     Assert.assertEquals("KAZAM TV 4.5", result);
 }
-public void testDevice7976() throws Exception {
+public void testDevice7977() throws Exception {
     final String result = DeviceNames.getDeviceName("LED40K681X3DU", FALLBACK);
     Assert.assertEquals("Hisense LED40K681X3DU", result);
 }
-public void testDevice7977() throws Exception {
+public void testDevice7978() throws Exception {
     final String result = DeviceNames.getDeviceName("C9660", FALLBACK);
     Assert.assertEquals("YotaPhone C9660", result);
 }
-public void testDevice7978() throws Exception {
+public void testDevice7979() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI GRA-L09", FALLBACK);
     Assert.assertEquals("Huawei GRA", result);
 }
-public void testDevice7979() throws Exception {
+public void testDevice7980() throws Exception {
     final String result = DeviceNames.getDeviceName("Smartfren Andromax AD688G", FALLBACK);
     Assert.assertEquals("Smartfren NEWAD688G", result);
 }
-public void testDevice7980() throws Exception {
+public void testDevice7981() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3139D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace4 Lite", result);
 }
-public void testDevice7981() throws Exception {
+public void testDevice7982() throws Exception {
     final String result = DeviceNames.getDeviceName("Sparkle V", FALLBACK);
     Assert.assertEquals("Karbonn Sparkle V", result);
 }
-public void testDevice7982() throws Exception {
+public void testDevice7983() throws Exception {
     final String result = DeviceNames.getDeviceName("XP7700", FALLBACK);
     Assert.assertEquals("Sonimtech XP7705", result);
 }
-public void testDevice7983() throws Exception {
+public void testDevice7984() throws Exception {
     final String result = DeviceNames.getDeviceName("PadFone Infinity", FALLBACK);
     Assert.assertEquals("Asus PadFone Infinity", result);
 }
-public void testDevice7984() throws Exception {
+public void testDevice7985() throws Exception {
     final String result = DeviceNames.getDeviceName("PHS-402", FALLBACK);
     Assert.assertEquals("Hisense U606AE", result);
 }
-public void testDevice7985() throws Exception {
+public void testDevice7986() throws Exception {
     final String result = DeviceNames.getDeviceName("SGP621", FALLBACK);
     Assert.assertEquals("Sony Xperia Z3 Tablet Compact", result);
 }
-public void testDevice7986() throws Exception {
+public void testDevice7987() throws Exception {
     final String result = DeviceNames.getDeviceName("CEM1", FALLBACK);
     Assert.assertEquals("Sanyo 55CE6139M1", result);
 }
-public void testDevice7987() throws Exception {
+public void testDevice7988() throws Exception {
     final String result = DeviceNames.getDeviceName("V2_Viper_X_plus", FALLBACK);
     Assert.assertEquals("AllView V2 Viper X plus", result);
 }
-public void testDevice7988() throws Exception {
+public void testDevice7989() throws Exception {
     final String result = DeviceNames.getDeviceName("NXA116QC164", FALLBACK);
     Assert.assertEquals("Nextbook NXA116QC164", result);
 }
-public void testDevice7989() throws Exception {
+public void testDevice7990() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E170L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy R-Style", result);
 }
-public void testDevice7990() throws Exception {
+public void testDevice7991() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E170K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy R-Style", result);
 }
-public void testDevice7991() throws Exception {
+public void testDevice7992() throws Exception {
     final String result = DeviceNames.getDeviceName("VS840_4G", FALLBACK);
     Assert.assertEquals("LG Lucid 4G", result);
 }
-public void testDevice7992() throws Exception {
+public void testDevice7993() throws Exception {
     final String result = DeviceNames.getDeviceName("YPY_S450", FALLBACK);
     Assert.assertEquals("Positivo Ypy S450", result);
 }
-public void testDevice7993() throws Exception {
+public void testDevice7994() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI P2-6070", FALLBACK);
     Assert.assertEquals("Huawei P2", result);
 }
-public void testDevice7994() throws Exception {
+public void testDevice7995() throws Exception {
     final String result = DeviceNames.getDeviceName("Pegasus", FALLBACK);
     Assert.assertEquals("Mobiwire Pegasus", result);
 }
-public void testDevice7995() throws Exception {
+public void testDevice7996() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y560-U23", FALLBACK);
     Assert.assertEquals("Huawei Y560", result);
 }
-public void testDevice7996() throws Exception {
+public void testDevice7997() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E170S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy R-Style", result);
 }
-public void testDevice7997() throws Exception {
+public void testDevice7998() throws Exception {
     final String result = DeviceNames.getDeviceName("tmn smart a8", FALLBACK);
     Assert.assertEquals("tmn smarta8", result);
 }
-public void testDevice7998() throws Exception {
+public void testDevice7999() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-LG730", FALLBACK);
     Assert.assertEquals("LG Venice", result);
 }
-public void testDevice7999() throws Exception {
+public void testDevice8000() throws Exception {
     final String result = DeviceNames.getDeviceName("tmn smart a7", FALLBACK);
     Assert.assertEquals("ZTE tmn smart a7", result);
 }
-public void testDevice8000() throws Exception {
+public void testDevice8001() throws Exception {
     final String result = DeviceNames.getDeviceName("tmn smart a6", FALLBACK);
     Assert.assertEquals("ZTE V793", result);
 }
-public void testDevice8001() throws Exception {
+public void testDevice8002() throws Exception {
     final String result = DeviceNames.getDeviceName("IR7Q", FALLBACK);
     Assert.assertEquals("ViewSonic ViewPad IR7Q", result);
 }
-public void testDevice8002() throws Exception {
+public void testDevice8003() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E370K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Mini", result);
 }
-public void testDevice8003() throws Exception {
+public void testDevice8004() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y520-U12", FALLBACK);
     Assert.assertEquals("Huawei Y520", result);
 }
-public void testDevice8004() throws Exception {
+public void testDevice8005() throws Exception {
     final String result = DeviceNames.getDeviceName("PSP7505DUO", FALLBACK);
     Assert.assertEquals("Prestigio Grace X7", result);
 }
-public void testDevice8005() throws Exception {
+public void testDevice8006() throws Exception {
     final String result = DeviceNames.getDeviceName("ATH-CL00", FALLBACK);
     Assert.assertEquals("Huawei ATH-CL00", result);
 }
-public void testDevice8006() throws Exception {
+public void testDevice8007() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E370D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Mini", result);
 }
-public void testDevice8007() throws Exception {
+public void testDevice8008() throws Exception {
     final String result = DeviceNames.getDeviceName("PadFone 2", FALLBACK);
     Assert.assertEquals("Asus PadFone 2", result);
 }
-public void testDevice8008() throws Exception {
+public void testDevice8009() throws Exception {
     final String result = DeviceNames.getDeviceName("OPPO R9tm", FALLBACK);
     Assert.assertEquals("Oppo R9tm", result);
 }
-public void testDevice8009() throws Exception {
+public void testDevice8010() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 7232", FALLBACK);
     Assert.assertEquals("Coolpad 7232", result);
 }
-public void testDevice8010() throws Exception {
+public void testDevice8011() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 7236", FALLBACK);
     Assert.assertEquals("Coolpad cp7236", result);
 }
-public void testDevice8011() throws Exception {
+public void testDevice8012() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-N8010", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 10.1", result);
 }
-public void testDevice8012() throws Exception {
+public void testDevice8013() throws Exception {
     final String result = DeviceNames.getDeviceName("LT700", FALLBACK);
     Assert.assertEquals("QMobile LT700", result);
 }
-public void testDevice8013() throws Exception {
+public void testDevice8014() throws Exception {
     final String result = DeviceNames.getDeviceName("4013E", FALLBACK);
     Assert.assertEquals("PIXI3(4)", result);
 }
-public void testDevice8014() throws Exception {
+public void testDevice8015() throws Exception {
     final String result = DeviceNames.getDeviceName("4013D", FALLBACK);
     Assert.assertEquals("PIXI3(4)", result);
 }
-public void testDevice8015() throws Exception {
+public void testDevice8016() throws Exception {
     final String result = DeviceNames.getDeviceName("FJT21", FALLBACK);
     Assert.assertEquals("Fujitsu ARROWS Tab FJT21", result);
 }
-public void testDevice8016() throws Exception {
+public void testDevice8017() throws Exception {
     final String result = DeviceNames.getDeviceName("InFocus M320", FALLBACK);
     Assert.assertEquals("Infocus M320", result);
 }
-public void testDevice8017() throws Exception {
+public void testDevice8018() throws Exception {
     final String result = DeviceNames.getDeviceName("R8007", FALLBACK);
     Assert.assertEquals("OPPO R8007", result);
 }
-public void testDevice8018() throws Exception {
+public void testDevice8019() throws Exception {
     final String result = DeviceNames.getDeviceName("R8006", FALLBACK);
     Assert.assertEquals("OPPO R8006", result);
 }
-public void testDevice8019() throws Exception {
+public void testDevice8020() throws Exception {
     final String result = DeviceNames.getDeviceName("4013K", FALLBACK);
     Assert.assertEquals("PIXI3(4)", result);
 }
-public void testDevice8020() throws Exception {
+public void testDevice8021() throws Exception {
     final String result = DeviceNames.getDeviceName("Qilive 7", FALLBACK);
     Assert.assertEquals("Archos Qilive 7", result);
 }
-public void testDevice8021() throws Exception {
+public void testDevice8022() throws Exception {
     final String result = DeviceNames.getDeviceName("DSlide750", FALLBACK);
     Assert.assertEquals("Danew DSlide 750", result);
 }
-public void testDevice8022() throws Exception {
+public void testDevice8023() throws Exception {
     final String result = DeviceNames.getDeviceName("R8001", FALLBACK);
     Assert.assertEquals("OPPO R8001", result);
 }
-public void testDevice8023() throws Exception {
+public void testDevice8024() throws Exception {
     final String result = DeviceNames.getDeviceName("R8000", FALLBACK);
     Assert.assertEquals("Oppo R8000", result);
 }
-public void testDevice8024() throws Exception {
+public void testDevice8025() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6012B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Music Duos", result);
 }
-public void testDevice8025() throws Exception {
+public void testDevice8026() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y320-C00", FALLBACK);
     Assert.assertEquals("Huawei Y320", result);
 }
-public void testDevice8026() throws Exception {
+public void testDevice8027() throws Exception {
     final String result = DeviceNames.getDeviceName("4013X", FALLBACK);
     Assert.assertEquals("PIXI3(4)", result);
 }
-public void testDevice8027() throws Exception {
+public void testDevice8028() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R915", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Indulge", result);
 }
-public void testDevice8028() throws Exception {
+public void testDevice8029() throws Exception {
     final String result = DeviceNames.getDeviceName("ST21i2", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia tipo dual", result);
 }
-public void testDevice8029() throws Exception {
+public void testDevice8030() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R910", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Indulge", result);
 }
-public void testDevice8030() throws Exception {
+public void testDevice8031() throws Exception {
     final String result = DeviceNames.getDeviceName("Voyager", FALLBACK);
     Assert.assertEquals("Gigabyte TM75A", result);
 }
-public void testDevice8031() throws Exception {
+public void testDevice8032() throws Exception {
     final String result = DeviceNames.getDeviceName("S455", FALLBACK);
     Assert.assertEquals("Positivo Selfie", result);
 }
-public void testDevice8032() throws Exception {
+public void testDevice8033() throws Exception {
     final String result = DeviceNames.getDeviceName("E2171TK", FALLBACK);
     Assert.assertEquals("Hisense Sero 7", result);
 }
-public void testDevice8033() throws Exception {
+public void testDevice8034() throws Exception {
     final String result = DeviceNames.getDeviceName("LGL22C", FALLBACK);
     Assert.assertEquals("LG Power", result);
 }
-public void testDevice8034() throws Exception {
+public void testDevice8035() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-J320A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J3(2016)", result);
 }
-public void testDevice8035() throws Exception {
+public void testDevice8036() throws Exception {
     final String result = DeviceNames.getDeviceName("Philips V387", FALLBACK);
     Assert.assertEquals("Philips V387", result);
 }
-public void testDevice8036() throws Exception {
+public void testDevice8037() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade V580", FALLBACK);
     Assert.assertEquals("ZTE Turk Telekom TT175", result);
 }
-public void testDevice8037() throws Exception {
+public void testDevice8038() throws Exception {
     final String result = DeviceNames.getDeviceName("ASUS_Z010DB", FALLBACK);
     Assert.assertEquals("Asus Zenfone MAX", result);
 }
-public void testDevice8038() throws Exception {
+public void testDevice8039() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A316", FALLBACK);
     Assert.assertEquals("Lenovo A316", result);
 }
-public void testDevice8039() throws Exception {
+public void testDevice8040() throws Exception {
     final String result = DeviceNames.getDeviceName("N9510", FALLBACK);
     Assert.assertEquals("ZTE N9510", result);
 }
-public void testDevice8040() throws Exception {
+public void testDevice8041() throws Exception {
     final String result = DeviceNames.getDeviceName("N9516", FALLBACK);
     Assert.assertEquals("ZTE N9516", result);
 }
-public void testDevice8041() throws Exception {
+public void testDevice8042() throws Exception {
     final String result = DeviceNames.getDeviceName("N9515", FALLBACK);
     Assert.assertEquals("ZTE N9515", result);
 }
-public void testDevice8042() throws Exception {
+public void testDevice8043() throws Exception {
     final String result = DeviceNames.getDeviceName("V55", FALLBACK);
     Assert.assertEquals("ZTE V55", result);
 }
-public void testDevice8043() throws Exception {
+public void testDevice8044() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI CRR-UL00", FALLBACK);
     Assert.assertEquals("Huawei Mate S", result);
 }
-public void testDevice8044() throws Exception {
+public void testDevice8045() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-i569", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Gio", result);
 }
-public void testDevice8045() throws Exception {
+public void testDevice8046() throws Exception {
     final String result = DeviceNames.getDeviceName("ideatv S61", FALLBACK);
     Assert.assertEquals("Lenovo S61", result);
 }
-public void testDevice8046() throws Exception {
+public void testDevice8047() throws Exception {
     final String result = DeviceNames.getDeviceName("SOSMART_T5", FALLBACK);
     Assert.assertEquals("SOSMART T5", result);
 }
-public void testDevice8047() throws Exception {
+public void testDevice8048() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-LS840", FALLBACK);
     Assert.assertEquals("LG Viper", result);
 }
-public void testDevice8048() throws Exception {
+public void testDevice8049() throws Exception {
     final String result = DeviceNames.getDeviceName("R800a", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia PLAY", result);
 }
-public void testDevice8049() throws Exception {
+public void testDevice8050() throws Exception {
     final String result = DeviceNames.getDeviceName("ONE TOUCH EVO7HD", FALLBACK);
     Assert.assertEquals("ONE TOUCH EVO8HD", result);
 }
-public void testDevice8050() throws Exception {
+public void testDevice8051() throws Exception {
     final String result = DeviceNames.getDeviceName("Spro 2 LTE", FALLBACK);
     Assert.assertEquals("ZTE Spro 2", result);
 }
-public void testDevice8051() throws Exception {
+public void testDevice8052() throws Exception {
     final String result = DeviceNames.getDeviceName("NX508J", FALLBACK);
     Assert.assertEquals("ZTE NX508J", result);
 }
-public void testDevice8052() throws Exception {
+public void testDevice8053() throws Exception {
     final String result = DeviceNames.getDeviceName("Vox", FALLBACK);
     Assert.assertEquals("Kobo Vox", result);
 }
-public void testDevice8053() throws Exception {
+public void testDevice8054() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D725", FALLBACK);
     Assert.assertEquals("LG G3 Vigor", result);
 }
-public void testDevice8054() throws Exception {
+public void testDevice8055() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S60-t", FALLBACK);
     Assert.assertEquals("Lenovo S60", result);
 }
-public void testDevice8055() throws Exception {
+public void testDevice8056() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 70b Cobalt", FALLBACK);
     Assert.assertEquals("Archos 70b Cobalt", result);
 }
-public void testDevice8056() throws Exception {
+public void testDevice8057() throws Exception {
     final String result = DeviceNames.getDeviceName("TOSPASB", FALLBACK);
     Assert.assertEquals("TOSHIBA STB10", result);
 }
-public void testDevice8057() throws Exception {
+public void testDevice8058() throws Exception {
     final String result = DeviceNames.getDeviceName("M555", FALLBACK);
     Assert.assertEquals("Fujitsu ARROWS M555", result);
 }
-public void testDevice8058() throws Exception {
+public void testDevice8059() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S60-a", FALLBACK);
     Assert.assertEquals("Lenovo S60", result);
 }
-public void testDevice8059() throws Exception {
+public void testDevice8060() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I5800", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Apollo", result);
 }
-public void testDevice8060() throws Exception {
+public void testDevice8061() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I5801", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Apollo", result);
 }
-public void testDevice8061() throws Exception {
+public void testDevice8062() throws Exception {
     final String result = DeviceNames.getDeviceName("Philips W832", FALLBACK);
     Assert.assertEquals("Anydata Philips W832", result);
 }
-public void testDevice8062() throws Exception {
+public void testDevice8063() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL-P306C", FALLBACK);
     Assert.assertEquals("TCL-P306C", result);
 }
-public void testDevice8063() throws Exception {
+public void testDevice8064() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC T329d", FALLBACK);
     Assert.assertEquals("HTC T329d", result);
 }
-public void testDevice8064() throws Exception {
+public void testDevice8065() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade S6 Plus", FALLBACK);
     Assert.assertEquals("ZTE Blade S6 Plus", result);
 }
-public void testDevice8065() throws Exception {
+public void testDevice8066() throws Exception {
     final String result = DeviceNames.getDeviceName("L-02E", FALLBACK);
     Assert.assertEquals("LG Optimus LIFE", result);
 }
-public void testDevice8066() throws Exception {
+public void testDevice8067() throws Exception {
     final String result = DeviceNames.getDeviceName("TM800A550L", FALLBACK);
     Assert.assertEquals("Nuvision TM800A550L", result);
 }
-public void testDevice8067() throws Exception {
+public void testDevice8068() throws Exception {
     final String result = DeviceNames.getDeviceName("STR-9.6-Tablet", FALLBACK);
     Assert.assertEquals("MachSpeed STR-9.6-Tablet", result);
 }
-public void testDevice8068() throws Exception {
+public void testDevice8069() throws Exception {
     final String result = DeviceNames.getDeviceName("Nuvola NP-1", FALLBACK);
     Assert.assertEquals("NanoTech Nuvola NP-1", result);
 }
-public void testDevice8069() throws Exception {
+public void testDevice8070() throws Exception {
     final String result = DeviceNames.getDeviceName("DWA1015D", FALLBACK);
     Assert.assertEquals("DigitalStream DWA1015D Tablet", result);
 }
-public void testDevice8070() throws Exception {
+public void testDevice8071() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 53 Platinum", FALLBACK);
     Assert.assertEquals("Archos 53 Platinum", result);
 }
-public void testDevice8071() throws Exception {
+public void testDevice8072() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 9250L", FALLBACK);
     Assert.assertEquals("Coolpad CP9250L", result);
 }
-public void testDevice8072() throws Exception {
+public void testDevice8073() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P970h", FALLBACK);
     Assert.assertEquals("LG Optimus Black", result);
 }
-public void testDevice8073() throws Exception {
+public void testDevice8074() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE M1001", FALLBACK);
     Assert.assertEquals("ZTE GEEK II Pro", result);
 }
-public void testDevice8074() throws Exception {
+public void testDevice8075() throws Exception {
     final String result = DeviceNames.getDeviceName("PSP3456DUO", FALLBACK);
     Assert.assertEquals("Prestigio PSP3456DUO", result);
 }
-public void testDevice8075() throws Exception {
+public void testDevice8076() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC M9pw", FALLBACK);
     Assert.assertEquals("HTC M9pw", result);
 }
-public void testDevice8076() throws Exception {
+public void testDevice8077() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC M9pt", FALLBACK);
     Assert.assertEquals("HTC One M9+", result);
 }
-public void testDevice8077() throws Exception {
+public void testDevice8078() throws Exception {
     final String result = DeviceNames.getDeviceName("E5663", FALLBACK);
     Assert.assertEquals("Sony Xperia M5 Dual", result);
 }
-public void testDevice8078() throws Exception {
+public void testDevice8079() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P970g", FALLBACK);
     Assert.assertEquals("LG Optimus Black", result);
 }
-public void testDevice8079() throws Exception {
+public void testDevice8080() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y220-T10", FALLBACK);
     Assert.assertEquals("Huawei Y220", result);
 }
-public void testDevice8080() throws Exception {
+public void testDevice8081() throws Exception {
     final String result = DeviceNames.getDeviceName("Y511-T00", FALLBACK);
     Assert.assertEquals("Huawei Y511", result);
 }
-public void testDevice8081() throws Exception {
+public void testDevice8082() throws Exception {
     final String result = DeviceNames.getDeviceName("WAX", FALLBACK);
     Assert.assertEquals("Wiko WAX", result);
 }
-public void testDevice8082() throws Exception {
+public void testDevice8083() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade III Pro", FALLBACK);
     Assert.assertEquals("ZTE Blade III Pro", result);
 }
-public void testDevice8083() throws Exception {
+public void testDevice8084() throws Exception {
     final String result = DeviceNames.getDeviceName("BASE_Lutea_3", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 997D", result);
 }
-public void testDevice8084() throws Exception {
+public void testDevice8085() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G716-L070", FALLBACK);
     Assert.assertEquals("Huawei G716", result);
 }
-public void testDevice8085() throws Exception {
+public void testDevice8086() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL_J636D", FALLBACK);
     Assert.assertEquals("TCL_J636D", result);
 }
-public void testDevice8086() throws Exception {
+public void testDevice8087() throws Exception {
     final String result = DeviceNames.getDeviceName("Tactile internet", FALLBACK);
     Assert.assertEquals("Huawei T-Mobile Pulse", result);
 }
-public void testDevice8087() throws Exception {
+public void testDevice8088() throws Exception {
     final String result = DeviceNames.getDeviceName("NXA8LTE116", FALLBACK);
     Assert.assertEquals("Nextbook NXA8LTE116", result);
 }
-public void testDevice8088() throws Exception {
+public void testDevice8089() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC EVO Design C715e", FALLBACK);
     Assert.assertEquals("HTCEVODesign4G", result);
 }
-public void testDevice8089() throws Exception {
+public void testDevice8090() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I727", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S2 Skyrocket", result);
 }
-public void testDevice8090() throws Exception {
+public void testDevice8091() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G920W8", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6", result);
 }
-public void testDevice8091() throws Exception {
+public void testDevice8092() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-02H", FALLBACK);
     Assert.assertEquals("Samsung SC-02H", result);
 }
-public void testDevice8092() throws Exception {
+public void testDevice8093() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A810S", FALLBACK);
     Assert.assertEquals("Pantech IM-A810S", result);
 }
-public void testDevice8093() throws Exception {
+public void testDevice8094() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-02E", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note2", result);
 }
-public void testDevice8094() throws Exception {
+public void testDevice8095() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-02D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 7.0 Plus", result);
 }
-public void testDevice8095() throws Exception {
+public void testDevice8096() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-02G", FALLBACK);
     Assert.assertEquals("Samsung SC-02G", result);
 }
-public void testDevice8096() throws Exception {
+public void testDevice8097() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-02F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note3", result);
 }
-public void testDevice8097() throws Exception {
+public void testDevice8098() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-02C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S2", result);
 }
-public void testDevice8098() throws Exception {
+public void testDevice8099() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-02B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S", result);
 }
-public void testDevice8099() throws Exception {
+public void testDevice8100() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE-N910", FALLBACK);
     Assert.assertEquals("ZTE-N910", result);
 }
-public void testDevice8100() throws Exception {
+public void testDevice8101() throws Exception {
     final String result = DeviceNames.getDeviceName("IdeaTabA1000-G", FALLBACK);
     Assert.assertEquals("Lenovo A1000-G", result);
 }
-public void testDevice8101() throws Exception {
+public void testDevice8102() throws Exception {
     final String result = DeviceNames.getDeviceName("IdeaTabA1000-F", FALLBACK);
     Assert.assertEquals("Lenovo A1000", result);
 }
-public void testDevice8102() throws Exception {
+public void testDevice8103() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo Z90-7", FALLBACK);
     Assert.assertEquals("Lenovo Z90/VIBE Shot", result);
 }
-public void testDevice8103() throws Exception {
+public void testDevice8104() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo Y35A", FALLBACK);
     Assert.assertEquals("Vivo Y35A", result);
 }
-public void testDevice8104() throws Exception {
+public void testDevice8105() throws Exception {
     final String result = DeviceNames.getDeviceName("VIA_T41", FALLBACK);
     Assert.assertEquals("Casper VIA_T41", result);
 }
-public void testDevice8105() throws Exception {
+public void testDevice8106() throws Exception {
     final String result = DeviceNames.getDeviceName("Slim_Tab_8", FALLBACK);
     Assert.assertEquals("Kiano Slim_Tab_8", result);
 }
-public void testDevice8106() throws Exception {
+public void testDevice8107() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A810K", FALLBACK);
     Assert.assertEquals("Pantech IM-A810K", result);
 }
-public void testDevice8107() throws Exception {
+public void testDevice8108() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V6700", FALLBACK);
     Assert.assertEquals("ZTE ZXY-ZTE_V6700", result);
 }
-public void testDevice8108() throws Exception {
+public void testDevice8109() throws Exception {
     final String result = DeviceNames.getDeviceName("Venue 8 3830", FALLBACK);
     Assert.assertEquals("Dell Venue 8", result);
 }
-public void testDevice8109() throws Exception {
+public void testDevice8110() throws Exception {
     final String result = DeviceNames.getDeviceName("LED50XT900X3DU", FALLBACK);
     Assert.assertEquals("Hisense LED50XT900X3DU", result);
 }
-public void testDevice8110() throws Exception {
+public void testDevice8111() throws Exception {
     final String result = DeviceNames.getDeviceName("OPPO R9 Plust A", FALLBACK);
     Assert.assertEquals("Oppo R9PlustA", result);
 }
-public void testDevice8111() throws Exception {
+public void testDevice8112() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL P301C", FALLBACK);
     Assert.assertEquals("TCL P301C", result);
 }
-public void testDevice8112() throws Exception {
+public void testDevice8113() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE_V5", FALLBACK);
     Assert.assertEquals("ZTE NE501J", result);
 }
-public void testDevice8113() throws Exception {
+public void testDevice8114() throws Exception {
     final String result = DeviceNames.getDeviceName("freebit PandA_m14", FALLBACK);
     Assert.assertEquals("freebit PandA_m14", result);
 }
-public void testDevice8114() throws Exception {
+public void testDevice8115() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo Z2w", FALLBACK);
     Assert.assertEquals("Lenovo Z2w", result);
 }
-public void testDevice8115() throws Exception {
+public void testDevice8116() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E405", FALLBACK);
     Assert.assertEquals("LG Optimus L3 Dual", result);
 }
-public void testDevice8116() throws Exception {
+public void testDevice8117() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL P301M", FALLBACK);
     Assert.assertEquals("TCL P301M", result);
 }
-public void testDevice8117() throws Exception {
+public void testDevice8118() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-I879", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand", result);
 }
-public void testDevice8118() throws Exception {
+public void testDevice8119() throws Exception {
     final String result = DeviceNames.getDeviceName("FS502", FALLBACK);
     Assert.assertEquals("Fly FS502", result);
 }
-public void testDevice8119() throws Exception {
+public void testDevice8120() throws Exception {
     final String result = DeviceNames.getDeviceName("FS501", FALLBACK);
     Assert.assertEquals("Fly Nimbus3", result);
 }
-public void testDevice8120() throws Exception {
+public void testDevice8121() throws Exception {
     final String result = DeviceNames.getDeviceName("FS506", FALLBACK);
     Assert.assertEquals("Fly Cirrus 3", result);
 }
-public void testDevice8121() throws Exception {
+public void testDevice8122() throws Exception {
     final String result = DeviceNames.getDeviceName("FS505", FALLBACK);
     Assert.assertEquals("Fly Nimbus 7", result);
 }
-public void testDevice8122() throws Exception {
+public void testDevice8123() throws Exception {
     final String result = DeviceNames.getDeviceName("FS504", FALLBACK);
     Assert.assertEquals("Fly Cirrus 2", result);
 }
-public void testDevice8123() throws Exception {
+public void testDevice8124() throws Exception {
     final String result = DeviceNames.getDeviceName("era_4G", FALLBACK);
     Assert.assertEquals("Lava Era 4G", result);
 }
-public void testDevice8124() throws Exception {
+public void testDevice8125() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4413_Quad", FALLBACK);
     Assert.assertEquals("Fly IQ4413 Quad", result);
 }
-public void testDevice8125() throws Exception {
+public void testDevice8126() throws Exception {
     final String result = DeviceNames.getDeviceName("one8_0_1_coho", FALLBACK);
     Assert.assertEquals("CloudFone Cloudpad One 8.0", result);
 }
-public void testDevice8126() throws Exception {
+public void testDevice8127() throws Exception {
     final String result = DeviceNames.getDeviceName("J630", FALLBACK);
     Assert.assertEquals("TCL J630", result);
 }
-public void testDevice8127() throws Exception {
+public void testDevice8128() throws Exception {
     final String result = DeviceNames.getDeviceName("Dream", FALLBACK);
     Assert.assertEquals("WIKO DARKFULL", result);
 }
-public void testDevice8128() throws Exception {
+public void testDevice8129() throws Exception {
     final String result = DeviceNames.getDeviceName("DA223HQL", FALLBACK);
     Assert.assertEquals("Acer DA223HQL", result);
 }
-public void testDevice8129() throws Exception {
+public void testDevice8130() throws Exception {
     final String result = DeviceNames.getDeviceName("PLT7804G", FALLBACK);
     Assert.assertEquals("Proscan PLT7804G", result);
 }
-public void testDevice8130() throws Exception {
+public void testDevice8131() throws Exception {
     final String result = DeviceNames.getDeviceName("GM 5 Plus", FALLBACK);
     Assert.assertEquals("General Mobile GM5 Plus Turkcell", result);
 }
-public void testDevice8131() throws Exception {
+public void testDevice8132() throws Exception {
     final String result = DeviceNames.getDeviceName("Eco11 v2", FALLBACK);
     Assert.assertEquals("Panasonic Eco11 v2", result);
 }
-public void testDevice8132() throws Exception {
+public void testDevice8133() throws Exception {
     final String result = DeviceNames.getDeviceName("ME860", FALLBACK);
     Assert.assertEquals("Motorola Atrix", result);
 }
-public void testDevice8133() throws Exception {
+public void testDevice8134() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT3038_3G", FALLBACK);
     Assert.assertEquals("Prestigio MultiPad Wize 3038 3G", result);
 }
-public void testDevice8134() throws Exception {
+public void testDevice8135() throws Exception {
     final String result = DeviceNames.getDeviceName("DT101Bv51", FALLBACK);
     Assert.assertEquals("ESI Enterprises DT101Bv51", result);
 }
-public void testDevice8135() throws Exception {
+public void testDevice8136() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-AS680", FALLBACK);
     Assert.assertEquals("LG Optimus 2", result);
 }
-public void testDevice8136() throws Exception {
+public void testDevice8137() throws Exception {
     final String result = DeviceNames.getDeviceName("HP Pro Slate 10 EE G1", FALLBACK);
     Assert.assertEquals("HP Pro Slate 10 EE G1", result);
 }
-public void testDevice8137() throws Exception {
+public void testDevice8138() throws Exception {
     final String result = DeviceNames.getDeviceName("B1-810", FALLBACK);
     Assert.assertEquals("Acer Iconia One 8", result);
 }
-public void testDevice8138() throws Exception {
+public void testDevice8139() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S850e", FALLBACK);
     Assert.assertEquals("Lenovo S850e", result);
 }
-public void testDevice8139() throws Exception {
+public void testDevice8140() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-I705", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab2 7.0", result);
 }
-public void testDevice8140() throws Exception {
+public void testDevice8141() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P925", FALLBACK);
     Assert.assertEquals("LG Thrill 4G", result);
 }
-public void testDevice8141() throws Exception {
+public void testDevice8142() throws Exception {
     final String result = DeviceNames.getDeviceName("S57", FALLBACK);
     Assert.assertEquals("Acer Liquid Jade Z", result);
 }
-public void testDevice8142() throws Exception {
+public void testDevice8143() throws Exception {
     final String result = DeviceNames.getDeviceName("S56", FALLBACK);
     Assert.assertEquals("Acer Liquid Jade S", result);
 }
-public void testDevice8143() throws Exception {
+public void testDevice8144() throws Exception {
     final String result = DeviceNames.getDeviceName("S55", FALLBACK);
     Assert.assertEquals("Acer Liquid Jade", result);
 }
-public void testDevice8144() throws Exception {
+public void testDevice8145() throws Exception {
     final String result = DeviceNames.getDeviceName("S53", FALLBACK);
     Assert.assertEquals("Acer Liquid X1", result);
 }
-public void testDevice8145() throws Exception {
+public void testDevice8146() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_0P6B6", FALLBACK);
     Assert.assertEquals("HTC One (M8)", result);
 }
-public void testDevice8146() throws Exception {
+public void testDevice8147() throws Exception {
     final String result = DeviceNames.getDeviceName("S50", FALLBACK);
     Assert.assertEquals("Cat S50", result);
 }
-public void testDevice8147() throws Exception {
+public void testDevice8148() throws Exception {
     final String result = DeviceNames.getDeviceName("IdeaTabA5000-E", FALLBACK);
     Assert.assertEquals("Lenovo IdeaTab A5000", result);
 }
-public void testDevice8148() throws Exception {
+public void testDevice8149() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A606", FALLBACK);
     Assert.assertEquals("Lenovo A606", result);
 }
-public void testDevice8149() throws Exception {
+public void testDevice8150() throws Exception {
     final String result = DeviceNames.getDeviceName("S59", FALLBACK);
     Assert.assertEquals("Acer Liquid X2", result);
 }
-public void testDevice8150() throws Exception {
+public void testDevice8151() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI M2-802L", FALLBACK);
     Assert.assertEquals("Huawei M2", result);
 }
-public void testDevice8151() throws Exception {
+public void testDevice8152() throws Exception {
     final String result = DeviceNames.getDeviceName("ViewPhone3", FALLBACK);
     Assert.assertEquals("Foxconn ViewPhone3", result);
 }
-public void testDevice8152() throws Exception {
+public void testDevice8153() throws Exception {
     final String result = DeviceNames.getDeviceName("T47_05", FALLBACK);
     Assert.assertEquals("BenQ T47", result);
 }
-public void testDevice8153() throws Exception {
+public void testDevice8154() throws Exception {
     final String result = DeviceNames.getDeviceName("TB01", FALLBACK);
     Assert.assertEquals("Huawei M620", result);
 }
-public void testDevice8154() throws Exception {
+public void testDevice8155() throws Exception {
     final String result = DeviceNames.getDeviceName("L-EMENT_TAB1042", FALLBACK);
     Assert.assertEquals("Logicom LEMENTTAB1042", result);
 }
-public void testDevice8155() throws Exception {
+public void testDevice8156() throws Exception {
     final String result = DeviceNames.getDeviceName("L-EMENT_TAB1040", FALLBACK);
     Assert.assertEquals("Logicom L-EMENT TAB 1040", result);
 }
-public void testDevice8156() throws Exception {
+public void testDevice8157() throws Exception {
     final String result = DeviceNames.getDeviceName("302KC", FALLBACK);
     Assert.assertEquals("Kyocera DIGNO T", result);
 }
-public void testDevice8157() throws Exception {
+public void testDevice8158() throws Exception {
     final String result = DeviceNames.getDeviceName("Amazing A5S", FALLBACK);
     Assert.assertEquals("ZTE V831W", result);
 }
-public void testDevice8158() throws Exception {
+public void testDevice8159() throws Exception {
     final String result = DeviceNames.getDeviceName("40TL04", FALLBACK);
     Assert.assertEquals("Sanyo Benesse", result);
 }
-public void testDevice8159() throws Exception {
+public void testDevice8160() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE C2016", FALLBACK);
     Assert.assertEquals("ZTE C2016", result);
 }
-public void testDevice8160() throws Exception {
+public void testDevice8161() throws Exception {
     final String result = DeviceNames.getDeviceName("TAB 7 DUAL CORE", FALLBACK);
     Assert.assertEquals("TAB 7 DUAL CORE", result);
 }
-public void testDevice8161() throws Exception {
+public void testDevice8162() throws Exception {
     final String result = DeviceNames.getDeviceName("N3-2200", FALLBACK);
     Assert.assertEquals("Acer N3-2200", result);
 }
-public void testDevice8162() throws Exception {
+public void testDevice8163() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H812", FALLBACK);
     Assert.assertEquals("LG G4", result);
 }
-public void testDevice8163() throws Exception {
+public void testDevice8164() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y560-L01", FALLBACK);
     Assert.assertEquals("Huawei Y560", result);
 }
-public void testDevice8164() throws Exception {
+public void testDevice8165() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI MediaPad T1 10 4G", FALLBACK);
     Assert.assertEquals("Huawei T1 10", result);
 }
-public void testDevice8165() throws Exception {
+public void testDevice8166() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y560-L03", FALLBACK);
     Assert.assertEquals("Huawei Y560", result);
 }
-public void testDevice8166() throws Exception {
+public void testDevice8167() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y560-L02", FALLBACK);
     Assert.assertEquals("HUAWEI Y5", result);
 }
-public void testDevice8167() throws Exception {
+public void testDevice8168() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT3277_3G", FALLBACK);
     Assert.assertEquals("Prestigio PMT3277_3G", result);
 }
-public void testDevice8168() throws Exception {
+public void testDevice8169() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9128I", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand", result);
 }
-public void testDevice8169() throws Exception {
+public void testDevice8170() throws Exception {
     final String result = DeviceNames.getDeviceName("ideatv K72", FALLBACK);
     Assert.assertEquals("Lenovo 60K72", result);
 }
-public void testDevice8170() throws Exception {
-    final String result = DeviceNames.getDeviceName("M35c", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia SP", result);
-}
 public void testDevice8171() throws Exception {
+    final String result = DeviceNames.getDeviceName("M35c", FALLBACK);
+    Assert.assertEquals("Sony Xperia SP", result);
+}
+public void testDevice8172() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9128E", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand", result);
 }
-public void testDevice8172() throws Exception {
+public void testDevice8173() throws Exception {
     final String result = DeviceNames.getDeviceName("LaVieTab PC-TE510N1B", FALLBACK);
     Assert.assertEquals("NEC PC", result);
 }
-public void testDevice8173() throws Exception {
+public void testDevice8174() throws Exception {
     final String result = DeviceNames.getDeviceName("C6725", FALLBACK);
     Assert.assertEquals("Kyocera Hydro VIBE", result);
 }
-public void testDevice8174() throws Exception {
+public void testDevice8175() throws Exception {
     final String result = DeviceNames.getDeviceName("LE32U5000A", FALLBACK);
     Assert.assertEquals("Haier LE32U5000A", result);
 }
-public void testDevice8175() throws Exception {
+public void testDevice8176() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9128V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand", result);
 }
-public void testDevice8176() throws Exception {
+public void testDevice8177() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S90-L", FALLBACK);
     Assert.assertEquals("Lenovo S90", result);
 }
-public void testDevice8177() throws Exception {
+public void testDevice8178() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Q805T", FALLBACK);
     Assert.assertEquals("ZTE Q805T", result);
 }
-public void testDevice8178() throws Exception {
+public void testDevice8179() throws Exception {
     final String result = DeviceNames.getDeviceName("2013023", FALLBACK);
     Assert.assertEquals("Xiaomi China", result);
 }
-public void testDevice8179() throws Exception {
+public void testDevice8180() throws Exception {
     final String result = DeviceNames.getDeviceName("2013022", FALLBACK);
     Assert.assertEquals("Xiaomi Hong Mi", result);
 }
-public void testDevice8180() throws Exception {
+public void testDevice8181() throws Exception {
     final String result = DeviceNames.getDeviceName("XT901", FALLBACK);
     Assert.assertEquals("Motorola Electrify M", result);
 }
-public void testDevice8181() throws Exception {
+public void testDevice8182() throws Exception {
     final String result = DeviceNames.getDeviceName("M305", FALLBACK);
     Assert.assertEquals("Fujitsu M305", result);
 }
-public void testDevice8182() throws Exception {
+public void testDevice8183() throws Exception {
     final String result = DeviceNames.getDeviceName("XT907", FALLBACK);
     Assert.assertEquals("Motorola Droid Razr M", result);
 }
-public void testDevice8183() throws Exception {
+public void testDevice8184() throws Exception {
     final String result = DeviceNames.getDeviceName("Akta_A4", FALLBACK);
     Assert.assertEquals("GSmart Akta A4", result);
 }
-public void testDevice8184() throws Exception {
+public void testDevice8185() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 9970L", FALLBACK);
     Assert.assertEquals("Coolpad 9970L", result);
 }
-public void testDevice8185() throws Exception {
+public void testDevice8186() throws Exception {
     final String result = DeviceNames.getDeviceName("Ice-Phone Forever", FALLBACK);
     Assert.assertEquals("SK Telesys Ice-Phone Forever", result);
 }
-public void testDevice8186() throws Exception {
+public void testDevice8187() throws Exception {
     final String result = DeviceNames.getDeviceName("Panasonic SV-ME1000", FALLBACK);
     Assert.assertEquals("Panasonic SV-ME1000", result);
 }
-public void testDevice8187() throws Exception {
+public void testDevice8188() throws Exception {
     final String result = DeviceNames.getDeviceName("QiLive 97", FALLBACK);
     Assert.assertEquals("Archos Auchan Qilive97", result);
 }
-public void testDevice8188() throws Exception {
+public void testDevice8189() throws Exception {
     final String result = DeviceNames.getDeviceName("LNV-Lenovo A305e", FALLBACK);
     Assert.assertEquals("Lenovo A305E", result);
 }
-public void testDevice8189() throws Exception {
+public void testDevice8190() throws Exception {
     final String result = DeviceNames.getDeviceName("V72C", FALLBACK);
     Assert.assertEquals("ZTE V72C", result);
 }
-public void testDevice8190() throws Exception {
+public void testDevice8191() throws Exception {
     final String result = DeviceNames.getDeviceName("LED65K560J3DTR", FALLBACK);
     Assert.assertEquals("Hisense LED65K560J3DTR", result);
 }
-public void testDevice8191() throws Exception {
+public void testDevice8192() throws Exception {
     final String result = DeviceNames.getDeviceName("T1-821W", FALLBACK);
     Assert.assertEquals("Huawei T1", result);
 }
-public void testDevice8192() throws Exception {
+public void testDevice8193() throws Exception {
     final String result = DeviceNames.getDeviceName("LCD-LX565A-B", FALLBACK);
     Assert.assertEquals("Sharp LCD-LX565A", result);
 }
-public void testDevice8193() throws Exception {
+public void testDevice8194() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A355e", FALLBACK);
     Assert.assertEquals("Lenovo A355e", result);
 }
-public void testDevice8194() throws Exception {
+public void testDevice8195() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC VLE_U", FALLBACK);
     Assert.assertEquals("HTC One S", result);
 }
-public void testDevice8195() throws Exception {
+public void testDevice8196() throws Exception {
     final String result = DeviceNames.getDeviceName("VFD 200", FALLBACK);
     Assert.assertEquals("ZTE VFD 200", result);
 }
-public void testDevice8196() throws Exception {
+public void testDevice8197() throws Exception {
     final String result = DeviceNames.getDeviceName("V72M", FALLBACK);
     Assert.assertEquals("ZTE V72M", result);
 }
-public void testDevice8197() throws Exception {
+public void testDevice8198() throws Exception {
     final String result = DeviceNames.getDeviceName("NGM Vanity Smart", FALLBACK);
     Assert.assertEquals("Enspert vanitysmart", result);
 }
-public void testDevice8198() throws Exception {
+public void testDevice8199() throws Exception {
     final String result = DeviceNames.getDeviceName("LED65K560J3DTB", FALLBACK);
     Assert.assertEquals("Hisense LED65K560J3DTB", result);
 }
-public void testDevice8199() throws Exception {
+public void testDevice8200() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y300-0000", FALLBACK);
     Assert.assertEquals("Huawei Y300", result);
 }
-public void testDevice8200() throws Exception {
+public void testDevice8201() throws Exception {
     final String result = DeviceNames.getDeviceName("LED39K680X3DU", FALLBACK);
     Assert.assertEquals("Hisense LED39K680X3DU", result);
 }
-public void testDevice8201() throws Exception {
+public void testDevice8202() throws Exception {
     final String result = DeviceNames.getDeviceName("T1-821L", FALLBACK);
     Assert.assertEquals("Huawei T1", result);
 }
-public void testDevice8202() throws Exception {
+public void testDevice8203() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8260E", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Safe", result);
 }
-public void testDevice8203() throws Exception {
+public void testDevice8204() throws Exception {
     final String result = DeviceNames.getDeviceName("STARTRAIL 6 4G", FALLBACK);
     Assert.assertEquals("Hisense STARTRAIL 6 4G", result);
 }
-public void testDevice8204() throws Exception {
+public void testDevice8205() throws Exception {
     final String result = DeviceNames.getDeviceName("Blade S Lite", FALLBACK);
     Assert.assertEquals("ZTE Blade S Lite", result);
 }
-public void testDevice8205() throws Exception {
+public void testDevice8206() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-L671", FALLBACK);
     Assert.assertEquals("Hisense L671W", result);
 }
-public void testDevice8206() throws Exception {
+public void testDevice8207() throws Exception {
     final String result = DeviceNames.getDeviceName("CDP7TAB4C8", FALLBACK);
     Assert.assertEquals("Haier CDP7TAB4C8", result);
 }
-public void testDevice8207() throws Exception {
+public void testDevice8208() throws Exception {
     final String result = DeviceNames.getDeviceName("T1-821w", FALLBACK);
     Assert.assertEquals("Huawei t1_8p0lte", result);
 }
-public void testDevice8208() throws Exception {
+public void testDevice8209() throws Exception {
     final String result = DeviceNames.getDeviceName("AC45BHE", FALLBACK);
     Assert.assertEquals("Archos 45b Helium", result);
 }
-public void testDevice8209() throws Exception {
+public void testDevice8210() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC One M9PLUS_Prime Camera Edition", FALLBACK);
     Assert.assertEquals("HTC One M9+ (Prime Camera Edition)", result);
 }
-public void testDevice8210() throws Exception {
+public void testDevice8211() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC D516d", FALLBACK);
     Assert.assertEquals("HTC Desire 516", result);
 }
-public void testDevice8211() throws Exception {
+public void testDevice8212() throws Exception {
     final String result = DeviceNames.getDeviceName("GS-718", FALLBACK);
     Assert.assertEquals("Anydata DOPO GMS-718 Tablet / Discovery", result);
 }
-public void testDevice8212() throws Exception {
+public void testDevice8213() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC D516w", FALLBACK);
     Assert.assertEquals("HTC Desire 516", result);
 }
-public void testDevice8213() throws Exception {
+public void testDevice8214() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC D516t", FALLBACK);
     Assert.assertEquals("HTC Desire 516", result);
 }
-public void testDevice8214() throws Exception {
+public void testDevice8215() throws Exception {
     final String result = DeviceNames.getDeviceName("ilium_Pad_E7", FALLBACK);
     Assert.assertEquals("Lanix ilium Pad E7", result);
 }
-public void testDevice8215() throws Exception {
+public void testDevice8216() throws Exception {
     final String result = DeviceNames.getDeviceName("102P", FALLBACK);
     Assert.assertEquals("Panasonic 102P", result);
 }
-public void testDevice8216() throws Exception {
+public void testDevice8217() throws Exception {
     final String result = DeviceNames.getDeviceName("STARSHINE II", FALLBACK);
     Assert.assertEquals("SFR Star Shine II", result);
 }
-public void testDevice8217() throws Exception {
+public void testDevice8218() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T779", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab2 10.1", result);
 }
-public void testDevice8218() throws Exception {
+public void testDevice8219() throws Exception {
     final String result = DeviceNames.getDeviceName("Hisense E71-T", FALLBACK);
     Assert.assertEquals("Hisense E71-T", result);
 }
-public void testDevice8219() throws Exception {
+public void testDevice8220() throws Exception {
     final String result = DeviceNames.getDeviceName("PHQ520", FALLBACK);
     Assert.assertEquals("Condor Griffe G5", result);
 }
-public void testDevice8220() throws Exception {
+public void testDevice8221() throws Exception {
     final String result = DeviceNames.getDeviceName("TaiWan Mobile T2", FALLBACK);
     Assert.assertEquals("ZTE Racer", result);
 }
-public void testDevice8221() throws Exception {
+public void testDevice8222() throws Exception {
     final String result = DeviceNames.getDeviceName("E5603", FALLBACK);
     Assert.assertEquals("Sony Xperia M5", result);
 }
-public void testDevice8222() throws Exception {
+public void testDevice8223() throws Exception {
     final String result = DeviceNames.getDeviceName("Infinity", FALLBACK);
     Assert.assertEquals("NGM Infinity", result);
 }
-public void testDevice8223() throws Exception {
+public void testDevice8224() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F200K", FALLBACK);
     Assert.assertEquals("LG Optimus Vu2", result);
 }
-public void testDevice8224() throws Exception {
+public void testDevice8225() throws Exception {
     final String result = DeviceNames.getDeviceName("RAINBOW LITE 4G", FALLBACK);
     Assert.assertEquals("Wiko RAINBOW LITE 4G", result);
 }
-public void testDevice8225() throws Exception {
+public void testDevice8226() throws Exception {
     final String result = DeviceNames.getDeviceName("M721", FALLBACK);
     Assert.assertEquals("Allfine M721", result);
 }
-public void testDevice8226() throws Exception {
+public void testDevice8227() throws Exception {
     final String result = DeviceNames.getDeviceName("Q6T7IN", FALLBACK);
     Assert.assertEquals("Auchan Q6T7IN", result);
 }
-public void testDevice8227() throws Exception {
+public void testDevice8228() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL S800", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 997D", result);
 }
-public void testDevice8228() throws Exception {
+public void testDevice8229() throws Exception {
     final String result = DeviceNames.getDeviceName("morrison", FALLBACK);
     Assert.assertEquals("Motorola CLIQ", result);
 }
-public void testDevice8229() throws Exception {
+public void testDevice8230() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D858", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice8230() throws Exception {
+public void testDevice8231() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D859", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice8231() throws Exception {
+public void testDevice8232() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D850", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice8232() throws Exception {
+public void testDevice8233() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D851", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice8233() throws Exception {
+public void testDevice8234() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G531Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand Prime", result);
 }
-public void testDevice8234() throws Exception {
+public void testDevice8235() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D855", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice8235() throws Exception {
+public void testDevice8236() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D856", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice8236() throws Exception {
+public void testDevice8237() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D857", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice8237() throws Exception {
+public void testDevice8238() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G531F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand Prime", result);
 }
-public void testDevice8238() throws Exception {
+public void testDevice8239() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J510GN", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J5(2016)", result);
 }
-public void testDevice8239() throws Exception {
+public void testDevice8240() throws Exception {
     final String result = DeviceNames.getDeviceName("SH-06D", FALLBACK);
     Assert.assertEquals("Sharp AQUOS PHONE SH-06D", result);
 }
-public void testDevice8240() throws Exception {
+public void testDevice8241() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G531M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand Prime", result);
 }
-public void testDevice8241() throws Exception {
+public void testDevice8242() throws Exception {
     final String result = DeviceNames.getDeviceName("7040T", FALLBACK);
     Assert.assertEquals("7040T", result);
 }
-public void testDevice8242() throws Exception {
+public void testDevice8243() throws Exception {
     final String result = DeviceNames.getDeviceName("SH-06E", FALLBACK);
     Assert.assertEquals("Sharp AQUOS PHONE ZETA SH-06E", result);
 }
-public void testDevice8243() throws Exception {
+public void testDevice8244() throws Exception {
     final String result = DeviceNames.getDeviceName("7040R", FALLBACK);
     Assert.assertEquals("7040R", result);
 }
-public void testDevice8244() throws Exception {
+public void testDevice8245() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT3308_3G", FALLBACK);
     Assert.assertEquals("Prestigio MULTIPAD WIZE 3308 3G", result);
 }
-public void testDevice8245() throws Exception {
+public void testDevice8246() throws Exception {
     final String result = DeviceNames.getDeviceName("10.1Myros", FALLBACK);
     Assert.assertEquals("Vestel VP100+", result);
 }
-public void testDevice8246() throws Exception {
+public void testDevice8247() throws Exception {
     final String result = DeviceNames.getDeviceName("R6006", FALLBACK);
     Assert.assertEquals("Oppo R6006", result);
 }
-public void testDevice8247() throws Exception {
+public void testDevice8248() throws Exception {
     final String result = DeviceNames.getDeviceName("SUNSET", FALLBACK);
     Assert.assertEquals("Wiko SUNSET", result);
 }
-public void testDevice8248() throws Exception {
+public void testDevice8249() throws Exception {
     final String result = DeviceNames.getDeviceName("7040N", FALLBACK);
     Assert.assertEquals("Alcatel One Touch Fierce 2", result);
 }
-public void testDevice8249() throws Exception {
+public void testDevice8250() throws Exception {
     final String result = DeviceNames.getDeviceName("K-Touch M2s", FALLBACK);
     Assert.assertEquals("K-Touch M2s", result);
 }
-public void testDevice8250() throws Exception {
+public void testDevice8251() throws Exception {
     final String result = DeviceNames.getDeviceName("EGD213", FALLBACK);
     Assert.assertEquals("Ematic EGD213", result);
 }
-public void testDevice8251() throws Exception {
+public void testDevice8252() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-T980", FALLBACK);
     Assert.assertEquals("Hisense HS-T980", result);
 }
-public void testDevice8252() throws Exception {
+public void testDevice8253() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T707V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S 8.4", result);
 }
-public void testDevice8253() throws Exception {
+public void testDevice8254() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T255S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy W", result);
 }
-public void testDevice8254() throws Exception {
+public void testDevice8255() throws Exception {
     final String result = DeviceNames.getDeviceName("Panasonic ELUGA Arc", FALLBACK);
     Assert.assertEquals("Panasonic Eluga Arc", result);
 }
-public void testDevice8255() throws Exception {
+public void testDevice8256() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-E917", FALLBACK);
     Assert.assertEquals("Hisense HS-E917", result);
 }
-public void testDevice8256() throws Exception {
+public void testDevice8257() throws Exception {
     final String result = DeviceNames.getDeviceName("C6_Duo", FALLBACK);
     Assert.assertEquals("AllView C6 Duo", result);
 }
-public void testDevice8257() throws Exception {
+public void testDevice8258() throws Exception {
     final String result = DeviceNames.getDeviceName("RCT6103W46", FALLBACK);
     Assert.assertEquals("RCA RCT6103W46", result);
 }
-public void testDevice8258() throws Exception {
+public void testDevice8259() throws Exception {
     final String result = DeviceNames.getDeviceName("iRULU_V3", FALLBACK);
     Assert.assertEquals("USA111 iRULU V3", result);
 }
-public void testDevice8259() throws Exception {
+public void testDevice8260() throws Exception {
     final String result = DeviceNames.getDeviceName("ME173X", FALLBACK);
     Assert.assertEquals("Asus MeMO Pad HD 7", result);
 }
-public void testDevice8260() throws Exception {
+public void testDevice8261() throws Exception {
     final String result = DeviceNames.getDeviceName("Hisense I300T", FALLBACK);
     Assert.assertEquals("Hisense I300T", result);
 }
-public void testDevice8261() throws Exception {
+public void testDevice8262() throws Exception {
     final String result = DeviceNames.getDeviceName("VP74", FALLBACK);
     Assert.assertEquals("Vestel VP74", result);
 }
-public void testDevice8262() throws Exception {
+public void testDevice8263() throws Exception {
     final String result = DeviceNames.getDeviceName("VP73", FALLBACK);
     Assert.assertEquals("Vestel VP73", result);
 }
-public void testDevice8263() throws Exception {
+public void testDevice8264() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Maxx", FALLBACK);
     Assert.assertEquals("ZTE V815W", result);
 }
-public void testDevice8264() throws Exception {
+public void testDevice8265() throws Exception {
     final String result = DeviceNames.getDeviceName("LGMS330", FALLBACK);
     Assert.assertEquals("LG M1", result);
 }
-public void testDevice8265() throws Exception {
+public void testDevice8266() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D700", FALLBACK);
     Assert.assertEquals("LG Optimus L9", result);
 }
-public void testDevice8266() throws Exception {
+public void testDevice8267() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-K500", FALLBACK);
     Assert.assertEquals("LG X screen", result);
 }
-public void testDevice8267() throws Exception {
+public void testDevice8268() throws Exception {
     final String result = DeviceNames.getDeviceName("HP Pro Slate 12", FALLBACK);
     Assert.assertEquals("HP Pro Slate 12", result);
 }
-public void testDevice8268() throws Exception {
+public void testDevice8269() throws Exception {
     final String result = DeviceNames.getDeviceName("KAZAM THUNDER2 45L", FALLBACK);
     Assert.assertEquals("KAZAM Thunder2 45L", result);
 }
-public void testDevice8269() throws Exception {
+public void testDevice8270() throws Exception {
     final String result = DeviceNames.getDeviceName("HSG1341", FALLBACK);
     Assert.assertEquals("HannSpree HSG1341", result);
 }
-public void testDevice8270() throws Exception {
+public void testDevice8271() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y360-U61", FALLBACK);
     Assert.assertEquals("Huawei Y360", result);
 }
-public void testDevice8271() throws Exception {
+public void testDevice8272() throws Exception {
     final String result = DeviceNames.getDeviceName("MK16i", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia pro", result);
 }
-public void testDevice8272() throws Exception {
+public void testDevice8273() throws Exception {
     final String result = DeviceNames.getDeviceName("LGL96G", FALLBACK);
     Assert.assertEquals("LG Optimus L7", result);
 }
-public void testDevice8273() throws Exception {
+public void testDevice8274() throws Exception {
     final String result = DeviceNames.getDeviceName("MK16a", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia pro", result);
 }
-public void testDevice8274() throws Exception {
+public void testDevice8275() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 8971", FALLBACK);
     Assert.assertEquals("Coolpad 8971", result);
 }
-public void testDevice8275() throws Exception {
+public void testDevice8276() throws Exception {
     final String result = DeviceNames.getDeviceName("SMT-E5015", FALLBACK);
     Assert.assertEquals("Samsung olleh", result);
 }
-public void testDevice8276() throws Exception {
+public void testDevice8277() throws Exception {
     final String result = DeviceNames.getDeviceName("Prism II", FALLBACK);
     Assert.assertEquals("Huawei Prism II", result);
 }
-public void testDevice8277() throws Exception {
+public void testDevice8278() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 526G", FALLBACK);
     Assert.assertEquals("HTC Desire 526GPLUS", result);
 }
-public void testDevice8278() throws Exception {
+public void testDevice8279() throws Exception {
     final String result = DeviceNames.getDeviceName("N818", FALLBACK);
     Assert.assertEquals("ZTE N818", result);
 }
-public void testDevice8279() throws Exception {
+public void testDevice8280() throws Exception {
     final String result = DeviceNames.getDeviceName("E2_Jump", FALLBACK);
     Assert.assertEquals("AllView E2 Jump", result);
 }
-public void testDevice8280() throws Exception {
+public void testDevice8281() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 80 Helium 4G", FALLBACK);
     Assert.assertEquals("Archos 80 Helium", result);
 }
-public void testDevice8281() throws Exception {
+public void testDevice8282() throws Exception {
     final String result = DeviceNames.getDeviceName("KFOT", FALLBACK);
     Assert.assertEquals("Kindle Fire", result);
 }
-public void testDevice8282() throws Exception {
+public void testDevice8283() throws Exception {
     final String result = DeviceNames.getDeviceName("AX1030", FALLBACK);
     Assert.assertEquals("BMobile AX1030", result);
 }
-public void testDevice8283() throws Exception {
+public void testDevice8284() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T320X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab Pro 8.4", result);
 }
-public void testDevice8284() throws Exception {
+public void testDevice8285() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V831W", FALLBACK);
     Assert.assertEquals("ZTE V831W", result);
 }
-public void testDevice8285() throws Exception {
+public void testDevice8286() throws Exception {
     final String result = DeviceNames.getDeviceName("FJL22", FALLBACK);
     Assert.assertEquals("Fujitsu ARROWS Z FJL22", result);
 }
-public void testDevice8286() throws Exception {
+public void testDevice8287() throws Exception {
     final String result = DeviceNames.getDeviceName("FJL21", FALLBACK);
     Assert.assertEquals("Fujitsu ARROWS ef FJL21", result);
 }
-public void testDevice8287() throws Exception {
+public void testDevice8288() throws Exception {
     final String result = DeviceNames.getDeviceName("E5506", FALLBACK);
     Assert.assertEquals("Sony Xperia C5 Ultra", result);
 }
-public void testDevice8288() throws Exception {
+public void testDevice8289() throws Exception {
     final String result = DeviceNames.getDeviceName("T70", FALLBACK);
     Assert.assertEquals("T70", result);
 }
-public void testDevice8289() throws Exception {
+public void testDevice8290() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE K97", FALLBACK);
     Assert.assertEquals("ZTE K97", result);
 }
-public void testDevice8290() throws Exception {
+public void testDevice8291() throws Exception {
     final String result = DeviceNames.getDeviceName("Aura_Power", FALLBACK);
     Assert.assertEquals("Karbonn Aura Power", result);
 }
-public void testDevice8291() throws Exception {
+public void testDevice8292() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-EG929", FALLBACK);
     Assert.assertEquals("Hisense HS-EG929", result);
 }
-public void testDevice8292() throws Exception {
+public void testDevice8293() throws Exception {
     final String result = DeviceNames.getDeviceName("NX521J", FALLBACK);
     Assert.assertEquals("ZTE NX521J", result);
 }
-public void testDevice8293() throws Exception {
+public void testDevice8294() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G610-T01", FALLBACK);
     Assert.assertEquals("Huawei G610", result);
 }
-public void testDevice8294() throws Exception {
+public void testDevice8295() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y635-CL00", FALLBACK);
     Assert.assertEquals("Huawei Y635", result);
 }
-public void testDevice8295() throws Exception {
+public void testDevice8296() throws Exception {
     final String result = DeviceNames.getDeviceName("S732", FALLBACK);
     Assert.assertEquals("Logicom S732", result);
 }
-public void testDevice8296() throws Exception {
+public void testDevice8297() throws Exception {
     final String result = DeviceNames.getDeviceName("Elite10QI", FALLBACK);
     Assert.assertEquals("Visual Land Prestige Elite10QI", result);
 }
-public void testDevice8297() throws Exception {
+public void testDevice8298() throws Exception {
     final String result = DeviceNames.getDeviceName("P-04D", FALLBACK);
     Assert.assertEquals("Panasonic P-04D", result);
 }
-public void testDevice8298() throws Exception {
+public void testDevice8299() throws Exception {
     final String result = DeviceNames.getDeviceName("Elite10QL", FALLBACK);
     Assert.assertEquals("Visual Land Prestige Elite10QL", result);
 }
-public void testDevice8299() throws Exception {
+public void testDevice8300() throws Exception {
     final String result = DeviceNames.getDeviceName("H60-L02", FALLBACK);
     Assert.assertEquals("Huawei H60", result);
 }
-public void testDevice8300() throws Exception {
+public void testDevice8301() throws Exception {
     final String result = DeviceNames.getDeviceName("H60-L03", FALLBACK);
     Assert.assertEquals("Huawei H60", result);
 }
-public void testDevice8301() throws Exception {
+public void testDevice8302() throws Exception {
     final String result = DeviceNames.getDeviceName("H60-L01", FALLBACK);
     Assert.assertEquals("Huawei H60", result);
 }
-public void testDevice8302() throws Exception {
+public void testDevice8303() throws Exception {
     final String result = DeviceNames.getDeviceName("H60-L04", FALLBACK);
     Assert.assertEquals("Huawei H60", result);
 }
-public void testDevice8303() throws Exception {
+public void testDevice8304() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-E500YZ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy E5", result);
 }
-public void testDevice8304() throws Exception {
+public void testDevice8305() throws Exception {
     final String result = DeviceNames.getDeviceName("N8000_WHTE_CKT", FALLBACK);
     Assert.assertEquals("ZTE N8000_WHTE_CKT", result);
 }
-public void testDevice8305() throws Exception {
+public void testDevice8306() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax A91", FALLBACK);
     Assert.assertEquals("Micromax A91", result);
 }
-public void testDevice8306() throws Exception {
+public void testDevice8307() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax A94", FALLBACK);
     Assert.assertEquals("MICROMAX MAD", result);
 }
-public void testDevice8307() throws Exception {
+public void testDevice8308() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Kis Pro", FALLBACK);
     Assert.assertEquals("ZTE Kis Pro", result);
 }
-public void testDevice8308() throws Exception {
+public void testDevice8309() throws Exception {
     final String result = DeviceNames.getDeviceName("Flare_X_V2", FALLBACK);
     Assert.assertEquals("Cherry Mobile Flare X", result);
 }
-public void testDevice8309() throws Exception {
+public void testDevice8310() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax S301", FALLBACK);
     Assert.assertEquals("Micromax Bolt", result);
 }
-public void testDevice8310() throws Exception {
+public void testDevice8311() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax S300", FALLBACK);
     Assert.assertEquals("Micromax Bolt", result);
 }
-public void testDevice8311() throws Exception {
+public void testDevice8312() throws Exception {
     final String result = DeviceNames.getDeviceName("Elite10QS", FALLBACK);
     Assert.assertEquals("Visual Land Prestige Elite10QS", result);
 }
-public void testDevice8312() throws Exception {
+public void testDevice8313() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 4030Y", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 4030X", result);
 }
-public void testDevice8313() throws Exception {
+public void testDevice8314() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 4030X", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 4030X", result);
 }
-public void testDevice8314() throws Exception {
+public void testDevice8315() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ458 Quad", FALLBACK);
     Assert.assertEquals("Fly IQ458 Quad Evo Tech 2", result);
 }
-public void testDevice8315() throws Exception {
+public void testDevice8316() throws Exception {
     final String result = DeviceNames.getDeviceName("Philips W536", FALLBACK);
     Assert.assertEquals("Anydata Philips W536", result);
 }
-public void testDevice8316() throws Exception {
+public void testDevice8317() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6010L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Music", result);
 }
-public void testDevice8317() throws Exception {
+public void testDevice8318() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y625-U21", FALLBACK);
     Assert.assertEquals("Huawei Y625", result);
 }
-public void testDevice8318() throws Exception {
+public void testDevice8319() throws Exception {
     final String result = DeviceNames.getDeviceName("A5_Ready_TM", FALLBACK);
     Assert.assertEquals("AllView A5 Ready", result);
 }
-public void testDevice8319() throws Exception {
+public void testDevice8320() throws Exception {
     final String result = DeviceNames.getDeviceName("H940", FALLBACK);
     Assert.assertEquals("Cherry Mobile One", result);
 }
-public void testDevice8320() throws Exception {
+public void testDevice8321() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R830C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Admire 2", result);
 }
-public void testDevice8321() throws Exception {
+public void testDevice8322() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A750K", FALLBACK);
     Assert.assertEquals("Pantech Mirach A", result);
 }
-public void testDevice8322() throws Exception {
+public void testDevice8323() throws Exception {
     final String result = DeviceNames.getDeviceName("Y230", FALLBACK);
     Assert.assertEquals("Positivo BGH Y230", result);
 }
-public void testDevice8323() throws Exception {
+public void testDevice8324() throws Exception {
     final String result = DeviceNames.getDeviceName("PC1038Q", FALLBACK);
     Assert.assertEquals("Allfine PC1038Q", result);
 }
-public void testDevice8324() throws Exception {
+public void testDevice8325() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 4030E", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 4030X", result);
 }
-public void testDevice8325() throws Exception {
+public void testDevice8326() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 4030D", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 4030X", result);
 }
-public void testDevice8326() throws Exception {
+public void testDevice8327() throws Exception {
     final String result = DeviceNames.getDeviceName("HIGHWAY STAR", FALLBACK);
     Assert.assertEquals("Wiko HIGHWAY STAR", result);
 }
-public void testDevice8327() throws Exception {
+public void testDevice8328() throws Exception {
     final String result = DeviceNames.getDeviceName("asus_google_cube", FALLBACK);
     Assert.assertEquals("Asus Cube", result);
 }
-public void testDevice8328() throws Exception {
+public void testDevice8329() throws Exception {
     final String result = DeviceNames.getDeviceName("Positivo Ypy L1050", FALLBACK);
     Assert.assertEquals("Positivo Ypy L1050", result);
 }
-public void testDevice8329() throws Exception {
+public void testDevice8330() throws Exception {
     final String result = DeviceNames.getDeviceName("eZeeTab7D15-M", FALLBACK);
     Assert.assertEquals("Storex eZeeTab7D15-M", result);
 }
-public void testDevice8330() throws Exception {
+public void testDevice8331() throws Exception {
     final String result = DeviceNames.getDeviceName("Easy", FALLBACK);
     Assert.assertEquals("Explay Easy", result);
 }
-public void testDevice8331() throws Exception {
+public void testDevice8332() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D693TR", FALLBACK);
     Assert.assertEquals("LG G3 Stylus", result);
 }
-public void testDevice8332() throws Exception {
+public void testDevice8333() throws Exception {
     final String result = DeviceNames.getDeviceName("gucci", FALLBACK);
     Assert.assertEquals("Xiaomi HM NOTE 1S CT", result);
 }
-public void testDevice8333() throws Exception {
+public void testDevice8334() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI C8817E", FALLBACK);
     Assert.assertEquals("Huawei C8817E", result);
 }
-public void testDevice8334() throws Exception {
+public void testDevice8335() throws Exception {
     final String result = DeviceNames.getDeviceName("Antares", FALLBACK);
     Assert.assertEquals("Tonino Lamborghini Antares", result);
 }
-public void testDevice8335() throws Exception {
+public void testDevice8336() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI C8817L", FALLBACK);
     Assert.assertEquals("Huawei C8817L", result);
 }
-public void testDevice8336() throws Exception {
+public void testDevice8337() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J320YZ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J3(2016)", result);
 }
-public void testDevice8337() throws Exception {
+public void testDevice8338() throws Exception {
     final String result = DeviceNames.getDeviceName("ML01-M7S-Quad-Core", FALLBACK);
     Assert.assertEquals("Multilaser M7s Quad Core", result);
 }
-public void testDevice8338() throws Exception {
+public void testDevice8339() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E450B", FALLBACK);
     Assert.assertEquals("LG Optimus L5 II", result);
 }
-public void testDevice8339() throws Exception {
+public void testDevice8340() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Skate 2", FALLBACK);
     Assert.assertEquals("ZTE Grand X Quad Lite", result);
 }
-public void testDevice8340() throws Exception {
+public void testDevice8341() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-X8U", FALLBACK);
     Assert.assertEquals("Hisense HS-X8U", result);
 }
-public void testDevice8341() throws Exception {
+public void testDevice8342() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A278t", FALLBACK);
     Assert.assertEquals("Lenovo A278t", result);
 }
-public void testDevice8342() throws Exception {
+public void testDevice8343() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G935R4", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S7 Edge", result);
 }
-public void testDevice8343() throws Exception {
+public void testDevice8344() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y520-U33", FALLBACK);
     Assert.assertEquals("Huawei Y520", result);
 }
-public void testDevice8344() throws Exception {
+public void testDevice8345() throws Exception {
     final String result = DeviceNames.getDeviceName("VAX114", FALLBACK);
     Assert.assertEquals("Vaxcare VAX114", result);
 }
-public void testDevice8345() throws Exception {
+public void testDevice8346() throws Exception {
     final String result = DeviceNames.getDeviceName("D000-000018-002", FALLBACK);
     Assert.assertEquals("NEC LifeTouch B", result);
 }
-public void testDevice8346() throws Exception {
+public void testDevice8347() throws Exception {
     final String result = DeviceNames.getDeviceName("D000-000018-003", FALLBACK);
     Assert.assertEquals("NEC LifeTouch B", result);
 }
-public void testDevice8347() throws Exception {
+public void testDevice8348() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D802T", FALLBACK);
     Assert.assertEquals("LG G2", result);
 }
-public void testDevice8348() throws Exception {
+public void testDevice8349() throws Exception {
     final String result = DeviceNames.getDeviceName("P1001", FALLBACK);
     Assert.assertEquals("Polaroid P1001", result);
 }
-public void testDevice8349() throws Exception {
+public void testDevice8350() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A740S", FALLBACK);
     Assert.assertEquals("Pantech IM-A740S", result);
 }
-public void testDevice8350() throws Exception {
+public void testDevice8351() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-G800A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 mini", result);
 }
-public void testDevice8351() throws Exception {
+public void testDevice8352() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E450f", FALLBACK);
     Assert.assertEquals("LG Optimus L5 II", result);
 }
-public void testDevice8352() throws Exception {
+public void testDevice8353() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Q5-C", FALLBACK);
     Assert.assertEquals("ZTE Q5-C", result);
 }
-public void testDevice8353() throws Exception {
+public void testDevice8354() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E405f", FALLBACK);
     Assert.assertEquals("LG Optimus L3 Dual", result);
 }
-public void testDevice8354() throws Exception {
+public void testDevice8355() throws Exception {
     final String result = DeviceNames.getDeviceName("S952", FALLBACK);
     Assert.assertEquals("SELECLINE MID_9526CM", result);
 }
-public void testDevice8355() throws Exception {
+public void testDevice8356() throws Exception {
     final String result = DeviceNames.getDeviceName("AM-H200", FALLBACK);
     Assert.assertEquals("Sol", result);
 }
-public void testDevice8356() throws Exception {
+public void testDevice8357() throws Exception {
     final String result = DeviceNames.getDeviceName("X400", FALLBACK);
     Assert.assertEquals("Positivo X400", result);
 }
-public void testDevice8357() throws Exception {
+public void testDevice8358() throws Exception {
     final String result = DeviceNames.getDeviceName("R1011", FALLBACK);
     Assert.assertEquals("Oppo R1011w", result);
 }
-public void testDevice8358() throws Exception {
+public void testDevice8359() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A820e", FALLBACK);
     Assert.assertEquals("Lenovo A820e", result);
 }
-public void testDevice8359() throws Exception {
+public void testDevice8360() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Q5-T", FALLBACK);
     Assert.assertEquals("ZTE Q5-T", result);
 }
-public void testDevice8360() throws Exception {
+public void testDevice8361() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A378t", FALLBACK);
     Assert.assertEquals("Lenovo A378t", result);
 }
-public void testDevice8361() throws Exception {
+public void testDevice8362() throws Exception {
     final String result = DeviceNames.getDeviceName("SGP641", FALLBACK);
     Assert.assertEquals("Sony Xperia Z3 Tablet Compact", result);
 }
-public void testDevice8362() throws Exception {
-    final String result = DeviceNames.getDeviceName("SGP311", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia Tablet Z", result);
-}
 public void testDevice8363() throws Exception {
-    final String result = DeviceNames.getDeviceName("SGP312", FALLBACK);
+    final String result = DeviceNames.getDeviceName("SGP311", FALLBACK);
     Assert.assertEquals("Sony Xperia Tablet Z", result);
 }
 public void testDevice8364() throws Exception {
+    final String result = DeviceNames.getDeviceName("SGP312", FALLBACK);
+    Assert.assertEquals("Sony Xperia Tablet Z", result);
+}
+public void testDevice8365() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SGH-I927", FALLBACK);
     Assert.assertEquals("Samsung Captivate Glide", result);
 }
-public void testDevice8365() throws Exception {
+public void testDevice8366() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-MS840", FALLBACK);
     Assert.assertEquals("LG Connect 4G", result);
 }
-public void testDevice8366() throws Exception {
+public void testDevice8367() throws Exception {
     final String result = DeviceNames.getDeviceName("MTN-S620", FALLBACK);
     Assert.assertEquals("MTN-S620", result);
 }
-public void testDevice8367() throws Exception {
+public void testDevice8368() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A820t", FALLBACK);
     Assert.assertEquals("Lenovo A820t", result);
 }
-public void testDevice8368() throws Exception {
+public void testDevice8369() throws Exception {
     final String result = DeviceNames.getDeviceName("T3000", FALLBACK);
     Assert.assertEquals("Infocus T3000", result);
 }
-public void testDevice8369() throws Exception {
+public void testDevice8370() throws Exception {
     final String result = DeviceNames.getDeviceName("Style", FALLBACK);
     Assert.assertEquals("Explay Style", result);
 }
-public void testDevice8370() throws Exception {
+public void testDevice8371() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I527M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Mega 6.3", result);
 }
-public void testDevice8371() throws Exception {
+public void testDevice8372() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Butterfly 2", FALLBACK);
     Assert.assertEquals("HTC Butterfly 2", result);
 }
-public void testDevice8372() throws Exception {
+public void testDevice8373() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-US730", FALLBACK);
     Assert.assertEquals("LG Splendor", result);
 }
-public void testDevice8373() throws Exception {
+public void testDevice8374() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R930", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S Aviator", result);
 }
-public void testDevice8374() throws Exception {
+public void testDevice8375() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V970M", FALLBACK);
     Assert.assertEquals("ZTE Grand X", result);
 }
-public void testDevice8375() throws Exception {
+public void testDevice8376() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D285", FALLBACK);
     Assert.assertEquals("LG L65", result);
 }
-public void testDevice8376() throws Exception {
+public void testDevice8377() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC One ME dual sim", FALLBACK);
     Assert.assertEquals("HTC One ME dual sim", result);
 }
-public void testDevice8377() throws Exception {
+public void testDevice8378() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D280", FALLBACK);
     Assert.assertEquals("LG L65", result);
 }
-public void testDevice8378() throws Exception {
+public void testDevice8379() throws Exception {
     final String result = DeviceNames.getDeviceName("E270BSA", FALLBACK);
     Assert.assertEquals("Hisense E270BSA", result);
 }
-public void testDevice8379() throws Exception {
+public void testDevice8380() throws Exception {
     final String result = DeviceNames.getDeviceName("5065N", FALLBACK);
     Assert.assertEquals("5065N", result);
 }
-public void testDevice8380() throws Exception {
+public void testDevice8381() throws Exception {
     final String result = DeviceNames.getDeviceName("Funtab3", FALLBACK);
     Assert.assertEquals("Ematic FunTab 3", result);
 }
-public void testDevice8381() throws Exception {
+public void testDevice8382() throws Exception {
     final String result = DeviceNames.getDeviceName("LED50L288", FALLBACK);
     Assert.assertEquals("Hisense LED50L288", result);
 }
-public void testDevice8382() throws Exception {
+public void testDevice8383() throws Exception {
     final String result = DeviceNames.getDeviceName("Tab870", FALLBACK);
     Assert.assertEquals("Bitmore Tab870", result);
 }
-public void testDevice8383() throws Exception {
+public void testDevice8384() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J100G", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J1", result);
 }
-public void testDevice8384() throws Exception {
+public void testDevice8385() throws Exception {
     final String result = DeviceNames.getDeviceName("LGL75C", FALLBACK);
     Assert.assertEquals("LG OPTIMUS ZIP", result);
 }
-public void testDevice8385() throws Exception {
+public void testDevice8386() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 55 Platinum", FALLBACK);
     Assert.assertEquals("Archos 55 platinum", result);
 }
-public void testDevice8386() throws Exception {
+public void testDevice8387() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G520-5000", FALLBACK);
     Assert.assertEquals("Huawei G520", result);
 }
-public void testDevice8387() throws Exception {
+public void testDevice8388() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T212", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3 7.0", result);
 }
-public void testDevice8388() throws Exception {
+public void testDevice8389() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T211", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3 7.0", result);
 }
-public void testDevice8389() throws Exception {
+public void testDevice8390() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T210", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 3", result);
 }
-public void testDevice8390() throws Exception {
+public void testDevice8391() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T215", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3 7.0", result);
 }
-public void testDevice8391() throws Exception {
+public void testDevice8392() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8150", FALLBACK);
     Assert.assertEquals("Samsung Galaxy W", result);
 }
-public void testDevice8392() throws Exception {
+public void testDevice8393() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-N045", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4", result);
 }
-public void testDevice8393() throws Exception {
+public void testDevice8394() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-S968C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S III", result);
 }
-public void testDevice8394() throws Exception {
+public void testDevice8395() throws Exception {
     final String result = DeviceNames.getDeviceName("Nanho_T775", FALLBACK);
     Assert.assertEquals("Hipstreet Nanho_T775", result);
 }
-public void testDevice8395() throws Exception {
+public void testDevice8396() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax A190", FALLBACK);
     Assert.assertEquals("Micromax Canvas HD Plus", result);
 }
-public void testDevice8396() throws Exception {
+public void testDevice8397() throws Exception {
     final String result = DeviceNames.getDeviceName("ONYX", FALLBACK);
     Assert.assertEquals("Mobicell ONYX", result);
 }
-public void testDevice8397() throws Exception {
+public void testDevice8398() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Butterfly s", FALLBACK);
     Assert.assertEquals("HTC Butterfly S", result);
 }
-public void testDevice8398() throws Exception {
+public void testDevice8399() throws Exception {
     final String result = DeviceNames.getDeviceName("Primo R4", FALLBACK);
     Assert.assertEquals("Walton Primo R4", result);
 }
-public void testDevice8399() throws Exception {
+public void testDevice8400() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I896", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S Captivate", result);
 }
-public void testDevice8400() throws Exception {
+public void testDevice8401() throws Exception {
     final String result = DeviceNames.getDeviceName("Alcatel_5054O", FALLBACK);
     Assert.assertEquals("Alcatel_5054O", result);
 }
-public void testDevice8401() throws Exception {
+public void testDevice8402() throws Exception {
     final String result = DeviceNames.getDeviceName("F5_19", FALLBACK);
     Assert.assertEquals("BenQ F5_19", result);
 }
-public void testDevice8402() throws Exception {
+public void testDevice8403() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax Q491", FALLBACK);
     Assert.assertEquals("Micromax Doodle 4", result);
 }
-public void testDevice8403() throws Exception {
+public void testDevice8404() throws Exception {
     final String result = DeviceNames.getDeviceName("M1_Plus", FALLBACK);
     Assert.assertEquals("Explay M1 Plus", result);
 }
-public void testDevice8404() throws Exception {
+public void testDevice8405() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE U5S", FALLBACK);
     Assert.assertEquals("ZTE U5S", result);
 }
-public void testDevice8405() throws Exception {
+public void testDevice8406() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-G920A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6", result);
 }
-public void testDevice8406() throws Exception {
+public void testDevice8407() throws Exception {
     final String result = DeviceNames.getDeviceName("H450R", FALLBACK);
     Assert.assertEquals("ANS Trailblazer", result);
 }
-public void testDevice8407() throws Exception {
+public void testDevice8408() throws Exception {
     final String result = DeviceNames.getDeviceName("Phantom", FALLBACK);
     Assert.assertEquals("Explay Phantom", result);
 }
-public void testDevice8408() throws Exception {
+public void testDevice8409() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P895qb", FALLBACK);
     Assert.assertEquals("LG Optimus Vu", result);
 }
-public void testDevice8409() throws Exception {
+public void testDevice8410() throws Exception {
     final String result = DeviceNames.getDeviceName("SHW-M570S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Advance", result);
 }
-public void testDevice8410() throws Exception {
+public void testDevice8411() throws Exception {
     final String result = DeviceNames.getDeviceName("RAINBOW UP", FALLBACK);
     Assert.assertEquals("Wiko RAINBOW UP", result);
 }
-public void testDevice8411() throws Exception {
+public void testDevice8412() throws Exception {
     final String result = DeviceNames.getDeviceName("ILIUM L200", FALLBACK);
     Assert.assertEquals("Lanix ILIUM L200", result);
 }
-public void testDevice8412() throws Exception {
+public void testDevice8413() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E981h", FALLBACK);
     Assert.assertEquals("LG Optimus G Pro", result);
 }
-public void testDevice8413() throws Exception {
+public void testDevice8414() throws Exception {
     final String result = DeviceNames.getDeviceName("GN5001", FALLBACK);
     Assert.assertEquals("Gionee GN5001", result);
 }
-public void testDevice8414() throws Exception {
+public void testDevice8415() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-P7500", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 10.1", result);
 }
-public void testDevice8415() throws Exception {
+public void testDevice8416() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH P310X", FALLBACK);
     Assert.assertEquals("ONE_TOUCH_P310X", result);
 }
-public void testDevice8416() throws Exception {
+public void testDevice8417() throws Exception {
     final String result = DeviceNames.getDeviceName("T10+", FALLBACK);
     Assert.assertEquals("Tobii DynaVox T10+", result);
 }
-public void testDevice8417() throws Exception {
+public void testDevice8418() throws Exception {
     final String result = DeviceNames.getDeviceName("OPPO A35", FALLBACK);
     Assert.assertEquals("Oppo A35", result);
 }
-public void testDevice8418() throws Exception {
+public void testDevice8419() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE R880H", FALLBACK);
     Assert.assertEquals("ZTE V965", result);
 }
-public void testDevice8419() throws Exception {
+public void testDevice8420() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH P310A", FALLBACK);
     Assert.assertEquals("ALCATEL ONETOUCH P310A", result);
 }
-public void testDevice8420() throws Exception {
+public void testDevice8421() throws Exception {
     final String result = DeviceNames.getDeviceName("F5_16", FALLBACK);
     Assert.assertEquals("BenQ F5_16", result);
 }
-public void testDevice8421() throws Exception {
+public void testDevice8422() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y600D-C00", FALLBACK);
     Assert.assertEquals("Huawei Y600D", result);
 }
-public void testDevice8422() throws Exception {
+public void testDevice8423() throws Exception {
     final String result = DeviceNames.getDeviceName("LS-5010", FALLBACK);
     Assert.assertEquals("Reliance Smartphone JS LS-5010", result);
 }
-public void testDevice8423() throws Exception {
+public void testDevice8424() throws Exception {
     final String result = DeviceNames.getDeviceName("BGH Joy V6", FALLBACK);
     Assert.assertEquals("ZTE Blade V6", result);
 }
-public void testDevice8424() throws Exception {
+public void testDevice8425() throws Exception {
     final String result = DeviceNames.getDeviceName("LS-5016", FALLBACK);
     Assert.assertEquals("Lyf LS-5016", result);
 }
-public void testDevice8425() throws Exception {
+public void testDevice8426() throws Exception {
     final String result = DeviceNames.getDeviceName("KAZAM Trooper 550L", FALLBACK);
     Assert.assertEquals("KAZAM Trooper 550L", result);
 }
-public void testDevice8426() throws Exception {
+public void testDevice8427() throws Exception {
     final String result = DeviceNames.getDeviceName("LS-5014", FALLBACK);
     Assert.assertEquals("Reliance LS-5014", result);
 }
-public void testDevice8427() throws Exception {
+public void testDevice8428() throws Exception {
     final String result = DeviceNames.getDeviceName("MEDION E4502", FALLBACK);
     Assert.assertEquals("MEDION E4502", result);
 }
-public void testDevice8428() throws Exception {
+public void testDevice8429() throws Exception {
     final String result = DeviceNames.getDeviceName("FunTabPlay", FALLBACK);
     Assert.assertEquals("Ematic FunTab 3", result);
 }
-public void testDevice8429() throws Exception {
+public void testDevice8430() throws Exception {
     final String result = DeviceNames.getDeviceName("STARXTREM II", FALLBACK);
     Assert.assertEquals("POP S9", result);
 }
-public void testDevice8430() throws Exception {
+public void testDevice8431() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC6500LVW", FALLBACK);
     Assert.assertEquals("HTC One", result);
 }
-public void testDevice8431() throws Exception {
+public void testDevice8432() throws Exception {
     final String result = DeviceNames.getDeviceName("Webpad_7005", FALLBACK);
     Assert.assertEquals("Sourcing Creation webpad_7005", result);
 }
-public void testDevice8432() throws Exception {
+public void testDevice8433() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V811", FALLBACK);
     Assert.assertEquals("ZTE V811W", result);
 }
-public void testDevice8433() throws Exception {
+public void testDevice8434() throws Exception {
     final String result = DeviceNames.getDeviceName("Telenor_Smart_Pro", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 991", result);
 }
-public void testDevice8434() throws Exception {
+public void testDevice8435() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V812", FALLBACK);
     Assert.assertEquals("ZTE Blade C340", result);
 }
-public void testDevice8435() throws Exception {
+public void testDevice8436() throws Exception {
     final String result = DeviceNames.getDeviceName("Prime L", FALLBACK);
     Assert.assertEquals("HighScreen Prime L", result);
 }
-public void testDevice8436() throws Exception {
+public void testDevice8437() throws Exception {
     final String result = DeviceNames.getDeviceName("Andromax G36C1H", FALLBACK);
     Assert.assertEquals("Smartfren G36C1H", result);
 }
-public void testDevice8437() throws Exception {
+public void testDevice8438() throws Exception {
     final String result = DeviceNames.getDeviceName("Andromax G36C1G", FALLBACK);
     Assert.assertEquals("Smartfren G36C1G", result);
 }
-public void testDevice8438() throws Exception {
+public void testDevice8439() throws Exception {
     final String result = DeviceNames.getDeviceName("COUPLE", FALLBACK);
     Assert.assertEquals("Foxconn MUSN COUPLE", result);
 }
-public void testDevice8439() throws Exception {
+public void testDevice8440() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-P905F0", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note Pro 12.2", result);
 }
-public void testDevice8440() throws Exception {
+public void testDevice8441() throws Exception {
     final String result = DeviceNames.getDeviceName("X2_Soul_Style_TM", FALLBACK);
     Assert.assertEquals("AllView X2 Soul Style", result);
 }
-public void testDevice8441() throws Exception {
+public void testDevice8442() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G360T1", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8442() throws Exception {
+public void testDevice8443() throws Exception {
     final String result = DeviceNames.getDeviceName("L39u", FALLBACK);
     Assert.assertEquals("Sony Xperia Z1", result);
 }
-public void testDevice8443() throws Exception {
+public void testDevice8444() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V889S", FALLBACK);
     Assert.assertEquals("ZTE V807", result);
 }
-public void testDevice8444() throws Exception {
+public void testDevice8445() throws Exception {
     final String result = DeviceNames.getDeviceName("Delta Y360-U93", FALLBACK);
     Assert.assertEquals("Huawei Y360-U93", result);
 }
-public void testDevice8445() throws Exception {
+public void testDevice8446() throws Exception {
     final String result = DeviceNames.getDeviceName("SoshPhone 3", FALLBACK);
     Assert.assertEquals("ZTE SoshPhone 3", result);
 }
-public void testDevice8446() throws Exception {
+public void testDevice8447() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V889D", FALLBACK);
     Assert.assertEquals("ZTE V889D", result);
 }
-public void testDevice8447() throws Exception {
+public void testDevice8448() throws Exception {
     final String result = DeviceNames.getDeviceName("icube-830", FALLBACK);
     Assert.assertEquals("SK Telesys icube-830", result);
 }
-public void testDevice8448() throws Exception {
+public void testDevice8449() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V889M", FALLBACK);
     Assert.assertEquals("ZTE V889M", result);
 }
-public void testDevice8449() throws Exception {
+public void testDevice8450() throws Exception {
     final String result = DeviceNames.getDeviceName("one touch D920", FALLBACK);
     Assert.assertEquals("one_touch_D920_ALIQ", result);
 }
-public void testDevice8450() throws Exception {
+public void testDevice8451() throws Exception {
     final String result = DeviceNames.getDeviceName("S380", FALLBACK);
     Assert.assertEquals("Positivo S380", result);
 }
-public void testDevice8451() throws Exception {
+public void testDevice8452() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-I815", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 7.7", result);
 }
-public void testDevice8452() throws Exception {
+public void testDevice8453() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E275S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand", result);
 }
-public void testDevice8453() throws Exception {
+public void testDevice8454() throws Exception {
     final String result = DeviceNames.getDeviceName("Che2-TL00", FALLBACK);
     Assert.assertEquals("Huawei Che2", result);
 }
-public void testDevice8454() throws Exception {
+public void testDevice8455() throws Exception {
     final String result = DeviceNames.getDeviceName("ASUS_Z00ADA", FALLBACK);
     Assert.assertEquals("Asus ZenFone 2 (ZE551ML)", result);
 }
-public void testDevice8455() throws Exception {
+public void testDevice8456() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E275K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand", result);
 }
-public void testDevice8456() throws Exception {
+public void testDevice8457() throws Exception {
     final String result = DeviceNames.getDeviceName("QiLive 8", FALLBACK);
     Assert.assertEquals("Archos Auchan Qilive8", result);
 }
-public void testDevice8457() throws Exception {
+public void testDevice8458() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Q301T", FALLBACK);
     Assert.assertEquals("ZTE Q301T", result);
 }
-public void testDevice8458() throws Exception {
+public void testDevice8459() throws Exception {
     final String result = DeviceNames.getDeviceName("Aquaris X5", FALLBACK);
     Assert.assertEquals("bq Aquaris X5", result);
 }
-public void testDevice8459() throws Exception {
+public void testDevice8460() throws Exception {
     final String result = DeviceNames.getDeviceName("Transformer_Prime_TF201", FALLBACK);
     Assert.assertEquals("Asus Eee Pad Transformer Prime", result);
 }
-public void testDevice8460() throws Exception {
+public void testDevice8461() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE N919", FALLBACK);
     Assert.assertEquals("ZTE N919", result);
 }
-public void testDevice8461() throws Exception {
+public void testDevice8462() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 50 Helium 4G", FALLBACK);
     Assert.assertEquals("Archos 50 Helium 4G", result);
 }
-public void testDevice8462() throws Exception {
+public void testDevice8463() throws Exception {
     final String result = DeviceNames.getDeviceName("SH-01FDQ", FALLBACK);
     Assert.assertEquals("Sharp SH-01F DRAGON QUEST", result);
 }
-public void testDevice8463() throws Exception {
+public void testDevice8464() throws Exception {
     final String result = DeviceNames.getDeviceName("D820", FALLBACK);
     Assert.assertEquals("D820", result);
 }
-public void testDevice8464() throws Exception {
+public void testDevice8465() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 993D", FALLBACK);
     Assert.assertEquals("TCL A988", result);
 }
-public void testDevice8465() throws Exception {
+public void testDevice8466() throws Exception {
     final String result = DeviceNames.getDeviceName("DP7CPRO", FALLBACK);
     Assert.assertEquals("Tecno DroiPad 7C Pro", result);
 }
-public void testDevice8466() throws Exception {
+public void testDevice8467() throws Exception {
     final String result = DeviceNames.getDeviceName("HP Slate 7 Voice Tab", FALLBACK);
     Assert.assertEquals("HP Voice Tab 7", result);
 }
-public void testDevice8467() throws Exception {
+public void testDevice8468() throws Exception {
     final String result = DeviceNames.getDeviceName("HT-I860", FALLBACK);
     Assert.assertEquals("Haier HT-I860", result);
 }
-public void testDevice8468() throws Exception {
+public void testDevice8469() throws Exception {
     final String result = DeviceNames.getDeviceName("A521L", FALLBACK);
     Assert.assertEquals("A521L", result);
 }
-public void testDevice8469() throws Exception {
+public void testDevice8470() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A360t", FALLBACK);
     Assert.assertEquals("Lenovo A360t", result);
 }
-public void testDevice8470() throws Exception {
+public void testDevice8471() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT5002_Wi", FALLBACK);
     Assert.assertEquals("Prestigio PMT5002_Wi", result);
 }
-public void testDevice8471() throws Exception {
+public void testDevice8472() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y330-C00", FALLBACK);
     Assert.assertEquals("Huawei Y330", result);
 }
-public void testDevice8472() throws Exception {
+public void testDevice8473() throws Exception {
     final String result = DeviceNames.getDeviceName("Panasonic P55 Novo", FALLBACK);
     Assert.assertEquals("Panasonic P55 Novo", result);
 }
-public void testDevice8473() throws Exception {
+public void testDevice8474() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Q302C", FALLBACK);
     Assert.assertEquals("ZTE Q302C", result);
 }
-public void testDevice8474() throws Exception {
+public void testDevice8475() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC M9ew", FALLBACK);
     Assert.assertEquals("HTC M9ew", result);
 }
-public void testDevice8475() throws Exception {
+public void testDevice8476() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo K80M", FALLBACK);
     Assert.assertEquals("Lenovo K80M", result);
 }
-public void testDevice8476() throws Exception {
+public void testDevice8477() throws Exception {
     final String result = DeviceNames.getDeviceName("unknown", FALLBACK);
     Assert.assertEquals("Motorola Defy", result);
 }
-public void testDevice8477() throws Exception {
+public void testDevice8478() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D390n", FALLBACK);
     Assert.assertEquals("LG F60", result);
 }
-public void testDevice8478() throws Exception {
+public void testDevice8479() throws Exception {
     final String result = DeviceNames.getDeviceName("DROID_RAZR", FALLBACK);
     Assert.assertEquals("Motorola Droid Razr", result);
 }
-public void testDevice8479() throws Exception {
+public void testDevice8480() throws Exception {
     final String result = DeviceNames.getDeviceName("BouygtelTV", FALLBACK);
     Assert.assertEquals("Bouygues Telecom Bbox Miami", result);
 }
-public void testDevice8480() throws Exception {
+public void testDevice8481() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC 0PGQ1", FALLBACK);
     Assert.assertEquals("HTC Desire 520", result);
 }
-public void testDevice8481() throws Exception {
+public void testDevice8482() throws Exception {
     final String result = DeviceNames.getDeviceName("S3015", FALLBACK);
     Assert.assertEquals("Entel S3015", result);
 }
-public void testDevice8482() throws Exception {
+public void testDevice8483() throws Exception {
     final String result = DeviceNames.getDeviceName("Beeline E400", FALLBACK);
     Assert.assertEquals("ZTE Blade", result);
 }
-public void testDevice8483() throws Exception {
+public void testDevice8484() throws Exception {
     final String result = DeviceNames.getDeviceName("PE-CL00", FALLBACK);
     Assert.assertEquals("Huawei PE-CL00", result);
 }
-public void testDevice8484() throws Exception {
+public void testDevice8485() throws Exception {
     final String result = DeviceNames.getDeviceName("D75E", FALLBACK);
     Assert.assertEquals("Honeywell D75E", result);
 }
-public void testDevice8485() throws Exception {
+public void testDevice8486() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL D920", FALLBACK);
     Assert.assertEquals("TCL D920", result);
 }
-public void testDevice8486() throws Exception {
+public void testDevice8487() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo K800", FALLBACK);
     Assert.assertEquals("Lenovo K800", result);
 }
-public void testDevice8487() throws Exception {
+public void testDevice8488() throws Exception {
     final String result = DeviceNames.getDeviceName("E2053", FALLBACK);
     Assert.assertEquals("Sony Xperia E4g", result);
 }
-public void testDevice8488() throws Exception {
+public void testDevice8489() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3815", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Express II", result);
 }
-public void testDevice8489() throws Exception {
+public void testDevice8490() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S7275Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace3", result);
 }
-public void testDevice8490() throws Exception {
+public void testDevice8491() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3818", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Win Pro", result);
 }
-public void testDevice8491() throws Exception {
+public void testDevice8492() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3819", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Win Pro", result);
 }
-public void testDevice8492() throws Exception {
+public void testDevice8493() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_M8MINx", FALLBACK);
     Assert.assertEquals("HTC One mini 2", result);
 }
-public void testDevice8493() throws Exception {
+public void testDevice8494() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J510K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J5(2016)", result);
 }
-public void testDevice8494() throws Exception {
+public void testDevice8495() throws Exception {
     final String result = DeviceNames.getDeviceName("Qilive 70v2", FALLBACK);
     Assert.assertEquals("Archos Qilive7V2", result);
 }
-public void testDevice8495() throws Exception {
+public void testDevice8496() throws Exception {
     final String result = DeviceNames.getDeviceName("LED50XT880G3D", FALLBACK);
     Assert.assertEquals("Hisense LED50XT880G3D", result);
 }
-public void testDevice8496() throws Exception {
+public void testDevice8497() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 8730L", FALLBACK);
     Assert.assertEquals("Coolpad 8730L", result);
 }
-public void testDevice8497() throws Exception {
+public void testDevice8498() throws Exception {
     final String result = DeviceNames.getDeviceName("Hisense PX3000", FALLBACK);
     Assert.assertEquals("Hisense PX3000", result);
 }
-public void testDevice8498() throws Exception {
+public void testDevice8499() throws Exception {
     final String result = DeviceNames.getDeviceName("Patio100_3G", FALLBACK);
     Assert.assertEquals("Fujitsu Patio100", result);
 }
-public void testDevice8499() throws Exception {
+public void testDevice8500() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC6535LRA", FALLBACK);
     Assert.assertEquals("HTC One M9", result);
 }
-public void testDevice8500() throws Exception {
+public void testDevice8501() throws Exception {
     final String result = DeviceNames.getDeviceName("MFC_HR", FALLBACK);
     Assert.assertEquals("Clementoni My First Clempad HR", result);
 }
-public void testDevice8501() throws Exception {
+public void testDevice8502() throws Exception {
     final String result = DeviceNames.getDeviceName("TD070VA1", FALLBACK);
     Assert.assertEquals("Acer Tab 7", result);
 }
-public void testDevice8502() throws Exception {
+public void testDevice8503() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL_one_touch_991", FALLBACK);
     Assert.assertEquals("ALCATEL_one_touch_991", result);
 }
-public void testDevice8503() throws Exception {
+public void testDevice8504() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL_one_touch_990", FALLBACK);
     Assert.assertEquals("One Touch 990", result);
 }
-public void testDevice8504() throws Exception {
+public void testDevice8505() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL_one_touch_995", FALLBACK);
     Assert.assertEquals("ATEL ONE TOUCH 995", result);
 }
-public void testDevice8505() throws Exception {
+public void testDevice8506() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I827D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace Q", result);
 }
-public void testDevice8506() throws Exception {
+public void testDevice8507() throws Exception {
     final String result = DeviceNames.getDeviceName("M321", FALLBACK);
     Assert.assertEquals("Huawei Honor Box", result);
 }
-public void testDevice8507() throws Exception {
+public void testDevice8508() throws Exception {
     final String result = DeviceNames.getDeviceName("Movistar Prime", FALLBACK);
     Assert.assertEquals("ZTE Blade", result);
 }
-public void testDevice8508() throws Exception {
+public void testDevice8509() throws Exception {
     final String result = DeviceNames.getDeviceName("A31", FALLBACK);
     Assert.assertEquals("Oppo A31", result);
 }
-public void testDevice8509() throws Exception {
+public void testDevice8510() throws Exception {
     final String result = DeviceNames.getDeviceName("R800at", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia PLAY", result);
 }
-public void testDevice8510() throws Exception {
+public void testDevice8511() throws Exception {
     final String result = DeviceNames.getDeviceName("SCV31", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice8511() throws Exception {
+public void testDevice8512() throws Exception {
     final String result = DeviceNames.getDeviceName("SCV32", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A8", result);
 }
-public void testDevice8512() throws Exception {
+public void testDevice8513() throws Exception {
     final String result = DeviceNames.getDeviceName("SCV33", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S7 edge", result);
 }
-public void testDevice8513() throws Exception {
+public void testDevice8514() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo TB3-710F", FALLBACK);
     Assert.assertEquals("Lenovo TB3", result);
 }
-public void testDevice8514() throws Exception {
+public void testDevice8515() throws Exception {
     final String result = DeviceNames.getDeviceName("Y340-U081", FALLBACK);
     Assert.assertEquals("Huawei Y340", result);
 }
-public void testDevice8515() throws Exception {
+public void testDevice8516() throws Exception {
     final String result = DeviceNames.getDeviceName("MTAB-07535AK", FALLBACK);
     Assert.assertEquals("Memorex MTAB-0753AK", result);
 }
-public void testDevice8516() throws Exception {
+public void testDevice8517() throws Exception {
     final String result = DeviceNames.getDeviceName("P5 mini", FALLBACK);
     Assert.assertEquals("Gionee P5 mini", result);
 }
-public void testDevice8517() throws Exception {
+public void testDevice8518() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE-U X850", FALLBACK);
     Assert.assertEquals("ZTE Racer", result);
 }
-public void testDevice8518() throws Exception {
+public void testDevice8519() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G610-U00", FALLBACK);
     Assert.assertEquals("Huawei G610", result);
 }
-public void testDevice8519() throws Exception {
+public void testDevice8520() throws Exception {
     final String result = DeviceNames.getDeviceName("NewTab F1", FALLBACK);
     Assert.assertEquals("InFocus NewTab F1", result);
 }
-public void testDevice8520() throws Exception {
+public void testDevice8521() throws Exception {
     final String result = DeviceNames.getDeviceName("TA80CA1", FALLBACK);
     Assert.assertEquals("i-Buddie TA80CA1", result);
 }
-public void testDevice8521() throws Exception {
+public void testDevice8522() throws Exception {
     final String result = DeviceNames.getDeviceName("TA80CA2", FALLBACK);
     Assert.assertEquals("Casper TA80CA2", result);
 }
-public void testDevice8522() throws Exception {
+public void testDevice8523() throws Exception {
     final String result = DeviceNames.getDeviceName("WayteQ Libra", FALLBACK);
     Assert.assertEquals("ZTE Blade", result);
 }
-public void testDevice8523() throws Exception {
+public void testDevice8524() throws Exception {
     final String result = DeviceNames.getDeviceName("T1-823L", FALLBACK);
     Assert.assertEquals("Huawei t1_8p0lte", result);
 }
-public void testDevice8524() throws Exception {
+public void testDevice8525() throws Exception {
     final String result = DeviceNames.getDeviceName("NABI2-NV7A", FALLBACK);
     Assert.assertEquals("Nabi 2 Tablet", result);
 }
-public void testDevice8525() throws Exception {
+public void testDevice8526() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE U969", FALLBACK);
     Assert.assertEquals("ZTE U969", result);
 }
-public void testDevice8526() throws Exception {
+public void testDevice8527() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE U968", FALLBACK);
     Assert.assertEquals("ZTE U968", result);
 }
-public void testDevice8527() throws Exception {
+public void testDevice8528() throws Exception {
     final String result = DeviceNames.getDeviceName("S40", FALLBACK);
     Assert.assertEquals("Cat S40", result);
 }
-public void testDevice8528() throws Exception {
+public void testDevice8529() throws Exception {
     final String result = DeviceNames.getDeviceName("Orange Monte Carlo", FALLBACK);
     Assert.assertEquals("ZTE Orange Monte Carlo", result);
 }
-public void testDevice8529() throws Exception {
+public void testDevice8530() throws Exception {
     final String result = DeviceNames.getDeviceName("P480", FALLBACK);
     Assert.assertEquals("Micromax Canvas Tab", result);
 }
-public void testDevice8530() throws Exception {
+public void testDevice8531() throws Exception {
     final String result = DeviceNames.getDeviceName("T-02D", FALLBACK);
     Assert.assertEquals("Fujitsu REGZA Phone T-02D", result);
 }
-public void testDevice8531() throws Exception {
+public void testDevice8532() throws Exception {
     final String result = DeviceNames.getDeviceName("Panasonic KX-PRXA10", FALLBACK);
     Assert.assertEquals("Panasonic KX-PRXA10", result);
 }
-public void testDevice8532() throws Exception {
+public void testDevice8533() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3819D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Win Pro", result);
 }
-public void testDevice8533() throws Exception {
+public void testDevice8534() throws Exception {
     final String result = DeviceNames.getDeviceName("Panasonic KX-PRXA15", FALLBACK);
     Assert.assertEquals("Panasonic KX-PRXA15", result);
 }
-public void testDevice8534() throws Exception {
+public void testDevice8535() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL ONE TOUCH 990", FALLBACK);
     Assert.assertEquals("One Touch 990", result);
 }
-public void testDevice8535() throws Exception {
+public void testDevice8536() throws Exception {
     final String result = DeviceNames.getDeviceName("LED42K280J3D", FALLBACK);
     Assert.assertEquals("Hisense LED42K280J3D", result);
 }
-public void testDevice8536() throws Exception {
+public void testDevice8537() throws Exception {
     final String result = DeviceNames.getDeviceName("Model 2", FALLBACK);
     Assert.assertEquals("Oioo Model 2", result);
 }
-public void testDevice8537() throws Exception {
+public void testDevice8538() throws Exception {
     final String result = DeviceNames.getDeviceName("Model 3", FALLBACK);
     Assert.assertEquals("Oioo Model 3", result);
 }
-public void testDevice8538() throws Exception {
+public void testDevice8539() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J500F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J5", result);
 }
-public void testDevice8539() throws Exception {
+public void testDevice8540() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J500G", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J5", result);
 }
-public void testDevice8540() throws Exception {
+public void testDevice8541() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T536", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 10.1", result);
 }
-public void testDevice8541() throws Exception {
+public void testDevice8542() throws Exception {
     final String result = DeviceNames.getDeviceName("VIA-T7D", FALLBACK);
     Assert.assertEquals("Casper VIA T7D", result);
 }
-public void testDevice8542() throws Exception {
+public void testDevice8543() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J500H", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J5", result);
 }
-public void testDevice8543() throws Exception {
+public void testDevice8544() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T535", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 10.0", result);
 }
-public void testDevice8544() throws Exception {
+public void testDevice8545() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T533", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 10.1", result);
 }
-public void testDevice8545() throws Exception {
+public void testDevice8546() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T530", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 10.1", result);
 }
-public void testDevice8546() throws Exception {
+public void testDevice8547() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T531", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 10.0", result);
 }
-public void testDevice8547() throws Exception {
+public void testDevice8548() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V983", FALLBACK);
     Assert.assertEquals("ZTE V983", result);
 }
-public void testDevice8548() throws Exception {
+public void testDevice8549() throws Exception {
     final String result = DeviceNames.getDeviceName("Vodafone 785", FALLBACK);
     Assert.assertEquals("Vodafone 785", result);
 }
-public void testDevice8549() throws Exception {
+public void testDevice8550() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J500Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J5", result);
 }
-public void testDevice8550() throws Exception {
+public void testDevice8551() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo P70-A", FALLBACK);
     Assert.assertEquals("Lenovo P70", result);
 }
-public void testDevice8551() throws Exception {
+public void testDevice8552() throws Exception {
     final String result = DeviceNames.getDeviceName("LG Google TV", FALLBACK);
     Assert.assertEquals("LG Android TV", result);
 }
-public void testDevice8552() throws Exception {
+public void testDevice8553() throws Exception {
     final String result = DeviceNames.getDeviceName("ASUS_L001", FALLBACK);
     Assert.assertEquals("Asus Zenfone Go", result);
 }
-public void testDevice8553() throws Exception {
+public void testDevice8554() throws Exception {
     final String result = DeviceNames.getDeviceName("Z410", FALLBACK);
     Assert.assertEquals("Acer Liquid Z410", result);
 }
-public void testDevice8554() throws Exception {
+public void testDevice8555() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R890", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Mini", result);
 }
-public void testDevice8555() throws Exception {
+public void testDevice8556() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H779", FALLBACK);
     Assert.assertEquals("LG AKA", result);
 }
-public void testDevice8556() throws Exception {
+public void testDevice8557() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H778", FALLBACK);
     Assert.assertEquals("LG AKA", result);
 }
-public void testDevice8557() throws Exception {
+public void testDevice8558() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SGH-I717", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note", result);
 }
-public void testDevice8558() throws Exception {
+public void testDevice8559() throws Exception {
     final String result = DeviceNames.getDeviceName("YP-G50", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Player 50", result);
 }
-public void testDevice8559() throws Exception {
+public void testDevice8560() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL S860", FALLBACK);
     Assert.assertEquals("TCL S860", result);
 }
-public void testDevice8560() throws Exception {
+public void testDevice8561() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R530C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S3", result);
 }
-public void testDevice8561() throws Exception {
+public void testDevice8562() throws Exception {
     final String result = DeviceNames.getDeviceName("CP-VL5A", FALLBACK);
     Assert.assertEquals("Hipstreet CP", result);
 }
-public void testDevice8562() throws Exception {
+public void testDevice8563() throws Exception {
     final String result = DeviceNames.getDeviceName("R821T", FALLBACK);
     Assert.assertEquals("Oppo R821T", result);
 }
-public void testDevice8563() throws Exception {
+public void testDevice8564() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N9106W", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note4", result);
 }
-public void testDevice8564() throws Exception {
+public void testDevice8565() throws Exception {
     final String result = DeviceNames.getDeviceName("VIVO XL", FALLBACK);
     Assert.assertEquals("Blu VIVO XL", result);
 }
-public void testDevice8565() throws Exception {
+public void testDevice8566() throws Exception {
     final String result = DeviceNames.getDeviceName("VS920 4G", FALLBACK);
     Assert.assertEquals("LG Spectrum", result);
 }
-public void testDevice8566() throws Exception {
+public void testDevice8567() throws Exception {
     final String result = DeviceNames.getDeviceName("4013M", FALLBACK);
     Assert.assertEquals("4013M", result);
 }
-public void testDevice8567() throws Exception {
+public void testDevice8568() throws Exception {
     final String result = DeviceNames.getDeviceName("Z993", FALLBACK);
     Assert.assertEquals("ZTE Z993", result);
 }
-public void testDevice8568() throws Exception {
+public void testDevice8569() throws Exception {
     final String result = DeviceNames.getDeviceName("PSP3502DUO", FALLBACK);
     Assert.assertEquals("Prestigio PSP3502DUO", result);
 }
-public void testDevice8569() throws Exception {
+public void testDevice8570() throws Exception {
     final String result = DeviceNames.getDeviceName("FreeTAB 8015 IPS X4", FALLBACK);
     Assert.assertEquals("Modecom FreeTAB 8015 IPS X4 LTE", result);
 }
-public void testDevice8570() throws Exception {
+public void testDevice8571() throws Exception {
     final String result = DeviceNames.getDeviceName("V.40", FALLBACK);
     Assert.assertEquals("Mobiwire V.40", result);
 }
-public void testDevice8571() throws Exception {
+public void testDevice8572() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_Amaze_4G", FALLBACK);
     Assert.assertEquals("HTC Amaze 4G", result);
 }
-public void testDevice8572() throws Exception {
+public void testDevice8573() throws Exception {
     final String result = DeviceNames.getDeviceName("XT1077", FALLBACK);
     Assert.assertEquals("Motorola Moto G with 4G LTE (2nd Gen)", result);
 }
-public void testDevice8573() throws Exception {
+public void testDevice8574() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-V700", FALLBACK);
     Assert.assertEquals("LG G Pad 10.1", result);
 }
-public void testDevice8574() throws Exception {
+public void testDevice8575() throws Exception {
     final String result = DeviceNames.getDeviceName("ME371MG", FALLBACK);
     Assert.assertEquals("ASUS Fonepad ME371MG", result);
 }
-public void testDevice8575() throws Exception {
+public void testDevice8576() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A510XZ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A5(2016)", result);
 }
-public void testDevice8576() throws Exception {
+public void testDevice8577() throws Exception {
     final String result = DeviceNames.getDeviceName("5019D", FALLBACK);
     Assert.assertEquals("ALCATEL ONETOUCH PIXI 3 (4.5)", result);
 }
-public void testDevice8577() throws Exception {
+public void testDevice8578() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL J726T", FALLBACK);
     Assert.assertEquals("TCL J726T", result);
 }
-public void testDevice8578() throws Exception {
+public void testDevice8579() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire VC", FALLBACK);
     Assert.assertEquals("HTC Desire VC", result);
 }
-public void testDevice8579() throws Exception {
+public void testDevice8580() throws Exception {
     final String result = DeviceNames.getDeviceName("Ice-Twist", FALLBACK);
     Assert.assertEquals("Huawei Ice-Twist", result);
 }
-public void testDevice8580() throws Exception {
+public void testDevice8581() throws Exception {
     final String result = DeviceNames.getDeviceName("T802 PAD", FALLBACK);
     Assert.assertEquals("Huawei T802", result);
 }
-public void testDevice8581() throws Exception {
+public void testDevice8582() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J5008", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J5", result);
 }
-public void testDevice8582() throws Exception {
+public void testDevice8583() throws Exception {
     final String result = DeviceNames.getDeviceName("MD1005", FALLBACK);
     Assert.assertEquals("Lazer MD1005 Tablet", result);
 }
-public void testDevice8583() throws Exception {
+public void testDevice8584() throws Exception {
     final String result = DeviceNames.getDeviceName("MD1001", FALLBACK);
     Assert.assertEquals("AMTC MD1001 Tablet", result);
 }
-public void testDevice8584() throws Exception {
+public void testDevice8585() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-C105L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Zoom", result);
 }
-public void testDevice8585() throws Exception {
+public void testDevice8586() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-C105K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Zoom", result);
 }
-public void testDevice8586() throws Exception {
+public void testDevice8587() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H440n", FALLBACK);
     Assert.assertEquals("LG Spirit 4G LTE", result);
 }
-public void testDevice8587() throws Exception {
+public void testDevice8588() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 59 Xenon", FALLBACK);
     Assert.assertEquals("Archos 59 Xenon", result);
 }
-public void testDevice8588() throws Exception {
+public void testDevice8589() throws Exception {
     final String result = DeviceNames.getDeviceName("P8_Energy_mini_TM", FALLBACK);
     Assert.assertEquals("AllView P8 Energy mini", result);
 }
-public void testDevice8589() throws Exception {
+public void testDevice8590() throws Exception {
     final String result = DeviceNames.getDeviceName("Hisense M20-M", FALLBACK);
     Assert.assertEquals("Hisense M20-M", result);
 }
-public void testDevice8590() throws Exception {
+public void testDevice8591() throws Exception {
     final String result = DeviceNames.getDeviceName("LGAS375", FALLBACK);
     Assert.assertEquals("LG K8", result);
 }
-public void testDevice8591() throws Exception {
+public void testDevice8592() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I5700", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Spica", result);
 }
-public void testDevice8592() throws Exception {
+public void testDevice8593() throws Exception {
     final String result = DeviceNames.getDeviceName("Edison 3 3G", FALLBACK);
     Assert.assertEquals("Bq Edison 3 3G", result);
 }
-public void testDevice8593() throws Exception {
+public void testDevice8594() throws Exception {
     final String result = DeviceNames.getDeviceName("D2-727", FALLBACK);
     Assert.assertEquals("Anydata D2", result);
 }
-public void testDevice8594() throws Exception {
+public void testDevice8595() throws Exception {
     final String result = DeviceNames.getDeviceName("PI3210G", FALLBACK);
     Assert.assertEquals("Philips PI3210G", result);
 }
-public void testDevice8595() throws Exception {
+public void testDevice8596() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-C105S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Zoom", result);
 }
-public void testDevice8596() throws Exception {
+public void testDevice8597() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T705M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy TabS 8.4", result);
 }
-public void testDevice8597() throws Exception {
+public void testDevice8598() throws Exception {
     final String result = DeviceNames.getDeviceName("TCC893X_EVM", FALLBACK);
     Assert.assertEquals("Hyundai CAR AVN SYSTEM", result);
 }
-public void testDevice8598() throws Exception {
+public void testDevice8599() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F460S", FALLBACK);
     Assert.assertEquals("LG G3 Cat.6", result);
 }
-public void testDevice8599() throws Exception {
+public void testDevice8600() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-05D", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia SX", result);
 }
-public void testDevice8600() throws Exception {
+public void testDevice8601() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G930R6", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S7", result);
 }
-public void testDevice8601() throws Exception {
+public void testDevice8602() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-05F", FALLBACK);
     Assert.assertEquals("Sony Xperia Z2 Tablet", result);
 }
-public void testDevice8602() throws Exception {
+public void testDevice8603() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-05G", FALLBACK);
     Assert.assertEquals("Sony Xperia Z4 Tablet", result);
 }
-public void testDevice8603() throws Exception {
+public void testDevice8604() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T705C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S 8.4", result);
 }
-public void testDevice8604() throws Exception {
+public void testDevice8605() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6102E", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Y Duos", result);
 }
-public void testDevice8605() throws Exception {
+public void testDevice8606() throws Exception {
     final String result = DeviceNames.getDeviceName("Trinity T101", FALLBACK);
     Assert.assertEquals("ESI Enterprises Trinity T101", result);
 }
-public void testDevice8606() throws Exception {
+public void testDevice8607() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T705Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S 8.4", result);
 }
-public void testDevice8607() throws Exception {
+public void testDevice8608() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6102B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Y Duos", result);
 }
-public void testDevice8608() throws Exception {
+public void testDevice8609() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P705", FALLBACK);
     Assert.assertEquals("LG Optimus L7", result);
 }
-public void testDevice8609() throws Exception {
+public void testDevice8610() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T705W", FALLBACK);
     Assert.assertEquals("Samsung Galaxy TabS 8.4", result);
 }
-public void testDevice8610() throws Exception {
+public void testDevice8611() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F460K", FALLBACK);
     Assert.assertEquals("LG G3 Cat.6", result);
 }
-public void testDevice8611() throws Exception {
+public void testDevice8612() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P700", FALLBACK);
     Assert.assertEquals("LG Optimus L7", result);
 }
-public void testDevice8612() throws Exception {
+public void testDevice8613() throws Exception {
     final String result = DeviceNames.getDeviceName("PAD841", FALLBACK);
     Assert.assertEquals("Haier PAD841", result);
 }
-public void testDevice8613() throws Exception {
+public void testDevice8614() throws Exception {
     final String result = DeviceNames.getDeviceName("501SO", FALLBACK);
     Assert.assertEquals("Sony Xperia Z5", result);
 }
-public void testDevice8614() throws Exception {
+public void testDevice8615() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-K520", FALLBACK);
     Assert.assertEquals("LG Stylus 2", result);
 }
-public void testDevice8615() throws Exception {
+public void testDevice8616() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D728", FALLBACK);
     Assert.assertEquals("LG G3 Beat", result);
 }
-public void testDevice8616() throws Exception {
+public void testDevice8617() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D729", FALLBACK);
     Assert.assertEquals("LG G3 Beat", result);
 }
-public void testDevice8617() throws Exception {
+public void testDevice8618() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO_W4", FALLBACK);
     Assert.assertEquals("TECNO-W4", result);
 }
-public void testDevice8618() throws Exception {
+public void testDevice8619() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D722", FALLBACK);
     Assert.assertEquals("LG G3 S", result);
 }
-public void testDevice8619() throws Exception {
+public void testDevice8620() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D723", FALLBACK);
     Assert.assertEquals("LG G3 S", result);
 }
-public void testDevice8620() throws Exception {
+public void testDevice8621() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D726", FALLBACK);
     Assert.assertEquals("LG G3 Beat", result);
 }
-public void testDevice8621() throws Exception {
+public void testDevice8622() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D727", FALLBACK);
     Assert.assertEquals("LG G3 Beat", result);
 }
-public void testDevice8622() throws Exception {
+public void testDevice8623() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D724", FALLBACK);
     Assert.assertEquals("LG G3 S", result);
 }
-public void testDevice8623() throws Exception {
+public void testDevice8624() throws Exception {
     final String result = DeviceNames.getDeviceName("Selecline-854599", FALLBACK);
     Assert.assertEquals("Auchan Selecline-854599", result);
 }
-public void testDevice8624() throws Exception {
+public void testDevice8625() throws Exception {
     final String result = DeviceNames.getDeviceName("VivaH10LTE", FALLBACK);
     Assert.assertEquals("AllView Viva H10 LTE", result);
 }
-public void testDevice8625() throws Exception {
+public void testDevice8626() throws Exception {
     final String result = DeviceNames.getDeviceName("776TPCIII", FALLBACK);
     Assert.assertEquals("iView 776TPCIII", result);
 }
-public void testDevice8626() throws Exception {
+public void testDevice8627() throws Exception {
     final String result = DeviceNames.getDeviceName("Orinoquia Gran Roraima + S7-722u", FALLBACK);
     Assert.assertEquals("Huawei Gran_Roraima", result);
 }
-public void testDevice8627() throws Exception {
+public void testDevice8628() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_M8Sx", FALLBACK);
     Assert.assertEquals("HTC One (E8)", result);
 }
-public void testDevice8628() throws Exception {
+public void testDevice8629() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_M8Sy", FALLBACK);
     Assert.assertEquals("HTC One (E8) dual sim", result);
 }
-public void testDevice8629() throws Exception {
+public void testDevice8630() throws Exception {
     final String result = DeviceNames.getDeviceName("LGL41C", FALLBACK);
     Assert.assertEquals("LG L70 CDMA", result);
 }
-public void testDevice8630() throws Exception {
+public void testDevice8631() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade A410", FALLBACK);
     Assert.assertEquals("ZTE Orange Dive 30", result);
 }
-public void testDevice8631() throws Exception {
+public void testDevice8632() throws Exception {
     final String result = DeviceNames.getDeviceName("Alcatel one touch 908F Orange", FALLBACK);
     Assert.assertEquals("One Touch 990", result);
 }
-public void testDevice8632() throws Exception {
+public void testDevice8633() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J200BT", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J2", result);
 }
-public void testDevice8633() throws Exception {
+public void testDevice8634() throws Exception {
     final String result = DeviceNames.getDeviceName("SOV31", FALLBACK);
     Assert.assertEquals("Sony Xperia Z4", result);
 }
-public void testDevice8634() throws Exception {
+public void testDevice8635() throws Exception {
     final String result = DeviceNames.getDeviceName("SOV32", FALLBACK);
     Assert.assertEquals("Sony Xperia Z5", result);
 }
-public void testDevice8635() throws Exception {
+public void testDevice8636() throws Exception {
     final String result = DeviceNames.getDeviceName("LED32L288", FALLBACK);
     Assert.assertEquals("Hisense LED32L288", result);
 }
-public void testDevice8636() throws Exception {
+public void testDevice8637() throws Exception {
     final String result = DeviceNames.getDeviceName("AX1055", FALLBACK);
     Assert.assertEquals("BMobile AX1055", result);
 }
-public void testDevice8637() throws Exception {
+public void testDevice8638() throws Exception {
     final String result = DeviceNames.getDeviceName("HMP8100_ATV_93", FALLBACK);
     Assert.assertEquals("Philips HMP8100/93", result);
 }
-public void testDevice8638() throws Exception {
+public void testDevice8639() throws Exception {
     final String result = DeviceNames.getDeviceName("ASUS_Z011D", FALLBACK);
     Assert.assertEquals("Asus ZenFone 2 Laser (ZE601KL)", result);
 }
-public void testDevice8639() throws Exception {
+public void testDevice8640() throws Exception {
     final String result = DeviceNames.getDeviceName("MSP4507", FALLBACK);
     Assert.assertEquals("Manta MSP4507", result);
 }
-public void testDevice8640() throws Exception {
+public void testDevice8641() throws Exception {
     final String result = DeviceNames.getDeviceName("NV8", FALLBACK);
     Assert.assertEquals("Ncredible NV8", result);
 }
-public void testDevice8641() throws Exception {
+public void testDevice8642() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL_ONE_TOUCH_991_Orange", FALLBACK);
     Assert.assertEquals("ALCATEL_ONE_TOUCH_991_Orange", result);
 }
-public void testDevice8642() throws Exception {
+public void testDevice8643() throws Exception {
     final String result = DeviceNames.getDeviceName("T10", FALLBACK);
     Assert.assertEquals("BYD DynaVox T10", result);
 }
-public void testDevice8643() throws Exception {
+public void testDevice8644() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5660B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Gio", result);
 }
-public void testDevice8644() throws Exception {
+public void testDevice8645() throws Exception {
     final String result = DeviceNames.getDeviceName("TF201", FALLBACK);
     Assert.assertEquals("Asus Eee Pad Transformer Prime", result);
 }
-public void testDevice8645() throws Exception {
+public void testDevice8646() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-P3105", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab2 7.0", result);
 }
-public void testDevice8646() throws Exception {
+public void testDevice8647() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-P3100", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 2", result);
 }
-public void testDevice8647() throws Exception {
+public void testDevice8648() throws Exception {
     final String result = DeviceNames.getDeviceName("DP7856K", FALLBACK);
     Assert.assertEquals("Dopo DP7856K", result);
 }
-public void testDevice8648() throws Exception {
+public void testDevice8649() throws Exception {
     final String result = DeviceNames.getDeviceName("N8730-411", FALLBACK);
     Assert.assertEquals("NEC AGT10", result);
 }
-public void testDevice8649() throws Exception {
+public void testDevice8650() throws Exception {
     final String result = DeviceNames.getDeviceName("A5_Quad_Plus_TM", FALLBACK);
     Assert.assertEquals("AllView A5 Quad Plus", result);
 }
-public void testDevice8650() throws Exception {
+public void testDevice8651() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A390_ROW", FALLBACK);
     Assert.assertEquals("Lenovo A390", result);
 }
-public void testDevice8651() throws Exception {
+public void testDevice8652() throws Exception {
     final String result = DeviceNames.getDeviceName("MaxiIQ", FALLBACK);
     Assert.assertEquals("Pegatron MaxiIQ", result);
 }
-public void testDevice8652() throws Exception {
+public void testDevice8653() throws Exception {
     final String result = DeviceNames.getDeviceName("LIFETAB_P891X", FALLBACK);
     Assert.assertEquals("Medion LIFETAB P891X", result);
 }
-public void testDevice8653() throws Exception {
+public void testDevice8654() throws Exception {
     final String result = DeviceNames.getDeviceName("one touch 995C+", FALLBACK);
     Assert.assertEquals("one touch 995C+", result);
 }
-public void testDevice8654() throws Exception {
+public void testDevice8655() throws Exception {
     final String result = DeviceNames.getDeviceName("GTB 801", FALLBACK);
     Assert.assertEquals("Grundig TC69CA2", result);
 }
-public void testDevice8655() throws Exception {
+public void testDevice8656() throws Exception {
     final String result = DeviceNames.getDeviceName("P-06D", FALLBACK);
     Assert.assertEquals("Panasonic ELUGA V", result);
 }
-public void testDevice8656() throws Exception {
+public void testDevice8657() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D100AR", FALLBACK);
     Assert.assertEquals("LG L20", result);
 }
-public void testDevice8657() throws Exception {
+public void testDevice8658() throws Exception {
     final String result = DeviceNames.getDeviceName("Nexus 5X", FALLBACK);
     Assert.assertEquals("LG Nexus 5X", result);
 }
-public void testDevice8658() throws Exception {
+public void testDevice8659() throws Exception {
     final String result = DeviceNames.getDeviceName("LG GW620", FALLBACK);
     Assert.assertEquals("LG Eve", result);
 }
-public void testDevice8659() throws Exception {
+public void testDevice8660() throws Exception {
     final String result = DeviceNames.getDeviceName("PULP FAB", FALLBACK);
     Assert.assertEquals("Wiko PULP FAB", result);
 }
-public void testDevice8660() throws Exception {
+public void testDevice8661() throws Exception {
     final String result = DeviceNames.getDeviceName("Turbo-X Coral II", FALLBACK);
     Assert.assertEquals("Plaisio Coral II", result);
 }
-public void testDevice8661() throws Exception {
+public void testDevice8662() throws Exception {
     final String result = DeviceNames.getDeviceName("EGQ377", FALLBACK);
     Assert.assertEquals("Ematic EGQ377", result);
 }
-public void testDevice8662() throws Exception {
+public void testDevice8663() throws Exception {
     final String result = DeviceNames.getDeviceName("KAZAM Thunder 550", FALLBACK);
     Assert.assertEquals("KAZAM Thunder 550", result);
 }
-public void testDevice8663() throws Exception {
+public void testDevice8664() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T715N0", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 8.0", result);
 }
-public void testDevice8664() throws Exception {
+public void testDevice8665() throws Exception {
     final String result = DeviceNames.getDeviceName("F5281CH", FALLBACK);
     Assert.assertEquals("Hisense F5281CH", result);
 }
-public void testDevice8665() throws Exception {
+public void testDevice8666() throws Exception {
     final String result = DeviceNames.getDeviceName("YU5050", FALLBACK);
     Assert.assertEquals("Micromax Yutopia", result);
 }
-public void testDevice8666() throws Exception {
+public void testDevice8667() throws Exception {
     final String result = DeviceNames.getDeviceName("PTAB1051_PTAB1055", FALLBACK);
     Assert.assertEquals("Polaroid PTAB1051-PTAB1055", result);
 }
-public void testDevice8667() throws Exception {
+public void testDevice8668() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R970X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4", result);
 }
-public void testDevice8668() throws Exception {
+public void testDevice8669() throws Exception {
     final String result = DeviceNames.getDeviceName("EK-GC100", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Camera", result);
 }
-public void testDevice8669() throws Exception {
+public void testDevice8670() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G870F0", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 Active", result);
 }
-public void testDevice8670() throws Exception {
+public void testDevice8671() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T560NU", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab E 9.6", result);
 }
-public void testDevice8671() throws Exception {
+public void testDevice8672() throws Exception {
     final String result = DeviceNames.getDeviceName("R830", FALLBACK);
     Assert.assertEquals("OPPO R830", result);
 }
-public void testDevice8672() throws Exception {
+public void testDevice8673() throws Exception {
     final String result = DeviceNames.getDeviceName("ST18a", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia ray", result);
 }
-public void testDevice8673() throws Exception {
+public void testDevice8674() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade G", FALLBACK);
     Assert.assertEquals("ZTE Blade G", result);
 }
-public void testDevice8674() throws Exception {
+public void testDevice8675() throws Exception {
     final String result = DeviceNames.getDeviceName("LGLS620", FALLBACK);
     Assert.assertEquals("LG L70", result);
 }
-public void testDevice8675() throws Exception {
+public void testDevice8676() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC D820us", FALLBACK);
     Assert.assertEquals("HTC Desire 820s", result);
 }
-public void testDevice8676() throws Exception {
+public void testDevice8677() throws Exception {
     final String result = DeviceNames.getDeviceName("Z9 Plus", FALLBACK);
     Assert.assertEquals("QMobile Z9 Plus", result);
 }
-public void testDevice8677() throws Exception {
+public void testDevice8678() throws Exception {
     final String result = DeviceNames.getDeviceName("Patio100", FALLBACK);
     Assert.assertEquals("Fujitsu Patio100", result);
 }
-public void testDevice8678() throws Exception {
+public void testDevice8679() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade L", FALLBACK);
     Assert.assertEquals("ZTE V887", result);
 }
-public void testDevice8679() throws Exception {
+public void testDevice8680() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade V", FALLBACK);
     Assert.assertEquals("ZTE Blade V", result);
 }
-public void testDevice8680() throws Exception {
+public void testDevice8681() throws Exception {
     final String result = DeviceNames.getDeviceName("ME525+", FALLBACK);
     Assert.assertEquals("Motorola Defy", result);
 }
-public void testDevice8681() throws Exception {
+public void testDevice8682() throws Exception {
     final String result = DeviceNames.getDeviceName("N5110", FALLBACK);
     Assert.assertEquals("Oppo N5110", result);
 }
-public void testDevice8682() throws Exception {
+public void testDevice8683() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade Q", FALLBACK);
     Assert.assertEquals("ZTE STARTRAIL 4", result);
 }
-public void testDevice8683() throws Exception {
+public void testDevice8684() throws Exception {
     final String result = DeviceNames.getDeviceName("Y635-L02", FALLBACK);
     Assert.assertEquals("Huawei Y635", result);
 }
-public void testDevice8684() throws Exception {
+public void testDevice8685() throws Exception {
     final String result = DeviceNames.getDeviceName("Ilium S106", FALLBACK);
     Assert.assertEquals("Lanix ilium_S106", result);
 }
-public void testDevice8685() throws Exception {
+public void testDevice8686() throws Exception {
     final String result = DeviceNames.getDeviceName("ATH-UL00", FALLBACK);
     Assert.assertEquals("Huawei ATH-UL00", result);
 }
-public void testDevice8686() throws Exception {
+public void testDevice8687() throws Exception {
     final String result = DeviceNames.getDeviceName("Y635-L03", FALLBACK);
     Assert.assertEquals("Huawei Y635", result);
 }
-public void testDevice8687() throws Exception {
+public void testDevice8688() throws Exception {
     final String result = DeviceNames.getDeviceName("Play", FALLBACK);
     Assert.assertEquals("WeTek Play", result);
 }
-public void testDevice8688() throws Exception {
+public void testDevice8689() throws Exception {
     final String result = DeviceNames.getDeviceName("nuvi 3590", FALLBACK);
     Assert.assertEquals("Garmin nuvi 3590", result);
 }
-public void testDevice8689() throws Exception {
+public void testDevice8690() throws Exception {
     final String result = DeviceNames.getDeviceName("NE-202", FALLBACK);
     Assert.assertEquals("NEC MEDIAS NE-202", result);
 }
-public void testDevice8690() throws Exception {
+public void testDevice8691() throws Exception {
     final String result = DeviceNames.getDeviceName("LGLS660", FALLBACK);
     Assert.assertEquals("LG Tribute LS660", result);
 }
-public void testDevice8691() throws Exception {
+public void testDevice8692() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-V410", FALLBACK);
     Assert.assertEquals("LG G Pad 7.0", result);
 }
-public void testDevice8692() throws Exception {
+public void testDevice8693() throws Exception {
     final String result = DeviceNames.getDeviceName("SB506", FALLBACK);
     Assert.assertEquals("Gigabyte SB506", result);
 }
-public void testDevice8693() throws Exception {
+public void testDevice8694() throws Exception {
     final String result = DeviceNames.getDeviceName("YP-GP1", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Player 5.8", result);
 }
-public void testDevice8694() throws Exception {
+public void testDevice8695() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A3900", FALLBACK);
     Assert.assertEquals("Lenovo A3900", result);
 }
-public void testDevice8695() throws Exception {
+public void testDevice8696() throws Exception {
     final String result = DeviceNames.getDeviceName("P5Life", FALLBACK);
     Assert.assertEquals("AllView P5Life", result);
 }
-public void testDevice8696() throws Exception {
+public void testDevice8697() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D682TR", FALLBACK);
     Assert.assertEquals("LG G Pro Lite", result);
 }
-public void testDevice8697() throws Exception {
+public void testDevice8698() throws Exception {
     final String result = DeviceNames.getDeviceName("PSP3452DUO", FALLBACK);
     Assert.assertEquals("Prestigio Muze A3", result);
 }
-public void testDevice8698() throws Exception {
+public void testDevice8699() throws Exception {
     final String result = DeviceNames.getDeviceName("KSP8000", FALLBACK);
     Assert.assertEquals("Kyocera Echo", result);
 }
-public void testDevice8699() throws Exception {
+public void testDevice8700() throws Exception {
     final String result = DeviceNames.getDeviceName("Telenor Touch Mini", FALLBACK);
     Assert.assertEquals("ZTE-U V760", result);
 }
-public void testDevice8700() throws Exception {
+public void testDevice8701() throws Exception {
     final String result = DeviceNames.getDeviceName("Elite", FALLBACK);
     Assert.assertEquals("Panasonic Elite 18", result);
 }
-public void testDevice8701() throws Exception {
+public void testDevice8702() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T365F0", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 Active", result);
 }
-public void testDevice8702() throws Exception {
+public void testDevice8703() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE A2016", FALLBACK);
     Assert.assertEquals("ZTE A2016", result);
 }
-public void testDevice8703() throws Exception {
+public void testDevice8704() throws Exception {
     final String result = DeviceNames.getDeviceName("QM163E", FALLBACK);
     Assert.assertEquals("Philips 4K Ultra Slim LED TV powered by Android", result);
 }
-public void testDevice8704() throws Exception {
+public void testDevice8705() throws Exception {
     final String result = DeviceNames.getDeviceName("A1-810", FALLBACK);
     Assert.assertEquals("Acer Iconia A1", result);
 }
-public void testDevice8705() throws Exception {
+public void testDevice8706() throws Exception {
     final String result = DeviceNames.getDeviceName("A1-811", FALLBACK);
     Assert.assertEquals("Acer A1", result);
 }
-public void testDevice8706() throws Exception {
+public void testDevice8707() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y523-L076", FALLBACK);
     Assert.assertEquals("Huawei Y523", result);
 }
-public void testDevice8707() throws Exception {
+public void testDevice8708() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A688t", FALLBACK);
     Assert.assertEquals("Lenovo A688t", result);
 }
-public void testDevice8708() throws Exception {
+public void testDevice8709() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A2800-d", FALLBACK);
     Assert.assertEquals("Lenovo A2800", result);
 }
-public void testDevice8709() throws Exception {
+public void testDevice8710() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4516 Octa", FALLBACK);
     Assert.assertEquals("Fly IQ4516 Octa", result);
 }
-public void testDevice8710() throws Exception {
+public void testDevice8711() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G355HQ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core2", result);
 }
-public void testDevice8711() throws Exception {
+public void testDevice8712() throws Exception {
     final String result = DeviceNames.getDeviceName("BUSH 7.0 TABLET", FALLBACK);
     Assert.assertEquals("Archos Bush MyTablet 7", result);
 }
-public void testDevice8712() throws Exception {
+public void testDevice8713() throws Exception {
     final String result = DeviceNames.getDeviceName("Kurio10S", FALLBACK);
     Assert.assertEquals("KD Interactive Kurio10S", result);
 }
-public void testDevice8713() throws Exception {
+public void testDevice8714() throws Exception {
     final String result = DeviceNames.getDeviceName("SHW-M305W", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 8.9", result);
 }
-public void testDevice8714() throws Exception {
+public void testDevice8715() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC One mini", FALLBACK);
     Assert.assertEquals("HTC One mini", result);
 }
-public void testDevice8715() throws Exception {
+public void testDevice8716() throws Exception {
     final String result = DeviceNames.getDeviceName("Aquaris E6", FALLBACK);
     Assert.assertEquals("bq Aquaris E6", result);
 }
-public void testDevice8716() throws Exception {
+public void testDevice8717() throws Exception {
     final String result = DeviceNames.getDeviceName("Aquaris E5", FALLBACK);
     Assert.assertEquals("bq Aquaris E5", result);
 }
-public void testDevice8717() throws Exception {
+public void testDevice8718() throws Exception {
     final String result = DeviceNames.getDeviceName("Aquaris E4", FALLBACK);
     Assert.assertEquals("bq Aquaris E4", result);
 }
-public void testDevice8718() throws Exception {
+public void testDevice8719() throws Exception {
     final String result = DeviceNames.getDeviceName("R2001", FALLBACK);
     Assert.assertEquals("OPPO R2001", result);
 }
-public void testDevice8719() throws Exception {
+public void testDevice8720() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G355HN", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core2", result);
 }
-public void testDevice8720() throws Exception {
+public void testDevice8721() throws Exception {
     final String result = DeviceNames.getDeviceName("ST17i", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia active", result);
 }
-public void testDevice8721() throws Exception {
+public void testDevice8722() throws Exception {
     final String result = DeviceNames.getDeviceName("8030B", FALLBACK);
     Assert.assertEquals("8030B", result);
 }
-public void testDevice8722() throws Exception {
+public void testDevice8723() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax A200", FALLBACK);
     Assert.assertEquals("Micromax CANVAS TURBO MINI", result);
 }
-public void testDevice8723() throws Exception {
+public void testDevice8724() throws Exception {
     final String result = DeviceNames.getDeviceName("GiONEE S7", FALLBACK);
     Assert.assertEquals("Gionee GN9006", result);
 }
-public void testDevice8724() throws Exception {
+public void testDevice8725() throws Exception {
     final String result = DeviceNames.getDeviceName("L-01E", FALLBACK);
     Assert.assertEquals("LG Optimus G", result);
 }
-public void testDevice8725() throws Exception {
+public void testDevice8726() throws Exception {
     final String result = DeviceNames.getDeviceName("V9c", FALLBACK);
     Assert.assertEquals("ZTE V9", result);
 }
-public void testDevice8726() throws Exception {
+public void testDevice8727() throws Exception {
     final String result = DeviceNames.getDeviceName("L-01F", FALLBACK);
     Assert.assertEquals("G2", result);
 }
-public void testDevice8727() throws Exception {
+public void testDevice8728() throws Exception {
     final String result = DeviceNames.getDeviceName("ASUS Transformer Pad TF300TG", FALLBACK);
     Assert.assertEquals("ASUS Transformer Pad TF300TG", result);
 }
-public void testDevice8728() throws Exception {
+public void testDevice8729() throws Exception {
     final String result = DeviceNames.getDeviceName("RTK V9", FALLBACK);
     Assert.assertEquals("ZTE V9", result);
 }
-public void testDevice8729() throws Exception {
+public void testDevice8730() throws Exception {
     final String result = DeviceNames.getDeviceName("V9e", FALLBACK);
     Assert.assertEquals("ZTE V9", result);
 }
-public void testDevice8730() throws Exception {
+public void testDevice8731() throws Exception {
     final String result = DeviceNames.getDeviceName("Orange Rono", FALLBACK);
     Assert.assertEquals("ZTE Orange Rono", result);
 }
-public void testDevice8731() throws Exception {
+public void testDevice8732() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-G360AZ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8732() throws Exception {
+public void testDevice8733() throws Exception {
     final String result = DeviceNames.getDeviceName("ASUS Transformer Pad TF300TL", FALLBACK);
     Assert.assertEquals("ASUS Transformer Pad TF300TL", result);
 }
-public void testDevice8733() throws Exception {
+public void testDevice8734() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T235", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 7.0", result);
 }
-public void testDevice8734() throws Exception {
+public void testDevice8735() throws Exception {
     final String result = DeviceNames.getDeviceName("V9S", FALLBACK);
     Assert.assertEquals("ZTE V9S", result);
 }
-public void testDevice8735() throws Exception {
+public void testDevice8736() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T231", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 7.0", result);
 }
-public void testDevice8736() throws Exception {
+public void testDevice8737() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T230", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 7.0", result);
 }
-public void testDevice8737() throws Exception {
+public void testDevice8738() throws Exception {
     final String result = DeviceNames.getDeviceName("M51w", FALLBACK);
     Assert.assertEquals("Sony Xperia Z1 Compact", result);
 }
-public void testDevice8738() throws Exception {
+public void testDevice8739() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T232", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 7.0", result);
 }
-public void testDevice8739() throws Exception {
+public void testDevice8740() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_Flyer_P512_NA", FALLBACK);
     Assert.assertEquals("HTC Flyer", result);
 }
-public void testDevice8740() throws Exception {
+public void testDevice8741() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T239", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 7.0", result);
 }
-public void testDevice8741() throws Exception {
+public void testDevice8742() throws Exception {
     final String result = DeviceNames.getDeviceName("V9C", FALLBACK);
     Assert.assertEquals("ZTE V9", result);
 }
-public void testDevice8742() throws Exception {
+public void testDevice8743() throws Exception {
     final String result = DeviceNames.getDeviceName("V9A", FALLBACK);
     Assert.assertEquals("ZTE V9A", result);
 }
-public void testDevice8743() throws Exception {
+public void testDevice8744() throws Exception {
     final String result = DeviceNames.getDeviceName("MEO Smart A40", FALLBACK);
     Assert.assertEquals("ZTE Blade G Lux", result);
 }
-public void testDevice8744() throws Exception {
+public void testDevice8745() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 101d Neon", FALLBACK);
     Assert.assertEquals("Archos 101D Neon", result);
 }
-public void testDevice8745() throws Exception {
+public void testDevice8746() throws Exception {
     final String result = DeviceNames.getDeviceName("G30", FALLBACK);
     Assert.assertEquals("Haier G30", result);
 }
-public void testDevice8746() throws Exception {
+public void testDevice8747() throws Exception {
     final String result = DeviceNames.getDeviceName("Ultra Energy Lite", FALLBACK);
     Assert.assertEquals("Hyundai Ultra Energy Lite", result);
 }
-public void testDevice8747() throws Exception {
+public void testDevice8748() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4414 Quad", FALLBACK);
     Assert.assertEquals("Fly Evo Tech 3", result);
 }
-public void testDevice8748() throws Exception {
+public void testDevice8749() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V993W", FALLBACK);
     Assert.assertEquals("ZTE V993W", result);
 }
-public void testDevice8749() throws Exception {
+public void testDevice8750() throws Exception {
     final String result = DeviceNames.getDeviceName("OPPO A59m", FALLBACK);
     Assert.assertEquals("OPPO A59m", result);
 }
-public void testDevice8750() throws Exception {
+public void testDevice8751() throws Exception {
     final String result = DeviceNames.getDeviceName("OPPO A59t", FALLBACK);
     Assert.assertEquals("OPPO A59t", result);
 }
-public void testDevice8751() throws Exception {
+public void testDevice8752() throws Exception {
     final String result = DeviceNames.getDeviceName("S4S4IN3G", FALLBACK);
     Assert.assertEquals("Auchan S4S4IN3G", result);
 }
-public void testDevice8752() throws Exception {
+public void testDevice8753() throws Exception {
     final String result = DeviceNames.getDeviceName("6070K", FALLBACK);
     Assert.assertEquals("IDOL 4S", result);
 }
-public void testDevice8753() throws Exception {
+public void testDevice8754() throws Exception {
     final String result = DeviceNames.getDeviceName("Primo_ZX2", FALLBACK);
     Assert.assertEquals("Walton Primo ZX2", result);
 }
-public void testDevice8754() throws Exception {
+public void testDevice8755() throws Exception {
     final String result = DeviceNames.getDeviceName("Quechua Phone 5", FALLBACK);
     Assert.assertEquals("Archos Quechua Phone 5", result);
 }
-public void testDevice8755() throws Exception {
+public void testDevice8756() throws Exception {
     final String result = DeviceNames.getDeviceName("M511", FALLBACK);
     Assert.assertEquals("Infocus M511", result);
 }
-public void testDevice8756() throws Exception {
+public void testDevice8757() throws Exception {
     final String result = DeviceNames.getDeviceName("QMobile Z10", FALLBACK);
     Assert.assertEquals("QMobile Z10", result);
 }
-public void testDevice8757() throws Exception {
+public void testDevice8758() throws Exception {
     final String result = DeviceNames.getDeviceName("MFC191FR2", FALLBACK);
     Assert.assertEquals("Lexibook Fluo XL", result);
 }
-public void testDevice8758() throws Exception {
+public void testDevice8759() throws Exception {
     final String result = DeviceNames.getDeviceName("M512", FALLBACK);
     Assert.assertEquals("Infocus M512", result);
 }
-public void testDevice8759() throws Exception {
+public void testDevice8760() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-7DTB39", FALLBACK);
     Assert.assertEquals("POLAROID A7_PTAB735", result);
 }
-public void testDevice8760() throws Exception {
+public void testDevice8761() throws Exception {
     final String result = DeviceNames.getDeviceName("M518", FALLBACK);
     Assert.assertEquals("Infocus M518", result);
 }
-public void testDevice8761() throws Exception {
+public void testDevice8762() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-7DTB35", FALLBACK);
     Assert.assertEquals("Hipstreet HS-7DTB35", result);
 }
-public void testDevice8762() throws Exception {
+public void testDevice8763() throws Exception {
     final String result = DeviceNames.getDeviceName("VS910_4G", FALLBACK);
     Assert.assertEquals("LG Revolution 4G", result);
 }
-public void testDevice8763() throws Exception {
+public void testDevice8764() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT5021_3G", FALLBACK);
     Assert.assertEquals("Prestigio PMT5021_3G", result);
 }
-public void testDevice8764() throws Exception {
+public void testDevice8765() throws Exception {
     final String result = DeviceNames.getDeviceName("HM 1SW", FALLBACK);
     Assert.assertEquals("Xiaomi HM 1SC", result);
 }
-public void testDevice8765() throws Exception {
+public void testDevice8766() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-U688", FALLBACK);
     Assert.assertEquals("U688 Hisense", result);
 }
-public void testDevice8766() throws Exception {
+public void testDevice8767() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 600 dual sim", FALLBACK);
     Assert.assertEquals("HTC Desire 600 Dual SIM", result);
 }
-public void testDevice8767() throws Exception {
+public void testDevice8768() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-X1", FALLBACK);
     Assert.assertEquals("Hisense X1E1", result);
 }
-public void testDevice8768() throws Exception {
+public void testDevice8769() throws Exception {
     final String result = DeviceNames.getDeviceName("LGLS740", FALLBACK);
     Assert.assertEquals("LG Volt", result);
 }
-public void testDevice8769() throws Exception {
+public void testDevice8770() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G800F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 Mini", result);
 }
-public void testDevice8770() throws Exception {
+public void testDevice8771() throws Exception {
     final String result = DeviceNames.getDeviceName("Vodafone Smart Tab III 7", FALLBACK);
     Assert.assertEquals("Lenovo IdeaTab A3000", result);
 }
-public void testDevice8771() throws Exception {
+public void testDevice8772() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G800M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 mini", result);
 }
-public void testDevice8772() throws Exception {
+public void testDevice8773() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G800H", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 Mini", result);
 }
-public void testDevice8773() throws Exception {
+public void testDevice8774() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_M9pw", FALLBACK);
     Assert.assertEquals("HTC One M9+", result);
 }
-public void testDevice8774() throws Exception {
+public void testDevice8775() throws Exception {
     final String result = DeviceNames.getDeviceName("TM800A510L", FALLBACK);
     Assert.assertEquals("Nuvision TM800A510L", result);
 }
-public void testDevice8775() throws Exception {
+public void testDevice8776() throws Exception {
     final String result = DeviceNames.getDeviceName("A0001", FALLBACK);
     Assert.assertEquals("OnePlus One", result);
 }
-public void testDevice8776() throws Exception {
+public void testDevice8777() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL i718M", FALLBACK);
     Assert.assertEquals("TCL i718M", result);
 }
-public void testDevice8777() throws Exception {
+public void testDevice8778() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE N9120", FALLBACK);
     Assert.assertEquals("ZTE N9120", result);
 }
-public void testDevice8778() throws Exception {
+public void testDevice8779() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G800X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 mini", result);
 }
-public void testDevice8779() throws Exception {
+public void testDevice8780() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G800Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5 mini LTE", result);
 }
-public void testDevice8780() throws Exception {
+public void testDevice8781() throws Exception {
     final String result = DeviceNames.getDeviceName("WM8", FALLBACK);
     Assert.assertEquals("Hisense WM8", result);
 }
-public void testDevice8781() throws Exception {
+public void testDevice8782() throws Exception {
     final String result = DeviceNames.getDeviceName("VIETTEL V8411", FALLBACK);
     Assert.assertEquals("ZTE V797", result);
 }
-public void testDevice8782() throws Exception {
+public void testDevice8783() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T335", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 8.0", result);
 }
-public void testDevice8783() throws Exception {
+public void testDevice8784() throws Exception {
     final String result = DeviceNames.getDeviceName("ASUS_T00I-D", FALLBACK);
     Assert.assertEquals("Asus ZenFone 4 (A400CG)", result);
 }
-public void testDevice8784() throws Exception {
+public void testDevice8785() throws Exception {
     final String result = DeviceNames.getDeviceName("RCT6077W22", FALLBACK);
     Assert.assertEquals("RCA RCT6077W22", result);
 }
-public void testDevice8785() throws Exception {
+public void testDevice8786() throws Exception {
     final String result = DeviceNames.getDeviceName("OPPO A59", FALLBACK);
     Assert.assertEquals("OPPO A59", result);
 }
-public void testDevice8786() throws Exception {
+public void testDevice8787() throws Exception {
     final String result = DeviceNames.getDeviceName("F105L", FALLBACK);
     Assert.assertEquals("Gionee F105L", result);
 }
-public void testDevice8787() throws Exception {
+public void testDevice8788() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax P690", FALLBACK);
     Assert.assertEquals("Micromax Canvas Tab", result);
 }
-public void testDevice8788() throws Exception {
+public void testDevice8789() throws Exception {
     final String result = DeviceNames.getDeviceName("HW-W900", FALLBACK);
     Assert.assertEquals("Cellon HW-W900", result);
 }
-public void testDevice8789() throws Exception {
+public void testDevice8790() throws Exception {
     final String result = DeviceNames.getDeviceName("RCT6378W2", FALLBACK);
     Assert.assertEquals("RCA RCT6378W2", result);
 }
-public void testDevice8790() throws Exception {
+public void testDevice8791() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9268", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Premier", result);
 }
-public void testDevice8791() throws Exception {
+public void testDevice8792() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO M3S", FALLBACK);
     Assert.assertEquals("Tecno M3", result);
 }
-public void testDevice8792() throws Exception {
+public void testDevice8793() throws Exception {
     final String result = DeviceNames.getDeviceName("LGMS769", FALLBACK);
     Assert.assertEquals("LG Optimus L9", result);
 }
-public void testDevice8793() throws Exception {
+public void testDevice8794() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9260", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Premier", result);
 }
-public void testDevice8794() throws Exception {
+public void testDevice8795() throws Exception {
     final String result = DeviceNames.getDeviceName("Blackphone 2", FALLBACK);
     Assert.assertEquals("Silent Circle Blackphone 2", result);
 }
-public void testDevice8795() throws Exception {
+public void testDevice8796() throws Exception {
     final String result = DeviceNames.getDeviceName("Air", FALLBACK);
     Assert.assertEquals("Mobicell Air", result);
 }
-public void testDevice8796() throws Exception {
+public void testDevice8797() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A936", FALLBACK);
     Assert.assertEquals("Lenovo A936", result);
 }
-public void testDevice8797() throws Exception {
+public void testDevice8798() throws Exception {
     final String result = DeviceNames.getDeviceName("XT389", FALLBACK);
     Assert.assertEquals("Motorola Motosmart", result);
 }
-public void testDevice8798() throws Exception {
+public void testDevice8799() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T989", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S II", result);
 }
-public void testDevice8799() throws Exception {
+public void testDevice8800() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-US670", FALLBACK);
     Assert.assertEquals("LG Optimus One", result);
 }
-public void testDevice8800() throws Exception {
+public void testDevice8801() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT3331_3G", FALLBACK);
     Assert.assertEquals("Prestigio MULTIPAD WIZE 3331 3G", result);
 }
-public void testDevice8801() throws Exception {
+public void testDevice8802() throws Exception {
     final String result = DeviceNames.getDeviceName("EveryPad3", FALLBACK);
     Assert.assertEquals("Lenovo PB1-770M/Lenovo PHAB Plus", result);
 }
-public void testDevice8802() throws Exception {
+public void testDevice8803() throws Exception {
     final String result = DeviceNames.getDeviceName("EveryPad2", FALLBACK);
     Assert.assertEquals("Lenovo A3500-F", result);
 }
-public void testDevice8803() throws Exception {
+public void testDevice8804() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 90b Neon", FALLBACK);
     Assert.assertEquals("Archos 90b Neon", result);
 }
-public void testDevice8804() throws Exception {
+public void testDevice8805() throws Exception {
     final String result = DeviceNames.getDeviceName("DMX-ST7A", FALLBACK);
     Assert.assertEquals("Dreamax DMX-ST7A", result);
 }
-public void testDevice8805() throws Exception {
+public void testDevice8806() throws Exception {
     final String result = DeviceNames.getDeviceName("one7_0_4_coho", FALLBACK);
     Assert.assertEquals("CloudFone Cloudpad One 7.0", result);
 }
-public void testDevice8806() throws Exception {
+public void testDevice8807() throws Exception {
     final String result = DeviceNames.getDeviceName("Z600", FALLBACK);
     Assert.assertEquals("Ashna Z600", result);
 }
-public void testDevice8807() throws Exception {
+public void testDevice8808() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D325", FALLBACK);
     Assert.assertEquals("LG L70", result);
 }
-public void testDevice8808() throws Exception {
+public void testDevice8809() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT3111_Wi", FALLBACK);
     Assert.assertEquals("Prestigio MULTIPAD WIZE 3111", result);
 }
-public void testDevice8809() throws Exception {
+public void testDevice8810() throws Exception {
     final String result = DeviceNames.getDeviceName("LGL16C", FALLBACK);
     Assert.assertEquals("LG Y25", result);
 }
-public void testDevice8810() throws Exception {
+public void testDevice8811() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-E420f", FALLBACK);
     Assert.assertEquals("LG Optimus L1II", result);
 }
-public void testDevice8811() throws Exception {
+public void testDevice8812() throws Exception {
     final String result = DeviceNames.getDeviceName("IdeaTabA1020-T", FALLBACK);
     Assert.assertEquals("Lenovo IdeaTab A1020", result);
 }
-public void testDevice8812() throws Exception {
+public void testDevice8813() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-06D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S3", result);
 }
-public void testDevice8813() throws Exception {
+public void testDevice8814() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo Y31L", FALLBACK);
     Assert.assertEquals("Vivo Y31L", result);
 }
-public void testDevice8814() throws Exception {
+public void testDevice8815() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D321", FALLBACK);
     Assert.assertEquals("LG Optimus L70", result);
 }
-public void testDevice8815() throws Exception {
+public void testDevice8816() throws Exception {
     final String result = DeviceNames.getDeviceName("One Pad", FALLBACK);
     Assert.assertEquals("ZTE V9", result);
 }
-public void testDevice8816() throws Exception {
+public void testDevice8817() throws Exception {
     final String result = DeviceNames.getDeviceName("Blade III", FALLBACK);
     Assert.assertEquals("ZTE Blade III", result);
 }
-public void testDevice8817() throws Exception {
+public void testDevice8818() throws Exception {
     final String result = DeviceNames.getDeviceName("DROID RAZR HD", FALLBACK);
     Assert.assertEquals("Motorola RAZR HD", result);
 }
-public void testDevice8818() throws Exception {
+public void testDevice8819() throws Exception {
     final String result = DeviceNames.getDeviceName("X9079", FALLBACK);
     Assert.assertEquals("Oppo X9079", result);
 }
-public void testDevice8819() throws Exception {
+public void testDevice8820() throws Exception {
     final String result = DeviceNames.getDeviceName("X9077", FALLBACK);
     Assert.assertEquals("Oppo X9077", result);
 }
-public void testDevice8820() throws Exception {
+public void testDevice8821() throws Exception {
     final String result = DeviceNames.getDeviceName("X9076", FALLBACK);
     Assert.assertEquals("OPPO X9076", result);
 }
-public void testDevice8821() throws Exception {
+public void testDevice8822() throws Exception {
     final String result = DeviceNames.getDeviceName("ST940I-UP", FALLBACK);
     Assert.assertEquals("LGU+ ST940I-UP", result);
 }
-public void testDevice8822() throws Exception {
+public void testDevice8823() throws Exception {
     final String result = DeviceNames.getDeviceName("X9070", FALLBACK);
     Assert.assertEquals("OPPO X9070", result);
 }
-public void testDevice8823() throws Exception {
+public void testDevice8824() throws Exception {
     final String result = DeviceNames.getDeviceName("CMB510", FALLBACK);
     Assert.assertEquals("Hisense CMB510", result);
 }
-public void testDevice8824() throws Exception {
+public void testDevice8825() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Mecha", FALLBACK);
     Assert.assertEquals("HTC Thunderbolt", result);
 }
-public void testDevice8825() throws Exception {
+public void testDevice8826() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo Y31i", FALLBACK);
     Assert.assertEquals("Vivo Y31i", result);
 }
-public void testDevice8826() throws Exception {
+public void testDevice8827() throws Exception {
     final String result = DeviceNames.getDeviceName("YPY_AB10D", FALLBACK);
     Assert.assertEquals("Positivo Ypy AB10", result);
 }
-public void testDevice8827() throws Exception {
+public void testDevice8828() throws Exception {
     final String result = DeviceNames.getDeviceName("E6603", FALLBACK);
     Assert.assertEquals("Sony Xperia Z5", result);
 }
-public void testDevice8828() throws Exception {
+public void testDevice8829() throws Exception {
     final String result = DeviceNames.getDeviceName("llium Pad L8", FALLBACK);
     Assert.assertEquals("Lanix llium Pad L8", result);
 }
-public void testDevice8829() throws Exception {
+public void testDevice8830() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo X5Pro V", FALLBACK);
     Assert.assertEquals("Vivo X5Pro V", result);
 }
-public void testDevice8830() throws Exception {
+public void testDevice8831() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y511-U10", FALLBACK);
     Assert.assertEquals("Huawei Y511", result);
 }
-public void testDevice8831() throws Exception {
+public void testDevice8832() throws Exception {
     final String result = DeviceNames.getDeviceName("NSZ-GU1", FALLBACK);
     Assert.assertEquals("Sony BRAVIA Smart Stick", result);
 }
-public void testDevice8832() throws Exception {
+public void testDevice8833() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE B795", FALLBACK);
     Assert.assertEquals("ZTE V795", result);
 }
-public void testDevice8833() throws Exception {
+public void testDevice8834() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE B792", FALLBACK);
     Assert.assertEquals("ZTE T792", result);
 }
-public void testDevice8834() throws Exception {
+public void testDevice8835() throws Exception {
     final String result = DeviceNames.getDeviceName("NS-P10A6100", FALLBACK);
     Assert.assertEquals("Insignia NS-P10A6100", result);
 }
-public void testDevice8835() throws Exception {
+public void testDevice8836() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE B790", FALLBACK);
     Assert.assertEquals("ZTE B790", result);
 }
-public void testDevice8836() throws Exception {
+public void testDevice8837() throws Exception {
     final String result = DeviceNames.getDeviceName("X50D", FALLBACK);
     Assert.assertEquals("X50D", result);
 }
-public void testDevice8837() throws Exception {
+public void testDevice8838() throws Exception {
     final String result = DeviceNames.getDeviceName("Siragon SP-5000", FALLBACK);
     Assert.assertEquals("Siragon SP-5000", result);
 }
-public void testDevice8838() throws Exception {
+public void testDevice8839() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo X5Pro D", FALLBACK);
     Assert.assertEquals("Vivo X5Pro D", result);
 }
-public void testDevice8839() throws Exception {
+public void testDevice8840() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6500T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Mini2", result);
 }
-public void testDevice8840() throws Exception {
+public void testDevice8841() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4511 TR", FALLBACK);
     Assert.assertEquals("Fly Tornado One", result);
 }
-public void testDevice8841() throws Exception {
+public void testDevice8842() throws Exception {
     final String result = DeviceNames.getDeviceName("VK810_4G", FALLBACK);
     Assert.assertEquals("G Pad 8.3", result);
 }
-public void testDevice8842() throws Exception {
+public void testDevice8843() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I5510", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Europa", result);
 }
-public void testDevice8843() throws Exception {
+public void testDevice8844() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6500L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Mini2", result);
 }
-public void testDevice8844() throws Exception {
+public void testDevice8845() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5570", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Mini", result);
 }
-public void testDevice8845() throws Exception {
+public void testDevice8846() throws Exception {
     final String result = DeviceNames.getDeviceName("U98", FALLBACK);
     Assert.assertEquals("Hisense HS-U98", result);
 }
-public void testDevice8846() throws Exception {
+public void testDevice8847() throws Exception {
     final String result = DeviceNames.getDeviceName("Vodafone 861", FALLBACK);
     Assert.assertEquals("Vodafone 861", result);
 }
-public void testDevice8847() throws Exception {
+public void testDevice8848() throws Exception {
     final String result = DeviceNames.getDeviceName("MFC2_Special", FALLBACK);
     Assert.assertEquals("Clementoni My first Clempad 4.4 Basic Special", result);
 }
-public void testDevice8848() throws Exception {
+public void testDevice8849() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6500D", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Mini2", result);
 }
-public void testDevice8849() throws Exception {
+public void testDevice8850() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5578", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Mini", result);
 }
-public void testDevice8850() throws Exception {
+public void testDevice8851() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T350X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab A 8.0", result);
 }
-public void testDevice8851() throws Exception {
+public void testDevice8852() throws Exception {
     final String result = DeviceNames.getDeviceName("Constellation V", FALLBACK);
     Assert.assertEquals("Vertu Constellation V", result);
 }
-public void testDevice8852() throws Exception {
+public void testDevice8853() throws Exception {
     final String result = DeviceNames.getDeviceName("A6_Duo", FALLBACK);
     Assert.assertEquals("AllView A6 Duo", result);
 }
-public void testDevice8853() throws Exception {
+public void testDevice8854() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A910K", FALLBACK);
     Assert.assertEquals("Pantech IM-A910K", result);
 }
-public void testDevice8854() throws Exception {
+public void testDevice8855() throws Exception {
     final String result = DeviceNames.getDeviceName("S500", FALLBACK);
     Assert.assertEquals("Acer CloudMobile S500", result);
 }
-public void testDevice8855() throws Exception {
+public void testDevice8856() throws Exception {
     final String result = DeviceNames.getDeviceName("B1-850", FALLBACK);
     Assert.assertEquals("Acer B1", result);
 }
-public void testDevice8856() throws Exception {
+public void testDevice8857() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL P728M", FALLBACK);
     Assert.assertEquals("TCL P728M", result);
 }
-public void testDevice8857() throws Exception {
+public void testDevice8858() throws Exception {
     final String result = DeviceNames.getDeviceName("S504", FALLBACK);
     Assert.assertEquals("Logicom S504", result);
 }
-public void testDevice8858() throws Exception {
+public void testDevice8859() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 5037A", FALLBACK);
     Assert.assertEquals("ALCATEL_ONE_TOUCH_5037A", result);
 }
-public void testDevice8859() throws Exception {
+public void testDevice8860() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3609", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8860() throws Exception {
+public void testDevice8861() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3608", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8861() throws Exception {
+public void testDevice8862() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 5037X", FALLBACK);
     Assert.assertEquals("ALCATEL_ONE_TOUCH_5037X", result);
 }
-public void testDevice8862() throws Exception {
+public void testDevice8863() throws Exception {
     final String result = DeviceNames.getDeviceName("Positivo BGH Ypy L700", FALLBACK);
     Assert.assertEquals("Positivo Ypy", result);
 }
-public void testDevice8863() throws Exception {
+public void testDevice8864() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G3606", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8864() throws Exception {
+public void testDevice8865() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo N300", FALLBACK);
     Assert.assertEquals("Lenovo N300", result);
 }
-public void testDevice8865() throws Exception {
+public void testDevice8866() throws Exception {
     final String result = DeviceNames.getDeviceName("CMP 759", FALLBACK);
     Assert.assertEquals("ICRAIG CMP 759", result);
 }
-public void testDevice8866() throws Exception {
+public void testDevice8867() throws Exception {
     final String result = DeviceNames.getDeviceName("CP3700A", FALLBACK);
     Assert.assertEquals("Coolpad 3700A", result);
 }
-public void testDevice8867() throws Exception {
+public void testDevice8868() throws Exception {
     final String result = DeviceNames.getDeviceName("Blade V6", FALLBACK);
     Assert.assertEquals("ZTE Blade V6", result);
 }
-public void testDevice8868() throws Exception {
+public void testDevice8869() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A710K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7(2016)", result);
 }
-public void testDevice8869() throws Exception {
+public void testDevice8870() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo N308", FALLBACK);
     Assert.assertEquals("Lenovo N308", result);
 }
-public void testDevice8870() throws Exception {
+public void testDevice8871() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8550L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Win", result);
 }
-public void testDevice8871() throws Exception {
+public void testDevice8872() throws Exception {
     final String result = DeviceNames.getDeviceName("Spice Mi-506", FALLBACK);
     Assert.assertEquals("Spice Stellar Mi-506", result);
 }
-public void testDevice8872() throws Exception {
+public void testDevice8873() throws Exception {
     final String result = DeviceNames.getDeviceName("Smart501", FALLBACK);
     Assert.assertEquals("FarEasTone Smart501", result);
 }
-public void testDevice8873() throws Exception {
+public void testDevice8874() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL P618L", FALLBACK);
     Assert.assertEquals("TCL P618L", result);
 }
-public void testDevice8874() throws Exception {
+public void testDevice8875() throws Exception {
     final String result = DeviceNames.getDeviceName("Smart503", FALLBACK);
     Assert.assertEquals("Infocus Smart503", result);
 }
-public void testDevice8875() throws Exception {
+public void testDevice8876() throws Exception {
     final String result = DeviceNames.getDeviceName("VF685", FALLBACK);
     Assert.assertEquals("VF685", result);
 }
-public void testDevice8876() throws Exception {
+public void testDevice8877() throws Exception {
     final String result = DeviceNames.getDeviceName("6055B", FALLBACK);
     Assert.assertEquals("6055B", result);
 }
-public void testDevice8877() throws Exception {
+public void testDevice8878() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S930", FALLBACK);
     Assert.assertEquals("Lenovo S930_ROW", result);
 }
-public void testDevice8878() throws Exception {
+public void testDevice8879() throws Exception {
     final String result = DeviceNames.getDeviceName("6055K", FALLBACK);
     Assert.assertEquals("6055K", result);
 }
-public void testDevice8879() throws Exception {
+public void testDevice8880() throws Exception {
     final String result = DeviceNames.getDeviceName("Blade V+", FALLBACK);
     Assert.assertEquals("ZTE Blade V+", result);
 }
-public void testDevice8880() throws Exception {
+public void testDevice8881() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S939", FALLBACK);
     Assert.assertEquals("Lenovo S939", result);
 }
-public void testDevice8881() throws Exception {
+public void testDevice8882() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC 0PM92", FALLBACK);
     Assert.assertEquals("HTC Desire 626s", result);
 }
-public void testDevice8882() throws Exception {
+public void testDevice8883() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A3000-H", FALLBACK);
     Assert.assertEquals("Lenovo A3000", result);
 }
-public void testDevice8883() throws Exception {
+public void testDevice8884() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A390t", FALLBACK);
     Assert.assertEquals("Lenovo A390t", result);
 }
-public void testDevice8884() throws Exception {
+public void testDevice8885() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A399", FALLBACK);
     Assert.assertEquals("Lenovo A399", result);
 }
-public void testDevice8885() throws Exception {
+public void testDevice8886() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N9208", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice8886() throws Exception {
+public void testDevice8887() throws Exception {
     final String result = DeviceNames.getDeviceName("E2070", FALLBACK);
     Assert.assertEquals("Hisense E2070", result);
 }
-public void testDevice8887() throws Exception {
+public void testDevice8888() throws Exception {
     final String result = DeviceNames.getDeviceName("S50c", FALLBACK);
     Assert.assertEquals("CatS50c", result);
 }
-public void testDevice8888() throws Exception {
+public void testDevice8889() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G360H", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8889() throws Exception {
+public void testDevice8890() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-S766C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace Style", result);
 }
-public void testDevice8890() throws Exception {
+public void testDevice8891() throws Exception {
     final String result = DeviceNames.getDeviceName("NID-7011", FALLBACK);
     Assert.assertEquals("NAXA NID-7011", result);
 }
-public void testDevice8891() throws Exception {
+public void testDevice8892() throws Exception {
     final String result = DeviceNames.getDeviceName("NII Nextel", FALLBACK);
     Assert.assertEquals("Nextel V.45", result);
 }
-public void testDevice8892() throws Exception {
+public void testDevice8893() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G360F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8893() throws Exception {
+public void testDevice8894() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC 0PK71", FALLBACK);
     Assert.assertEquals("HTC One M9+ (Prime Camera Edition)", result);
 }
-public void testDevice8894() throws Exception {
+public void testDevice8895() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-B5330L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Chat", result);
 }
-public void testDevice8895() throws Exception {
+public void testDevice8896() throws Exception {
     final String result = DeviceNames.getDeviceName("KFTT", FALLBACK);
     Assert.assertEquals("Kindle Fire HD 7", result);
 }
-public void testDevice8896() throws Exception {
+public void testDevice8897() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G360P", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8897() throws Exception {
+public void testDevice8898() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-B5330B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Chat", result);
 }
-public void testDevice8898() throws Exception {
+public void testDevice8899() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G360V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8899() throws Exception {
+public void testDevice8900() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G360T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Prime", result);
 }
-public void testDevice8900() throws Exception {
+public void testDevice8901() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_Sensation_Z710e", FALLBACK);
     Assert.assertEquals("HTC Sensation", result);
 }
-public void testDevice8901() throws Exception {
+public void testDevice8902() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A7108", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7(2016)", result);
 }
-public void testDevice8902() throws Exception {
+public void testDevice8903() throws Exception {
     final String result = DeviceNames.getDeviceName("IN260", FALLBACK);
     Assert.assertEquals("InFocus IN260", result);
 }
-public void testDevice8903() throws Exception {
+public void testDevice8904() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice8904() throws Exception {
+public void testDevice8905() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9308I", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S3 Neo Plus", result);
 }
-public void testDevice8905() throws Exception {
+public void testDevice8906() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Grand Era", FALLBACK);
     Assert.assertEquals("ZTE Grand Era", result);
 }
-public void testDevice8906() throws Exception {
+public void testDevice8907() throws Exception {
     final String result = DeviceNames.getDeviceName("A17", FALLBACK);
     Assert.assertEquals("Toshiba AT7-C", result);
 }
-public void testDevice8907() throws Exception {
+public void testDevice8908() throws Exception {
     final String result = DeviceNames.getDeviceName("A11", FALLBACK);
     Assert.assertEquals("Oppo A11", result);
 }
-public void testDevice8908() throws Exception {
+public void testDevice8909() throws Exception {
     final String result = DeviceNames.getDeviceName("L-05E", FALLBACK);
     Assert.assertEquals("LG optimus it L-05E", result);
 }
-public void testDevice8909() throws Exception {
+public void testDevice8910() throws Exception {
     final String result = DeviceNames.getDeviceName("MTC 1078", FALLBACK);
     Assert.assertEquals("ONE TOUCH EVO7HD", result);
 }
-public void testDevice8910() throws Exception {
+public void testDevice8911() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-M919V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4", result);
 }
-public void testDevice8911() throws Exception {
+public void testDevice8912() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G610-U20", FALLBACK);
     Assert.assertEquals("Huawei G610", result);
 }
-public void testDevice8912() throws Exception {
+public void testDevice8913() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo X5", FALLBACK);
     Assert.assertEquals("Vivo X5", result);
 }
-public void testDevice8913() throws Exception {
+public void testDevice8914() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-M919N", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4", result);
 }
-public void testDevice8914() throws Exception {
+public void testDevice8915() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Grand X In", FALLBACK);
     Assert.assertEquals("ZTE Grand X In", result);
 }
-public void testDevice8915() throws Exception {
+public void testDevice8916() throws Exception {
     final String result = DeviceNames.getDeviceName("Positivo BGH Y210", FALLBACK);
     Assert.assertEquals("Positivo BGH Y210", result);
 }
-public void testDevice8916() throws Exception {
+public void testDevice8917() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A300FU", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A3", result);
 }
-public void testDevice8917() throws Exception {
+public void testDevice8918() throws Exception {
     final String result = DeviceNames.getDeviceName("A1P", FALLBACK);
     Assert.assertEquals("ZTE A1P", result);
 }
-public void testDevice8918() throws Exception {
+public void testDevice8919() throws Exception {
     final String result = DeviceNames.getDeviceName("A1R", FALLBACK);
     Assert.assertEquals("ZTE A1R", result);
 }
-public void testDevice8919() throws Exception {
+public void testDevice8920() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 7296S", FALLBACK);
     Assert.assertEquals("Coolpad7296S", result);
 }
-public void testDevice8920() throws Exception {
+public void testDevice8921() throws Exception {
     final String result = DeviceNames.getDeviceName("CP-D403", FALLBACK);
     Assert.assertEquals("Megahouse CP", result);
 }
-public void testDevice8921() throws Exception {
+public void testDevice8922() throws Exception {
     final String result = DeviceNames.getDeviceName("Trooper_X35", FALLBACK);
     Assert.assertEquals("KAZAM TROOPER X3.5", result);
 }
-public void testDevice8922() throws Exception {
+public void testDevice8923() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G930R7", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S7", result);
 }
-public void testDevice8923() throws Exception {
+public void testDevice8924() throws Exception {
     final String result = DeviceNames.getDeviceName("ST15a", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia mini", result);
 }
-public void testDevice8924() throws Exception {
+public void testDevice8925() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A850S", FALLBACK);
     Assert.assertEquals("Pantech IM-A850S", result);
 }
-public void testDevice8925() throws Exception {
+public void testDevice8926() throws Exception {
     final String result = DeviceNames.getDeviceName("FARTMB611Y", FALLBACK);
     Assert.assertEquals("Fujitsu FARTMB611Y", result);
 }
-public void testDevice8926() throws Exception {
+public void testDevice8927() throws Exception {
     final String result = DeviceNames.getDeviceName("ST15i", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia mini", result);
 }
-public void testDevice8927() throws Exception {
+public void testDevice8928() throws Exception {
     final String result = DeviceNames.getDeviceName("NS-15AT07", FALLBACK);
     Assert.assertEquals("Insignia NS-15AT07", result);
 }
-public void testDevice8928() throws Exception {
+public void testDevice8929() throws Exception {
     final String result = DeviceNames.getDeviceName("SCC-U21", FALLBACK);
     Assert.assertEquals("Huawei Y6", result);
 }
-public void testDevice8929() throws Exception {
+public void testDevice8930() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 7620L", FALLBACK);
     Assert.assertEquals("Coolpad 7620L", result);
 }
-public void testDevice8930() throws Exception {
+public void testDevice8931() throws Exception {
     final String result = DeviceNames.getDeviceName("PLK-L01", FALLBACK);
     Assert.assertEquals("Huawei PLK-L01", result);
 }
-public void testDevice8931() throws Exception {
+public void testDevice8932() throws Exception {
     final String result = DeviceNames.getDeviceName("FP-U320-711-WWAN", FALLBACK);
     Assert.assertEquals("SAKAISIO FP-U320-711-WWAN", result);
 }
-public void testDevice8932() throws Exception {
+public void testDevice8933() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A850L", FALLBACK);
     Assert.assertEquals("Pantech IM-A850L", result);
 }
-public void testDevice8933() throws Exception {
+public void testDevice8934() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T550", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab A 9.7", result);
 }
-public void testDevice8934() throws Exception {
+public void testDevice8935() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T555", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab A 9.7", result);
 }
-public void testDevice8935() throws Exception {
+public void testDevice8936() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-L695", FALLBACK);
     Assert.assertEquals("Hisense L695W", result);
 }
-public void testDevice8936() throws Exception {
+public void testDevice8937() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N920X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note5", result);
 }
-public void testDevice8937() throws Exception {
+public void testDevice8938() throws Exception {
     final String result = DeviceNames.getDeviceName("P600", FALLBACK);
     Assert.assertEquals("Southern Telecom Polaroid Power P600", result);
 }
-public void testDevice8938() throws Exception {
+public void testDevice8939() throws Exception {
     final String result = DeviceNames.getDeviceName("AX1020", FALLBACK);
     Assert.assertEquals("BMobile AX1020", result);
 }
-public void testDevice8939() throws Exception {
+public void testDevice8940() throws Exception {
     final String result = DeviceNames.getDeviceName("Z160", FALLBACK);
     Assert.assertEquals("Acer Liquid Z4", result);
 }
-public void testDevice8940() throws Exception {
+public void testDevice8941() throws Exception {
     final String result = DeviceNames.getDeviceName("R823T", FALLBACK);
     Assert.assertEquals("Oppo R823T", result);
 }
-public void testDevice8941() throws Exception {
+public void testDevice8942() throws Exception {
     final String result = DeviceNames.getDeviceName("Huawei 858", FALLBACK);
     Assert.assertEquals("Huawei V858", result);
 }
-public void testDevice8942() throws Exception {
+public void testDevice8943() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL J630T", FALLBACK);
     Assert.assertEquals("TCL J630T", result);
 }
-public void testDevice8943() throws Exception {
+public void testDevice8944() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8580", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core Advance", result);
 }
-public void testDevice8944() throws Exception {
+public void testDevice8945() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SGH-I777", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S II", result);
 }
-public void testDevice8945() throws Exception {
+public void testDevice8946() throws Exception {
     final String result = DeviceNames.getDeviceName("EGD078", FALLBACK);
     Assert.assertEquals("Ematic EGD078", result);
 }
-public void testDevice8946() throws Exception {
+public void testDevice8947() throws Exception {
     final String result = DeviceNames.getDeviceName("Doro Liberto 820 Mini", FALLBACK);
     Assert.assertEquals("Doro Liberto 820 Mini", result);
 }
-public void testDevice8947() throws Exception {
+public void testDevice8948() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S668t", FALLBACK);
     Assert.assertEquals("Lenovo S668t", result);
 }
-public void testDevice8948() throws Exception {
+public void testDevice8949() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Vision", FALLBACK);
     Assert.assertEquals("HTC G2", result);
 }
-public void testDevice8949() throws Exception {
+public void testDevice8950() throws Exception {
     final String result = DeviceNames.getDeviceName("YP-G70", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Player 5", result);
 }
-public void testDevice8950() throws Exception {
+public void testDevice8951() throws Exception {
     final String result = DeviceNames.getDeviceName("l9450", FALLBACK);
     Assert.assertEquals("Toshiba L9450", result);
 }
-public void testDevice8951() throws Exception {
+public void testDevice8952() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 8122", FALLBACK);
     Assert.assertEquals("Coolpad 8122", result);
 }
-public void testDevice8952() throws Exception {
+public void testDevice8953() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8150T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy W", result);
 }
-public void testDevice8953() throws Exception {
+public void testDevice8954() throws Exception {
     final String result = DeviceNames.getDeviceName("Positivo Ypy AB10EC", FALLBACK);
     Assert.assertEquals("Positivo Ypy AB10E", result);
 }
-public void testDevice8954() throws Exception {
+public void testDevice8955() throws Exception {
     final String result = DeviceNames.getDeviceName("SM55", FALLBACK);
     Assert.assertEquals("Cellon SM55", result);
 }
-public void testDevice8955() throws Exception {
+public void testDevice8956() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8150B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy W", result);
 }
-public void testDevice8956() throws Exception {
+public void testDevice8957() throws Exception {
     final String result = DeviceNames.getDeviceName("WT19i", FALLBACK);
     Assert.assertEquals("Sony Ericsson Live with Walkman", result);
 }
-public void testDevice8957() throws Exception {
+public void testDevice8958() throws Exception {
     final String result = DeviceNames.getDeviceName("V.35", FALLBACK);
     Assert.assertEquals("VSN V.35", result);
 }
-public void testDevice8958() throws Exception {
+public void testDevice8959() throws Exception {
     final String result = DeviceNames.getDeviceName("Ilium_L950", FALLBACK);
     Assert.assertEquals("Lanix ILIUM L950", result);
 }
-public void testDevice8959() throws Exception {
+public void testDevice8960() throws Exception {
     final String result = DeviceNames.getDeviceName("HP SlateBook 10 x2 PC", FALLBACK);
     Assert.assertEquals("HP SlateBook 10 x2 PC", result);
 }
-public void testDevice8960() throws Exception {
+public void testDevice8961() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V793", FALLBACK);
     Assert.assertEquals("ZTE V793", result);
 }
-public void testDevice8961() throws Exception {
+public void testDevice8962() throws Exception {
     final String result = DeviceNames.getDeviceName("WT19a", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia live", result);
 }
-public void testDevice8962() throws Exception {
+public void testDevice8963() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V791", FALLBACK);
     Assert.assertEquals("ZTE V791", result);
 }
-public void testDevice8963() throws Exception {
+public void testDevice8964() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V790", FALLBACK);
     Assert.assertEquals("ZTE V790", result);
 }
-public void testDevice8964() throws Exception {
+public void testDevice8965() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V797", FALLBACK);
     Assert.assertEquals("ZTE V797", result);
 }
-public void testDevice8965() throws Exception {
+public void testDevice8966() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V796", FALLBACK);
     Assert.assertEquals("ZTE Switch X1", result);
 }
-public void testDevice8966() throws Exception {
+public void testDevice8967() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V795", FALLBACK);
     Assert.assertEquals("ZTE V795", result);
 }
-public void testDevice8967() throws Exception {
+public void testDevice8968() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9195X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Mini", result);
 }
-public void testDevice8968() throws Exception {
+public void testDevice8969() throws Exception {
     final String result = DeviceNames.getDeviceName("7044X", FALLBACK);
     Assert.assertEquals("POP 2 (5)", result);
 }
-public void testDevice8969() throws Exception {
+public void testDevice8970() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9195T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Mini", result);
 }
-public void testDevice8970() throws Exception {
+public void testDevice8971() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9195I", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Mini", result);
 }
-public void testDevice8971() throws Exception {
+public void testDevice8972() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9195L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4 Mini", result);
 }
-public void testDevice8972() throws Exception {
+public void testDevice8973() throws Exception {
     final String result = DeviceNames.getDeviceName("StrikaPlay", FALLBACK);
     Assert.assertEquals("Boost StrikaPlay", result);
 }
-public void testDevice8973() throws Exception {
+public void testDevice8974() throws Exception {
     final String result = DeviceNames.getDeviceName("7044A", FALLBACK);
     Assert.assertEquals("POP 2 (5)", result);
 }
-public void testDevice8974() throws Exception {
+public void testDevice8975() throws Exception {
     final String result = DeviceNames.getDeviceName("Kazam Trooper2 60", FALLBACK);
     Assert.assertEquals("KAZAM Trooper2 60", result);
 }
-public void testDevice8975() throws Exception {
+public void testDevice8976() throws Exception {
     final String result = DeviceNames.getDeviceName("Hol-T00", FALLBACK);
     Assert.assertEquals("Huawei Hol-T00", result);
 }
-public void testDevice8976() throws Exception {
+public void testDevice8977() throws Exception {
     final String result = DeviceNames.getDeviceName("T730", FALLBACK);
     Assert.assertEquals("Wintec T730", result);
 }
-public void testDevice8977() throws Exception {
+public void testDevice8978() throws Exception {
     final String result = DeviceNames.getDeviceName("Philips W8510", FALLBACK);
     Assert.assertEquals("Philips W8510", result);
 }
-public void testDevice8978() throws Exception {
+public void testDevice8979() throws Exception {
     final String result = DeviceNames.getDeviceName("FWTA-T1000", FALLBACK);
     Assert.assertEquals("Finggo FWTA-T1000", result);
 }
-public void testDevice8979() throws Exception {
+public void testDevice8980() throws Exception {
     final String result = DeviceNames.getDeviceName("Y220-U00", FALLBACK);
     Assert.assertEquals("Huawei Y220", result);
 }
-public void testDevice8980() throws Exception {
+public void testDevice8981() throws Exception {
     final String result = DeviceNames.getDeviceName("HTCD100LVW", FALLBACK);
     Assert.assertEquals("HTC Desire 526", result);
 }
-public void testDevice8981() throws Exception {
+public void testDevice8982() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-N900A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 3", result);
 }
-public void testDevice8982() throws Exception {
+public void testDevice8983() throws Exception {
     final String result = DeviceNames.getDeviceName("HM NOTE 1LTETD", FALLBACK);
     Assert.assertEquals("Xiaomi HM NOTE 1LTETD", result);
 }
-public void testDevice8983() throws Exception {
+public void testDevice8984() throws Exception {
     final String result = DeviceNames.getDeviceName("M510", FALLBACK);
     Assert.assertEquals("Infocus M511", result);
 }
-public void testDevice8984() throws Exception {
+public void testDevice8985() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-03H", FALLBACK);
     Assert.assertEquals("Sony Xperia Z5 Premium", result);
 }
-public void testDevice8985() throws Exception {
+public void testDevice8986() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 820", FALLBACK);
     Assert.assertEquals("HTC Desire 820", result);
 }
-public void testDevice8986() throws Exception {
+public void testDevice8987() throws Exception {
     final String result = DeviceNames.getDeviceName("PAD1042", FALLBACK);
     Assert.assertEquals("Haier PAD1042", result);
 }
-public void testDevice8987() throws Exception {
+public void testDevice8988() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P720", FALLBACK);
     Assert.assertEquals("LG Optimus 3D MAX", result);
 }
-public void testDevice8988() throws Exception {
+public void testDevice8989() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-03C", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia ray", result);
 }
-public void testDevice8989() throws Exception {
+public void testDevice8990() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 828", FALLBACK);
     Assert.assertEquals("HTC Desire 828", result);
 }
-public void testDevice8990() throws Exception {
+public void testDevice8991() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-03F", FALLBACK);
     Assert.assertEquals("Sony Xperia Z2", result);
 }
-public void testDevice8991() throws Exception {
+public void testDevice8992() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-03G", FALLBACK);
     Assert.assertEquals("Sony Xperia Z4", result);
 }
-public void testDevice8992() throws Exception {
+public void testDevice8993() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-03D", FALLBACK);
     Assert.assertEquals("Sony Xperia acro HD", result);
 }
-public void testDevice8993() throws Exception {
-    final String result = DeviceNames.getDeviceName("SO-03E", FALLBACK);
-    Assert.assertEquals("Sony Ericsson Xperia Tablet Z", result);
-}
 public void testDevice8994() throws Exception {
+    final String result = DeviceNames.getDeviceName("SO-03E", FALLBACK);
+    Assert.assertEquals("Sony Xperia Tablet Z", result);
+}
+public void testDevice8995() throws Exception {
     final String result = DeviceNames.getDeviceName("SH-08E", FALLBACK);
     Assert.assertEquals("Sharp AQUOS PAD SH-08E", result);
 }
-public void testDevice8995() throws Exception {
+public void testDevice8996() throws Exception {
     final String result = DeviceNames.getDeviceName("M701", FALLBACK);
     Assert.assertEquals("Hisense M701", result);
 }
-public void testDevice8996() throws Exception {
+public void testDevice8997() throws Exception {
     final String result = DeviceNames.getDeviceName("M702", FALLBACK);
     Assert.assertEquals("Fujitsu STYLISTIC M702", result);
 }
-public void testDevice8997() throws Exception {
+public void testDevice8998() throws Exception {
     final String result = DeviceNames.getDeviceName("A5_Ready", FALLBACK);
     Assert.assertEquals("AllView A5 Ready", result);
 }
-public void testDevice8998() throws Exception {
+public void testDevice8999() throws Exception {
     final String result = DeviceNames.getDeviceName("MF8604", FALLBACK);
     Assert.assertEquals("ZTE Blade", result);
 }
-public void testDevice8999() throws Exception {
+public void testDevice9000() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE S2010", FALLBACK);
     Assert.assertEquals("ZTE S2010", result);
 }
-public void testDevice9000() throws Exception {
+public void testDevice9001() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE S2014", FALLBACK);
     Assert.assertEquals("ZTE S2014", result);
 }
-public void testDevice9001() throws Exception {
+public void testDevice9002() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE S2015", FALLBACK);
     Assert.assertEquals("ZTE S2015", result);
 }
-public void testDevice9002() throws Exception {
+public void testDevice9003() throws Exception {
     final String result = DeviceNames.getDeviceName("Z831", FALLBACK);
     Assert.assertEquals("ZTE Chapel", result);
 }
-public void testDevice9003() throws Exception {
+public void testDevice9004() throws Exception {
     final String result = DeviceNames.getDeviceName("Z830", FALLBACK);
     Assert.assertEquals("ZTE Z830", result);
 }
-public void testDevice9004() throws Exception {
+public void testDevice9005() throws Exception {
     final String result = DeviceNames.getDeviceName("Light", FALLBACK);
     Assert.assertEquals("ZTE V9", result);
 }
-public void testDevice9005() throws Exception {
+public void testDevice9006() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-K540", FALLBACK);
     Assert.assertEquals("LG Stylo 2", result);
 }
-public void testDevice9006() throws Exception {
+public void testDevice9007() throws Exception {
     final String result = DeviceNames.getDeviceName("A01SH", FALLBACK);
     Assert.assertEquals("Sharp A01SH", result);
 }
-public void testDevice9007() throws Exception {
+public void testDevice9008() throws Exception {
     final String result = DeviceNames.getDeviceName("VS500", FALLBACK);
     Assert.assertEquals("LG K8 V", result);
 }
-public void testDevice9008() throws Exception {
+public void testDevice9009() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G550T1", FALLBACK);
     Assert.assertEquals("Samsung Galaxy On5", result);
 }
-public void testDevice9009() throws Exception {
+public void testDevice9010() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL A865", FALLBACK);
     Assert.assertEquals("TCL A865", result);
 }
-public void testDevice9010() throws Exception {
+public void testDevice9011() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6818V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice9011() throws Exception {
+public void testDevice9012() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T849", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab", result);
 }
-public void testDevice9012() throws Exception {
+public void testDevice9013() throws Exception {
     final String result = DeviceNames.getDeviceName("Pantech V955", FALLBACK);
     Assert.assertEquals("Pantech v955", result);
 }
-public void testDevice9013() throws Exception {
+public void testDevice9014() throws Exception {
     final String result = DeviceNames.getDeviceName("SurfTab ST70204-3", FALLBACK);
     Assert.assertEquals("Trekstor SurfTab ST70204-3", result);
 }
-public void testDevice9014() throws Exception {
+public void testDevice9015() throws Exception {
     final String result = DeviceNames.getDeviceName("VIE-L09", FALLBACK);
     Assert.assertEquals("Huawei P9 Plus", result);
 }
-public void testDevice9015() throws Exception {
+public void testDevice9016() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-I100", FALLBACK);
     Assert.assertEquals("Samsung Gem", result);
 }
-public void testDevice9016() throws Exception {
+public void testDevice9017() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 6050Y", FALLBACK);
     Assert.assertEquals("IDOL 2 S", result);
 }
-public void testDevice9017() throws Exception {
+public void testDevice9018() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Q802T", FALLBACK);
     Assert.assertEquals("ZTE Q802T", result);
 }
-public void testDevice9018() throws Exception {
+public void testDevice9019() throws Exception {
     final String result = DeviceNames.getDeviceName("HM_NOTE_1W", FALLBACK);
     Assert.assertEquals("Xiaomi Redmi Note", result);
 }
-public void testDevice9019() throws Exception {
+public void testDevice9020() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note4", result);
 }
-public void testDevice9020() throws Exception {
+public void testDevice9021() throws Exception {
     final String result = DeviceNames.getDeviceName("EF400", FALLBACK);
     Assert.assertEquals("Bluebird EF400", result);
 }
-public void testDevice9021() throws Exception {
+public void testDevice9022() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL A506", FALLBACK);
     Assert.assertEquals("TCL A506", result);
 }
-public void testDevice9022() throws Exception {
+public void testDevice9023() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note4", result);
 }
-public void testDevice9023() throws Exception {
+public void testDevice9024() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 4", result);
 }
-public void testDevice9024() throws Exception {
+public void testDevice9025() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL J210C", FALLBACK);
     Assert.assertEquals("TCL J210C", result);
 }
-public void testDevice9025() throws Exception {
+public void testDevice9026() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910G", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 4", result);
 }
-public void testDevice9026() throws Exception {
+public void testDevice9027() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 4", result);
 }
-public void testDevice9027() throws Exception {
+public void testDevice9028() throws Exception {
     final String result = DeviceNames.getDeviceName("LIFETAB_E7312", FALLBACK);
     Assert.assertEquals("Lenovo LIFETAB E7310", result);
 }
-public void testDevice9028() throws Exception {
+public void testDevice9029() throws Exception {
     final String result = DeviceNames.getDeviceName("Discovery II Mini", FALLBACK);
     Assert.assertEquals("General Mobile Discovery II Mini", result);
 }
-public void testDevice9029() throws Exception {
+public void testDevice9030() throws Exception {
     final String result = DeviceNames.getDeviceName("A205", FALLBACK);
     Assert.assertEquals("Toshiba Astro-20", result);
 }
-public void testDevice9030() throws Exception {
+public void testDevice9031() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note4", result);
 }
-public void testDevice9031() throws Exception {
+public void testDevice9032() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE BLADE A110", FALLBACK);
     Assert.assertEquals("ZTE BLADE A110", result);
 }
-public void testDevice9032() throws Exception {
+public void testDevice9033() throws Exception {
     final String result = DeviceNames.getDeviceName("A204", FALLBACK);
     Assert.assertEquals("Toshiba A204", result);
 }
-public void testDevice9033() throws Exception {
+public void testDevice9034() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note4", result);
 }
-public void testDevice9034() throws Exception {
+public void testDevice9035() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910P", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 4", result);
 }
-public void testDevice9035() throws Exception {
+public void testDevice9036() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 4", result);
 }
-public void testDevice9036() throws Exception {
+public void testDevice9037() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910U", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note4", result);
 }
-public void testDevice9037() throws Exception {
+public void testDevice9038() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N910T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 4", result);
 }
-public void testDevice9038() throws Exception {
+public void testDevice9039() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC M8e", FALLBACK);
     Assert.assertEquals("HTC One (M8)", result);
 }
-public void testDevice9039() throws Exception {
+public void testDevice9040() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A300YZ", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A3", result);
 }
-public void testDevice9040() throws Exception {
+public void testDevice9041() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo 2 A7-30HC", FALLBACK);
     Assert.assertEquals("Lenovo TAB 2 A7", result);
 }
-public void testDevice9041() throws Exception {
+public void testDevice9042() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-i5700", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Spica", result);
 }
-public void testDevice9042() throws Exception {
+public void testDevice9043() throws Exception {
     final String result = DeviceNames.getDeviceName("QTAIR7", FALLBACK);
     Assert.assertEquals("Verizon Wireless Ellipsis 10", result);
 }
-public void testDevice9043() throws Exception {
+public void testDevice9044() throws Exception {
     final String result = DeviceNames.getDeviceName("USCCADR6230US", FALLBACK);
     Assert.assertEquals("HTC Wildfire S A515c", result);
 }
-public void testDevice9044() throws Exception {
+public void testDevice9045() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE T230", FALLBACK);
     Assert.assertEquals("ZTE T221", result);
 }
-public void testDevice9045() throws Exception {
+public void testDevice9046() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E230K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 10.1", result);
 }
-public void testDevice9046() throws Exception {
+public void testDevice9047() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y535D-C00", FALLBACK);
     Assert.assertEquals("Huawei Y535D", result);
 }
-public void testDevice9047() throws Exception {
+public void testDevice9048() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax A56", FALLBACK);
     Assert.assertEquals("Micromax A56", result);
 }
-public void testDevice9048() throws Exception {
+public void testDevice9049() throws Exception {
     final String result = DeviceNames.getDeviceName("C6740", FALLBACK);
     Assert.assertEquals("Kyocera Hydro WAVE", result);
 }
-public void testDevice9049() throws Exception {
+public void testDevice9050() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax A50", FALLBACK);
     Assert.assertEquals("Micromax A50", result);
 }
-public void testDevice9050() throws Exception {
+public void testDevice9051() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E230L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 10.1", result);
 }
-public void testDevice9051() throws Exception {
+public void testDevice9052() throws Exception {
     final String result = DeviceNames.getDeviceName("ARCHOS 101 Titanium", FALLBACK);
     Assert.assertEquals("Archos 101 Titanium", result);
 }
-public void testDevice9052() throws Exception {
+public void testDevice9053() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Q802D", FALLBACK);
     Assert.assertEquals("ZTE Q802D", result);
 }
-public void testDevice9053() throws Exception {
+public void testDevice9054() throws Exception {
     final String result = DeviceNames.getDeviceName("SHV-E230S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note 10.1", result);
 }
-public void testDevice9054() throws Exception {
+public void testDevice9055() throws Exception {
     final String result = DeviceNames.getDeviceName("Nextel V.35", FALLBACK);
     Assert.assertEquals("Nextel V.35", result);
 }
-public void testDevice9055() throws Exception {
+public void testDevice9056() throws Exception {
     final String result = DeviceNames.getDeviceName("NX503J", FALLBACK);
     Assert.assertEquals("ZTE NX503J", result);
 }
-public void testDevice9056() throws Exception {
+public void testDevice9057() throws Exception {
     final String result = DeviceNames.getDeviceName("B15Q", FALLBACK);
     Assert.assertEquals("Cat B15Q", result);
 }
-public void testDevice9057() throws Exception {
+public void testDevice9058() throws Exception {
     final String result = DeviceNames.getDeviceName("EK-GC120", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Camera", result);
 }
-public void testDevice9058() throws Exception {
+public void testDevice9059() throws Exception {
     final String result = DeviceNames.getDeviceName("WIKO-CINK SLIM", FALLBACK);
     Assert.assertEquals("Enspert CINK SLIM", result);
 }
-public void testDevice9059() throws Exception {
+public void testDevice9060() throws Exception {
     final String result = DeviceNames.getDeviceName("EGQ327M", FALLBACK);
     Assert.assertEquals("Ematic EGQ327M", result);
 }
-public void testDevice9060() throws Exception {
+public void testDevice9061() throws Exception {
     final String result = DeviceNames.getDeviceName("Skate Pro", FALLBACK);
     Assert.assertEquals("ZTE BLADE III", result);
 }
-public void testDevice9061() throws Exception {
+public void testDevice9062() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-N9100", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note4", result);
 }
-public void testDevice9062() throws Exception {
+public void testDevice9063() throws Exception {
     final String result = DeviceNames.getDeviceName("LED65K680X3DU", FALLBACK);
     Assert.assertEquals("Hisense LED65K680X3DU", result);
 }
-public void testDevice9063() throws Exception {
+public void testDevice9064() throws Exception {
     final String result = DeviceNames.getDeviceName("INFOBAR A01", FALLBACK);
     Assert.assertEquals("Sharp INFOBAR A01", result);
 }
-public void testDevice9064() throws Exception {
+public void testDevice9065() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A680", FALLBACK);
     Assert.assertEquals("Lenovo A680", result);
 }
-public void testDevice9065() throws Exception {
+public void testDevice9066() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5839i", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace", result);
 }
-public void testDevice9066() throws Exception {
+public void testDevice9067() throws Exception {
     final String result = DeviceNames.getDeviceName("E6508", FALLBACK);
     Assert.assertEquals("Sony Xperia Z4v", result);
 }
-public void testDevice9067() throws Exception {
+public void testDevice9068() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo Y13iL", FALLBACK);
     Assert.assertEquals("Vivo PD1304DL", result);
 }
-public void testDevice9068() throws Exception {
+public void testDevice9069() throws Exception {
     final String result = DeviceNames.getDeviceName("Tele2fon v4", FALLBACK);
     Assert.assertEquals("Tele2fon V4", result);
 }
-public void testDevice9069() throws Exception {
+public void testDevice9070() throws Exception {
     final String result = DeviceNames.getDeviceName("Tele2fon v5", FALLBACK);
     Assert.assertEquals("Tele2fon V5", result);
 }
-public void testDevice9070() throws Exception {
+public void testDevice9071() throws Exception {
     final String result = DeviceNames.getDeviceName("vivo X5M", FALLBACK);
     Assert.assertEquals("Vivo X5M", result);
 }
-public void testDevice9071() throws Exception {
+public void testDevice9072() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P990H", FALLBACK);
     Assert.assertEquals("LG Optimus 2X", result);
 }
-public void testDevice9072() throws Exception {
+public void testDevice9073() throws Exception {
     final String result = DeviceNames.getDeviceName("A955", FALLBACK);
     Assert.assertEquals("Motorola Droid II", result);
 }
-public void testDevice9073() throws Exception {
+public void testDevice9074() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A368t", FALLBACK);
     Assert.assertEquals("Lenovo A368t", result);
 }
-public void testDevice9074() throws Exception {
+public void testDevice9075() throws Exception {
     final String result = DeviceNames.getDeviceName("A953", FALLBACK);
     Assert.assertEquals("Motorola Milestone2", result);
 }
-public void testDevice9075() throws Exception {
+public void testDevice9076() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4515 Quad", FALLBACK);
     Assert.assertEquals("Fly IQ4515 Quad", result);
 }
-public void testDevice9076() throws Exception {
+public void testDevice9077() throws Exception {
     final String result = DeviceNames.getDeviceName("A726_Infinity_Lite", FALLBACK);
     Assert.assertEquals("Gtel A726 Infinity Lite", result);
 }
-public void testDevice9077() throws Exception {
+public void testDevice9078() throws Exception {
     final String result = DeviceNames.getDeviceName("MID7317CP", FALLBACK);
     Assert.assertEquals("Anydata Auchan MID7317CP Tablet", result);
 }
-public void testDevice9078() throws Exception {
+public void testDevice9079() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4406", FALLBACK);
     Assert.assertEquals("Fly Era Nano 6", result);
 }
-public void testDevice9079() throws Exception {
+public void testDevice9080() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4407", FALLBACK);
     Assert.assertEquals("Fly ERA Nano 7", result);
 }
-public void testDevice9080() throws Exception {
+public void testDevice9081() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4400", FALLBACK);
     Assert.assertEquals("Fly Era Nano 8", result);
 }
-public void testDevice9081() throws Exception {
+public void testDevice9082() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4401", FALLBACK);
     Assert.assertEquals("Fly IQ4401", result);
 }
-public void testDevice9082() throws Exception {
+public void testDevice9083() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P990h", FALLBACK);
     Assert.assertEquals("LG Optimus 2X", result);
 }
-public void testDevice9083() throws Exception {
+public void testDevice9084() throws Exception {
     final String result = DeviceNames.getDeviceName("ST21a2", FALLBACK);
     Assert.assertEquals("Sony Xperia tipo dual", result);
 }
-public void testDevice9084() throws Exception {
+public void testDevice9085() throws Exception {
     final String result = DeviceNames.getDeviceName("Ghost", FALLBACK);
     Assert.assertEquals("AG Mobile Ghost", result);
 }
-public void testDevice9085() throws Exception {
+public void testDevice9086() throws Exception {
     final String result = DeviceNames.getDeviceName("JD-150", FALLBACK);
     Assert.assertEquals("BenQ JD-150", result);
 }
-public void testDevice9086() throws Exception {
+public void testDevice9087() throws Exception {
     final String result = DeviceNames.getDeviceName("Agora Lite", FALLBACK);
     Assert.assertEquals("BenQ Agora_Lite", result);
 }
-public void testDevice9087() throws Exception {
+public void testDevice9088() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Flyer P510e", FALLBACK);
     Assert.assertEquals("HTC Flyer", result);
 }
-public void testDevice9088() throws Exception {
+public void testDevice9089() throws Exception {
     final String result = DeviceNames.getDeviceName("X18", FALLBACK);
     Assert.assertEquals("iRulu X18", result);
 }
-public void testDevice9089() throws Exception {
+public void testDevice9090() throws Exception {
     final String result = DeviceNames.getDeviceName("X10", FALLBACK);
     Assert.assertEquals("Moxee Technologies X10", result);
 }
-public void testDevice9090() throws Exception {
+public void testDevice9091() throws Exception {
     final String result = DeviceNames.getDeviceName("X11", FALLBACK);
     Assert.assertEquals("Lava X11", result);
 }
-public void testDevice9091() throws Exception {
+public void testDevice9092() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_One_max", FALLBACK);
     Assert.assertEquals("HTC One max", result);
 }
-public void testDevice9092() throws Exception {
+public void testDevice9093() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y320-U351", FALLBACK);
     Assert.assertEquals("Huawei Y320", result);
 }
-public void testDevice9093() throws Exception {
+public void testDevice9094() throws Exception {
     final String result = DeviceNames.getDeviceName("E601M", FALLBACK);
     Assert.assertEquals("Hisense E601M", result);
 }
-public void testDevice9094() throws Exception {
+public void testDevice9095() throws Exception {
     final String result = DeviceNames.getDeviceName("HP Slate 7 HD", FALLBACK);
     Assert.assertEquals("HP Slate 7 HD", result);
 }
-public void testDevice9095() throws Exception {
+public void testDevice9096() throws Exception {
     final String result = DeviceNames.getDeviceName("T-Mobile myTouch 3G Slide", FALLBACK);
     Assert.assertEquals("HTC myTouch 3G Slide", result);
 }
-public void testDevice9096() throws Exception {
+public void testDevice9097() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F310L", FALLBACK);
     Assert.assertEquals("LG Gx", result);
 }
-public void testDevice9097() throws Exception {
+public void testDevice9098() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL P331M", FALLBACK);
     Assert.assertEquals("TCL P331M", result);
 }
-public void testDevice9098() throws Exception {
+public void testDevice9099() throws Exception {
     final String result = DeviceNames.getDeviceName("VERTU Ti", FALLBACK);
     Assert.assertEquals("VERTU Ti", result);
 }
-public void testDevice9099() throws Exception {
+public void testDevice9100() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO-A7S", FALLBACK);
     Assert.assertEquals("TECNO-A7S", result);
 }
-public void testDevice9100() throws Exception {
+public void testDevice9101() throws Exception {
     final String result = DeviceNames.getDeviceName("NXA101LTE116", FALLBACK);
     Assert.assertEquals("Nextbook NXA101LTE116", result);
 }
-public void testDevice9101() throws Exception {
+public void testDevice9102() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC_E9pw", FALLBACK);
     Assert.assertEquals("HTC_E9pw", result);
 }
-public void testDevice9102() throws Exception {
+public void testDevice9103() throws Exception {
     final String result = DeviceNames.getDeviceName("XDP-100R", FALLBACK);
     Assert.assertEquals("Pioneer XDP-100R", result);
 }
-public void testDevice9103() throws Exception {
+public void testDevice9104() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H962", FALLBACK);
     Assert.assertEquals("LG V10", result);
 }
-public void testDevice9104() throws Exception {
+public void testDevice9105() throws Exception {
     final String result = DeviceNames.getDeviceName("Z963VL", FALLBACK);
     Assert.assertEquals("ZTE Z963VL", result);
 }
-public void testDevice9105() throws Exception {
+public void testDevice9106() throws Exception {
     final String result = DeviceNames.getDeviceName("W5510", FALLBACK);
     Assert.assertEquals("Gigabyte W5510", result);
 }
-public void testDevice9106() throws Exception {
+public void testDevice9107() throws Exception {
     final String result = DeviceNames.getDeviceName("i-mobile IQ X2A", FALLBACK);
     Assert.assertEquals("Cellon i-mobile IQ X2A", result);
 }
-public void testDevice9107() throws Exception {
+public void testDevice9108() throws Exception {
     final String result = DeviceNames.getDeviceName("M470BSA", FALLBACK);
     Assert.assertEquals("Hisense M470BSA", result);
 }
-public void testDevice9108() throws Exception {
+public void testDevice9109() throws Exception {
     final String result = DeviceNames.getDeviceName("M470BSG", FALLBACK);
     Assert.assertEquals("Hisense M470BSG", result);
 }
-public void testDevice9109() throws Exception {
+public void testDevice9110() throws Exception {
     final String result = DeviceNames.getDeviceName("M470BSD", FALLBACK);
     Assert.assertEquals("Hisense M470BSD", result);
 }
-public void testDevice9110() throws Exception {
+public void testDevice9111() throws Exception {
     final String result = DeviceNames.getDeviceName("M470BSE", FALLBACK);
     Assert.assertEquals("Hisense M470BSE", result);
 }
-public void testDevice9111() throws Exception {
+public void testDevice9112() throws Exception {
     final String result = DeviceNames.getDeviceName("CLP293", FALLBACK);
     Assert.assertEquals("iCraig CLP293", result);
 }
-public void testDevice9112() throws Exception {
+public void testDevice9113() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE LEO S2", FALLBACK);
     Assert.assertEquals("ZTE LEO S2", result);
 }
-public void testDevice9113() throws Exception {
+public void testDevice9114() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE LEO S1", FALLBACK);
     Assert.assertEquals("ZTE LEO S1", result);
 }
-public void testDevice9114() throws Exception {
+public void testDevice9115() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC D616w", FALLBACK);
     Assert.assertEquals("HTC Desire 616 dual sim", result);
 }
-public void testDevice9115() throws Exception {
+public void testDevice9116() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL P502U", FALLBACK);
     Assert.assertEquals("TCL P502U", result);
 }
-public void testDevice9116() throws Exception {
+public void testDevice9117() throws Exception {
     final String result = DeviceNames.getDeviceName("DAA730R", FALLBACK);
     Assert.assertEquals("RCA DAA730R / RCA DAA738R", result);
 }
-public void testDevice9117() throws Exception {
+public void testDevice9118() throws Exception {
     final String result = DeviceNames.getDeviceName("D820X", FALLBACK);
     Assert.assertEquals("D820X", result);
 }
-public void testDevice9118() throws Exception {
+public void testDevice9119() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-S738C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Centura", result);
 }
-public void testDevice9119() throws Exception {
+public void testDevice9120() throws Exception {
     final String result = DeviceNames.getDeviceName("Orange Neva 80", FALLBACK);
     Assert.assertEquals("ZTE Orange Neva 80", result);
 }
-public void testDevice9120() throws Exception {
+public void testDevice9121() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H630D", FALLBACK);
     Assert.assertEquals("LG G Stylo", result);
 }
-public void testDevice9121() throws Exception {
+public void testDevice9122() throws Exception {
     final String result = DeviceNames.getDeviceName("F-11D", FALLBACK);
     Assert.assertEquals("Fujitsu ARROWS Me F-11D", result);
 }
-public void testDevice9122() throws Exception {
+public void testDevice9123() throws Exception {
     final String result = DeviceNames.getDeviceName("RSEIII", FALLBACK);
     Assert.assertEquals("Audi AG RSE-III", result);
 }
-public void testDevice9123() throws Exception {
+public void testDevice9124() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G310R5", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace", result);
 }
-public void testDevice9124() throws Exception {
+public void testDevice9125() throws Exception {
     final String result = DeviceNames.getDeviceName("Telenor Smart 2", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 4010X", result);
 }
-public void testDevice9125() throws Exception {
+public void testDevice9126() throws Exception {
     final String result = DeviceNames.getDeviceName("M3mini", FALLBACK);
     Assert.assertEquals("Gionee M3mini", result);
 }
-public void testDevice9126() throws Exception {
+public void testDevice9127() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL-J929L", FALLBACK);
     Assert.assertEquals("TCL J929L", result);
 }
-public void testDevice9127() throws Exception {
+public void testDevice9128() throws Exception {
     final String result = DeviceNames.getDeviceName("TM106A510L", FALLBACK);
     Assert.assertEquals("Nuvision TM106A510L", result);
 }
-public void testDevice9128() throws Exception {
+public void testDevice9129() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y330-U11", FALLBACK);
     Assert.assertEquals("Huawei Y330", result);
 }
-public void testDevice9129() throws Exception {
+public void testDevice9130() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y330-U17", FALLBACK);
     Assert.assertEquals("Huawei Y330", result);
 }
-public void testDevice9130() throws Exception {
+public void testDevice9131() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y330-U15", FALLBACK);
     Assert.assertEquals("Huawei Y330", result);
 }
-public void testDevice9131() throws Exception {
+public void testDevice9132() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC6545LVW", FALLBACK);
     Assert.assertEquals("HTC 10", result);
 }
-public void testDevice9132() throws Exception {
+public void testDevice9133() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE S118", FALLBACK);
     Assert.assertEquals("ZTE S118", result);
 }
-public void testDevice9133() throws Exception {
+public void testDevice9134() throws Exception {
     final String result = DeviceNames.getDeviceName("101P51D", FALLBACK);
     Assert.assertEquals("Mecer 101P51D", result);
 }
-public void testDevice9134() throws Exception {
+public void testDevice9135() throws Exception {
     final String result = DeviceNames.getDeviceName("VP74-Luxor", FALLBACK);
     Assert.assertEquals("Vestel VP74", result);
 }
-public void testDevice9135() throws Exception {
+public void testDevice9136() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL J926T", FALLBACK);
     Assert.assertEquals("TCL J926T", result);
 }
-public void testDevice9136() throws Exception {
+public void testDevice9137() throws Exception {
     final String result = DeviceNames.getDeviceName("VP73_Myros", FALLBACK);
     Assert.assertEquals("Vestel VP73", result);
 }
-public void testDevice9137() throws Exception {
+public void testDevice9138() throws Exception {
     final String result = DeviceNames.getDeviceName("Philips S398", FALLBACK);
     Assert.assertEquals("Philips Philps S398", result);
 }
-public void testDevice9138() throws Exception {
+public void testDevice9139() throws Exception {
     final String result = DeviceNames.getDeviceName("InFocus M430", FALLBACK);
     Assert.assertEquals("InFocus M430", result);
 }
-public void testDevice9139() throws Exception {
+public void testDevice9140() throws Exception {
     final String result = DeviceNames.getDeviceName("IN265", FALLBACK);
     Assert.assertEquals("7Eleven IN265", result);
 }
-public void testDevice9140() throws Exception {
+public void testDevice9141() throws Exception {
     final String result = DeviceNames.getDeviceName("503HW", FALLBACK);
     Assert.assertEquals("Huawei ALE-L02", result);
 }
-public void testDevice9141() throws Exception {
+public void testDevice9142() throws Exception {
     final String result = DeviceNames.getDeviceName("N1W", FALLBACK);
     Assert.assertEquals("OPPO N1W", result);
 }
-public void testDevice9142() throws Exception {
+public void testDevice9143() throws Exception {
     final String result = DeviceNames.getDeviceName("N1T", FALLBACK);
     Assert.assertEquals("Oppo N1T", result);
 }
-public void testDevice9143() throws Exception {
+public void testDevice9144() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-F410S", FALLBACK);
     Assert.assertEquals("LG G3 A", result);
 }
-public void testDevice9144() throws Exception {
+public void testDevice9145() throws Exception {
     final String result = DeviceNames.getDeviceName("V370", FALLBACK);
     Assert.assertEquals("Acer Liquid E2", result);
 }
-public void testDevice9145() throws Exception {
+public void testDevice9146() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V830W", FALLBACK);
     Assert.assertEquals("ZTE Blade G Lux", result);
 }
-public void testDevice9146() throws Exception {
+public void testDevice9147() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T237V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab4 7.0", result);
 }
-public void testDevice9147() throws Exception {
+public void testDevice9148() throws Exception {
     final String result = DeviceNames.getDeviceName("XT939G", FALLBACK);
     Assert.assertEquals("Motorola Moto G", result);
 }
-public void testDevice9148() throws Exception {
+public void testDevice9149() throws Exception {
     final String result = DeviceNames.getDeviceName("M3101BCD", FALLBACK);
     Assert.assertEquals("Hisense M3101BCD", result);
 }
-public void testDevice9149() throws Exception {
+public void testDevice9150() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G620-A2", FALLBACK);
     Assert.assertEquals("Huawei G620", result);
 }
-public void testDevice9150() throws Exception {
+public void testDevice9151() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V891", FALLBACK);
     Assert.assertEquals("ZTE V891", result);
 }
-public void testDevice9151() throws Exception {
+public void testDevice9152() throws Exception {
     final String result = DeviceNames.getDeviceName("Transformer_TF101", FALLBACK);
     Assert.assertEquals("Asus Eee Pad Transformer", result);
 }
-public void testDevice9152() throws Exception {
+public void testDevice9153() throws Exception {
     final String result = DeviceNames.getDeviceName("800P71D", FALLBACK);
     Assert.assertEquals("Mecer 800P71D", result);
 }
-public void testDevice9153() throws Exception {
+public void testDevice9154() throws Exception {
     final String result = DeviceNames.getDeviceName("PLT1066", FALLBACK);
     Assert.assertEquals("Gigabyte PROSCAN PLT1066 / MAG MAGPAD / TEAC TEACTAB / DOPO GS-1008", result);
 }
-public void testDevice9154() throws Exception {
+public void testDevice9155() throws Exception {
     final String result = DeviceNames.getDeviceName("DT7v51B", FALLBACK);
     Assert.assertEquals("ESI Enterprises DT7v51B", result);
 }
-public void testDevice9155() throws Exception {
+public void testDevice9156() throws Exception {
     final String result = DeviceNames.getDeviceName("8753", FALLBACK);
     Assert.assertEquals("Spectralink PIVOT 8741/8753", result);
 }
-public void testDevice9156() throws Exception {
+public void testDevice9157() throws Exception {
     final String result = DeviceNames.getDeviceName("VP100+", FALLBACK);
     Assert.assertEquals("Vestel VP100+", result);
 }
-public void testDevice9157() throws Exception {
+public void testDevice9158() throws Exception {
     final String result = DeviceNames.getDeviceName("BGH Joy Smart A6d", FALLBACK);
     Assert.assertEquals("ZTE Blade G Lux", result);
 }
-public void testDevice9158() throws Exception {
+public void testDevice9159() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 5950T", FALLBACK);
     Assert.assertEquals("Coolpad5950T", result);
 }
-public void testDevice9159() throws Exception {
+public void testDevice9160() throws Exception {
     final String result = DeviceNames.getDeviceName("BASE Tab", FALLBACK);
     Assert.assertEquals("ZTE V9", result);
 }
-public void testDevice9160() throws Exception {
+public void testDevice9161() throws Exception {
     final String result = DeviceNames.getDeviceName("SGP612", FALLBACK);
     Assert.assertEquals("Sony Xperia Z3 Tablet Compact", result);
 }
-public void testDevice9161() throws Exception {
+public void testDevice9162() throws Exception {
     final String result = DeviceNames.getDeviceName("STB9097", FALLBACK);
     Assert.assertEquals("Avoca STB9097", result);
 }
-public void testDevice9162() throws Exception {
+public void testDevice9163() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-T807A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy TabS 10.5", result);
 }
-public void testDevice9163() throws Exception {
+public void testDevice9164() throws Exception {
     final String result = DeviceNames.getDeviceName("L-EMENT_TAB1040_BT", FALLBACK);
     Assert.assertEquals("Logicom L-EMENT_TAB1040_BT", result);
 }
-public void testDevice9164() throws Exception {
+public void testDevice9165() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 7025D", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 7025D", result);
 }
-public void testDevice9165() throws Exception {
+public void testDevice9166() throws Exception {
     final String result = DeviceNames.getDeviceName("PSP3503DUO", FALLBACK);
     Assert.assertEquals("Prestigio PSP3503DUO", result);
 }
-public void testDevice9166() throws Exception {
+public void testDevice9167() throws Exception {
     final String result = DeviceNames.getDeviceName("CT1030", FALLBACK);
     Assert.assertEquals("Haier CT1030", result);
 }
-public void testDevice9167() throws Exception {
+public void testDevice9168() throws Exception {
     final String result = DeviceNames.getDeviceName("N765_APT", FALLBACK);
     Assert.assertEquals("ZTE N765_APT", result);
 }
-public void testDevice9168() throws Exception {
+public void testDevice9169() throws Exception {
     final String result = DeviceNames.getDeviceName("Xoom", FALLBACK);
     Assert.assertEquals("Motorola Xoom", result);
 }
-public void testDevice9169() throws Exception {
+public void testDevice9170() throws Exception {
     final String result = DeviceNames.getDeviceName("4035X_Orange", FALLBACK);
     Assert.assertEquals("Soul 4", result);
 }
-public void testDevice9170() throws Exception {
+public void testDevice9171() throws Exception {
     final String result = DeviceNames.getDeviceName("A450TL", FALLBACK);
     Assert.assertEquals("A450TL", result);
 }
-public void testDevice9171() throws Exception {
+public void testDevice9172() throws Exception {
     final String result = DeviceNames.getDeviceName("arc 10HD", FALLBACK);
     Assert.assertEquals("Kobo Arc 10HD", result);
 }
-public void testDevice9172() throws Exception {
+public void testDevice9173() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-R760", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S2", result);
 }
-public void testDevice9173() throws Exception {
+public void testDevice9174() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T715Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 8.0", result);
 }
-public void testDevice9174() throws Exception {
+public void testDevice9175() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-I317M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note II", result);
 }
-public void testDevice9175() throws Exception {
+public void testDevice9176() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO-Y5", FALLBACK);
     Assert.assertEquals("TECNO-Y5", result);
 }
-public void testDevice9176() throws Exception {
+public void testDevice9177() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO-Y4", FALLBACK);
     Assert.assertEquals("TECNO-Y4", result);
 }
-public void testDevice9177() throws Exception {
+public void testDevice9178() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO-Y6", FALLBACK);
     Assert.assertEquals("TECNO-Y6", result);
 }
-public void testDevice9178() throws Exception {
+public void testDevice9179() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO-Y3", FALLBACK);
     Assert.assertEquals("TECNO-Y3", result);
 }
-public void testDevice9179() throws Exception {
+public void testDevice9180() throws Exception {
     final String result = DeviceNames.getDeviceName("K1", FALLBACK);
     Assert.assertEquals("Lenovo K1", result);
 }
-public void testDevice9180() throws Exception {
+public void testDevice9181() throws Exception {
     final String result = DeviceNames.getDeviceName("K5", FALLBACK);
     Assert.assertEquals("Kubo K5", result);
 }
-public void testDevice9181() throws Exception {
+public void testDevice9182() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T715C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 8.0", result);
 }
-public void testDevice9182() throws Exception {
+public void testDevice9183() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-04G", FALLBACK);
     Assert.assertEquals("Samsung SC-04G", result);
 }
-public void testDevice9183() throws Exception {
+public void testDevice9184() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-04F", FALLBACK);
     Assert.assertEquals("Samsung SC-04F", result);
 }
-public void testDevice9184() throws Exception {
+public void testDevice9185() throws Exception {
     final String result = DeviceNames.getDeviceName("SC-04E", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S4", result);
 }
-public void testDevice9185() throws Exception {
+public void testDevice9186() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-E260T", FALLBACK);
     Assert.assertEquals("Hisense E260T", result);
 }
-public void testDevice9186() throws Exception {
+public void testDevice9187() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE-Z990G", FALLBACK);
     Assert.assertEquals("ZTE-Z990G", result);
 }
-public void testDevice9187() throws Exception {
+public void testDevice9188() throws Exception {
     final String result = DeviceNames.getDeviceName("MB865", FALLBACK);
     Assert.assertEquals("Motorola Atrix 2", result);
 }
-public void testDevice9188() throws Exception {
+public void testDevice9189() throws Exception {
     final String result = DeviceNames.getDeviceName("MB860", FALLBACK);
     Assert.assertEquals("Motorola Atrix 4G", result);
 }
-public void testDevice9189() throws Exception {
+public void testDevice9190() throws Exception {
     final String result = DeviceNames.getDeviceName("MB861", FALLBACK);
     Assert.assertEquals("Motorola Atrix", result);
 }
-public void testDevice9190() throws Exception {
+public void testDevice9191() throws Exception {
     final String result = DeviceNames.getDeviceName("KYOCERA-C6742", FALLBACK);
     Assert.assertEquals("Kyocera Hydro VIEW", result);
 }
-public void testDevice9191() throws Exception {
+public void testDevice9192() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE T320", FALLBACK);
     Assert.assertEquals("ZTE V831W", result);
 }
-public void testDevice9192() throws Exception {
+public void testDevice9193() throws Exception {
     final String result = DeviceNames.getDeviceName("EK-GN120A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy NX", result);
 }
-public void testDevice9193() throws Exception {
+public void testDevice9194() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y511-U30", FALLBACK);
     Assert.assertEquals("Huawei Y511", result);
 }
-public void testDevice9194() throws Exception {
+public void testDevice9195() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T815", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 8.0", result);
 }
-public void testDevice9195() throws Exception {
+public void testDevice9196() throws Exception {
     final String result = DeviceNames.getDeviceName("TA272HUL", FALLBACK);
     Assert.assertEquals("Acer TA272HUL", result);
 }
-public void testDevice9196() throws Exception {
+public void testDevice9197() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T817", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 9.7", result);
 }
-public void testDevice9197() throws Exception {
+public void testDevice9198() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T810", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 9.7", result);
 }
-public void testDevice9198() throws Exception {
+public void testDevice9199() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T813", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 9.7", result);
 }
-public void testDevice9199() throws Exception {
+public void testDevice9200() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-LU6200", FALLBACK);
     Assert.assertEquals("LG Optimus LTE", result);
 }
-public void testDevice9200() throws Exception {
+public void testDevice9201() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-P655H", FALLBACK);
     Assert.assertEquals("LG Optimus F3", result);
 }
-public void testDevice9201() throws Exception {
+public void testDevice9202() throws Exception {
     final String result = DeviceNames.getDeviceName("Positivo Mini I", FALLBACK);
     Assert.assertEquals("Positivo mini I", result);
 }
-public void testDevice9202() throws Exception {
+public void testDevice9203() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T819", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 9.7", result);
 }
-public void testDevice9203() throws Exception {
+public void testDevice9204() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T585", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab A 10.1", result);
 }
-public void testDevice9204() throws Exception {
+public void testDevice9205() throws Exception {
     final String result = DeviceNames.getDeviceName("N986D", FALLBACK);
     Assert.assertEquals("ZTE N986D", result);
 }
-public void testDevice9205() throws Exception {
+public void testDevice9206() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-J3119", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J3 Pro", result);
 }
-public void testDevice9206() throws Exception {
+public void testDevice9207() throws Exception {
     final String result = DeviceNames.getDeviceName("Enjoy TV Quad-Core Box", FALLBACK);
     Assert.assertEquals("Geniatech Enjoy TV Quad-Core Box", result);
 }
-public void testDevice9207() throws Exception {
+public void testDevice9208() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D852G", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice9208() throws Exception {
+public void testDevice9209() throws Exception {
     final String result = DeviceNames.getDeviceName("Andromax G46D1Z", FALLBACK);
     Assert.assertEquals("ZTE Andromax G46D1Z", result);
 }
-public void testDevice9209() throws Exception {
+public void testDevice9210() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A300H", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A3", result);
 }
-public void testDevice9210() throws Exception {
+public void testDevice9211() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ4415 Quad", FALLBACK);
     Assert.assertEquals("Fly Era Style 3", result);
 }
-public void testDevice9211() throws Exception {
+public void testDevice9212() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A300G", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A3", result);
 }
-public void testDevice9212() throws Exception {
+public void testDevice9213() throws Exception {
     final String result = DeviceNames.getDeviceName("Vodafone 845", FALLBACK);
     Assert.assertEquals("Huawei U8120", result);
 }
-public void testDevice9213() throws Exception {
+public void testDevice9214() throws Exception {
     final String result = DeviceNames.getDeviceName("msm8625", FALLBACK);
     Assert.assertEquals("Hisense HS-EG929", result);
 }
-public void testDevice9214() throws Exception {
+public void testDevice9215() throws Exception {
     final String result = DeviceNames.getDeviceName("R370L", FALLBACK);
     Assert.assertEquals("Orbic R370H", result);
 }
-public void testDevice9215() throws Exception {
+public void testDevice9216() throws Exception {
     final String result = DeviceNames.getDeviceName("Gigabyte TB100", FALLBACK);
     Assert.assertEquals("Gigabyte TB100", result);
 }
-public void testDevice9216() throws Exception {
+public void testDevice9217() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 5035A", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 5035D", result);
 }
-public void testDevice9217() throws Exception {
+public void testDevice9218() throws Exception {
     final String result = DeviceNames.getDeviceName("Beeline Smart2", FALLBACK);
     Assert.assertEquals("ZTE V811", result);
 }
-public void testDevice9218() throws Exception {
+public void testDevice9219() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 5035E", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 5035D", result);
 }
-public void testDevice9219() throws Exception {
+public void testDevice9220() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 5035D", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 5035D", result);
 }
-public void testDevice9220() throws Exception {
+public void testDevice9221() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 5035X", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 5035D", result);
 }
-public void testDevice9221() throws Exception {
+public void testDevice9222() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A360e", FALLBACK);
     Assert.assertEquals("Lenovo A360e", result);
 }
-public void testDevice9222() throws Exception {
+public void testDevice9223() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL D55", FALLBACK);
     Assert.assertEquals("TCL D55", result);
 }
-public void testDevice9223() throws Exception {
+public void testDevice9224() throws Exception {
     final String result = DeviceNames.getDeviceName("NS-13T001", FALLBACK);
     Assert.assertEquals("Anydata Insignia NS-13T001 Tablet", result);
 }
-public void testDevice9224() throws Exception {
+public void testDevice9225() throws Exception {
     final String result = DeviceNames.getDeviceName("HM_1SW", FALLBACK);
     Assert.assertEquals("Xiaomi Redmi", result);
 }
-public void testDevice9225() throws Exception {
+public void testDevice9226() throws Exception {
     final String result = DeviceNames.getDeviceName("Y220-U17", FALLBACK);
     Assert.assertEquals("Huawei Y220", result);
 }
-public void testDevice9226() throws Exception {
+public void testDevice9227() throws Exception {
     final String result = DeviceNames.getDeviceName("GSmart Mika M3", FALLBACK);
     Assert.assertEquals("GSmart Mika M3", result);
 }
-public void testDevice9227() throws Exception {
+public void testDevice9228() throws Exception {
     final String result = DeviceNames.getDeviceName("Y220-U10", FALLBACK);
     Assert.assertEquals("Huawei Y220", result);
 }
-public void testDevice9228() throws Exception {
+public void testDevice9229() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A516", FALLBACK);
     Assert.assertEquals("Lenovo A516", result);
 }
-public void testDevice9229() throws Exception {
+public void testDevice9230() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-I509", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Y", result);
 }
-public void testDevice9230() throws Exception {
+public void testDevice9231() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-B7510", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pro", result);
 }
-public void testDevice9231() throws Exception {
+public void testDevice9232() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-I500", FALLBACK);
     Assert.assertEquals("Samsung Fascinate", result);
 }
-public void testDevice9232() throws Exception {
+public void testDevice9233() throws Exception {
     final String result = DeviceNames.getDeviceName("L575", FALLBACK);
     Assert.assertEquals("Hyundai L575", result);
 }
-public void testDevice9233() throws Exception {
+public void testDevice9234() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8552B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Win", result);
 }
-public void testDevice9234() throws Exception {
+public void testDevice9235() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925W8", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9235() throws Exception {
+public void testDevice9236() throws Exception {
     final String result = DeviceNames.getDeviceName("BASE lutea", FALLBACK);
     Assert.assertEquals("ZTE Blade", result);
 }
-public void testDevice9236() throws Exception {
+public void testDevice9237() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A300Y", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A3", result);
 }
-public void testDevice9237() throws Exception {
+public void testDevice9238() throws Exception {
     final String result = DeviceNames.getDeviceName("SmartTab7", FALLBACK);
     Assert.assertEquals("ZTE SmartTab7", result);
 }
-public void testDevice9238() throws Exception {
+public void testDevice9239() throws Exception {
     final String result = DeviceNames.getDeviceName("CM990", FALLBACK);
     Assert.assertEquals("Huawei Evolution III", result);
 }
-public void testDevice9239() throws Exception {
+public void testDevice9240() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 5020D", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 5020D", result);
 }
-public void testDevice9240() throws Exception {
+public void testDevice9241() throws Exception {
     final String result = DeviceNames.getDeviceName("V8403", FALLBACK);
     Assert.assertEquals("ZTE V8403", result);
 }
-public void testDevice9241() throws Exception {
+public void testDevice9242() throws Exception {
     final String result = DeviceNames.getDeviceName("V8402", FALLBACK);
     Assert.assertEquals("ZTE Racer", result);
 }
-public void testDevice9242() throws Exception {
+public void testDevice9243() throws Exception {
     final String result = DeviceNames.getDeviceName("TM75A", FALLBACK);
     Assert.assertEquals("Gigabyte TM75A", result);
 }
-public void testDevice9243() throws Exception {
+public void testDevice9244() throws Exception {
     final String result = DeviceNames.getDeviceName("SH8188U", FALLBACK);
     Assert.assertEquals("Sharp SH8188U", result);
 }
-public void testDevice9244() throws Exception {
+public void testDevice9245() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-P5200", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab3 10.1", result);
 }
-public void testDevice9245() throws Exception {
+public void testDevice9246() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-B9062", FALLBACK);
     Assert.assertEquals("Samsung Galaxy (China)", result);
 }
-public void testDevice9246() throws Exception {
+public void testDevice9247() throws Exception {
     final String result = DeviceNames.getDeviceName("Andromax-c", FALLBACK);
     Assert.assertEquals("Hisense Andromax-c", result);
 }
-public void testDevice9247() throws Exception {
+public void testDevice9248() throws Exception {
     final String result = DeviceNames.getDeviceName("LIXIR1041", FALLBACK);
     Assert.assertEquals("Logicom L-IXIR TAB 1041", result);
 }
-public void testDevice9248() throws Exception {
+public void testDevice9249() throws Exception {
     final String result = DeviceNames.getDeviceName("titan_niibr_ds", FALLBACK);
     Assert.assertEquals("Motorola MOTO G", result);
 }
-public void testDevice9249() throws Exception {
+public void testDevice9250() throws Exception {
     final String result = DeviceNames.getDeviceName("MZ617", FALLBACK);
     Assert.assertEquals("Motorola XOOM 2", result);
 }
-public void testDevice9250() throws Exception {
+public void testDevice9251() throws Exception {
     final String result = DeviceNames.getDeviceName("A621BL", FALLBACK);
     Assert.assertEquals("A621BL", result);
 }
-public void testDevice9251() throws Exception {
+public void testDevice9252() throws Exception {
     final String result = DeviceNames.getDeviceName("Smart402", FALLBACK);
     Assert.assertEquals("BYD Smart 402", result);
 }
-public void testDevice9252() throws Exception {
+public void testDevice9253() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 70c Cobalt", FALLBACK);
     Assert.assertEquals("Archos 70c Cobalt", result);
 }
-public void testDevice9253() throws Exception {
+public void testDevice9254() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 80c Platinum", FALLBACK);
     Assert.assertEquals("Archos80cpl_loreal", result);
 }
-public void testDevice9254() throws Exception {
+public void testDevice9255() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL S838M", FALLBACK);
     Assert.assertEquals("IDOL 2 S", result);
 }
-public void testDevice9255() throws Exception {
+public void testDevice9256() throws Exception {
     final String result = DeviceNames.getDeviceName("S520", FALLBACK);
     Assert.assertEquals("Acer Liquid S2", result);
 }
-public void testDevice9256() throws Exception {
+public void testDevice9257() throws Exception {
     final String result = DeviceNames.getDeviceName("STUDIO_G_HD", FALLBACK);
     Assert.assertEquals("Blu Studio G HD", result);
 }
-public void testDevice9257() throws Exception {
+public void testDevice9258() throws Exception {
     final String result = DeviceNames.getDeviceName("B1-723", FALLBACK);
     Assert.assertEquals("Acer B1", result);
 }
-public void testDevice9258() throws Exception {
+public void testDevice9259() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo X3a40", FALLBACK);
     Assert.assertEquals("Lenovo X3a40", result);
 }
-public void testDevice9259() throws Exception {
+public void testDevice9260() throws Exception {
     final String result = DeviceNames.getDeviceName("ST21a", FALLBACK);
     Assert.assertEquals("Sony Xperia tipo", result);
 }
-public void testDevice9260() throws Exception {
+public void testDevice9261() throws Exception {
     final String result = DeviceNames.getDeviceName("204HW", FALLBACK);
     Assert.assertEquals("Huawei hw204HW", result);
 }
-public void testDevice9261() throws Exception {
+public void testDevice9262() throws Exception {
     final String result = DeviceNames.getDeviceName("P776A", FALLBACK);
     Assert.assertEquals("Anydata HKC P776A", result);
 }
-public void testDevice9262() throws Exception {
+public void testDevice9263() throws Exception {
     final String result = DeviceNames.getDeviceName("Motorola Electrify", FALLBACK);
     Assert.assertEquals("Motorola Photon 4G", result);
 }
-public void testDevice9263() throws Exception {
+public void testDevice9264() throws Exception {
     final String result = DeviceNames.getDeviceName("A79", FALLBACK);
     Assert.assertEquals("HKC A79 Tablet", result);
 }
-public void testDevice9264() throws Exception {
+public void testDevice9265() throws Exception {
     final String result = DeviceNames.getDeviceName("A78", FALLBACK);
     Assert.assertEquals("Micromax A78", result);
 }
-public void testDevice9265() throws Exception {
+public void testDevice9266() throws Exception {
     final String result = DeviceNames.getDeviceName("A75", FALLBACK);
     Assert.assertEquals("Micromax A75", result);
 }
-public void testDevice9266() throws Exception {
+public void testDevice9267() throws Exception {
     final String result = DeviceNames.getDeviceName("A73", FALLBACK);
     Assert.assertEquals("Micromax A73", result);
 }
-public void testDevice9267() throws Exception {
+public void testDevice9268() throws Exception {
     final String result = DeviceNames.getDeviceName("A71", FALLBACK);
     Assert.assertEquals("Lava A71", result);
 }
-public void testDevice9268() throws Exception {
+public void testDevice9269() throws Exception {
     final String result = DeviceNames.getDeviceName("SH837W", FALLBACK);
     Assert.assertEquals("Foxconn SHARP SH837W", result);
 }
-public void testDevice9269() throws Exception {
+public void testDevice9270() throws Exception {
     final String result = DeviceNames.getDeviceName("Craft", FALLBACK);
     Assert.assertEquals("Explay Craft", result);
 }
-public void testDevice9270() throws Exception {
+public void testDevice9271() throws Exception {
     final String result = DeviceNames.getDeviceName("D5303", FALLBACK);
     Assert.assertEquals("Sony Xperia T2 Ultra", result);
 }
-public void testDevice9271() throws Exception {
+public void testDevice9272() throws Exception {
     final String result = DeviceNames.getDeviceName("OPPO A37t", FALLBACK);
     Assert.assertEquals("Oppo A37t", result);
 }
-public void testDevice9272() throws Exception {
+public void testDevice9273() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL J900T", FALLBACK);
     Assert.assertEquals("TCL J900T", result);
 }
-public void testDevice9273() throws Exception {
+public void testDevice9274() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-I629", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Fame", result);
 }
-public void testDevice9274() throws Exception {
+public void testDevice9275() throws Exception {
     final String result = DeviceNames.getDeviceName("Trio AXS 3G", FALLBACK);
     Assert.assertEquals("Trio AXS 3G", result);
 }
-public void testDevice9275() throws Exception {
+public void testDevice9276() throws Exception {
     final String result = DeviceNames.getDeviceName("Y1000", FALLBACK);
     Assert.assertEquals("Positivo Y1000", result);
 }
-public void testDevice9276() throws Exception {
+public void testDevice9277() throws Exception {
     final String result = DeviceNames.getDeviceName("SGP521", FALLBACK);
     Assert.assertEquals("Sony Xperia Z2 Tablet", result);
 }
-public void testDevice9277() throws Exception {
+public void testDevice9278() throws Exception {
     final String result = DeviceNames.getDeviceName("Trooper_X55", FALLBACK);
     Assert.assertEquals("KAZAM TROOPER X5.5", result);
 }
-public void testDevice9278() throws Exception {
+public void testDevice9279() throws Exception {
     final String result = DeviceNames.getDeviceName("NX511J_V3", FALLBACK);
     Assert.assertEquals("ZTE NX511J_V3", result);
 }
-public void testDevice9279() throws Exception {
+public void testDevice9280() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A500FU", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A5", result);
 }
-public void testDevice9280() throws Exception {
+public void testDevice9281() throws Exception {
     final String result = DeviceNames.getDeviceName("Telenor Touch Plus", FALLBACK);
     Assert.assertEquals("ZTE Telenor Touch Plus", result);
 }
-public void testDevice9281() throws Exception {
+public void testDevice9282() throws Exception {
     final String result = DeviceNames.getDeviceName("IQ436i", FALLBACK);
     Assert.assertEquals("Fly Era Nano 9", result);
 }
-public void testDevice9282() throws Exception {
+public void testDevice9283() throws Exception {
     final String result = DeviceNames.getDeviceName("PI3900", FALLBACK);
     Assert.assertEquals("Philips PI3900/98", result);
 }
-public void testDevice9283() throws Exception {
+public void testDevice9284() throws Exception {
     final String result = DeviceNames.getDeviceName("TrekStor SurfTab breeze 9.6 quad", FALLBACK);
     Assert.assertEquals("Trekstor SurfTab breeze 9.6 quad", result);
 }
-public void testDevice9284() throws Exception {
+public void testDevice9285() throws Exception {
     final String result = DeviceNames.getDeviceName("K220_FHD", FALLBACK);
     Assert.assertEquals("Hisense K220_FHD", result);
 }
-public void testDevice9285() throws Exception {
+public void testDevice9286() throws Exception {
     final String result = DeviceNames.getDeviceName("003Z", FALLBACK);
     Assert.assertEquals("ZTE Blade", result);
 }
-public void testDevice9286() throws Exception {
+public void testDevice9287() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 90 Neon", FALLBACK);
     Assert.assertEquals("Archos 90 Neon", result);
 }
-public void testDevice9287() throws Exception {
+public void testDevice9288() throws Exception {
     final String result = DeviceNames.getDeviceName("003P", FALLBACK);
     Assert.assertEquals("Panasonic 003P", result);
 }
-public void testDevice9288() throws Exception {
+public void testDevice9289() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H221", FALLBACK);
     Assert.assertEquals("LG Joy", result);
 }
-public void testDevice9289() throws Exception {
+public void testDevice9290() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-H220", FALLBACK);
     Assert.assertEquals("LG Joy", result);
 }
-public void testDevice9290() throws Exception {
+public void testDevice9291() throws Exception {
     final String result = DeviceNames.getDeviceName("G1-715", FALLBACK);
     Assert.assertEquals("Acer G1-715", result);
 }
-public void testDevice9291() throws Exception {
+public void testDevice9292() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SGH-I577", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Exhilarate", result);
 }
-public void testDevice9292() throws Exception {
+public void testDevice9293() throws Exception {
     final String result = DeviceNames.getDeviceName("IM-A725L", FALLBACK);
     Assert.assertEquals("Pantech ef14lv", result);
 }
-public void testDevice9293() throws Exception {
+public void testDevice9294() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 7270_W00", FALLBACK);
     Assert.assertEquals("Coolpad7270_W00", result);
 }
-public void testDevice9294() throws Exception {
+public void testDevice9295() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI MT7-J1", FALLBACK);
     Assert.assertEquals("HUAWEI MT7", result);
 }
-public void testDevice9295() throws Exception {
+public void testDevice9296() throws Exception {
     final String result = DeviceNames.getDeviceName("TEACTAB", FALLBACK);
     Assert.assertEquals("Gigabyte PROSCAN PLT1066 / MAG MAGPAD / TEAC TEACTAB / DOPO GS-1008", result);
 }
-public void testDevice9296() throws Exception {
+public void testDevice9297() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9297() throws Exception {
+public void testDevice9298() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9298() throws Exception {
+public void testDevice9299() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925I", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9299() throws Exception {
+public void testDevice9300() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925F", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9300() throws Exception {
+public void testDevice9301() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-SU660", FALLBACK);
     Assert.assertEquals("LG Optimus 2X", result);
 }
-public void testDevice9301() throws Exception {
+public void testDevice9302() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9302() throws Exception {
+public void testDevice9303() throws Exception {
     final String result = DeviceNames.getDeviceName("LG Google TV G3 KR", FALLBACK);
     Assert.assertEquals("LG Android TV", result);
 }
-public void testDevice9303() throws Exception {
+public void testDevice9304() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925X", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9304() throws Exception {
+public void testDevice9305() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9305() throws Exception {
+public void testDevice9306() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9306() throws Exception {
+public void testDevice9307() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925R", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9307() throws Exception {
+public void testDevice9308() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9308() throws Exception {
+public void testDevice9309() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G925P", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9309() throws Exception {
+public void testDevice9310() throws Exception {
     final String result = DeviceNames.getDeviceName("SHW-M130K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy K", result);
 }
-public void testDevice9310() throws Exception {
+public void testDevice9311() throws Exception {
     final String result = DeviceNames.getDeviceName("Fly IQ4418 AF", FALLBACK);
     Assert.assertEquals("Fly IQ4418", result);
 }
-public void testDevice9311() throws Exception {
+public void testDevice9312() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T116IR", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 3 Lite", result);
 }
-public void testDevice9312() throws Exception {
+public void testDevice9313() throws Exception {
     final String result = DeviceNames.getDeviceName("SHW-M130L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy U", result);
 }
-public void testDevice9313() throws Exception {
+public void testDevice9314() throws Exception {
     final String result = DeviceNames.getDeviceName("TCL S720T", FALLBACK);
     Assert.assertEquals("TCL S720T", result);
 }
-public void testDevice9314() throws Exception {
+public void testDevice9315() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-i705", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab2 7.0", result);
 }
-public void testDevice9315() throws Exception {
+public void testDevice9316() throws Exception {
     final String result = DeviceNames.getDeviceName("X2_Soul_PRO", FALLBACK);
     Assert.assertEquals("AllView X2 Soul PRO", result);
 }
-public void testDevice9316() throws Exception {
+public void testDevice9317() throws Exception {
     final String result = DeviceNames.getDeviceName("Orange Rise 30", FALLBACK);
     Assert.assertEquals("Orange Rise 30", result);
 }
-public void testDevice9317() throws Exception {
+public void testDevice9318() throws Exception {
     final String result = DeviceNames.getDeviceName("MY1306P", FALLBACK);
     Assert.assertEquals("Lazer MY1306P", result);
 }
-public void testDevice9318() throws Exception {
+public void testDevice9319() throws Exception {
     final String result = DeviceNames.getDeviceName("BS472", FALLBACK);
     Assert.assertEquals("Idol S", result);
 }
-public void testDevice9319() throws Exception {
+public void testDevice9320() throws Exception {
     final String result = DeviceNames.getDeviceName("ICRAIG_CLP288", FALLBACK);
     Assert.assertEquals("ICRAIG_CLP288", result);
 }
-public void testDevice9320() throws Exception {
+public void testDevice9321() throws Exception {
     final String result = DeviceNames.getDeviceName("AS650C", FALLBACK);
     Assert.assertEquals("Panasonic AS650C", result);
 }
-public void testDevice9321() throws Exception {
+public void testDevice9322() throws Exception {
     final String result = DeviceNames.getDeviceName("N9101", FALLBACK);
     Assert.assertEquals("ZTE N9101", result);
 }
-public void testDevice9322() throws Exception {
+public void testDevice9323() throws Exception {
     final String result = DeviceNames.getDeviceName("N9100", FALLBACK);
     Assert.assertEquals("ZTE N9100", result);
 }
-public void testDevice9323() throws Exception {
+public void testDevice9324() throws Exception {
     final String result = DeviceNames.getDeviceName("starTIM1", FALLBACK);
     Assert.assertEquals("Cellon starTIM1", result);
 }
-public void testDevice9324() throws Exception {
+public void testDevice9325() throws Exception {
     final String result = DeviceNames.getDeviceName("XT1585", FALLBACK);
     Assert.assertEquals("Motorola Droid Turbo 2", result);
 }
-public void testDevice9325() throws Exception {
+public void testDevice9326() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-P905", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note Pro 12.2", result);
 }
-public void testDevice9326() throws Exception {
+public void testDevice9327() throws Exception {
     final String result = DeviceNames.getDeviceName("XT1580", FALLBACK);
     Assert.assertEquals("Motorola Moto X Force", result);
 }
-public void testDevice9327() throws Exception {
+public void testDevice9328() throws Exception {
     final String result = DeviceNames.getDeviceName("XT1581", FALLBACK);
     Assert.assertEquals("Motorola Moto X Force", result);
 }
-public void testDevice9328() throws Exception {
+public void testDevice9329() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-P901", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note Pro 12.2", result);
 }
-public void testDevice9329() throws Exception {
+public void testDevice9330() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-P900", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note Pro 12.2", result);
 }
-public void testDevice9330() throws Exception {
+public void testDevice9331() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Panache", FALLBACK);
     Assert.assertEquals("HTC myTouch 4G", result);
 }
-public void testDevice9331() throws Exception {
+public void testDevice9332() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T330NU", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 4 8.0", result);
 }
-public void testDevice9332() throws Exception {
+public void testDevice9333() throws Exception {
     final String result = DeviceNames.getDeviceName("Turbo-X_pi_4G", FALLBACK);
     Assert.assertEquals("Plaisio Turbo-X_pi_4G", result);
 }
-public void testDevice9333() throws Exception {
+public void testDevice9334() throws Exception {
     final String result = DeviceNames.getDeviceName("RACER III mini", FALLBACK);
     Assert.assertEquals("ZTE RACER III mini", result);
 }
-public void testDevice9334() throws Exception {
+public void testDevice9335() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-T928", FALLBACK);
     Assert.assertEquals("Hisense HS-T928", result);
 }
-public void testDevice9335() throws Exception {
+public void testDevice9336() throws Exception {
     final String result = DeviceNames.getDeviceName("PMT5877C", FALLBACK);
     Assert.assertEquals("Prestigio PMT5877C", result);
 }
-public void testDevice9336() throws Exception {
+public void testDevice9337() throws Exception {
     final String result = DeviceNames.getDeviceName("LED39K360X3D", FALLBACK);
     Assert.assertEquals("Hisense LED39K360X3D", result);
 }
-public void testDevice9337() throws Exception {
+public void testDevice9338() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo S860e", FALLBACK);
     Assert.assertEquals("Lenovo S860e", result);
 }
-public void testDevice9338() throws Exception {
+public void testDevice9339() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-T926", FALLBACK);
     Assert.assertEquals("Hisense HS-T926", result);
 }
-public void testDevice9339() throws Exception {
+public void testDevice9340() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9060M", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand Neo Plus", result);
 }
-public void testDevice9340() throws Exception {
+public void testDevice9341() throws Exception {
     final String result = DeviceNames.getDeviceName("LED75XT890G3D", FALLBACK);
     Assert.assertEquals("Hisense LED75XT890G3D", result);
 }
-public void testDevice9341() throws Exception {
+public void testDevice9342() throws Exception {
     final String result = DeviceNames.getDeviceName("Redmi Note 3", FALLBACK);
     Assert.assertEquals("Xiaomi Redmi Note 3", result);
 }
-public void testDevice9342() throws Exception {
+public void testDevice9343() throws Exception {
     final String result = DeviceNames.getDeviceName("Redmi Note 2", FALLBACK);
     Assert.assertEquals("Xiaomi HM Note 2", result);
 }
-public void testDevice9343() throws Exception {
+public void testDevice9344() throws Exception {
     final String result = DeviceNames.getDeviceName("HTCD100LVWPP", FALLBACK);
     Assert.assertEquals("HTC Desire 526", result);
 }
-public void testDevice9344() throws Exception {
+public void testDevice9345() throws Exception {
     final String result = DeviceNames.getDeviceName("Vodafone Smart 4", FALLBACK);
     Assert.assertEquals("Coolpad VodafoneSmart4", result);
 }
-public void testDevice9345() throws Exception {
+public void testDevice9346() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G9250", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S6 Edge", result);
 }
-public void testDevice9346() throws Exception {
+public void testDevice9347() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 8008D", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 8008D", result);
 }
-public void testDevice9347() throws Exception {
+public void testDevice9348() throws Exception {
     final String result = DeviceNames.getDeviceName("T752", FALLBACK);
     Assert.assertEquals("Audiovox T752 Tablet", result);
 }
-public void testDevice9348() throws Exception {
+public void testDevice9349() throws Exception {
     final String result = DeviceNames.getDeviceName("LT100K6900A", FALLBACK);
     Assert.assertEquals("Hisense LT100K6900A", result);
 }
-public void testDevice9349() throws Exception {
+public void testDevice9350() throws Exception {
     final String result = DeviceNames.getDeviceName("Coolpad 9976A", FALLBACK);
     Assert.assertEquals("Coolpad 9976A", result);
 }
-public void testDevice9350() throws Exception {
+public void testDevice9351() throws Exception {
     final String result = DeviceNames.getDeviceName("EveryPad", FALLBACK);
     Assert.assertEquals("Lenovo EveryPad", result);
 }
-public void testDevice9351() throws Exception {
+public void testDevice9352() throws Exception {
     final String result = DeviceNames.getDeviceName("5010S", FALLBACK);
     Assert.assertEquals("PIXI 4 (5)", result);
 }
-public void testDevice9352() throws Exception {
+public void testDevice9353() throws Exception {
     final String result = DeviceNames.getDeviceName("U8220", FALLBACK);
     Assert.assertEquals("Huawei U8220", result);
 }
-public void testDevice9353() throws Exception {
+public void testDevice9354() throws Exception {
     final String result = DeviceNames.getDeviceName("N850L", FALLBACK);
     Assert.assertEquals("ZTE N850L", result);
 }
-public void testDevice9354() throws Exception {
+public void testDevice9355() throws Exception {
     final String result = DeviceNames.getDeviceName("PAD_1042", FALLBACK);
     Assert.assertEquals("Haier PAD_1042", result);
 }
-public void testDevice9355() throws Exception {
+public void testDevice9356() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 4005D", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 4005D", result);
 }
-public void testDevice9356() throws Exception {
+public void testDevice9357() throws Exception {
     final String result = DeviceNames.getDeviceName("ILIUM X400", FALLBACK);
     Assert.assertEquals("Lanix X400", result);
 }
-public void testDevice9357() throws Exception {
+public void testDevice9358() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-01D", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia PLAY", result);
 }
-public void testDevice9358() throws Exception {
+public void testDevice9359() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-01E", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia AX", result);
 }
-public void testDevice9359() throws Exception {
+public void testDevice9360() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-01F", FALLBACK);
     Assert.assertEquals("Sony Xperia Z1", result);
 }
-public void testDevice9360() throws Exception {
+public void testDevice9361() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-01G", FALLBACK);
     Assert.assertEquals("Sony Xperia Z3", result);
 }
-public void testDevice9361() throws Exception {
+public void testDevice9362() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-01B", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia X10", result);
 }
-public void testDevice9362() throws Exception {
+public void testDevice9363() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-01C", FALLBACK);
     Assert.assertEquals("Sony Ericsson Xperia Arc", result);
 }
-public void testDevice9363() throws Exception {
+public void testDevice9364() throws Exception {
     final String result = DeviceNames.getDeviceName("SH-06F", FALLBACK);
     Assert.assertEquals("Sharp AQUOS PAD SH-06F", result);
 }
-public void testDevice9364() throws Exception {
+public void testDevice9365() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-A700FD", FALLBACK);
     Assert.assertEquals("Samsung Galaxy A7", result);
 }
-public void testDevice9365() throws Exception {
+public void testDevice9366() throws Exception {
     final String result = DeviceNames.getDeviceName("SmartWatch 3", FALLBACK);
     Assert.assertEquals("Sony SmartWatch 3", result);
 }
-public void testDevice9366() throws Exception {
+public void testDevice9367() throws Exception {
     final String result = DeviceNames.getDeviceName("SO-01H", FALLBACK);
     Assert.assertEquals("Sony Xperia Z5", result);
 }
-public void testDevice9367() throws Exception {
+public void testDevice9368() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y360-U03", FALLBACK);
     Assert.assertEquals("Huawei Y360", result);
 }
-public void testDevice9368() throws Exception {
+public void testDevice9369() throws Exception {
     final String result = DeviceNames.getDeviceName("Hisense C1M", FALLBACK);
     Assert.assertEquals("Hisense C1M", result);
 }
-public void testDevice9369() throws Exception {
+public void testDevice9370() throws Exception {
     final String result = DeviceNames.getDeviceName("Z815", FALLBACK);
     Assert.assertEquals("ZTE Fanfare 2", result);
 }
-public void testDevice9370() throws Exception {
+public void testDevice9371() throws Exception {
     final String result = DeviceNames.getDeviceName("YU5510A", FALLBACK);
     Assert.assertEquals("Yureka", result);
 }
-public void testDevice9371() throws Exception {
+public void testDevice9372() throws Exception {
     final String result = DeviceNames.getDeviceName("Z813", FALLBACK);
     Assert.assertEquals("ZTE Z813", result);
 }
-public void testDevice9372() throws Exception {
+public void testDevice9373() throws Exception {
     final String result = DeviceNames.getDeviceName("Z812", FALLBACK);
     Assert.assertEquals("ZTE Z812", result);
 }
-public void testDevice9373() throws Exception {
+public void testDevice9374() throws Exception {
     final String result = DeviceNames.getDeviceName("LNV-Lenovo K910e", FALLBACK);
     Assert.assertEquals("Lenovo K910e", result);
 }
-public void testDevice9374() throws Exception {
+public void testDevice9375() throws Exception {
     final String result = DeviceNames.getDeviceName("Aquaris E5 HD", FALLBACK);
     Assert.assertEquals("bq Aquaris E5 HD", result);
 }
-public void testDevice9375() throws Exception {
+public void testDevice9376() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO-M6S", FALLBACK);
     Assert.assertEquals("TECNO-M6S", result);
 }
-public void testDevice9376() throws Exception {
+public void testDevice9377() throws Exception {
     final String result = DeviceNames.getDeviceName("C5302", FALLBACK);
     Assert.assertEquals("Sony Xperia SP", result);
 }
-public void testDevice9377() throws Exception {
+public void testDevice9378() throws Exception {
     final String result = DeviceNames.getDeviceName("C5303", FALLBACK);
     Assert.assertEquals("Sony Xperia SP", result);
 }
-public void testDevice9378() throws Exception {
+public void testDevice9379() throws Exception {
     final String result = DeviceNames.getDeviceName("C5306", FALLBACK);
     Assert.assertEquals("Sony Xperia SP", result);
 }
-public void testDevice9379() throws Exception {
+public void testDevice9380() throws Exception {
     final String result = DeviceNames.getDeviceName("ZUK Z2131", FALLBACK);
     Assert.assertEquals("Zuk Z2", result);
 }
-public void testDevice9380() throws Exception {
+public void testDevice9381() throws Exception {
     final String result = DeviceNames.getDeviceName("Hisense C1T", FALLBACK);
     Assert.assertEquals("Hisense C1T", result);
 }
-public void testDevice9381() throws Exception {
+public void testDevice9382() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-X8C", FALLBACK);
     Assert.assertEquals("Hisense HS-X8C", result);
 }
-public void testDevice9382() throws Exception {
+public void testDevice9383() throws Exception {
     final String result = DeviceNames.getDeviceName("VIE-L29", FALLBACK);
     Assert.assertEquals("Huawei P9 Plus", result);
 }
-public void testDevice9383() throws Exception {
+public void testDevice9384() throws Exception {
     final String result = DeviceNames.getDeviceName("V8200plus", FALLBACK);
     Assert.assertEquals("ZTE V8200plus", result);
 }
-public void testDevice9384() throws Exception {
+public void testDevice9385() throws Exception {
     final String result = DeviceNames.getDeviceName("BHX-S100", FALLBACK);
     Assert.assertEquals("SK Broadband B tv smart", result);
 }
-public void testDevice9385() throws Exception {
+public void testDevice9386() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T869", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab 7.0 Plus", result);
 }
-public void testDevice9386() throws Exception {
+public void testDevice9387() throws Exception {
     final String result = DeviceNames.getDeviceName("LGL45C", FALLBACK);
     Assert.assertEquals("LG Optimus Net", result);
 }
-public void testDevice9387() throws Exception {
+public void testDevice9388() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 7024N", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH Fierce", result);
 }
-public void testDevice9388() throws Exception {
+public void testDevice9389() throws Exception {
     final String result = DeviceNames.getDeviceName("M97", FALLBACK);
     Assert.assertEquals("Anydata Matsunichi M97", result);
 }
-public void testDevice9389() throws Exception {
+public void testDevice9390() throws Exception {
     final String result = DeviceNames.getDeviceName("V972M", FALLBACK);
     Assert.assertEquals("ZTE LEO S1", result);
 }
-public void testDevice9390() throws Exception {
+public void testDevice9391() throws Exception {
     final String result = DeviceNames.getDeviceName("US740", FALLBACK);
     Assert.assertEquals("LG Ally", result);
 }
-public void testDevice9391() throws Exception {
+public void testDevice9392() throws Exception {
     final String result = DeviceNames.getDeviceName("HS-X8T", FALLBACK);
     Assert.assertEquals("Hisense HS-X8T", result);
 }
-public void testDevice9392() throws Exception {
+public void testDevice9393() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 7024R", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 7024W", result);
 }
-public void testDevice9393() throws Exception {
+public void testDevice9394() throws Exception {
     final String result = DeviceNames.getDeviceName("CS-1A13", FALLBACK);
     Assert.assertEquals("Dell Cloud Connect", result);
 }
-public void testDevice9394() throws Exception {
+public void testDevice9395() throws Exception {
     final String result = DeviceNames.getDeviceName("E5563", FALLBACK);
     Assert.assertEquals("Sony Xperia C5 Ultra Dual", result);
 }
-public void testDevice9395() throws Exception {
+public void testDevice9396() throws Exception {
     final String result = DeviceNames.getDeviceName("PADCT1010W", FALLBACK);
     Assert.assertEquals("Haier PADCT1010W", result);
 }
-public void testDevice9396() throws Exception {
+public void testDevice9397() throws Exception {
     final String result = DeviceNames.getDeviceName("5065A", FALLBACK);
     Assert.assertEquals("5065A", result);
 }
-public void testDevice9397() throws Exception {
+public void testDevice9398() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE BLADE III", FALLBACK);
     Assert.assertEquals("ZTE BLADE III", result);
 }
-public void testDevice9398() throws Exception {
+public void testDevice9399() throws Exception {
     final String result = DeviceNames.getDeviceName("5065D", FALLBACK);
     Assert.assertEquals("5065D", result);
 }
-public void testDevice9399() throws Exception {
+public void testDevice9400() throws Exception {
     final String result = DeviceNames.getDeviceName("F5_18", FALLBACK);
     Assert.assertEquals("BenQ F5_18", result);
 }
-public void testDevice9400() throws Exception {
+public void testDevice9401() throws Exception {
     final String result = DeviceNames.getDeviceName("5065X", FALLBACK);
     Assert.assertEquals("5065X", result);
 }
-public void testDevice9401() throws Exception {
+public void testDevice9402() throws Exception {
     final String result = DeviceNames.getDeviceName("iRULU X11", FALLBACK);
     Assert.assertEquals("USA111 IRULU X11", result);
 }
-public void testDevice9402() throws Exception {
+public void testDevice9403() throws Exception {
     final String result = DeviceNames.getDeviceName("F5_13", FALLBACK);
     Assert.assertEquals("BenQ F5_13", result);
 }
-public void testDevice9403() throws Exception {
+public void testDevice9404() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 601 dual sim", FALLBACK);
     Assert.assertEquals("HTC Desire 601 dual sim", result);
 }
-public void testDevice9404() throws Exception {
+public void testDevice9405() throws Exception {
     final String result = DeviceNames.getDeviceName("F5_15", FALLBACK);
     Assert.assertEquals("BenQ F5_15", result);
 }
-public void testDevice9405() throws Exception {
+public void testDevice9406() throws Exception {
     final String result = DeviceNames.getDeviceName("5065W", FALLBACK);
     Assert.assertEquals("5065W", result);
 }
-public void testDevice9406() throws Exception {
+public void testDevice9407() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D315l", FALLBACK);
     Assert.assertEquals("LG F70", result);
 }
-public void testDevice9407() throws Exception {
+public void testDevice9408() throws Exception {
     final String result = DeviceNames.getDeviceName("SKY IM-A630K", FALLBACK);
     Assert.assertEquals("Pantech Izar", result);
 }
-public void testDevice9408() throws Exception {
+public void testDevice9409() throws Exception {
     final String result = DeviceNames.getDeviceName("LE43U5000A", FALLBACK);
     Assert.assertEquals("Haier LE43U5000A", result);
 }
-public void testDevice9409() throws Exception {
+public void testDevice9410() throws Exception {
     final String result = DeviceNames.getDeviceName("5560S", FALLBACK);
     Assert.assertEquals("Coolpad CP5660S", result);
 }
-public void testDevice9410() throws Exception {
+public void testDevice9411() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S5302B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Pocket", result);
 }
-public void testDevice9411() throws Exception {
+public void testDevice9412() throws Exception {
     final String result = DeviceNames.getDeviceName("Nexus 10", FALLBACK);
     Assert.assertEquals("Samsung Nexus 10", result);
 }
-public void testDevice9412() throws Exception {
+public void testDevice9413() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO PP7E-SLA1", FALLBACK);
     Assert.assertEquals("Tecno PhonePad 7 II", result);
 }
-public void testDevice9413() throws Exception {
+public void testDevice9414() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax A73", FALLBACK);
     Assert.assertEquals("Micromax A73", result);
 }
-public void testDevice9414() throws Exception {
+public void testDevice9415() throws Exception {
     final String result = DeviceNames.getDeviceName("5038A", FALLBACK);
     Assert.assertEquals("Soul 4.5", result);
 }
-public void testDevice9415() throws Exception {
+public void testDevice9416() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC M9et", FALLBACK);
     Assert.assertEquals("HTC M9et", result);
 }
-public void testDevice9416() throws Exception {
+public void testDevice9417() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax A77", FALLBACK);
     Assert.assertEquals("Micromax Canvas Juice", result);
 }
-public void testDevice9417() throws Exception {
+public void testDevice9418() throws Exception {
     final String result = DeviceNames.getDeviceName("5038E", FALLBACK);
     Assert.assertEquals("Soul 4.5", result);
 }
-public void testDevice9418() throws Exception {
+public void testDevice9419() throws Exception {
     final String result = DeviceNames.getDeviceName("5038D", FALLBACK);
     Assert.assertEquals("5038D", result);
 }
-public void testDevice9419() throws Exception {
+public void testDevice9420() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI A199", FALLBACK);
     Assert.assertEquals("Huawei A199", result);
 }
-public void testDevice9420() throws Exception {
+public void testDevice9421() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax A79", FALLBACK);
     Assert.assertEquals("Micromax Bolt", result);
 }
-public void testDevice9421() throws Exception {
+public void testDevice9422() throws Exception {
     final String result = DeviceNames.getDeviceName("PSP5307DUO", FALLBACK);
     Assert.assertEquals("Prestigio PSP5307DUO", result);
 }
-public void testDevice9422() throws Exception {
+public void testDevice9423() throws Exception {
     final String result = DeviceNames.getDeviceName("C2305", FALLBACK);
     Assert.assertEquals("Sony Xperia C", result);
 }
-public void testDevice9423() throws Exception {
+public void testDevice9424() throws Exception {
     final String result = DeviceNames.getDeviceName("C2304", FALLBACK);
     Assert.assertEquals("Sony Xperia C", result);
 }
-public void testDevice9424() throws Exception {
+public void testDevice9425() throws Exception {
     final String result = DeviceNames.getDeviceName("P-02D", FALLBACK);
     Assert.assertEquals("Panasonic P-02D", result);
 }
-public void testDevice9425() throws Exception {
+public void testDevice9426() throws Exception {
     final String result = DeviceNames.getDeviceName("P-02E", FALLBACK);
     Assert.assertEquals("Panasonic ELUGA X", result);
 }
-public void testDevice9426() throws Exception {
+public void testDevice9427() throws Exception {
     final String result = DeviceNames.getDeviceName("Z932L", FALLBACK);
     Assert.assertEquals("ZTE Z932L", result);
 }
-public void testDevice9427() throws Exception {
+public void testDevice9428() throws Exception {
     final String result = DeviceNames.getDeviceName("5038X", FALLBACK);
     Assert.assertEquals("SOUL 4.5", result);
 }
-public void testDevice9428() throws Exception {
+public void testDevice9429() throws Exception {
     final String result = DeviceNames.getDeviceName("EIII", FALLBACK);
     Assert.assertEquals("Cellon EIII", result);
 }
-public void testDevice9429() throws Exception {
+public void testDevice9430() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 500 dual sim", FALLBACK);
     Assert.assertEquals("HTC Desire 500 dual sim", result);
 }
-public void testDevice9430() throws Exception {
+public void testDevice9431() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Velocity 4G X710s", FALLBACK);
     Assert.assertEquals("HTC Velocity 4G", result);
 }
-public void testDevice9431() throws Exception {
+public void testDevice9432() throws Exception {
     final String result = DeviceNames.getDeviceName("Houston", FALLBACK);
     Assert.assertEquals("Cellon Houston", result);
 }
-public void testDevice9432() throws Exception {
+public void testDevice9433() throws Exception {
     final String result = DeviceNames.getDeviceName("YU5010", FALLBACK);
     Assert.assertEquals("YUPHORIA", result);
 }
-public void testDevice9433() throws Exception {
+public void testDevice9434() throws Exception {
     final String result = DeviceNames.getDeviceName("San Remo 4G", FALLBACK);
     Assert.assertEquals("Idol S", result);
 }
-public void testDevice9434() throws Exception {
+public void testDevice9435() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo TB3-850M", FALLBACK);
     Assert.assertEquals("Lenovo TAB 3 850M", result);
 }
-public void testDevice9435() throws Exception {
+public void testDevice9436() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo TB3-850F", FALLBACK);
     Assert.assertEquals("Lenovo TAB 3 850F", result);
 }
-public void testDevice9436() throws Exception {
+public void testDevice9437() throws Exception {
     final String result = DeviceNames.getDeviceName("ForwardZero", FALLBACK);
     Assert.assertEquals("NGM Italia SRL ForwardZero", result);
 }
-public void testDevice9437() throws Exception {
+public void testDevice9438() throws Exception {
     final String result = DeviceNames.getDeviceName("P330X_orange", FALLBACK);
     Assert.assertEquals("P330X_orange", result);
 }
-public void testDevice9438() throws Exception {
+public void testDevice9439() throws Exception {
     final String result = DeviceNames.getDeviceName("LGUS990", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice9439() throws Exception {
+public void testDevice9440() throws Exception {
     final String result = DeviceNames.getDeviceName("LGUS991", FALLBACK);
     Assert.assertEquals("LG G4", result);
 }
-public void testDevice9440() throws Exception {
+public void testDevice9441() throws Exception {
     final String result = DeviceNames.getDeviceName("LGUS992", FALLBACK);
     Assert.assertEquals("LG G5", result);
 }
-public void testDevice9441() throws Exception {
+public void testDevice9442() throws Exception {
     final String result = DeviceNames.getDeviceName("A930", FALLBACK);
     Assert.assertEquals("Enspert MG", result);
 }
-public void testDevice9442() throws Exception {
+public void testDevice9443() throws Exception {
     final String result = DeviceNames.getDeviceName("LGUS995", FALLBACK);
     Assert.assertEquals("LG G Flex2", result);
 }
-public void testDevice9443() throws Exception {
+public void testDevice9444() throws Exception {
     final String result = DeviceNames.getDeviceName("itel it1508", FALLBACK);
     Assert.assertEquals("Itel it1508", result);
 }
-public void testDevice9444() throws Exception {
+public void testDevice9445() throws Exception {
     final String result = DeviceNames.getDeviceName("itel it1506", FALLBACK);
     Assert.assertEquals("Itel it1506", result);
 }
-public void testDevice9445() throws Exception {
+public void testDevice9446() throws Exception {
     final String result = DeviceNames.getDeviceName("itel it1507", FALLBACK);
     Assert.assertEquals("Itel it1507", result);
 }
-public void testDevice9446() throws Exception {
+public void testDevice9447() throws Exception {
     final String result = DeviceNames.getDeviceName("B50", FALLBACK);
     Assert.assertEquals("BenQ B50", result);
 }
-public void testDevice9447() throws Exception {
+public void testDevice9448() throws Exception {
     final String result = DeviceNames.getDeviceName("NX405H", FALLBACK);
     Assert.assertEquals("ZTE NX405H", result);
 }
-public void testDevice9448() throws Exception {
+public void testDevice9449() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 310 dual sim", FALLBACK);
     Assert.assertEquals("HTC Desire 310", result);
 }
-public void testDevice9449() throws Exception {
+public void testDevice9450() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A269i", FALLBACK);
     Assert.assertEquals("Lenovo A269i", result);
 }
-public void testDevice9450() throws Exception {
+public void testDevice9451() throws Exception {
     final String result = DeviceNames.getDeviceName("Ultra Style", FALLBACK);
     Assert.assertEquals("Hyundai Ultra Style", result);
 }
-public void testDevice9451() throws Exception {
+public void testDevice9452() throws Exception {
     final String result = DeviceNames.getDeviceName("Orinoquia Roraima S7-932u", FALLBACK);
     Assert.assertEquals("Huawei S7", result);
 }
-public void testDevice9452() throws Exception {
+public void testDevice9453() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE BLADE V0720", FALLBACK);
     Assert.assertEquals("ZTE BLADE V0720", result);
 }
-public void testDevice9453() throws Exception {
+public void testDevice9454() throws Exception {
     final String result = DeviceNames.getDeviceName("Z828", FALLBACK);
     Assert.assertEquals("ZTE Z828", result);
 }
-public void testDevice9454() throws Exception {
+public void testDevice9455() throws Exception {
     final String result = DeviceNames.getDeviceName("PNDPP48GP", FALLBACK);
     Assert.assertEquals("Anydata Pendo PNDPP48GP", result);
 }
-public void testDevice9455() throws Exception {
+public void testDevice9456() throws Exception {
     final String result = DeviceNames.getDeviceName("ASUS_Z010D", FALLBACK);
     Assert.assertEquals("Asus Zenfone MAX (ZC550KL)", result);
 }
-public void testDevice9456() throws Exception {
+public void testDevice9457() throws Exception {
     final String result = DeviceNames.getDeviceName("RCT6203W46", FALLBACK);
     Assert.assertEquals("RCA RCT6203W46", result);
 }
-public void testDevice9457() throws Exception {
+public void testDevice9458() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D329", FALLBACK);
     Assert.assertEquals("LG L70", result);
 }
-public void testDevice9458() throws Exception {
+public void testDevice9459() throws Exception {
     final String result = DeviceNames.getDeviceName("Philips S309", FALLBACK);
     Assert.assertEquals("Philips S309", result);
 }
-public void testDevice9459() throws Exception {
+public void testDevice9460() throws Exception {
     final String result = DeviceNames.getDeviceName("Philips S308", FALLBACK);
     Assert.assertEquals("Philips S308", result);
 }
-public void testDevice9460() throws Exception {
+public void testDevice9461() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D320", FALLBACK);
     Assert.assertEquals("LG L70", result);
 }
-public void testDevice9461() throws Exception {
+public void testDevice9462() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 101b Copper", FALLBACK);
     Assert.assertEquals("Archos 101b Copper", result);
 }
-public void testDevice9462() throws Exception {
+public void testDevice9463() throws Exception {
     final String result = DeviceNames.getDeviceName("Panasonic T33", FALLBACK);
     Assert.assertEquals("Panasonic T33", result);
 }
-public void testDevice9463() throws Exception {
+public void testDevice9464() throws Exception {
     final String result = DeviceNames.getDeviceName("Panasonic T30", FALLBACK);
     Assert.assertEquals("Panasonic T30", result);
 }
-public void testDevice9464() throws Exception {
+public void testDevice9465() throws Exception {
     final String result = DeviceNames.getDeviceName("Panasonic T31", FALLBACK);
     Assert.assertEquals("Panasonic T31", result);
 }
-public void testDevice9465() throws Exception {
+public void testDevice9466() throws Exception {
     final String result = DeviceNames.getDeviceName("LAP250U", FALLBACK);
     Assert.assertEquals("LGU+ LAP250U", result);
 }
-public void testDevice9466() throws Exception {
+public void testDevice9467() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-S978L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy E5", result);
 }
-public void testDevice9467() throws Exception {
+public void testDevice9468() throws Exception {
     final String result = DeviceNames.getDeviceName("LNV-Lenovo S870e", FALLBACK);
     Assert.assertEquals("Lenovo S870e", result);
 }
-public void testDevice9468() throws Exception {
+public void testDevice9469() throws Exception {
     final String result = DeviceNames.getDeviceName("801EM", FALLBACK);
     Assert.assertEquals("Coolpad 801EM", result);
 }
-public void testDevice9469() throws Exception {
+public void testDevice9470() throws Exception {
     final String result = DeviceNames.getDeviceName("YPY_AB7D", FALLBACK);
     Assert.assertEquals("Positivo AB7", result);
 }
-public void testDevice9470() throws Exception {
+public void testDevice9471() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T599V", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Exhibit", result);
 }
-public void testDevice9471() throws Exception {
+public void testDevice9472() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Desire 820G PLUS dual sim", FALLBACK);
     Assert.assertEquals("HTC Desire 820G PLUS dual sim", result);
 }
-public void testDevice9472() throws Exception {
+public void testDevice9473() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D221", FALLBACK);
     Assert.assertEquals("LG L50 Sporty", result);
 }
-public void testDevice9473() throws Exception {
+public void testDevice9474() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T599N", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Exhibit", result);
 }
-public void testDevice9474() throws Exception {
+public void testDevice9475() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D227", FALLBACK);
     Assert.assertEquals("LG L50 Sporty", result);
 }
-public void testDevice9475() throws Exception {
+public void testDevice9476() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI Y560-CL00", FALLBACK);
     Assert.assertEquals("Huawei Y560", result);
 }
-public void testDevice9476() throws Exception {
+public void testDevice9477() throws Exception {
     final String result = DeviceNames.getDeviceName("801ES", FALLBACK);
     Assert.assertEquals("Coolpad801ES", result);
 }
-public void testDevice9477() throws Exception {
+public void testDevice9478() throws Exception {
     final String result = DeviceNames.getDeviceName("L-05D", FALLBACK);
     Assert.assertEquals("LG optimus it L-05D", result);
 }
-public void testDevice9478() throws Exception {
+public void testDevice9479() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI C8813DQ", FALLBACK);
     Assert.assertEquals("Huawei C8813DQ", result);
 }
-public void testDevice9479() throws Exception {
+public void testDevice9480() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE LEO Q1", FALLBACK);
     Assert.assertEquals("ZTE_LEO_Q1", result);
 }
-public void testDevice9480() throws Exception {
+public void testDevice9481() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE LEO Q2", FALLBACK);
     Assert.assertEquals("ZTE V769M", result);
 }
-public void testDevice9481() throws Exception {
+public void testDevice9482() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI G7-L11", FALLBACK);
     Assert.assertEquals("HUAWEI G7", result);
 }
-public void testDevice9482() throws Exception {
+public void testDevice9483() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T713", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 8.0", result);
 }
-public void testDevice9483() throws Exception {
+public void testDevice9484() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I8260L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Core", result);
 }
-public void testDevice9484() throws Exception {
+public void testDevice9485() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC D610t", FALLBACK);
     Assert.assertEquals("HTC D610t", result);
 }
-public void testDevice9485() throws Exception {
+public void testDevice9486() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T710", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 8.0", result);
 }
-public void testDevice9486() throws Exception {
+public void testDevice9487() throws Exception {
     final String result = DeviceNames.getDeviceName("Chronos_10", FALLBACK);
     Assert.assertEquals("Njoy Chronos_10", result);
 }
-public void testDevice9487() throws Exception {
+public void testDevice9488() throws Exception {
     final String result = DeviceNames.getDeviceName("Chagall 10.1 WiFi", FALLBACK);
     Assert.assertEquals("Pegatron chagall", result);
 }
-public void testDevice9488() throws Exception {
+public void testDevice9489() throws Exception {
     final String result = DeviceNames.getDeviceName("C6530", FALLBACK);
     Assert.assertEquals("Kyocera Hydro LIFE", result);
 }
-public void testDevice9489() throws Exception {
+public void testDevice9490() throws Exception {
     final String result = DeviceNames.getDeviceName("VIE-AL10", FALLBACK);
     Assert.assertEquals("Huawei P9 Plus", result);
 }
-public void testDevice9490() throws Exception {
+public void testDevice9491() throws Exception {
     final String result = DeviceNames.getDeviceName("Alcatel_one_touch_918_Orange", FALLBACK);
     Assert.assertEquals("Alcatel_one_touch_918_Orange", result);
 }
-public void testDevice9491() throws Exception {
+public void testDevice9492() throws Exception {
     final String result = DeviceNames.getDeviceName("A1-850", FALLBACK);
     Assert.assertEquals("Acer Iconia One 8", result);
 }
-public void testDevice9492() throws Exception {
+public void testDevice9493() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC Legend", FALLBACK);
     Assert.assertEquals("HTC Legend", result);
 }
-public void testDevice9493() throws Exception {
+public void testDevice9494() throws Exception {
     final String result = DeviceNames.getDeviceName("Orange San Francisco", FALLBACK);
     Assert.assertEquals("ZTE Blade", result);
 }
-public void testDevice9494() throws Exception {
+public void testDevice9495() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T715", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab S2 8.0", result);
 }
-public void testDevice9495() throws Exception {
+public void testDevice9496() throws Exception {
     final String result = DeviceNames.getDeviceName("VS985 4G", FALLBACK);
     Assert.assertEquals("LG G3", result);
 }
-public void testDevice9496() throws Exception {
+public void testDevice9497() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-T555C", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Tab A 9.7", result);
 }
-public void testDevice9497() throws Exception {
+public void testDevice9498() throws Exception {
     final String result = DeviceNames.getDeviceName("PX2000", FALLBACK);
     Assert.assertEquals("Hisense PX2000", result);
 }
-public void testDevice9498() throws Exception {
+public void testDevice9499() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC ChaCha A810e", FALLBACK);
     Assert.assertEquals("HTC Chacha", result);
 }
-public void testDevice9499() throws Exception {
+public void testDevice9500() throws Exception {
     final String result = DeviceNames.getDeviceName("Micromax Q380", FALLBACK);
     Assert.assertEquals("Micromax Canvas Spark", result);
 }
-public void testDevice9500() throws Exception {
+public void testDevice9501() throws Exception {
     final String result = DeviceNames.getDeviceName("B50_CHT", FALLBACK);
     Assert.assertEquals("BenQ B50_CHT", result);
 }
-public void testDevice9501() throws Exception {
+public void testDevice9502() throws Exception {
     final String result = DeviceNames.getDeviceName("A200", FALLBACK);
     Assert.assertEquals("Acer Iconia Tab A200", result);
 }
-public void testDevice9502() throws Exception {
+public void testDevice9503() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI M2-A01L", FALLBACK);
     Assert.assertEquals("Huawei LISZT", result);
 }
-public void testDevice9503() throws Exception {
+public void testDevice9504() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G906K", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5", result);
 }
-public void testDevice9504() throws Exception {
+public void testDevice9505() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G906L", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5", result);
 }
-public void testDevice9505() throws Exception {
+public void testDevice9506() throws Exception {
     final String result = DeviceNames.getDeviceName("Dialog Q143L", FALLBACK);
     Assert.assertEquals("ZTE Dialog Q143L", result);
 }
-public void testDevice9506() throws Exception {
+public void testDevice9507() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC IncredibleS S710d", FALLBACK);
     Assert.assertEquals("HTC Incredible 2", result);
 }
-public void testDevice9507() throws Exception {
+public void testDevice9508() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI NXT-CL00", FALLBACK);
     Assert.assertEquals("Huawei Mate 8", result);
 }
-public void testDevice9508() throws Exception {
+public void testDevice9509() throws Exception {
     final String result = DeviceNames.getDeviceName("Spice_MI700", FALLBACK);
     Assert.assertEquals("Foxconn CSL Spice MI700", result);
 }
-public void testDevice9509() throws Exception {
+public void testDevice9510() throws Exception {
     final String result = DeviceNames.getDeviceName("Archos 50 Helium Plus", FALLBACK);
     Assert.assertEquals("Archos 50 Helium Plus", result);
 }
-public void testDevice9510() throws Exception {
+public void testDevice9511() throws Exception {
     final String result = DeviceNames.getDeviceName("T07", FALLBACK);
     Assert.assertEquals("Acer Liquid Zest 4G", result);
 }
-public void testDevice9511() throws Exception {
+public void testDevice9512() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G906S", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S5", result);
 }
-public void testDevice9512() throws Exception {
+public void testDevice9513() throws Exception {
     final String result = DeviceNames.getDeviceName("Aquaris_A4.5", FALLBACK);
     Assert.assertEquals("bq Aquaris A4.5", result);
 }
-public void testDevice9513() throws Exception {
+public void testDevice9514() throws Exception {
     final String result = DeviceNames.getDeviceName("SM-G5308W", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Grand Prime", result);
 }
-public void testDevice9514() throws Exception {
+public void testDevice9515() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC S720e", FALLBACK);
     Assert.assertEquals("HTC S720e", result);
 }
-public void testDevice9515() throws Exception {
+public void testDevice9516() throws Exception {
     final String result = DeviceNames.getDeviceName("SAMSUNG-SM-G935A", FALLBACK);
     Assert.assertEquals("Samsung Galaxy S7 Edge", result);
 }
-public void testDevice9516() throws Exception {
+public void testDevice9517() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T679", FALLBACK);
     Assert.assertEquals("Samsung Exhibit II", result);
 }
-public void testDevice9517() throws Exception {
+public void testDevice9518() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONETOUCH POP 7 LTE", FALLBACK);
     Assert.assertEquals("9015W", result);
 }
-public void testDevice9518() throws Exception {
+public void testDevice9519() throws Exception {
     final String result = DeviceNames.getDeviceName("4032A", FALLBACK);
     Assert.assertEquals("ONE TOUCH 4033X", result);
 }
-public void testDevice9519() throws Exception {
+public void testDevice9520() throws Exception {
     final String result = DeviceNames.getDeviceName("Viva_i701G", FALLBACK);
     Assert.assertEquals("AllView Viva i701G", result);
 }
-public void testDevice9520() throws Exception {
+public void testDevice9521() throws Exception {
     final String result = DeviceNames.getDeviceName("VT10E2", FALLBACK);
     Assert.assertEquals("Vestel VT10E2", result);
 }
-public void testDevice9521() throws Exception {
+public void testDevice9522() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade C310", FALLBACK);
     Assert.assertEquals("ZTE C310", result);
 }
-public void testDevice9522() throws Exception {
+public void testDevice9523() throws Exception {
     final String result = DeviceNames.getDeviceName("LED46K660X3D", FALLBACK);
     Assert.assertEquals("Hisense LED46K660X3D", result);
 }
-public void testDevice9523() throws Exception {
+public void testDevice9524() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE Blade C312", FALLBACK);
     Assert.assertEquals("ZTE Blade C312", result);
 }
-public void testDevice9524() throws Exception {
+public void testDevice9525() throws Exception {
     final String result = DeviceNames.getDeviceName("Pluri_Q8", FALLBACK);
     Assert.assertEquals("Vonino Pluri Q8", result);
 }
-public void testDevice9525() throws Exception {
+public void testDevice9526() throws Exception {
     final String result = DeviceNames.getDeviceName("Andromax C46B2G", FALLBACK);
     Assert.assertEquals("Smartfren Andromax C46B2G", result);
 }
-public void testDevice9526() throws Exception {
+public void testDevice9527() throws Exception {
     final String result = DeviceNames.getDeviceName("Andromax C46B2H", FALLBACK);
     Assert.assertEquals("Haier C46B2H", result);
 }
-public void testDevice9527() throws Exception {
+public void testDevice9528() throws Exception {
     final String result = DeviceNames.getDeviceName("Freebox Player Mini v2", FALLBACK);
     Assert.assertEquals("Freebox Mini 4K", result);
 }
-public void testDevice9528() throws Exception {
+public void testDevice9529() throws Exception {
     final String result = DeviceNames.getDeviceName("NB7850S", FALLBACK);
     Assert.assertEquals("Nobis NB7850S", result);
 }
-public void testDevice9529() throws Exception {
+public void testDevice9530() throws Exception {
     final String result = DeviceNames.getDeviceName("Telenor_OneTouch", FALLBACK);
     Assert.assertEquals("One Touch 990", result);
 }
-public void testDevice9530() throws Exception {
+public void testDevice9531() throws Exception {
     final String result = DeviceNames.getDeviceName("P275", FALLBACK);
     Assert.assertEquals("Micromax P275", result);
 }
-public void testDevice9531() throws Exception {
+public void testDevice9532() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-S6802B", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Ace Duos", result);
 }
-public void testDevice9532() throws Exception {
+public void testDevice9533() throws Exception {
     final String result = DeviceNames.getDeviceName("FLY_IQ4400_AF", FALLBACK);
     Assert.assertEquals("Fly Iris", result);
 }
-public void testDevice9533() throws Exception {
+public void testDevice9534() throws Exception {
     final String result = DeviceNames.getDeviceName("PSP5551DUO", FALLBACK);
     Assert.assertEquals("Prestigio PSP5551DUO", result);
 }
-public void testDevice9534() throws Exception {
+public void testDevice9535() throws Exception {
     final String result = DeviceNames.getDeviceName("LED42K610J3DP", FALLBACK);
     Assert.assertEquals("Hisense LED42K610J3DP", result);
 }
-public void testDevice9535() throws Exception {
+public void testDevice9536() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-X220", FALLBACK);
     Assert.assertEquals("LG K5", result);
 }
-public void testDevice9536() throws Exception {
+public void testDevice9537() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9220", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note", result);
 }
-public void testDevice9537() throws Exception {
+public void testDevice9538() throws Exception {
     final String result = DeviceNames.getDeviceName("DL750", FALLBACK);
     Assert.assertEquals("TCL DL750", result);
 }
-public void testDevice9538() throws Exception {
+public void testDevice9539() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-T499", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Mini", result);
 }
-public void testDevice9539() throws Exception {
+public void testDevice9540() throws Exception {
     final String result = DeviceNames.getDeviceName("x600", FALLBACK);
     Assert.assertEquals("LeTV Le1", result);
 }
-public void testDevice9540() throws Exception {
+public void testDevice9541() throws Exception {
     final String result = DeviceNames.getDeviceName("GT-I9228", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Note", result);
 }
-public void testDevice9541() throws Exception {
+public void testDevice9542() throws Exception {
     final String result = DeviceNames.getDeviceName("CT301_W818", FALLBACK);
     Assert.assertEquals("Haier CT301_W818", result);
 }
-public void testDevice9542() throws Exception {
+public void testDevice9543() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC WF5w", FALLBACK);
     Assert.assertEquals("HTC WF5w", result);
 }
-public void testDevice9543() throws Exception {
+public void testDevice9544() throws Exception {
     final String result = DeviceNames.getDeviceName("CT1010", FALLBACK);
     Assert.assertEquals("Enspert Carrefour CT1010", result);
 }
-public void testDevice9544() throws Exception {
+public void testDevice9545() throws Exception {
     final String result = DeviceNames.getDeviceName("MY15ADA", FALLBACK);
     Assert.assertEquals("Honda Pilot", result);
 }
-public void testDevice9545() throws Exception {
+public void testDevice9546() throws Exception {
     final String result = DeviceNames.getDeviceName("FWSP-S1000", FALLBACK);
     Assert.assertEquals("Finggo FWSP-S1000", result);
 }
-public void testDevice9546() throws Exception {
+public void testDevice9547() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE G718C", FALLBACK);
     Assert.assertEquals("ZTE G718C", result);
 }
-public void testDevice9547() throws Exception {
+public void testDevice9548() throws Exception {
     final String result = DeviceNames.getDeviceName("Golf", FALLBACK);
     Assert.assertEquals("WIKO IGGY", result);
 }
-public void testDevice9548() throws Exception {
+public void testDevice9549() throws Exception {
     final String result = DeviceNames.getDeviceName("HTC PO091", FALLBACK);
     Assert.assertEquals("HTC PO091", result);
 }
-public void testDevice9549() throws Exception {
+public void testDevice9550() throws Exception {
     final String result = DeviceNames.getDeviceName("Infinity-10.1-v2", FALLBACK);
     Assert.assertEquals("Infinity-10.1-v2", result);
 }
-public void testDevice9550() throws Exception {
+public void testDevice9551() throws Exception {
     final String result = DeviceNames.getDeviceName("Infinity-10.1-v3", FALLBACK);
     Assert.assertEquals("Infinity-10.1-v3", result);
 }
-public void testDevice9551() throws Exception {
+public void testDevice9552() throws Exception {
     final String result = DeviceNames.getDeviceName("SGH-N075T", FALLBACK);
     Assert.assertEquals("Samsung Galaxy J", result);
 }
-public void testDevice9552() throws Exception {
+public void testDevice9553() throws Exception {
     final String result = DeviceNames.getDeviceName("T03", FALLBACK);
     Assert.assertEquals("Acer Liquid Z630", result);
 }
-public void testDevice9553() throws Exception {
+public void testDevice9554() throws Exception {
     final String result = DeviceNames.getDeviceName("LED32K360X3D", FALLBACK);
     Assert.assertEquals("Hisense LED32K360X3D", result);
 }
-public void testDevice9554() throws Exception {
+public void testDevice9555() throws Exception {
     final String result = DeviceNames.getDeviceName("SCH-W789", FALLBACK);
     Assert.assertEquals("Samsung Hennessy", result);
 }
-public void testDevice9555() throws Exception {
+public void testDevice9556() throws Exception {
     final String result = DeviceNames.getDeviceName("HUAWEI C199s", FALLBACK);
     Assert.assertEquals("HUAWEI C199s", result);
 }
-public void testDevice9556() throws Exception {
+public void testDevice9557() throws Exception {
     final String result = DeviceNames.getDeviceName("TECNO-W3", FALLBACK);
     Assert.assertEquals("TECNO-W3", result);
 }
-public void testDevice9557() throws Exception {
+public void testDevice9558() throws Exception {
     final String result = DeviceNames.getDeviceName("BLU NEO X", FALLBACK);
     Assert.assertEquals("Blu NEO X", result);
 }
-public void testDevice9558() throws Exception {
+public void testDevice9559() throws Exception {
     final String result = DeviceNames.getDeviceName("Etab5", FALLBACK);
     Assert.assertEquals("General Mobile Etab5", result);
 }
-public void testDevice9559() throws Exception {
+public void testDevice9560() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE T81", FALLBACK);
     Assert.assertEquals("ZTE T81", result);
 }
-public void testDevice9560() throws Exception {
+public void testDevice9561() throws Exception {
     final String result = DeviceNames.getDeviceName("TURKCELL T40", FALLBACK);
     Assert.assertEquals("ZTE TURKCELL T40", result);
 }
-public void testDevice9561() throws Exception {
+public void testDevice9562() throws Exception {
     final String result = DeviceNames.getDeviceName("ONEPLUS A3000", FALLBACK);
     Assert.assertEquals("OnePlus 3", result);
 }
-public void testDevice9562() throws Exception {
+public void testDevice9563() throws Exception {
     final String result = DeviceNames.getDeviceName("Roar_A50", FALLBACK);
     Assert.assertEquals("Symphony Roar A50", result);
 }
-public void testDevice9563() throws Exception {
+public void testDevice9564() throws Exception {
     final String result = DeviceNames.getDeviceName("ALCATEL ONE TOUCH 8008X", FALLBACK);
     Assert.assertEquals("ALCATEL ONE TOUCH 8008D", result);
 }
-public void testDevice9564() throws Exception {
+public void testDevice9565() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-D722AR", FALLBACK);
     Assert.assertEquals("LG G3 S", result);
 }
-public void testDevice9565() throws Exception {
+public void testDevice9566() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-LW770", FALLBACK);
     Assert.assertEquals("LG Optimus Regard", result);
 }
-public void testDevice9566() throws Exception {
+public void testDevice9567() throws Exception {
     final String result = DeviceNames.getDeviceName("Liquid", FALLBACK);
     Assert.assertEquals("Acer Liquid", result);
 }
-public void testDevice9567() throws Exception {
+public void testDevice9568() throws Exception {
     final String result = DeviceNames.getDeviceName("EK-GN100", FALLBACK);
     Assert.assertEquals("Samsung Galaxy Camera", result);
 }
-public void testDevice9568() throws Exception {
+public void testDevice9569() throws Exception {
     final String result = DeviceNames.getDeviceName("BGH Joy Smart AXS II D", FALLBACK);
     Assert.assertEquals("ZTE N918St", result);
 }
-public void testDevice9569() throws Exception {
+public void testDevice9570() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE V808", FALLBACK);
     Assert.assertEquals("ZTE V808", result);
 }
-public void testDevice9570() throws Exception {
+public void testDevice9571() throws Exception {
     final String result = DeviceNames.getDeviceName("VT785P2-Cleverpad", FALLBACK);
     Assert.assertEquals("Vestel VT785P2", result);
 }
-public void testDevice9571() throws Exception {
+public void testDevice9572() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE A880", FALLBACK);
     Assert.assertEquals("ZTE A880", result);
 }
-public void testDevice9572() throws Exception {
+public void testDevice9573() throws Exception {
     final String result = DeviceNames.getDeviceName("ZTE T790", FALLBACK);
     Assert.assertEquals("ZTE T790", result);
 }
-public void testDevice9573() throws Exception {
+public void testDevice9574() throws Exception {
     final String result = DeviceNames.getDeviceName("TBQG884", FALLBACK);
     Assert.assertEquals("Zeki TBQG884", result);
 }
-public void testDevice9574() throws Exception {
+public void testDevice9575() throws Exception {
     final String result = DeviceNames.getDeviceName("XT560", FALLBACK);
     Assert.assertEquals("Motorola Defy Pro", result);
 }
-public void testDevice9575() throws Exception {
+public void testDevice9576() throws Exception {
     final String result = DeviceNames.getDeviceName("Vodafone Smart ultra 6", FALLBACK);
     Assert.assertEquals("ZTE Vodafone Smart ultra 6", result);
 }
-public void testDevice9576() throws Exception {
+public void testDevice9577() throws Exception {
     final String result = DeviceNames.getDeviceName("Bs 501", FALLBACK);
     Assert.assertEquals("Coolpad Bs501", result);
 }
-public void testDevice9577() throws Exception {
+public void testDevice9578() throws Exception {
     final String result = DeviceNames.getDeviceName("TAB-750_G", FALLBACK);
     Assert.assertEquals("Sophix_Digix TAB-750_G", result);
 }
-public void testDevice9578() throws Exception {
+public void testDevice9579() throws Exception {
     final String result = DeviceNames.getDeviceName("Lenovo A5500-HV", FALLBACK);
     Assert.assertEquals("Lenovo A5500", result);
 }
-public void testDevice9579() throws Exception {
+public void testDevice9580() throws Exception {
     final String result = DeviceNames.getDeviceName("SH-07D", FALLBACK);
     Assert.assertEquals("Sharp AQUOS PHONE st SH-07D", result);
 }
-public void testDevice9580() throws Exception {
+public void testDevice9581() throws Exception {
     final String result = DeviceNames.getDeviceName("QTAQZ3KID", FALLBACK);
     Assert.assertEquals("Verizon Wireless QTAQZ3KID", result);
 }
-public void testDevice9581() throws Exception {
+public void testDevice9582() throws Exception {
     final String result = DeviceNames.getDeviceName("Blade Vec", FALLBACK);
     Assert.assertEquals("ZTE Blade Vec", result);
 }
-public void testDevice9582() throws Exception {
+public void testDevice9583() throws Exception {
     final String result = DeviceNames.getDeviceName("iX101B1", FALLBACK);
     Assert.assertEquals("Xplore Technologies XSLATE_D10", result);
 }
-public void testDevice9583() throws Exception {
+public void testDevice9584() throws Exception {
     final String result = DeviceNames.getDeviceName("LG-VK700", FALLBACK);
     Assert.assertEquals("LG G Pad 10.1 LTE", result);
 }
-public void testDevice9584() throws Exception {
+public void testDevice9585() throws Exception {
     final String result = DeviceNames.getDeviceName("SCL-L01", FALLBACK);
     Assert.assertEquals("Huawei Y6", result);
 }
-public void testDevice9585() throws Exception {
+public void testDevice9586() throws Exception {
     final String result = DeviceNames.getDeviceName("i-mobile i-STYLE 7", FALLBACK);
     Assert.assertEquals("Cellon i-STYLE7", result);
 }
-public void testDevice9586() throws Exception {
+public void testDevice9587() throws Exception {
     final String result = DeviceNames.getDeviceName("FP-U320-711-WIFI", FALLBACK);
     Assert.assertEquals("SAKAISIO FP-U320-711-WIFI", result);
 }
-public void testDevice9587() throws Exception {
+public void testDevice9588() throws Exception {
     final String result = DeviceNames.getDeviceName("ONE TOUCH P310A", FALLBACK);
     Assert.assertEquals("ONE_TOUCH_P310A", result);
 }
