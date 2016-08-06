@@ -15,8 +15,8 @@
  */
 package tslamic.github.io.adn;
 
-// Generated on 25 Jul 2016 09:47:58 with adn.py version 0.0.1
-// Number of supported devices: 9591
+// Generated on 06 Aug 2016 13:59:43 with adn.py version 0.0.1
+// Number of supported devices: 9593
 public final class DeviceNames {
 
     /**
@@ -334,6 +334,8 @@ public final class DeviceNames {
         else if ("ALCATEL_one_touch_908".equals(model)) { return "One Touch 908"; }
         else if ("ALCATEL_one_touch_903".equals(model)) { return "ALCATEL ONE TOUCH 903"; }
         else if ("ASUS_X014D".equals(model)) { return "Asus Zenfone GO"; }
+        else if ("A311".equals(model)) { return "Micromax Canvas Nitro"; }
+        else if ("A310".equals(model)) { return "Micromax Canvas Nitro"; }
         else if ("ARCHOS GAMEPAD2".equals(model)) { return "Archos GamePad 2"; }
         else if ("A31c".equals(model)) { return "Oppo A31c"; }
         else if ("A31u".equals(model)) { return "Oppo A31u"; }
@@ -2937,7 +2939,6 @@ public final class DeviceNames {
         else if ("HUAWEI Y321-C00".equals(model)) { return "Huawei Y321"; }
         else if ("HTC_Desire_200".equals(model)) { return "HTC Desire 200"; }
         else if ("HTC_One".equals(model)) { return "HTC One"; }
-        else if ("HUAWEI G350-U20".equals(model)) { return "Huawei G350"; }
         else if ("HUAWEI NXT-DL00".equals(model)) { return "Huawei Mate 8"; }
         else if ("HTC M8Ss".equals(model)) { return "HTC One (E8)"; }
         else if ("HTC M8Sw".equals(model)) { return "HTC One (E8)"; }
@@ -3323,6 +3324,7 @@ public final class DeviceNames {
         else if ("HTC 8060".equals(model)) { return "HTC 8060"; }
         else if ("HUAWEI G610-T00".equals(model)) { return "Huawei G610"; }
         else if ("HTC-PG762".equals(model)) { return "HTC Wildfire S A515c"; }
+        else if ("HUAWEI G350-U20".equals(model)) { return "Huawei G350"; }
         else if ("HTC6525LVW".equals(model)) { return "HTC One M8"; }
         else if ("HS-U970".equals(model)) { return "Hisense HS-U970"; }
         else if ("Hive V 3G".equals(model)) { return "Plaisio Hive V 3G"; }
