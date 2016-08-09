@@ -15,8 +15,8 @@
  */
 package tslamic.github.io.adn;
 
-// Generated on 06 Aug 2016 13:59:43 with adn.py version 0.0.1
-// Number of supported devices: 9593
+// Generated on 09 Aug 2016 11:16:04 with adn.py version 0.0.1
+// Number of supported devices: 9595
 public final class DeviceNames {
 
     /**
@@ -2689,6 +2689,7 @@ public final class DeviceNames {
         if ("Hisense E602M".equals(model)) { return "Hisense E620M"; }
         else if ("HTC_D626ph".equals(model)) { return "HTC Desire 626G+ dual sim"; }
         else if ("Hisense E602T".equals(model)) { return "Hisense E602T"; }
+        else if ("HTC 2PS6500".equals(model)) { return "HTC 10"; }
         else if ("HUAWEI Y600-U151".equals(model)) { return "Huawei Y600"; }
         else if ("HTC Desire 526".equals(model)) { return "HTC Desire 526"; }
         else if ("HTC_One_XL".equals(model)) { return "HTC One XL"; }
@@ -3259,6 +3260,7 @@ public final class DeviceNames {
         else if ("HTC 601e".equals(model)) { return "HTC 601e"; }
         else if ("HUAWEI D2-6070".equals(model)) { return "Huawei D2"; }
         else if ("HUAWEI Y221-U53".equals(model)) { return "Huawei Y221"; }
+        else if ("HTC 2PS6200".equals(model)) { return "HTC 10"; }
         else if ("HTC Explorer A310b".equals(model)) { return "HTC Explorer A310e"; }
         else if ("HTC Explorer A310e".equals(model)) { return "HTC Explorer A310e"; }
         else if ("HTC_Butterfly_s_901s".equals(model)) { return "HTC Butterfly S"; }
