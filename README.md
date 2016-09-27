@@ -35,7 +35,7 @@ DeviceNames.getDeviceName("SM-N910W8", "Unknown Device");
 About
 ---
 
-This library was designed with a specific goal in mind - avoiding memory overhead. Here's a detailed [blog post](http://tslamic.github.io/creating-android-device-names/) in case you're interested in details. Currently, the library recognises [473 devices](https://github.com/tslamic/AndroidDeviceNames/blob/master/generator/devices/cached.devices).
+This library was designed with a specific goal in mind - avoiding memory overhead. Here's a detailed [blog post](http://tslamic.github.io/creating-android-device-names/) in case you're interested in details. Currently, the library recognises [10483 devices](https://github.com/corcoran/AndroidDeviceNames/blob/master/generator/devices/cached.devices).
 
 Acknowledgements
 ---
