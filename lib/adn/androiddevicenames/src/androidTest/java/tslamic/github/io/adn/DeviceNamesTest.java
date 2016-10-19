@@ -6452,7 +6452,7 @@ public void testDevice1607() throws Exception {
 }
 public void testDevice1608() throws Exception {
     final String result = DeviceNames.getDeviceName("710C", FALLBACK);
-    Assert.assertEquals("HTC 710C", result);
+    Assert.assertEquals("HTC Desire 816", result);
 }
 public void testDevice1609() throws Exception {
     final String result = DeviceNames.getDeviceName("InFocus M680", FALLBACK);

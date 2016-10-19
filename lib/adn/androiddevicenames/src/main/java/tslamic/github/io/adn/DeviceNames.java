@@ -15,7 +15,7 @@
  */
 package tslamic.github.io.adn;
 
-// Generated on 18 Oct 2016 23:30:23 with adn.py version 0.0.1
+// Generated on 18 Oct 2016 23:36:05 with adn.py version 0.0.1
 // Number of supported devices: 10863
 public final class DeviceNames {
 
@@ -10802,7 +10802,7 @@ public final class DeviceNames {
         else if ("5017A".equals(model)) { return "ALCATEL ONETOUCH PIXI 3 (4.5)"; }
         else if ("778TPC".equals(model)) { return "IView 778TPC"; }
         else if ("10DTB12A".equals(model)) { return "Hipstreet HS"; }
-        else if ("710C".equals(model)) { return "HTC 710C"; }
+        else if ("710C".equals(model)) { return "HTC Desire 816"; }
         else if ("401SH".equals(model)) { return "Sharp 401SH"; }
         else if ("001DL".equals(model)) { return "Dell Streak"; }
         else if ("401SO".equals(model)) { return "Sony Xperia Z3"; }
