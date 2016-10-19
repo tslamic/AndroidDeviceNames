@@ -15,8 +15,8 @@
  */
 package tslamic.github.io.adn;
 
-// Generated on 29 Sep 2016 00:56:36 with adn.py version 0.0.1
-// Number of supported devices: 10672
+// Generated on 18 Oct 2016 23:30:23 with adn.py version 0.0.1
+// Number of supported devices: 10863
 public final class DeviceNames {
 
     /**
@@ -155,7 +155,9 @@ public final class DeviceNames {
         else if ("A57".equals(model)) { return "Micromax A57"; }
         else if ("ARCHOS 40C TIv2".equals(model)) { return "Archos 40c Titanium"; }
         else if ("A5C".equals(model)) { return "TaiwanMobile A5C"; }
+        else if ("Archos 40 Neon".equals(model)) { return "Archos 40 Neon"; }
         else if ("A33fw".equals(model)) { return "Oppo A33fw"; }
+        else if ("Archos 70 Neon Plus".equals(model)) { return "Archos 70 Neon Plus"; }
         else if ("Aqua Q8".equals(model)) { return "Intex Aqua_Q8"; }
         else if ("ARCHOS 97 CARBON".equals(model)) { return "Archos 97 Carbon"; }
         else if ("A1601".equals(model)) { return "Oppo A1601"; }
@@ -177,12 +179,14 @@ public final class DeviceNames {
         else if ("Archos 79 Neon".equals(model)) { return "Archos 79 Neon"; }
         else if ("AURUS III".equals(model)) { return "ALCATEL ONE TOUCH 5020D"; }
         else if ("A205".equals(model)) { return "Toshiba Astro-20"; }
+        else if ("Archos 45b Platinum".equals(model)) { return "Archos 45b Platinum"; }
         else if ("ALCATEL one touch D920".equals(model)) { return "one touch D920"; }
         else if ("ALCATEL A564C".equals(model)) { return "ALCATEL A564C"; }
         else if ("ALCATEL A564R".equals(model)) { return "ALCATEL A564R"; }
         else if ("AV7".equals(model)) { return "AV7"; }
         else if ("A110Q".equals(model)) { return "Micromax CANVAS 2 PLUS"; }
         else if ("Archos 101c Neon".equals(model)) { return "Archos 101c Neon"; }
+        else if ("ASUS_Z017DA".equals(model)) { return "Asus ZenFone3"; }
         else if ("A570BL".equals(model)) { return "A570BL"; }
         else if ("Aquaris M5".equals(model)) { return "bq Aquaris M5"; }
         else if ("A53w".equals(model)) { return "Oppo A53w"; }
@@ -191,7 +195,9 @@ public final class DeviceNames {
         else if ("ASUS PadFone X".equals(model)) { return "Asus PadFone X (A91)"; }
         else if ("A240".equals(model)) { return "Micromax A240"; }
         else if ("ASUS_X009DB".equals(model)) { return "Asus Zenfone Go"; }
+        else if ("Archos 50c Platinum".equals(model)) { return "Archos 50c Platinum"; }
         else if ("ALCATEL_ONETOUCH_7053D".equals(model)) { return "ALCATEL_ONETOUCH_7053D"; }
+        else if ("Archos 101c Copper".equals(model)) { return "Archos 101c Copper"; }
         else if ("Archos 101 Oxygen".equals(model)) { return "ARCHOS 101 Oxygen"; }
         else if ("A91".equals(model)) { return "Micromax A91"; }
         else if ("A1-713HD".equals(model)) { return "Acer Iconia Tab 7"; }
@@ -213,15 +219,18 @@ public final class DeviceNames {
         else if ("ASUS ZenWatch".equals(model)) { return "ASUS ZenWatch"; }
         else if ("ALCATEL 4015T".equals(model)) { return "ALCATEL 4015T"; }
         else if ("ALCATEL ONE TOUCH 6037B".equals(model)) { return "ALCATEL ONE TOUCH 6037B"; }
+        else if ("Archos 55 Helium".equals(model)) { return "Archos 55 Helium"; }
         else if ("A51w".equals(model)) { return "Oppo A51w"; }
         else if ("A51f".equals(model)) { return "Oppo A51fa"; }
         else if ("Archos 64 Xenon".equals(model)) { return "Archos 64 Xenon"; }
         else if ("A511".equals(model)) { return "Acer Iconia Tab A511"; }
         else if ("A510".equals(model)) { return "Acer Iconia Tab A510"; }
         else if ("ALCATEL ONETOUCH 4037R".equals(model)) { return "ALCATEL ONETOUCH 4037R"; }
+        else if ("A466T".equals(model)) { return "Pixi4-4 3G Telus"; }
         else if ("AO5510".equals(model)) { return "Yureka"; }
         else if ("A727_Infinity_Pro".equals(model)) { return "Gtel A727_Infinity_Pro"; }
         else if ("Alcatel_9001X".equals(model)) { return "Alcatel_9001X"; }
+        else if ("Archos 101c Platinum".equals(model)) { return "Archos 101c Platinum"; }
         else if ("AT7003".equals(model)) { return "Haier AT7003"; }
         else if ("Aquaris A4.5".equals(model)) { return "bq Aquaris A4.5"; }
         else if ("ATH-TL00".equals(model)) { return "Huawei ATH-TL00"; }
@@ -238,11 +247,13 @@ public final class DeviceNames {
         else if ("Aprix Tab64".equals(model)) { return "Aprix Tab64"; }
         else if ("a5".equals(model)) { return "ZTE Blade"; }
         else if ("a4".equals(model)) { return "Southern Telecom a4"; }
+        else if ("Archos 45c Titanium".equals(model)) { return "Archos 45c Titanium"; }
         else if ("A572BG".equals(model)) { return "A572BG"; }
         else if ("Aquaris_E4.5".equals(model)) { return "bq Aquaris E4.5"; }
         else if ("AN200".equals(model)) { return "SK Telesys AN200"; }
         else if ("AT400".equals(model)) { return "Toshiba AT400"; }
         else if ("Aquaris M5.5".equals(model)) { return "bq Aquaris M5.5"; }
+        else if ("ARCHOS 80 COBALT".equals(model)) { return "Archos 80 Cobalt"; }
         else if ("Archos 90 Copper".equals(model)) { return "ARCHOS 90 Copper"; }
         else if ("Archos 50 Titanium".equals(model)) { return "Archos 50 Titanium"; }
         else if ("AS985".equals(model)) { return "LG G3"; }
@@ -257,6 +268,7 @@ public final class DeviceNames {
         else if ("ALCATEL ONE TOUCH 7030R".equals(model)) { return "MegaFon MS4B"; }
         else if ("Alcatel_7049D".equals(model)) { return "Alcatel_7049D"; }
         else if ("ALBA 4".equals(model)) { return "Archos Alba 4"; }
+        else if ("ALBA 5".equals(model)) { return "Archos Alba 5"; }
         else if ("Aqua View".equals(model)) { return "Intex Aqua View"; }
         else if ("ASUS Chromebook Flip C100PA".equals(model)) { return "Asus Chromebook Flip C100PA"; }
         else if ("AT300SE".equals(model)) { return "Toshiba AT400"; }
@@ -305,6 +317,7 @@ public final class DeviceNames {
         else if ("ASUS_T00E".equals(model)) { return "Asus PadFone mini"; }
         else if ("ALCATEL ONE TOUCH P320A".equals(model)) { return "ALCATEL ONE TOUCH P320A"; }
         else if ("ALCATEL ONE TOUCH Fierce".equals(model)) { return "ALCATEL ONE TOUCH Fierce"; }
+        else if ("Archos 80c Xenon".equals(model)) { return "Archos 80c Xenon"; }
         else if ("ANDY 5EI".equals(model)) { return "Ddm ANDY 5EI"; }
         else if ("Acer Liquid".equals(model)) { return "Acer Liquid"; }
         else if ("ASUS MeMO Pad 7".equals(model)) { return "Asus MeMO Pad 7 LTE (ME375CL)"; }
@@ -317,8 +330,10 @@ public final class DeviceNames {
         else if ("ALCATEL ONETOUCH Flash Plus".equals(model)) { return "ALCATEL ONETOUCH Flash Plus"; }
         else if ("ALCATEL ONE TOUCH 7040A".equals(model)) { return "ALCATEL ONE TOUCH 7040A"; }
         else if ("ALCATEL ONETOUCH POP D3".equals(model)) { return "ALCATEL ONETOUCH POP D3"; }
+        else if ("Archos 101XS3".equals(model)) { return "Archos 101XS3"; }
         else if ("A-TT00".equals(model)) { return "Haier A-TT00"; }
         else if ("ARCHOS 101 XS 2".equals(model)) { return "Archos 101XS2"; }
+        else if ("Archos 40 Power".equals(model)) { return "Archos 40 Power"; }
         else if ("Alcatel 7030L".equals(model)) { return "A851L"; }
         else if ("A10A".equals(model)) { return "Tekwind A10A"; }
         else if ("A451".equals(model)) { return "Beeline Pro5"; }
@@ -329,6 +344,8 @@ public final class DeviceNames {
         else if ("Acer Chromebook R11".equals(model)) { return "Acer Chromebook R11 (C738T)"; }
         else if ("A1-734".equals(model)) { return "Acer A1-734"; }
         else if ("ATH-AL00".equals(model)) { return "Huawei ATH-AL00"; }
+        else if ("ALCATEL ONE TOUCH 922".equals(model)) { return "Vodafone 861"; }
+        else if ("Archos 70b Helium".equals(model)) { return "Archos 70b Helium"; }
         else if ("AT7-A".equals(model)) { return "Toshiba AT7"; }
         else if ("ASUS PadFone X mini".equals(model)) { return "Asus PadFone X mini (PF450CL)"; }
         else if ("ASUS Pad TF300T".equals(model)) { return "Asus Transformer Pad"; }
@@ -337,12 +354,14 @@ public final class DeviceNames {
         else if ("A714_Vivo_Play".equals(model)) { return "Gtel A714 Vivo Play"; }
         else if ("ALCATEL ONE TOUCH 6033M".equals(model)) { return "ALCATEL ONE TOUCH 6033X"; }
         else if ("ALCATEL ONE TOUCH 6033A".equals(model)) { return "ALCATEL ONE TOUCH 6033A"; }
+        else if ("Aquaris E4.5".equals(model)) { return "bq Aquaris E4.5"; }
         else if ("A1-724".equals(model)) { return "Acer Iconia TalkTab 7"; }
         else if ("ARCHOS 79 Platinum".equals(model)) { return "Archos 79 Platinium"; }
         else if ("ALCATEL_4034A".equals(model)) { return "ALCATEL_ 4034A"; }
         else if ("A1-830".equals(model)) { return "Acer A1"; }
         else if ("ALCATEL_ONE_TOUCH_5020X_Orange".equals(model)) { return "ALCATEL ONE TOUCH 5020D"; }
         else if ("AST21".equals(model)) { return "Asus MeMO Pad 8 (AST21)"; }
+        else if ("Archos 70c Xenon".equals(model)) { return "Archos 70c Xenon"; }
         else if ("ADR6410LRA".equals(model)) { return "HTC DROID Incredible 4G LTE"; }
         else if ("ASUS Pad TF700T".equals(model)) { return "Asus TF700T"; }
         else if ("AP54".equals(model)) { return "Haier AP54"; }
@@ -393,7 +412,6 @@ public final class DeviceNames {
         else if ("ALCATEL_one_touch_4030A".equals(model)) { return "one_touch_4030_TLVE"; }
         else if ("Archos 101 Xenon".equals(model)) { return "Archos 101 Xenon"; }
         else if ("A08S".equals(model)) { return "AboCom A08SM"; }
-        else if ("ASUS_Z00TD".equals(model)) { return "Asus ZenFone 2 Laser (ZE551KL)"; }
         else if ("Archos 101 Neon".equals(model)) { return "Archos 101 Neon"; }
         else if ("A33f".equals(model)) { return "Oppo A33f"; }
         else if ("A33t".equals(model)) { return "Oppo A33t"; }
@@ -414,7 +432,9 @@ public final class DeviceNames {
         else if ("Alcatel9007T".equals(model)) { return "Alcatel9007T"; }
         else if ("Archos 53 Titanium".equals(model)) { return "Archos 53 Titanium"; }
         else if ("AX600C".equals(model)) { return "Panasonic AX600C"; }
+        else if ("Archos 45b Neon".equals(model)) { return "Archos 45b Neon"; }
         else if ("ASUS ZenWatch 2".equals(model)) { return "ASUS ZenWatch 2"; }
+        else if ("Archos 80d Xenon".equals(model)) { return "Archos 80d Xenon"; }
         else if ("ALCATEL ONE TOUCH 6012X".equals(model)) { return "ONE TOUCH 6012D"; }
         else if ("ALCATEL ONE TOUCH 6012D".equals(model)) { return "ONE TOUCH 6012D"; }
         else if ("ALCATEL ONE TOUCH 4010A".equals(model)) { return "ALCATEL ONE TOUCH 4010X"; }
@@ -429,6 +449,7 @@ public final class DeviceNames {
         else if ("ASUS_Z00MD".equals(model)) { return "Asus ZenFone 2 Laser (ZE600KL)"; }
         else if ("Amazing A4C".equals(model)) { return "ZTE Bouygues Telecom Bs 402"; }
         else if ("Amazing A4S".equals(model)) { return "ZTE V815W"; }
+        else if ("Archos 50d Neon".equals(model)) { return "Archos 50d Neon"; }
         else if ("ALCATEL ONE TOUCH 6035L".equals(model)) { return "Idol S"; }
         else if ("ALCATEL ONE TOUCH 6035R".equals(model)) { return "Idol X"; }
         else if ("Archos 70 Carbon".equals(model)) { return "Archos Bush MyTablet 7"; }
@@ -437,6 +458,7 @@ public final class DeviceNames {
         else if ("ALCATEL ONE TOUCH 4037T".equals(model)) { return "ALCATEL ONE TOUCH 4037N"; }
         else if ("ALCATEL ONE TOUCH 4037R".equals(model)) { return "ALCATEL ONETOUCH 4037R"; }
         else if ("ALCATEL ONE TOUCH 4037N".equals(model)) { return "ALCATEL ONE TOUCH 4037N"; }
+        else if ("Archos 50d Oxygen".equals(model)) { return "Archos 50d Oxygen"; }
         else if ("ALCATEL ONE TOUCH 6010".equals(model)) { return "ALCATEL ONE TOUCH 6010X"; }
         else if ("ARCHOS 70 Cobalt".equals(model)) { return "Archos 70 Cobalt"; }
         else if ("A7100_X3".equals(model)) { return "Gtel A7100 X3"; }
@@ -448,9 +470,9 @@ public final class DeviceNames {
         else if ("A463BG".equals(model)) { return "Pixi3-3.5 TF"; }
         else if ("ASUS Transformer 300".equals(model)) { return "Asus Transformer Pad"; }
         else if ("Archos 101b Neon".equals(model)) { return "Archos 101b Neon"; }
+        else if ("Archos 101 Helium Lite".equals(model)) { return "Archos 101 Helium Lite"; }
         else if ("AX501Q".equals(model)) { return "AllView AX501Q"; }
         else if ("ALCATEL ONE TOUCH FIERCE".equals(model)) { return "ALCATEL ONE TOUCH 7024W"; }
-        else if ("ALCATEL ONE TOUCH 922".equals(model)) { return "Vodafone 861"; }
         else if ("A1-840FHD".equals(model)) { return "Acer Iconia Tab 8"; }
         else if ("alcatel_5098O".equals(model)) { return "5098O"; }
         else if ("A520L".equals(model)) { return "A520L"; }
@@ -470,6 +492,8 @@ public final class DeviceNames {
         else if ("ALCATEL_ONE_TOUCH_Fierce".equals(model)) { return "ALCATEL ONE TOUCH Fierce"; }
         else if ("A3-A20".equals(model)) { return "Acer Iconia Tab 10"; }
         else if ("ALCATEL ONETOUCH 6050A".equals(model)) { return "IDOL 2 S"; }
+        else if ("ASUS_Transformer_Pad_TF300T".equals(model)) { return "Asus Transformer Pad"; }
+        else if ("Archos 97c Platinum".equals(model)) { return "Archos 97c Platinum"; }
         else if ("AT7-B".equals(model)) { return "Toshiba AT7"; }
         else if ("AT7-C".equals(model)) { return "Toshiba AT7"; }
         else if ("Archos 80b Helium".equals(model)) { return "Archos 80b Helium"; }
@@ -489,6 +513,7 @@ public final class DeviceNames {
         else if ("A110".equals(model)) { return "Acer A110"; }
         else if ("A7X_PTAB735X".equals(model)) { return "Polaroid A7X_PTAB735X"; }
         else if ("ASUS_Z00EDB".equals(model)) { return "Asus ZenFone 2 Laser (ZE500KL)"; }
+        else if ("A116".equals(model)) { return "Micromax A116"; }
         else if ("ALCATEL ONE TOUCH 4030Y_orange".equals(model)) { return "ALCATEL ONE TOUCH 4030X"; }
         else if ("A1".equals(model)) { return "ZTE A1R"; }
         else if ("A3".equals(model)) { return "BenQ A3"; }
@@ -500,10 +525,12 @@ public final class DeviceNames {
         else if ("ARCHOS 50c Neon".equals(model)) { return "Archos 50c Neon"; }
         else if ("AZDroid".equals(model)) { return "AZBox AZDroid"; }
         else if ("A11w".equals(model)) { return "OPPO A11w"; }
+        else if ("Archos 101d Platinum v3".equals(model)) { return "Archos 101d Platinum v3"; }
         else if ("Archos 70 Platinum".equals(model)) { return "Archos 70 Platinum"; }
         else if ("Archos 50 Oxygen".equals(model)) { return "Archos 50 Oxygen"; }
         else if ("ALCATEL_one_touch_918A".equals(model)) { return "ALCATEL ONE TOUCH 918A"; }
         else if ("archer".equals(model)) { return "Samsung Galaxy A"; }
+        else if ("ASUS_Z01BDC".equals(model)) { return "Asus Zenfone 3 Laser"; }
         else if ("ALCATEL ONE TOUCH 5036D".equals(model)) { return "ALCATEL ONE TOUCH 5036D"; }
         else if ("ALCATEL ONE TOUCH 5036F".equals(model)) { return "ALCATEL ONE TOUCH 5036F"; }
         else if ("ALCATEL ONE TOUCH 5036A".equals(model)) { return "ALCATEL ONE TOUCH 5036A"; }
@@ -512,13 +539,16 @@ public final class DeviceNames {
         else if ("ALCATEL ONE TOUCH 930D".equals(model)) { return "ALCATEL ONE TOUCH 930D"; }
         else if ("ALCATEL ONE TOUCH 930N".equals(model)) { return "ALCATEL ONE TOUCH 930D"; }
         else if ("Archos 45 Platinum".equals(model)) { return "Archos 45 Platinum"; }
+        else if ("Archos 101b Xenon v2".equals(model)) { return "Archos 101b Xenon"; }
         else if ("ALCATEL one touch 990".equals(model)) { return "One Touch 990"; }
+        else if ("A50TI".equals(model)) { return "Archos 50 Titanium 4G"; }
         else if ("ALCATEL ONETOUCH 6032X".equals(model)) { return "ALCATEL ONETOUCH 6032X"; }
         else if ("ALCATEL ONETOUCH 6032A".equals(model)) { return "ALCATEL ONETOUCH 6032A"; }
         else if ("A846L".equals(model)) { return "A846L"; }
         else if ("A210".equals(model)) { return "Micromax CANVAS 4"; }
         else if ("ALCATEL_ONE_TOUCH_903".equals(model)) { return "ALCATEL_ONE_TOUCH_903"; }
         else if ("ASUS_Z010DA".equals(model)) { return "Asus Zenfone MAX"; }
+        else if ("ASUS_Z010DB".equals(model)) { return "Asus Zenfone MAX"; }
         else if ("ASUS_Z010DD".equals(model)) { return "ASUS_ Zenfone Max"; }
         else if ("arc 7HD".equals(model)) { return "Kobo Arc 7HD"; }
         else if ("A460G".equals(model)) { return "Pixi3-4 TF"; }
@@ -531,12 +561,13 @@ public final class DeviceNames {
         else if ("Archos 50b Platinum".equals(model)) { return "Archos 50b Platinum"; }
         else if ("AK330S".equals(model)) { return "Acer AK330s"; }
         else if ("ALCATEL_ONE_TOUCH_6010X_Orange".equals(model)) { return "ALCATEL_ONE_TOUCH_6010X_Orange"; }
-        else if ("ALCATEL ONE TOUCH 4027A".equals(model)) { return "ALCATEL_ONE_TOUCH_4027A"; }
         else if ("A6S".equals(model)) { return "TaiwanMobile A6S"; }
         else if ("ARCHOS GAMEPAD".equals(model)) { return "Archos GamePad"; }
+        else if ("Archos 80 Platinum".equals(model)) { return "Archos 80 Platinum"; }
         else if ("A68".equals(model)) { return "Lava A68"; }
         else if ("A67".equals(model)) { return "Lava A67"; }
         else if ("ASUS_Z00ED".equals(model)) { return "Asus ZenFone 2 Laser (ZE500KL)"; }
+        else if ("Archos 55 Diamond Plus".equals(model)) { return "Archos Diamond Plus"; }
         else if ("A7700".equals(model)) { return "Lenovo A7700"; }
         else if ("AA3-600".equals(model)) { return "Acer Aspire A3"; }
         else if ("Avea inTouch 4".equals(model)) { return "ZTE Avea inTouch 4"; }
@@ -548,10 +579,11 @@ public final class DeviceNames {
         else if ("ALCATEL one touch J320".equals(model)) { return "ALCATEL one touch J320"; }
         else if ("Archos 80b Xenon".equals(model)) { return "Archos 80b xenon"; }
         else if ("ASUS_Z00XS".equals(model)) { return "Asus ZenFone Zoom (ZX551ML)"; }
+        else if ("Archos 50e Neon".equals(model)) { return "Archos 50e Neon"; }
         else if ("ALCATEL_ONE_TOUCH_4005D".equals(model)) { return "ALCATEL ONE TOUCH 4005D"; }
         else if ("ASUS_Transformer_Pad_TF700T".equals(model)) { return "ASUS Transformer Pad Infinity"; }
+        else if ("ASUS Transformer Pad TF300TL".equals(model)) { return "ASUS Transformer Pad TF300TL"; }
         else if ("Archos Smart Home Tablet".equals(model)) { return "Archos Smart Home Tablet"; }
-        else if ("ASUS_Z016DA".equals(model)) { return "Asus Zenfone 3 Deluxe (ZS570KL)"; }
         else if ("Archos 90b Copper".equals(model)) { return "Archos 90b Copper"; }
         else if ("Archos 101d Neon".equals(model)) { return "Archos 101D Neon"; }
         else if ("A4C".equals(model)) { return "ZTE Bouygues Telecom Bs 402"; }
@@ -566,13 +598,14 @@ public final class DeviceNames {
         else if ("Aloha".equals(model)) { return "LG Ally"; }
         else if ("AM506".equals(model)) { return "Amgoo AM506"; }
         else if ("A770_XL7".equals(model)) { return "Gtel A770_XL7"; }
-        else if ("Aquaris E4.5".equals(model)) { return "bq Aquaris E4.5"; }
+        else if ("Archos 55 Diamond 2 Plus".equals(model)) { return "Archos Diamond 2 plus"; }
         else if ("A250".equals(model)) { return "Micromax CANVAS TURBO"; }
         else if ("Archos 50 Neon".equals(model)) { return "Archos 50 Neon"; }
         else if ("AM-H100".equals(model)) { return "AM-H100"; }
         else if ("ASUS Transformer Pad TF700T".equals(model)) { return "Asus TF700T"; }
         else if ("Alcatel_4034F".equals(model)) { return "ALCATEL ONETOUCH PIXI 4 (4)"; }
         else if ("Arc".equals(model)) { return "Kobo Arc"; }
+        else if ("ASUS_Z016DA".equals(model)) { return "Asus Zenfone 3 Deluxe (ZS570KL)"; }
         else if ("A5_Lite".equals(model)) { return "AllView A5 Lite"; }
         else if ("A5_Easy".equals(model)) { return "AllView A5 Easy"; }
         else if ("ALCATEL ONE TOUCH 7024W".equals(model)) { return "ALCATEL ONE TOUCH Fierce"; }
@@ -581,12 +614,12 @@ public final class DeviceNames {
         else if ("ARCHOS 101 Magnus".equals(model)) { return "Archos 101 Magnus"; }
         else if ("Alcatel_5098O".equals(model)) { return "5098O"; }
         else if ("Aqua Pride".equals(model)) { return "Intex Aqua Pride"; }
+        else if ("Archos 55B Platinum".equals(model)) { return "Archos 55b Platinum"; }
         else if ("AG_Go_Tab_Access_2".equals(model)) { return "AG Mobile AG Go Tab Access 2"; }
         else if ("A500".equals(model)) { return "Acer Picasso"; }
         else if ("A501".equals(model)) { return "Acer Picasso"; }
         else if ("ASUS_X008D".equals(model)) { return "Asus X008D"; }
         else if ("AN-NP40".equals(model)) { return "Sharp AN-NP40"; }
-        else if ("A466T".equals(model)) { return "Pixi4-4 3G Telus"; }
         else if ("ALCATEL ONE TOUCH P321".equals(model)) { return "ALCATEL ONE TOUCH P321"; }
         else if ("ARCHOS 70it2G8".equals(model)) { return "Archos 70it 2"; }
         else if ("A82".equals(model)) { return "Lava A82"; }
@@ -604,7 +637,6 @@ public final class DeviceNames {
         else if ("ARCHOS 40d Titanium".equals(model)) { return "Archos 40d Titanium"; }
         else if ("ALCATEL ONE TOUCH 7041D".equals(model)) { return "ALCATEL ONE TOUCH 7041D"; }
         else if ("ALCATEL ONE TOUCH 7041X".equals(model)) { return "ALCATEL ONE TOUCH 7041X"; }
-        else if ("ARCHOS 80 COBALT".equals(model)) { return "Archos 80 Cobalt"; }
         else if ("ASUS_Z00ADA".equals(model)) { return "Asus ZenFone 2 (ZE551ML)"; }
         else if ("Android Tablet FT7".equals(model)) { return "Cspire FT7"; }
         else if ("AB10PGN".equals(model)) { return "Positivo AB10PGN"; }
@@ -614,6 +646,7 @@ public final class DeviceNames {
         else if ("Amazing P6".equals(model)) { return "ZTE Amazing P6"; }
         else if ("Archos 101 Xenon v2".equals(model)) { return "Archos 101 Xenon"; }
         else if ("ARCHOS 101 CHILDPAD".equals(model)) { return "Archos 101 Childpad"; }
+        else if ("Archos 50 Cobalt".equals(model)) { return "Archos 50 Cobalt"; }
         else if ("Archos 40 Titanium".equals(model)) { return "Archos 40 Titanium"; }
         else if ("Aquaris E10 3G".equals(model)) { return "bq Aquaris E10 3G"; }
         else if ("ADR6350".equals(model)) { return "HTC Droid Incredible 2"; }
@@ -633,8 +666,12 @@ public final class DeviceNames {
         else if ("ALCATEL_ONE_TOUCH_5035X".equals(model)) { return "Alcatel One Touch X Pop"; }
         else if ("ASUS Tablet P1801-T".equals(model)) { return "ASUS Transformer AiO P1801"; }
         else if ("Ahiga".equals(model)) { return "Mobiwire Ahiga"; }
+        else if ("Archos 55 diamond Selfie".equals(model)) { return "Archos 55 Diamond Selfie"; }
         else if ("ASUS ZenFone 2E".equals(model)) { return "Asus ZenFone 2 (ZE500CL)"; }
         else if ("ARCHOS 45b Helium".equals(model)) { return "Archos 45b Helium"; }
+        else if ("Archos 70 Platinum v2".equals(model)) { return "Archos 70 Platinum v2"; }
+        else if ("Archos 70 Platinum v3".equals(model)) { return "Archos 70 platinum"; }
+        else if ("Archos 101d Platinum v2".equals(model)) { return "Archos 101d Platinum v2"; }
         else if ("ALCATEL ONE TOUCH 918A".equals(model)) { return "ALCATEL ONE TOUCH 918A"; }
         else if ("ALCATEL ONE TOUCH 918D".equals(model)) { return "ALCATEL ONE TOUCH 918D"; }
         else if ("ALCATEL ONETOUCH 5050X".equals(model)) { return "POP S3"; }
@@ -643,6 +680,7 @@ public final class DeviceNames {
         else if ("ALCATEL_one_touch_906Y".equals(model)) { return "One Touch 906"; }
         else if ("Alcatel_one_touch_908F_Orange".equals(model)) { return "One Touch 908"; }
         else if ("ASUS Transformer Pad TF600T".equals(model)) { return "ASUS Transformer Pad TF600T"; }
+        else if ("Archos 50 Platinum 4G".equals(model)) { return "Archos 50 Platinum 4G"; }
         else if ("A3-A40".equals(model)) { return "Acer A3"; }
         else if ("ALCATEL ONE TOUCH 8020D".equals(model)) { return "ALCATEL ONE TOUCH 8020D"; }
         else if ("ALCATEL ONE TOUCH 8020E".equals(model)) { return "ALCATEL ONE TOUCH 8020E"; }
@@ -653,6 +691,7 @@ public final class DeviceNames {
         else if ("ALCATEL one touch 990C+".equals(model)) { return "ALCATEL one touch 990C+"; }
         else if ("AQT100".equals(model)) { return "Sprint AQT100"; }
         else if ("Acer Liquid Metal".equals(model)) { return "Acer LiquidMT"; }
+        else if ("Archos 80b Helium v2".equals(model)) { return "Archos 80b Helium"; }
         else if ("ALCATEL_ONE_TOUCH_985".equals(model)) { return "ALCATEL ONE TOUCH 985"; }
         else if ("ASUS_Z00RD".equals(model)) { return "Asus ZenFone 2 Laser (ZE500KG)"; }
         else if ("A700".equals(model)) { return "Acer Iconia Tab A700"; }
@@ -661,7 +700,6 @@ public final class DeviceNames {
         else if ("Alcatel9022S".equals(model)) { return "ONETOUCH PIXI 3 (8)"; }
         else if ("Archos 40c Titanium".equals(model)) { return "Archos 40c Titanium"; }
         else if ("ARCHOS LUDOG10".equals(model)) { return "Archos TV Connect"; }
-        else if ("Archos 40 Neon".equals(model)) { return "Archos 40 Neon"; }
         else if ("ALCATEL ONE TOUCH 5037E".equals(model)) { return "ALCATEL ONE TOUCH 5037E"; }
         else if ("ALCATEL_one_touch_995S".equals(model)) { return "ALCATEL_one_touch_995S"; }
         else if ("ALCATEL_one_touch_995A".equals(model)) { return "ALCATEL_one_touch_995A"; }
@@ -671,6 +709,7 @@ public final class DeviceNames {
         else if ("A1-840".equals(model)) { return "Acer Iconia Tab 8"; }
         else if ("ARCHOS 97 TITANIUMHD".equals(model)) { return "Archos 97 Titanium HD"; }
         else if ("Autana LTE".equals(model)) { return "Huawei ALE-L23"; }
+        else if ("ASUS_Z00TD".equals(model)) { return "Asus ZenFone 2 Laser (ZE551KL)"; }
         else if ("A912".equals(model)) { return "AstroQueo polaris_wifionly"; }
         else if ("A80RG11".equals(model)) { return "Archos Quechua Tablet 8"; }
         else if ("A720".equals(model)) { return "AZPEN A720"; }
@@ -680,12 +719,11 @@ public final class DeviceNames {
         else if ("Archos 50 Diamond".equals(model)) { return "Archos 50 Diamond"; }
         else if ("A1601fw".equals(model)) { return "Oppo A1601fw"; }
         else if ("ALCATEL ONE TOUCH 6032A".equals(model)) { return "ALCATEL ONE TOUCH 6032A"; }
+        else if ("Archos Diamond S".equals(model)) { return "Archos Diamond S"; }
         else if ("ALCATEL ONE TOUCH 4029A".equals(model)) { return "ALCATEL ONE TOUCH 4030X"; }
-        else if ("ASUS_Transformer_Pad_TF300T".equals(model)) { return "Asus Transformer Pad"; }
         else if ("ALCATEL ONE TOUCH 985D".equals(model)) { return "ALCATEL ONE TOUCH 985D"; }
         else if ("ALCATEL ONE TOUCH 985N".equals(model)) { return "ALCATEL ONE TOUCH 985N"; }
         else if ("AND1E".equals(model)) { return "Philips Android 2014"; }
-        else if ("A116".equals(model)) { return "Micromax A116"; }
         else if ("ASUS_Z00UDA".equals(model)) { return "Asus ZenFone Selfie (ZD551KL)"; }
         else if ("Archos 79 Xenon".equals(model)) { return "Archos 79 Xenon"; }
         else if ("A11t".equals(model)) { return "Oppo A11t"; }
@@ -695,10 +733,14 @@ public final class DeviceNames {
         else if ("AS740".equals(model)) { return "LG Ally"; }
         else if ("AG Go-Tab Access".equals(model)) { return "AG Mobile AG_Go-Tab_Access"; }
         else if ("ALCATEL ONE TOUCH 6030X-orange".equals(model)) { return "ALCATEL ONE TOUCH 6030X-orange"; }
+        else if ("Archos 101e Neon".equals(model)) { return "Archos 101e neon"; }
+        else if ("Archos 45d Platinum".equals(model)) { return "Archos 45d Platinum"; }
         else if ("Altus 24".equals(model)) { return "Panasonic Altus 24"; }
         else if ("ALCATEL one touch 986+".equals(model)) { return "ALCATEL one touch 986+"; }
         else if ("ASUS_Z00VD".equals(model)) { return "Asus Zenfone Go (ASUS_Z00VD)"; }
         else if ("Amazing p5_Lite".equals(model)) { return "ZTE Amazing p5_Lite"; }
+        else if ("Archos 121 Neon".equals(model)) { return "Archos 121 Neon"; }
+        else if ("Archos 45c Helium".equals(model)) { return "Archos 45c Helium"; }
         else if ("Archos 70 Xenon".equals(model)) { return "Archos 70 Xenon"; }
         else if ("ARCHOS 80b PLATINUM".equals(model)) { return "Archos 80b Platinum"; }
         else if ("ALCATEL_one_touch_918".equals(model)) { return "ALCATEL ONE TOUCH 918"; }
@@ -707,6 +749,7 @@ public final class DeviceNames {
         else if ("ALCATEL ONE TOUCH 6030A".equals(model)) { return "ALCATEL ONE TOUCH 6030X"; }
         else if ("ALCATEL ONE TOUCH 6030D".equals(model)) { return "ALCATEL ONE TOUCH 6030X"; }
         else if ("arrowsM03".equals(model)) { return "Fujitsu arrowsM03"; }
+        else if ("Archos 50 Power".equals(model)) { return "Archos 50 Power"; }
         else if ("AX7OO".equals(model)) { return "BMobile AX700"; }
         else if ("Algiz RT7".equals(model)) { return "Handheld Group Algiz RT7"; }
         else if ("ARCHOS 101b XS2".equals(model)) { return "Archos 101b XS2"; }
@@ -717,6 +760,7 @@ public final class DeviceNames {
         else if ("ALCATEL ONE TOUCH 918N".equals(model)) { return "ALCATEL ONE TOUCH918N"; }
         else if ("AX685".equals(model)) { return "BMobile AX685"; }
         else if ("A53fw".equals(model)) { return "Oppo A53fw"; }
+        else if ("ASUS_X00DD".equals(model)) { return "Asus X00DD"; }
         else if ("ASUS_A001".equals(model)) { return "Asus Zenfone3 Ultra"; }
         else if ("AD7003".equals(model)) { return "COMIO AD7003"; }
         else if ("Aster".equals(model)) { return "Vertu Aster"; }
@@ -729,10 +773,12 @@ public final class DeviceNames {
         else if ("AS870 4G".equals(model)) { return "LG Optimus F5"; }
         else if ("Archos 45 Neon".equals(model)) { return "Archos 45 Neon"; }
         else if ("arc 7".equals(model)) { return "Kobo Arc 7"; }
+        else if ("Archos 80 Platinum v2".equals(model)) { return "Archos 80 Platinum v2"; }
         else if ("ALCATEL ONE TOUCH 6032X".equals(model)) { return "ALCATEL ONE TOUCH 6032X"; }
         else if ("AT100".equals(model)) { return "Toshiba AT100"; }
         else if ("ALCATEL ONE TOUCH 997D".equals(model)) { return "ALCATEL ONE TOUCH 997D"; }
         else if ("Archos 70 Neon".equals(model)) { return "Archos 70 Neon"; }
+        else if ("Archos 50b Oxygen".equals(model)) { return "Archos 50b Oxygen"; }
         else if ("AX4Nano_plus".equals(model)) { return "AllView AX4 Nano Plus"; }
         else if ("Archos 96 Xenon".equals(model)) { return "Archos 96 Xenon"; }
         else if ("Archos 50c Oxygen".equals(model)) { return "Archos 50c Oxygen"; }
@@ -741,6 +787,7 @@ public final class DeviceNames {
         else if ("ALCATEL ONE TOUCH 6034Y".equals(model)) { return "Idol S"; }
         else if ("ALCATEL ONE TOUCH 6034R".equals(model)) { return "Idol S"; }
         else if ("ALCATEL ONE TOUCH 991A".equals(model)) { return "ALCATEL ONE TOUCH 991A"; }
+        else if ("Archos 70b Neon".equals(model)) { return "Archos 70b Neon"; }
         else if ("Andromax B16C2G".equals(model)) { return "Smartfren B16C2G"; }
         else if ("Andromax B16C2H".equals(model)) { return "Smartfren B16C2H"; }
         else if ("Archos 50b Neon".equals(model)) { return "ARCHOS 50b Neon"; }
@@ -750,12 +797,12 @@ public final class DeviceNames {
         else if ("ATH-CL00".equals(model)) { return "Huawei ATH-CL00"; }
         else if ("Amazing_X3s".equals(model)) { return "ZTE Amazing_X3s"; }
         else if ("AX1065".equals(model)) { return "BMobile AX1065"; }
-        else if ("ASUS_Z010DB".equals(model)) { return "Asus Zenfone MAX"; }
         else if ("Archos 70b Cobalt".equals(model)) { return "Archos 70b Cobalt"; }
         else if ("Archos 53 Platinum".equals(model)) { return "Archos 53 Platinum"; }
         else if ("ASUS_Z01FD".equals(model)) { return "Asus ZenFone 3 Deluxe"; }
         else if ("Amazing A5S".equals(model)) { return "ZTE V831W"; }
         else if ("Akta_A4".equals(model)) { return "GSmart Akta A4"; }
+        else if ("Archos Diamond Plus".equals(model)) { return "Archos Diamond Plus"; }
         else if ("AC45BHE".equals(model)) { return "Archos 45b Helium"; }
         else if ("ASUS_Z012DA".equals(model)) { return "Asus Zenfone 3"; }
         else if ("ASUS_Z012DE".equals(model)) { return "Asus Zenfone 3"; }
@@ -765,6 +812,7 @@ public final class DeviceNames {
         else if ("Archos 80 Helium 4G".equals(model)) { return "Archos 80 Helium"; }
         else if ("AX1030".equals(model)) { return "BMobile AX1030"; }
         else if ("Aura_Power".equals(model)) { return "Karbonn Aura Power"; }
+        else if ("Archos 80 Oxygen".equals(model)) { return "Archos 80 Oxygen"; }
         else if ("Aquaris X5 Plus".equals(model)) { return "bq Aquaris X5 Plus"; }
         else if ("ALCATEL ONE TOUCH 4030Y".equals(model)) { return "ALCATEL ONE TOUCH 4030X"; }
         else if ("ALCATEL ONE TOUCH 4030X".equals(model)) { return "ALCATEL ONE TOUCH 4030X"; }
@@ -781,6 +829,7 @@ public final class DeviceNames {
         else if ("A50LT".equals(model)) { return "Azumi_A50LT"; }
         else if ("Andromax G36C1H".equals(model)) { return "Smartfren G36C1H"; }
         else if ("Andromax G36C1G".equals(model)) { return "Smartfren G36C1G"; }
+        else if ("ALCATEL ONE TOUCH 4027A".equals(model)) { return "ALCATEL_ONE_TOUCH_4027A"; }
         else if ("Aquaris X5".equals(model)) { return "bq Aquaris X5"; }
         else if ("Archos 50 Helium 4G".equals(model)) { return "Archos 50 Helium 4G"; }
         else if ("ALCATEL ONE TOUCH 993D".equals(model)) { return "TCL A988"; }
@@ -796,6 +845,7 @@ public final class DeviceNames {
         else if ("ASUS_Z011D".equals(model)) { return "Asus ZenFone 2 Laser (ZE601KL)"; }
         else if ("ALCATEL_ONE_TOUCH_991_Orange".equals(model)) { return "ALCATEL_ONE_TOUCH_991_Orange"; }
         else if ("A5_Quad_Plus_TM".equals(model)) { return "AllView A5 Quad Plus"; }
+        else if ("Archos 101b Oxygen".equals(model)) { return "Archos 101b Oxygen"; }
         else if ("ATH-UL00".equals(model)) { return "Huawei ATH-UL00"; }
         else if ("A211".equals(model)) { return "Acer Iconia Tab A211"; }
         else if ("A1-810".equals(model)) { return "Acer Iconia A1"; }
@@ -804,12 +854,15 @@ public final class DeviceNames {
         else if ("Aquaris E5".equals(model)) { return "bq Aquaris E5"; }
         else if ("Aquaris E4".equals(model)) { return "bq Aquaris E4"; }
         else if ("ASUS Transformer Pad TF300TG".equals(model)) { return "ASUS Transformer Pad TF300TG"; }
-        else if ("ASUS Transformer Pad TF300TL".equals(model)) { return "ASUS Transformer Pad TF300TL"; }
+        else if ("ASUS_P00I".equals(model)) { return "Asus ZenPad 3S 10 LTE (Z500KL)"; }
+        else if ("Archos 70 Xenon Color".equals(model)) { return "Archos 70 Xenon Color"; }
         else if ("A0001".equals(model)) { return "OnePlus One"; }
         else if ("ASUS_T00I-D".equals(model)) { return "Asus ZenFone 4 (A400CG)"; }
         else if ("Air".equals(model)) { return "Mobicell Air"; }
         else if ("Archos 90b Neon".equals(model)) { return "Archos 90b Neon"; }
+        else if ("ASUS_Z01BS".equals(model)) { return "Asus Zenfone 3 Laser"; }
         else if ("ASUS_Z01BD".equals(model)) { return "Asus Zenfone 3 Laser"; }
+        else if ("Archos 55 Cobalt Plus".equals(model)) { return "Archos 55 Cobalt Plus"; }
         else if ("Alcatel_4060A".equals(model)) { return "Alcatel_4060A"; }
         else if ("Alcatel_4060O".equals(model)) { return "No"; }
         else if ("A6_Duo".equals(model)) { return "AllView A6 Duo"; }
@@ -820,6 +873,7 @@ public final class DeviceNames {
         else if ("A11".equals(model)) { return "Oppo A11"; }
         else if ("A1P".equals(model)) { return "ZTE A1P"; }
         else if ("A1R".equals(model)) { return "ZTE A1R"; }
+        else if ("Archos 70b Copper".equals(model)) { return "Archos 70b Copper"; }
         else if ("AX1020".equals(model)) { return "BMobile AX1020"; }
         else if ("Archos 70 Copper".equals(model)) { return "Archos 70 Copper"; }
         else if ("A5_Ready".equals(model)) { return "AllView A5 Ready"; }
@@ -830,6 +884,7 @@ public final class DeviceNames {
         else if ("A200".equals(model)) { return "Acer Iconia Tab A200"; }
         else if ("A955".equals(model)) { return "Motorola Droid II"; }
         else if ("A953".equals(model)) { return "Motorola Milestone2"; }
+        else if ("Archos 70 Oxygen".equals(model)) { return "Archos 70 Oxygen"; }
         else if ("A726_Infinity_Lite".equals(model)) { return "Gtel A726 Infinity Lite"; }
         else if ("ASUS_Z012D".equals(model)) { return "Asus Zenfone 3"; }
         else if ("Agora Lite".equals(model)) { return "BenQ Agora_Lite"; }
@@ -851,6 +906,7 @@ public final class DeviceNames {
         else if ("A73".equals(model)) { return "Micromax A73"; }
         else if ("A72".equals(model)) { return "Lava A72"; }
         else if ("A71".equals(model)) { return "Lava A71"; }
+        else if ("Archos 55 Cobalt plus".equals(model)) { return "Archos 55 Cobalt Plus"; }
         else if ("Archos 90 Neon".equals(model)) { return "Archos 90 Neon"; }
         else if ("AS650C".equals(model)) { return "Panasonic AS650C"; }
         else if ("ALCATEL ONE TOUCH 8008D".equals(model)) { return "ALCATEL ONE TOUCH 8008D"; }
@@ -869,6 +925,7 @@ public final class DeviceNames {
         else if ("ALCATEL ONETOUCH POP 7 LTE".equals(model)) { return "9015W"; }
         else if ("Andromax C46B2G".equals(model)) { return "Smartfren Andromax C46B2G"; }
         else if ("Andromax C46B2H".equals(model)) { return "Haier C46B2H"; }
+        else if ("Archos 101 Xenon Lite".equals(model)) { return "Archos 101 Xenon Lite"; }
         else if ("ALCATEL ONE TOUCH 8008X".equals(model)) { return "ALCATEL ONE TOUCH 8008D"; }
         else if ("Aqua_Ring".equals(model)) { return "Intex Aqua Ring"; }
         return "";
@@ -879,6 +936,7 @@ public final class DeviceNames {
         else if ("CT50".equals(model)) { return "Honeywell Dolphin CT50"; }
         else if ("Cirrus 6".equals(model)) { return "Fly Cirrus 6"; }
         else if ("C6943".equals(model)) { return "Sony Xperia Z1"; }
+        else if ("CK3-01".equals(model)) { return "Coolpad CK3-01"; }
         else if ("CASIO WSD-F10".equals(model)) { return "Casio Smart Outdoor Watch WSD-F10"; }
         else if ("Coolpad 5108".equals(model)) { return "Coolpad CP5108"; }
         else if ("Coolpad 5109".equals(model)) { return "Coolpad 5109"; }
@@ -894,6 +952,7 @@ public final class DeviceNames {
         else if ("C5120".equals(model)) { return "Kyocera Milano"; }
         else if ("C5121".equals(model)) { return "Kyocera Milano"; }
         else if ("CNT07002".equals(model)) { return "Connectce Connect Alpha"; }
+        else if ("Coolpad 5892".equals(model)) { return "Coolpad5892"; }
         else if ("Coolpad 5210A".equals(model)) { return "Coolpad CP5210A"; }
         else if ("Coolpad 8089Q".equals(model)) { return "Coolpad CP8089Q"; }
         else if ("Coolpad Y72-921".equals(model)) { return "Coolpad Y72-921"; }
@@ -905,10 +964,8 @@ public final class DeviceNames {
         else if ("C6903".equals(model)) { return "Sony Xperia Z1"; }
         else if ("C6902".equals(model)) { return "Sony Xperia Z1"; }
         else if ("Che1-CL20".equals(model)) { return "Huawei Che1"; }
-        else if ("Cynus_F9_4G".equals(model)) { return "Mobistel Cynus F9 4G"; }
         else if ("Coolpad A520".equals(model)) { return "Coolpad CPA520"; }
         else if ("Coolpad 8722V".equals(model)) { return "Coolpad 8722V"; }
-        else if ("Coolpad 5891Q".equals(model)) { return "Coolpad5891Q"; }
         else if ("Coolpad 5891S".equals(model)) { return "Coolpad 5891S"; }
         else if ("Coolpad8295M".equals(model)) { return "Coolpad CP8295M"; }
         else if ("Cinema".equals(model)) { return "Enspert DARKSIDE"; }
@@ -933,6 +990,7 @@ public final class DeviceNames {
         else if ("Coolpad CM001".equals(model)) { return "Coolpad CM001"; }
         else if ("Coolpad 9150W".equals(model)) { return "Coolpad 9150W"; }
         else if ("Clempad2_XL".equals(model)) { return "Clementoni Clempad 4.4 XL"; }
+        else if ("CUBOT MAX".equals(model)) { return "Cubot MAX"; }
         else if ("C1904".equals(model)) { return "Sony Xperia M"; }
         else if ("C1905".equals(model)) { return "Sony Xperia M"; }
         else if ("CKT3".equals(model)) { return "ESI Enterprises CKT3"; }
@@ -963,6 +1021,7 @@ public final class DeviceNames {
         else if ("Cynus_F10".equals(model)) { return "Mobistel Cynus F10"; }
         else if ("C6843".equals(model)) { return "Sony Xperia Z Ultra"; }
         else if ("CN51 NN0".equals(model)) { return "Intermec CN51"; }
+        else if ("Cynus_F9_4G".equals(model)) { return "Mobistel Cynus F9 4G"; }
         else if ("CINK FIVE".equals(model)) { return "Enspert Wiko CINK FIVE"; }
         else if ("C-Smart IIIS".equals(model)) { return "MyPhone C-Smart IIIS"; }
         else if ("Coolpad 8970L".equals(model)) { return "Coolpad 8970L"; }
@@ -1031,8 +1090,8 @@ public final class DeviceNames {
         else if ("C6502".equals(model)) { return "Sony Xperia ZL"; }
         else if ("Coolpad 5952".equals(model)) { return "Coolpad CP5952"; }
         else if ("Coolpad 5950".equals(model)) { return "Coolpad5950"; }
+        else if ("CUBOT_NOTE_S".equals(model)) { return "Cubot NOTE S"; }
         else if ("Cynus T5".equals(model)) { return "Enspert Wiko CINK FIVE"; }
-        else if ("Cynus T2".equals(model)) { return "Enspert CINK KING"; }
         else if ("CMB501".equals(model)) { return "Hisense CMB501"; }
         else if ("Coolpad Y803-8".equals(model)) { return "Coolpad Y803-8"; }
         else if ("CP-DX650".equals(model)) { return "Cisco CP"; }
@@ -1044,14 +1103,18 @@ public final class DeviceNames {
         else if ("Clempad2_plus".equals(model)) { return "Clementoni Clempad 4.4 Plus"; }
         else if ("CT1000".equals(model)) { return "Nuvision TM1088"; }
         else if ("Coolpad A8".equals(model)) { return "Coolpad A8"; }
+        else if ("Coolpad 3503I".equals(model)) { return "Coolpad 3503I"; }
         else if ("Coolpad 3622A".equals(model)) { return "Coolpad 3622A-mpcs"; }
         else if ("Coolpad 7295C_C00".equals(model)) { return "Coolpad7295C_C00"; }
+        else if ("Coolpad CP3503I".equals(model)) { return "Coolpad 3503I"; }
         else if ("Coolpad A8-931".equals(model)) { return "Coolpad A8-931"; }
         else if ("Coolpad 7295T".equals(model)) { return "Coolpad7295T"; }
         else if ("Coolpad 7295A".equals(model)) { return "Coolpad 7295A"; }
         else if ("Coolpad 7295C".equals(model)) { return "Coolpad7295C"; }
         else if ("Cynus T6".equals(model)) { return "mobistel Cynus T6"; }
         else if ("Coolpad 7295+".equals(model)) { return "Coolpad 7295A"; }
+        else if ("C106".equals(model)) { return "Coolpad Cool C1"; }
+        else if ("C103".equals(model)) { return "Coolpad C103"; }
         else if ("Chagall 10.1 WiFi".equals(model)) { return "Pegatron chagall"; }
         else if ("Cygnus mini".equals(model)) { return "Mobiwire Cygnus mini"; }
         else if ("Coolpad 9190L".equals(model)) { return "Coolpad CP9190L"; }
@@ -1084,11 +1147,12 @@ public final class DeviceNames {
         else if ("CER3".equals(model)) { return "Sanyo CER3"; }
         else if ("C6530N".equals(model)) { return "Kyocera Hydro Life"; }
         else if ("CINK SLIM 2".equals(model)) { return "WIKO CINK SLIM 2"; }
+        else if ("Coolpad 5891Q".equals(model)) { return "Coolpad5891Q"; }
         else if ("CMP 756".equals(model)) { return "ICRAIG CMP 756"; }
         else if ("Coolpad 5270".equals(model)) { return "Coolpad 5270"; }
         else if ("Coolpad 5872".equals(model)) { return "Coolpad5872"; }
         else if ("Coolpad 5367".equals(model)) { return "Coolpad 5367"; }
-        else if ("Che1-CL10".equals(model)) { return "Huawei Che1"; }
+        else if ("Coolpad R106".equals(model)) { return "Coolpad R106"; }
         else if ("Coolpad R108".equals(model)) { return "Coolpad R108"; }
         else if ("CHC-U23".equals(model)) { return "Huawei CHC"; }
         else if ("Clempad_HR_XL".equals(model)) { return "Clementoni Clempad 5.0 XL"; }
@@ -1099,6 +1163,7 @@ public final class DeviceNames {
         else if ("CMP793".equals(model)) { return "iCraig CMP793"; }
         else if ("CMP791".equals(model)) { return "iCraig CMP791"; }
         else if ("CMP798".equals(model)) { return "iCraig CMP798"; }
+        else if ("Che1-CL10".equals(model)) { return "Huawei Che1"; }
         else if ("CP6001A".equals(model)) { return "Connectce Connect Core 6"; }
         else if ("Coolpad Y90".equals(model)) { return "Coolpad Y90"; }
         else if ("Coolpad 9970".equals(model)) { return "Coolpad CP9970"; }
@@ -1115,8 +1180,10 @@ public final class DeviceNames {
         else if ("CN51 NCF".equals(model)) { return "Intermec CN51"; }
         else if ("C20".equals(model)) { return "Hisense c20ae"; }
         else if ("CP8298_M02".equals(model)) { return "Coolpad 8298-M02"; }
+        else if ("Cynus T2".equals(model)) { return "Enspert CINK KING"; }
         else if ("Calltab10.1".equals(model)) { return "Plaisio CalltabII 10.1"; }
         else if ("Connect551".equals(model)) { return "Sourcing Creation Connect551"; }
+        else if ("Coolpad E580".equals(model)) { return "Coolpad K2L_S00"; }
         else if ("Cynus E7".equals(model)) { return "Mobistel Cynus E7"; }
         else if ("Condroid_X7".equals(model)) { return "Polaris_Condroid_X7"; }
         else if ("CUN-TL00".equals(model)) { return "Huawei CUN-TL00"; }
@@ -1165,18 +1232,18 @@ public final class DeviceNames {
         else if ("Che2-TL00H".equals(model)) { return "Huawei Che2"; }
         else if ("CT820".equals(model)) { return "Carrefour CT820"; }
         else if ("CT825".equals(model)) { return "Haier CT825"; }
-        else if ("CT826".equals(model)) { return "Carrefour CT826"; }
         else if ("C6743".equals(model)) { return "Kyocera Hydro REACH"; }
         else if ("C6742".equals(model)) { return "Kyocera Hydro VIEW"; }
         else if ("Coolpad 8705".equals(model)) { return "Coolpad8705"; }
         else if ("Coolpad 7061".equals(model)) { return "Coolpad 7061"; }
+        else if ("CAM-L32".equals(model)) { return "HUAWEI Y6II"; }
         else if ("C6740N".equals(model)) { return "Kyocera Hydro WAVE"; }
         else if ("Classic_Pro".equals(model)) { return "GSmart Classic_Pro"; }
-        else if ("Coolpad 5892".equals(model)) { return "Coolpad5892"; }
         else if ("Coolpad 5891".equals(model)) { return "Coolpad 5891"; }
         else if ("C9660".equals(model)) { return "YotaPhone C9660"; }
         else if ("CEM1".equals(model)) { return "Sanyo 55CE6139M1"; }
         else if ("Coolpad 7232".equals(model)) { return "Coolpad 7232"; }
+        else if ("C106-9".equals(model)) { return "Coolpad Cool C1"; }
         else if ("Coolpad 9250L".equals(model)) { return "Coolpad CP9250L"; }
         else if ("CINK SLIM".equals(model)) { return "Enspert CINK SLIM"; }
         else if ("C6725".equals(model)) { return "Kyocera Hydro VIBE"; }
@@ -1185,6 +1252,7 @@ public final class DeviceNames {
         else if ("CUN-AL00".equals(model)) { return "HUAWEI CUN-AL00"; }
         else if ("C6_Duo".equals(model)) { return "AllView C6 Duo"; }
         else if ("Coolpad 8971".equals(model)) { return "Coolpad 8971"; }
+        else if ("CT826".equals(model)) { return "Carrefour CT826"; }
         else if ("CP3700A".equals(model)) { return "Coolpad 3700A"; }
         else if ("COUPLE".equals(model)) { return "Foxconn MUSN COUPLE"; }
         else if ("Che2-TL00".equals(model)) { return "Huawei Che2"; }
@@ -1247,6 +1315,7 @@ public final class DeviceNames {
         else if ("Blade L2".equals(model)) { return "ZTE Blade L2"; }
         else if ("Blade L3".equals(model)) { return "ZTE Blade L3"; }
         else if ("BGH Joy Smart AXS D".equals(model)) { return "ZTE Blade L2"; }
+        else if ("Bush Spira B2 10 tablet".equals(model)) { return "Bush Spira B2 10 tablet"; }
         else if ("Beeline Fast".equals(model)) { return "Beeline Fast"; }
         else if ("Beeline E700".equals(model)) { return "ZTE V807"; }
         else if ("BLU STUDIO XL LTE".equals(model)) { return "Blu STUDIO XL LTE"; }
@@ -1270,6 +1339,7 @@ public final class DeviceNames {
         else if ("BKO-S200".equals(model)) { return "SK Broadband B tv smart"; }
         else if ("Benefit_M503".equals(model)) { return "ARK Benefit M503"; }
         else if ("BLU GRAND 5.5 HD".equals(model)) { return "Blu GRAND 5.5 HD"; }
+        else if ("BUSH SPIRA D3 5.5".equals(model)) { return "BUSH SPIRA D3 5.5"; }
         else if ("Boost View 5.0".equals(model)) { return "Boost View 5.0"; }
         else if ("Beeline M2".equals(model)) { return "ZTE V9"; }
         else if ("Bphone B1115".equals(model)) { return "BKAV Bphone"; }
@@ -1293,6 +1363,7 @@ public final class DeviceNames {
         else if ("B760H".equals(model)) { return "ZTE B760E"; }
         else if ("B760E".equals(model)) { return "ZTE B760E"; }
         else if ("Blast".equals(model)) { return "Hurricane Blast"; }
+        else if ("Bush Spira B2 7 tablet".equals(model)) { return "Bush Spira B2 7 tablet"; }
         else if ("Beeline Smart 6".equals(model)) { return "Beeline Smart 6"; }
         else if ("Brilliant".equals(model)) { return "Explay Brilliant"; }
         else if ("BLU STUDIO C 8+8 LTE".equals(model)) { return "Blu STUDIO C 8+8 LTE"; }
@@ -1321,12 +1392,11 @@ public final class DeviceNames {
         else if ("BGH Joy Smart A5d".equals(model)) { return "ZTE V815W"; }
         else if ("Blade A511".equals(model)) { return "ZTE Blade A511"; }
         else if ("Blade A510".equals(model)) { return "ZTE BLADE A510"; }
-        else if ("Blade V580".equals(model)) { return "ZTE Turk Telekom TT175"; }
         else if ("BGH Joy Smart A7G".equals(model)) { return "ZTE Blade Q Lux"; }
         else if ("B506_TW".equals(model)) { return "BenQ B506"; }
-        else if ("Blade Super".equals(model)) { return "ZTE Grand X Pro"; }
         else if ("BB8252".equals(model)) { return "Bigben BB8252"; }
         else if ("B3-A20B".equals(model)) { return "Acer Iconia One 10"; }
+        else if ("BUSH SPIRA B3 5".equals(model)) { return "BUSH SPIRA B3 5"; }
         else if ("B1-730".equals(model)) { return "Acer Iconia One 7"; }
         else if ("Blade Q Maxi".equals(model)) { return "ZTE Orange Reyo"; }
         else if ("BGO-DL09".equals(model)) { return "HUAWEI MediaPad T2 7.0"; }
@@ -1347,10 +1417,11 @@ public final class DeviceNames {
         else if ("Beeline Smart 4".equals(model)) { return "Hipstreet Beeline smart 4"; }
         else if ("Blade Q2".equals(model)) { return "ZTE Blade Q2"; }
         else if ("BM180".equals(model)) { return "Bluebird BM180"; }
+        else if ("BLU STUDIO C 8+8".equals(model)) { return "Blu STUIDIO C 8+8"; }
         else if ("Blade III".equals(model)) { return "ZTE Blade III"; }
-        else if ("BGH Joy Smart AXS II".equals(model)) { return "ZTE N918St"; }
         else if ("BLADE E01".equals(model)) { return "ZTE Blade A476"; }
         else if ("BLU R1 HD".equals(model)) { return "Blu R1 HD"; }
+        else if ("BUSH SPIRA B3 5.5".equals(model)) { return "Archos BUSH SPIRA B3 5.5"; }
         else if ("Beeline_Tab_Fast".equals(model)) { return "Beeline_Tab_Fast"; }
         else if ("Blade Q Lux".equals(model)) { return "ZTE Blade Q Lux"; }
         else if ("BLU LIFE ONE X".equals(model)) { return "Blu LIFE ONE X"; }
@@ -1362,10 +1433,12 @@ public final class DeviceNames {
         else if ("Blade S6 Lite".equals(model)) { return "ZTE Blade S6 Lite"; }
         else if ("bq Aquaris".equals(model)) { return "Anydata Aquaris I8"; }
         else if ("Blade A410".equals(model)) { return "ZTE Blade A410"; }
+        else if ("BGH Joy Smart AXS II".equals(model)) { return "ZTE N918St"; }
         else if ("Blade V6 Plus".equals(model)) { return "ZTE Blade V6 Plus"; }
         else if ("BLOOM".equals(model)) { return "Wiko BLOOM"; }
         else if ("Bay".equals(model)) { return "HighScreen Bay"; }
         else if ("BLU DASH X LTE".equals(model)) { return "Blu DASH X LTE"; }
+        else if ("Blade Super".equals(model)) { return "ZTE Grand X Pro"; }
         else if ("Blade C341".equals(model)) { return "ZTE T221"; }
         else if ("B3-A30".equals(model)) { return "Acer B3-A30"; }
         else if ("Blade L2 Plus".equals(model)) { return "ZTE Blade L2 Plus"; }
@@ -1380,6 +1453,7 @@ public final class DeviceNames {
         else if ("BGO-L03".equals(model)) { return "HUAWEI MediaPad T2 7.0"; }
         else if ("BLU STUDIO X MINI".equals(model)) { return "Blu Studio X Mini"; }
         else if ("Baker".equals(model)) { return "ZTE Baker"; }
+        else if ("Blade V580".equals(model)) { return "ZTE Turk Telekom TT175"; }
         else if ("BGH JOY X2".equals(model)) { return "ZTE Blade A475"; }
         else if ("BLU ADVANCE 4.0 L2".equals(model)) { return "Blu ADVANCE 4.0 L2"; }
         else if ("BT230".equals(model)) { return "Intel Etisalat E-20"; }
@@ -1401,6 +1475,7 @@ public final class DeviceNames {
         else if ("Bush 10.0 MyTablet".equals(model)) { return "Archos Bush 10.0 MyTablet"; }
         else if ("BLU STUDIO ONE PLUS".equals(model)) { return "Blu STUDIO ONE PLUS"; }
         else if ("Blade L110".equals(model)) { return "ZTE Blade L110"; }
+        else if ("Bush 5 Android".equals(model)) { return "Bush 5 android"; }
         else if ("BRAVIA 4K 2015".equals(model)) { return "Sony BRAVIA 4K 2015"; }
         else if ("BASE_Lutea_3".equals(model)) { return "ALCATEL ONE TOUCH 997D"; }
         else if ("B1-810".equals(model)) { return "Acer Iconia One 8"; }
@@ -1408,12 +1483,13 @@ public final class DeviceNames {
         else if ("Blade S Lite".equals(model)) { return "ZTE Blade S Lite"; }
         else if ("BLADE A110".equals(model)) { return "ZTE BLADE A110"; }
         else if ("BLU NEO X MINI".equals(model)) { return "Blu NEO X MINI"; }
+        else if ("Bush Spira B2 8 tablet".equals(model)) { return "Archos Bush Spira B2 8 tablet"; }
         else if ("BGH Joy V6".equals(model)) { return "ZTE Blade V6"; }
         else if ("BouygtelTV".equals(model)) { return "Bouygues Telecom Bbox Miami"; }
         else if ("Beeline E400".equals(model)) { return "ZTE Blade"; }
+        else if ("BUSH SPIRA E3X 5.5".equals(model)) { return "BUSH SPIRA E3X 5.5"; }
         else if ("Blade A475".equals(model)) { return "ZTE Blade A475"; }
         else if ("Blackphone 2".equals(model)) { return "Silent Circle Blackphone 2"; }
-        else if ("BLU STUDIO C 8+8".equals(model)) { return "Blu STUIDIO C 8+8"; }
         else if ("Blade V6".equals(model)) { return "ZTE Blade V6"; }
         else if ("Blade V+".equals(model)) { return "ZTE Blade V+"; }
         else if ("BLU NEO XL".equals(model)) { return "Blu NEO XL"; }
@@ -1426,6 +1502,7 @@ public final class DeviceNames {
         else if ("BS472".equals(model)) { return "Idol S"; }
         else if ("BHX-S100".equals(model)) { return "SK Broadband B tv smart"; }
         else if ("B50".equals(model)) { return "BenQ B50"; }
+        else if ("BUSH SPIRA D3 5".equals(model)) { return "Archos BUSH SPIRA D3 5"; }
         else if ("B50_CHT".equals(model)) { return "BenQ B50_CHT"; }
         else if ("BLU NEO X".equals(model)) { return "Blu NEO X"; }
         else if ("BGH Joy Smart AXS II D".equals(model)) { return "ZTE N918St"; }
@@ -1439,9 +1516,9 @@ public final class DeviceNames {
         else if ("E6560T".equals(model)) { return "Kyocera DuraForce"; }
         else if ("E6560L".equals(model)) { return "Kyocera DuraForce"; }
         else if ("E6560C".equals(model)) { return "Kyocera DuraForce"; }
-        else if ("E6833".equals(model)) { return "Sony Xperia Z5 Premium Dual"; }
         else if ("EVA-AL00".equals(model)) { return "Huawei P9"; }
         else if ("Epic_P7".equals(model)) { return "Vonino Epic P7"; }
+        else if ("E6833".equals(model)) { return "Sony Xperia Z5 Premium Dual"; }
         else if ("e6_plus".equals(model)) { return "Gini e6_plus"; }
         else if ("EK-GN120".equals(model)) { return "Samsung Galaxy NX"; }
         else if ("EB-A71GJ".equals(model)) { return "Sharp EB"; }
@@ -1453,6 +1530,7 @@ public final class DeviceNames {
         else if ("EGD172".equals(model)) { return "Ematic EGD172"; }
         else if ("E407".equals(model)) { return "NGM Italia SRL E407"; }
         else if ("E400".equals(model)) { return "NGM Italia SRL NGM Youcolor E400"; }
+        else if ("E3_Jump".equals(model)) { return "AllView E3 Jump"; }
         else if ("E6683".equals(model)) { return "Sony Xperia Z5 dual"; }
         else if ("ETBW11AA".equals(model)) { return "ASUS ETBW11AA"; }
         else if ("EK-KC120S".equals(model)) { return "Samsung Galaxy Camera"; }
@@ -1461,8 +1539,10 @@ public final class DeviceNames {
         else if ("E506plus".equals(model)) { return "NGM Italia SRL E506plus"; }
         else if ("EM01F".equals(model)) { return "Fujitsu ARROWS S EM01F"; }
         else if ("E9771".equals(model)) { return "Gigabyte E9771"; }
+        else if ("Eluga_Mark_2".equals(model)) { return "Panasonic Eluga Mark 2"; }
         else if ("EVA-DL00".equals(model)) { return "Huawei P9"; }
         else if ("EVA-L19".equals(model)) { return "Huawei P9"; }
+        else if ("Evolio_M5Pro".equals(model)) { return "Evolio M5Pro"; }
         else if ("ETL-S5042".equals(model)) { return "Etuline ETL"; }
         else if ("ELITE8Q".equals(model)) { return "Prestige ELITE8Q"; }
         else if ("ET5X".equals(model)) { return "Zebra ET5X"; }
@@ -1473,6 +1553,7 @@ public final class DeviceNames {
         else if ("EG680".equals(model)) { return "Smartfren EG680"; }
         else if ("E600".equals(model)) { return "Acer Liquid E600"; }
         else if ("EASY1".equals(model)) { return "ucall EASY1"; }
+        else if ("eSTAR GRAND HD Quad core".equals(model)) { return "ESTAR GRAND HD Quad Core"; }
         else if ("E-Tab10".equals(model)) { return "GeneralMobile E-Tab10"; }
         else if ("eZeeTab10D12-S".equals(model)) { return "Storex eZeeTab10D12-S"; }
         else if ("E815".equals(model)) { return "BYD K-Touch E815"; }
@@ -1485,6 +1566,7 @@ public final class DeviceNames {
         else if ("E6782L".equals(model)) { return "Kyocera DuraScout"; }
         else if ("Eclipse_G500M".equals(model)) { return "E-Boda Eclipse G500M"; }
         else if ("Elite9QL".equals(model)) { return "Visual Land Prestige Elite9QL"; }
+        else if ("E39".equals(model)) { return "Acer Liquid E700"; }
         else if ("E5823".equals(model)) { return "Sony Xperia Z5 Compact"; }
         else if ("EVO".equals(model)) { return "HTC Evo"; }
         else if ("EL-20-3050".equals(model)) { return "Gigabyte EL-20-3710"; }
@@ -1506,6 +1588,7 @@ public final class DeviceNames {
         else if ("EL-20-3710".equals(model)) { return "Gigabyte EL-20-3710"; }
         else if ("EG606".equals(model)) { return "Hisense EG606"; }
         else if ("Elite13Q".equals(model)) { return "Visual Land Prestige Elite13Q"; }
+        else if ("Elite 11".equals(model)) { return "Panasonic Elite 11"; }
         else if ("EG980".equals(model)) { return "SKnetworks EG980"; }
         else if ("ETL-S4521".equals(model)) { return "Etuline ETL"; }
         else if ("EB-4063-X".equals(model)) { return "Panasonic EB"; }
@@ -1572,7 +1655,6 @@ public final class DeviceNames {
         else if ("E2281MX".equals(model)) { return "Hisense Sero 8"; }
         else if ("E852GP".equals(model)) { return "LOGICOM E852GP"; }
         else if ("EB-WX1GJ".equals(model)) { return "Sharp EB"; }
-        else if ("E39".equals(model)) { return "Acer Liquid E700"; }
         else if ("EGS102".equals(model)) { return "Anydata ematic EGS102"; }
         else if ("EGS109".equals(model)) { return "EMATICEGS109"; }
         else if ("EG98".equals(model)) { return "Hisense EG98"; }
@@ -1608,7 +1690,6 @@ public final class DeviceNames {
         else if ("EG668".equals(model)) { return "SKnetworks EG68BE"; }
         else if ("EK-8680".equals(model)) { return "Cellon EK-8680"; }
         else if ("EF500".equals(model)) { return "Bluebird EF500"; }
-        else if ("Elite 11".equals(model)) { return "Panasonic Elite 11"; }
         else if ("EG950".equals(model)) { return "Hisense EG950"; }
         else if ("ENERGY_DIAMOND_MINI".equals(model)) { return "Blu ENERGY_DIAMOND_MINI"; }
         else if ("E2371CH".equals(model)) { return "Hisense E2371CH"; }
@@ -1695,6 +1776,7 @@ public final class DeviceNames {
         else if ("Dtac phone Joey Jet 2".equals(model)) { return "Hipstreet Joey Jet 2"; }
         else if ("D000-000011-N".equals(model)) { return "NEC LifeTouch Note"; }
         else if ("D2212".equals(model)) { return "Sony Xperia E3 Dual"; }
+        else if ("DP-X1A".equals(model)) { return "Onkyo DP-X1A"; }
         else if ("DP7CPRO".equals(model)) { return "Tecno DroiPad 7C Pro"; }
         else if ("D2-961G".equals(model)) { return "Haier D2"; }
         else if ("DROID Pro".equals(model)) { return "Motorola Droid Pro"; }
@@ -1810,7 +1892,6 @@ public final class DeviceNames {
         else if ("DIGICEL DL910".equals(model)) { return "ZTE Blade L3"; }
         else if ("D711HC_PG".equals(model)) { return "Inet-Tablet D711HC_PG"; }
         else if ("D2243".equals(model)) { return "Sony Xperia E3"; }
-        else if ("D000-000018-102".equals(model)) { return "NEC LifeTouch B"; }
         else if ("D000-000018-101".equals(model)) { return "NEC LifeTouch B"; }
         else if ("D000-000018-104".equals(model)) { return "NEC LifeTouch B"; }
         else if ("Dolphin 70e Black".equals(model)) { return "Honeywell Dolphin 70e Black"; }
@@ -1851,6 +1932,7 @@ public final class DeviceNames {
         else if ("Doro Liberto 810".equals(model)) { return "Doro Liberto 810"; }
         else if ("DSlide 1013".equals(model)) { return "Danew Dslide 1013"; }
         else if ("DP-X1".equals(model)) { return "Onkyo DP-X1"; }
+        else if ("D455".equals(model)) { return "Navon D455"; }
         else if ("D2305".equals(model)) { return "Sony Xperia M2"; }
         else if ("D2306".equals(model)) { return "Sony Xperia M2"; }
         else if ("D2302".equals(model)) { return "Sony Xperia M2"; }
@@ -1867,7 +1949,9 @@ public final class DeviceNames {
         else if ("D820".equals(model)) { return "D820"; }
         else if ("DROID_RAZR".equals(model)) { return "Motorola Droid Razr"; }
         else if ("D2-727".equals(model)) { return "Anydata D2"; }
+        else if ("D000-000018-102".equals(model)) { return "NEC LifeTouch B"; }
         else if ("DP7856K".equals(model)) { return "Dopo DP7856K"; }
+        else if ("D504".equals(model)) { return "Navon D504"; }
         else if ("DMX-ST7A".equals(model)) { return "Dreamax DMX-ST7A"; }
         else if ("DROID RAZR HD".equals(model)) { return "Motorola RAZR HD"; }
         else if ("Doro Liberto 820 Mini".equals(model)) { return "Doro Liberto 820 Mini"; }
@@ -1900,6 +1984,7 @@ public final class DeviceNames {
         else if ("GT-N7100T".equals(model)) { return "Samsung Galaxy Note2"; }
         else if ("GT-I9205".equals(model)) { return "Samsung Galaxy Mega 6.3"; }
         else if ("GN8001".equals(model)) { return "Gionee GN8001"; }
+        else if ("GN8002".equals(model)) { return "Gionee M6 Plus"; }
         else if ("Grand S Lite".equals(model)) { return "ZTE S118"; }
         else if ("GT-S7500W".equals(model)) { return "Samsung Galaxy Ace Plus"; }
         else if ("GT-S7500T".equals(model)) { return "Samsung Galaxy Ace Plus"; }
@@ -1946,7 +2031,6 @@ public final class DeviceNames {
         else if ("GT-S6352".equals(model)) { return "Samsung Galaxy Ace Duos"; }
         else if ("GT-S6358".equals(model)) { return "Samsung Galaxy Ace"; }
         else if ("GT-I9505X".equals(model)) { return "Samsung Galaxy S4"; }
-        else if ("G630-U10".equals(model)) { return "Huawei G630"; }
         else if ("GSmart Arty A3".equals(model)) { return "GSmart Arty A3"; }
         else if ("G526-L22".equals(model)) { return "Huawei G526"; }
         else if ("GSmart G1317D".equals(model)) { return "Gigabyte GSmart G1317"; }
@@ -2022,7 +2106,6 @@ public final class DeviceNames {
         else if ("GT-I8268".equals(model)) { return "Samsung Galaxy Duos"; }
         else if ("GT-S7272C".equals(model)) { return "Samsung Galaxy Ace3 Duos"; }
         else if ("GT-S5570B".equals(model)) { return "Samsung Galaxy Mini"; }
-        else if ("G2-3GP".equals(model)) { return "Hisense G2-3GP"; }
         else if ("GT-S5570I".equals(model)) { return "Samsung Galaxy Mini"; }
         else if ("GT-S5570L".equals(model)) { return "Samsung Galaxy Mini"; }
         else if ("GT540R".equals(model)) { return "LG Swift"; }
@@ -2058,11 +2141,13 @@ public final class DeviceNames {
         else if ("GN3002L".equals(model)) { return "Gionee GN3002L"; }
         else if ("Gigaset QV1030".equals(model)) { return "Gigaset QV1030"; }
         else if ("GT-N5120".equals(model)) { return "Samsung Galaxy Note 8.0"; }
+        else if ("G2-3GP".equals(model)) { return "Hisense G2-3GP"; }
         else if ("G700".equals(model)) { return "Haier G700"; }
         else if ("GW620".equals(model)) { return "LG Eve"; }
         else if ("GSmart Mika M2".equals(model)) { return "GSmart Mika M2"; }
         else if ("GT-B5510".equals(model)) { return "Samsung Galaxy Y Pro"; }
         else if ("GT-B5512".equals(model)) { return "Samsung Galaxy Y Pro Duos"; }
+        else if ("G630-U10".equals(model)) { return "Huawei G630"; }
         else if ("GT-I8160".equals(model)) { return "Samsung Galaxy Ace 2"; }
         else if ("GT540".equals(model)) { return "LG Swift"; }
         else if ("GT-P7511".equals(model)) { return "Samsung Galaxy Tab 10.1 N"; }
@@ -2228,13 +2313,12 @@ public final class DeviceNames {
         else if ("GSmart Rey R3".equals(model)) { return "GSmart Rey R3"; }
         else if ("GEM".equals(model)) { return "Mobicell Mobicel GEM"; }
         else if ("GT-S5301".equals(model)) { return "Samsung Galaxy Pocket Plus"; }
-        else if ("GT-S5300".equals(model)) { return "Samsung Galaxy Pocket"; }
-        else if ("GT-S5303".equals(model)) { return "Samsung Galaxy Y Plus"; }
         else if ("GT-S5302".equals(model)) { return "Samsung Galaxy Pocket"; }
         else if ("G740-L00".equals(model)) { return "Huawei G740"; }
         else if ("GN3002".equals(model)) { return "Gionee GN3002"; }
         else if ("gprimelteacg".equals(model)) { return "Samsung Galaxy Grand Prime"; }
         else if ("GT-P7300".equals(model)) { return "Samsung Galaxy Tab 8.9"; }
+        else if ("G40".equals(model)) { return "Haier G40"; }
         else if ("GT-I9060".equals(model)) { return "Samsung Galaxy Grand Neo"; }
         else if ("G2SMNT".equals(model)) { return "Philips S221C3A"; }
         else if ("GravityQuad".equals(model)) { return "Samsung Galaxy S III"; }
@@ -2273,6 +2357,7 @@ public final class DeviceNames {
         else if ("Garminfone".equals(model)) { return "Garmin Nuvifone"; }
         else if ("GN9010L".equals(model)) { return "Gionee GN9010L"; }
         else if ("G620-L75".equals(model)) { return "Huawei G620"; }
+        else if ("GT-S5303".equals(model)) { return "Samsung Galaxy Y Plus"; }
         else if ("G6".equals(model)) { return "Claresta G6"; }
         else if ("G5".equals(model)) { return "Claresta G5"; }
         else if ("G4".equals(model)) { return "Claresta G4"; }
@@ -2325,8 +2410,8 @@ public final class DeviceNames {
         else if ("GT-P7500D".equals(model)) { return "Samsung Galaxy Tab 10.1"; }
         else if ("GT-P7503".equals(model)) { return "Samsung Galaxy Tab 10.1"; }
         else if ("GT-P7501".equals(model)) { return "Samsung Galaxy Tab 10.1 N"; }
+        else if ("G50".equals(model)) { return "Haier G50"; }
         else if ("Gravity".equals(model)) { return "Samsung Galaxy S III"; }
-        else if ("GT-N8013".equals(model)) { return "Samsung Galaxy Note 10.1"; }
         else if ("google_sdk".equals(model)) { return "Android Emulator"; }
         else if ("GT-S6812C".equals(model)) { return "Samsung Galaxy Fame"; }
         else if ("GT-B5330".equals(model)) { return "Samsung Galaxy Chat"; }
@@ -2339,6 +2424,7 @@ public final class DeviceNames {
         else if ("GT-I9105".equals(model)) { return "Samsung Galaxy S II Plus"; }
         else if ("GOA".equals(model)) { return "Wiko GOA"; }
         else if ("G3SMNTS23".equals(model)) { return "Philips PHP"; }
+        else if ("GT-N8013".equals(model)) { return "Samsung Galaxy Note 10.1"; }
         else if ("GN3001".equals(model)) { return "Gionee GN3001"; }
         else if ("GN3003".equals(model)) { return "Gionee GN3003"; }
         else if ("GT-N8010".equals(model)) { return "Samsung Galaxy Note 10.1"; }
@@ -2401,12 +2487,12 @@ public final class DeviceNames {
         else if ("G1-715".equals(model)) { return "Acer G1-715"; }
         else if ("GT-I9060M".equals(model)) { return "Samsung Galaxy Grand Neo Plus"; }
         else if ("GT-S5302B".equals(model)) { return "Samsung Galaxy Pocket"; }
+        else if ("GT-S5300".equals(model)) { return "Samsung Galaxy Pocket"; }
         else if ("GT-I8260L".equals(model)) { return "Samsung Galaxy Core"; }
         else if ("GN9006".equals(model)) { return "Gionee GN9006"; }
         else if ("GT-S6802B".equals(model)) { return "Samsung Galaxy Ace Duos"; }
         else if ("GT-I9220".equals(model)) { return "Samsung Galaxy Note"; }
         else if ("GT-I9228".equals(model)) { return "Samsung Galaxy Note"; }
-        else if ("G40".equals(model)) { return "Haier G40"; }
         else if ("Golf".equals(model)) { return "WIKO IGGY"; }
         return "";
 
@@ -2533,6 +2619,7 @@ public final class DeviceNames {
         else if ("FT103".equals(model)) { return "Quanta FT103"; }
         else if ("FRD-DL00".equals(model)) { return "Huawei Honor 8"; }
         else if ("FL7008".equals(model)) { return "Reliance FL7008"; }
+        else if ("FS510".equals(model)) { return "Fly Nimbus 12"; }
         else if ("Fun +".equals(model)) { return "Plusone Fun +"; }
         else if ("FHMD001".equals(model)) { return "Fujitsu FHMD001"; }
         else if ("F-06F".equals(model)) { return "Fujitsu F-06F"; }
@@ -2581,6 +2668,7 @@ public final class DeviceNames {
         else if ("FMT-NM7054-03".equals(model)) { return "Future Mobile Technology FMT-NM7054-03"; }
         else if ("FAR70B".equals(model)) { return "Fujitsu ARROWS Tab Wi-Fi FAR70B"; }
         else if ("F30".equals(model)) { return "Hisense F30"; }
+        else if ("Flare_J3_Plus".equals(model)) { return "Cherry Mobile Flare J3 Plus"; }
         else if ("Fly IQ4602".equals(model)) { return "Fly IQ4602"; }
         else if ("F-08D".equals(model)) { return "Fujitsu Disney Mobile on docomo F-08D"; }
         else if ("F-08E".equals(model)) { return "Fujitsu Raku-Raku SMART PHONE2 F-08E"; }
@@ -2688,6 +2776,7 @@ public final class DeviceNames {
         else if ("IM-A860S".equals(model)) { return "Pantech IM-A860S"; }
         else if ("IQ4551".equals(model)) { return "Fly IQ4551"; }
         else if ("i20".equals(model)) { return "Symphony i20"; }
+        else if ("itel it1556 Plus".equals(model)) { return "Itel it1556 Plus"; }
         else if ("ISW13HT".equals(model)) { return "HTC ISW13HT"; }
         else if ("IQ434".equals(model)) { return "Fly IQ434"; }
         else if ("ILIUM S520".equals(model)) { return "Lanix Ilium_S520"; }
@@ -2816,6 +2905,7 @@ public final class DeviceNames {
         else if ("ideatv K91".equals(model)) { return "Lenovo IdeaTV"; }
         else if ("IQ4509".equals(model)) { return "Fly IQ4509"; }
         else if ("IUNI N1".equals(model)) { return "IUNI N1"; }
+        else if ("ivvi i3P-02".equals(model)) { return "Coolpad ivvi i3P-02"; }
         else if ("itel_it1505".equals(model)) { return "Itel it1505"; }
         else if ("IS12F".equals(model)) { return "Fujitsu ARROWS ES IS12F"; }
         else if ("IS12SH".equals(model)) { return "Sharp AQUOS PHONE IS12SH"; }
@@ -2888,6 +2978,7 @@ public final class DeviceNames {
         else if ("itel it1655".equals(model)) { return "Itel it1655"; }
         else if ("IQ4503 Quad".equals(model)) { return "Fly IQ4503 Quad"; }
         else if ("IQ4513 Octa".equals(model)) { return "Fly IQ4513 Octa"; }
+        else if ("Ilium L610".equals(model)) { return "Lanix Ilium L610"; }
         else if ("Infinix X454".equals(model)) { return "Infinix RACE Blot2"; }
         else if ("Infinix X455".equals(model)) { return "Infinix RACE Bolt 3"; }
         else if ("Ilium L1050".equals(model)) { return "Lanix Ilium L1050"; }
@@ -2905,6 +2996,7 @@ public final class DeviceNames {
         else if ("IM-A810S".equals(model)) { return "Pantech IM-A810S"; }
         else if ("IdeaTabA1000-G".equals(model)) { return "Lenovo A1000-G"; }
         else if ("IdeaTabA1000-F".equals(model)) { return "Lenovo A1000"; }
+        else if ("IQ4515 Quad".equals(model)) { return "Fly IQ4515 Quad"; }
         else if ("IQ4413_Quad".equals(model)) { return "Fly IQ4413 Quad"; }
         else if ("IdeaTabA5000-E".equals(model)) { return "Lenovo IdeaTab A5000"; }
         else if ("ideatv K72".equals(model)) { return "Lenovo 60K72"; }
@@ -2936,7 +3028,6 @@ public final class DeviceNames {
         else if ("IM-A850L".equals(model)) { return "Pantech IM-A850L"; }
         else if ("Ilium_L950".equals(model)) { return "Lanix ILIUM L950"; }
         else if ("INFOBAR A01".equals(model)) { return "Sharp INFOBAR A01"; }
-        else if ("IQ4515 Quad".equals(model)) { return "Fly IQ4515 Quad"; }
         else if ("IQ4406".equals(model)) { return "Fly Era Nano 6"; }
         else if ("IQ4407".equals(model)) { return "Fly ERA Nano 7"; }
         else if ("IQ4400".equals(model)) { return "Fly Era Nano 8"; }
@@ -2990,6 +3081,7 @@ public final class DeviceNames {
         else if ("HTC K2_U".equals(model)) { return "HTC ONE SV"; }
         else if ("HP 7 Plus".equals(model)) { return "HP 7 Plus"; }
         else if ("HUAWEI B199".equals(model)) { return "Huawei B199"; }
+        else if ("H1611".equals(model)) { return "Huawei Copper Plus"; }
         else if ("HUAWEI GRA-UL00".equals(model)) { return "Huawei GRA"; }
         else if ("HTC 0P6B900".equals(model)) { return "HTC One (M8 EYE)"; }
         else if ("HUAWEI-M835".equals(model)) { return "Huawei M835"; }
@@ -3005,6 +3097,8 @@ public final class DeviceNames {
         else if ("HUAWEI NXT-TL00B".equals(model)) { return "Huawei Mate 8"; }
         else if ("HTC_Incredible_S".equals(model)) { return "HTC Incredible S"; }
         else if ("HTC_0P6A1".equals(model)) { return "HTC Desire 300"; }
+        else if ("HUAWEI LUA-L23".equals(model)) { return "HUAWEI ECO"; }
+        else if ("HUAWEI LUA-L21".equals(model)) { return "HUAWEI Y3II"; }
         else if ("HTC Desire VC T328d".equals(model)) { return "HTC Desire VC"; }
         else if ("HUAWEI P6 S-U06".equals(model)) { return "Huawei P6S"; }
         else if ("HUAWEI G660-L075".equals(model)) { return "Huawei G660"; }
@@ -3145,6 +3239,8 @@ public final class DeviceNames {
         else if ("HS-T978".equals(model)) { return "Hisense HS-T978"; }
         else if ("HS-L682".equals(model)) { return "Hisense L682"; }
         else if ("HUAWEI SCL-L21".equals(model)) { return "Huawei Y6"; }
+        else if ("HUAWEI Y560-L03".equals(model)) { return "Huawei Y560"; }
+        else if ("HUAWEI H1611".equals(model)) { return "Huawei Copper Plus"; }
         else if ("HUAWEI G730-L075".equals(model)) { return "Huawei G730"; }
         else if ("HTC One SV".equals(model)) { return "HTC One SV BLK"; }
         else if ("HTC M8w".equals(model)) { return "HTC One (M8)"; }
@@ -3155,6 +3251,7 @@ public final class DeviceNames {
         else if ("HTC M10u".equals(model)) { return "HTC 10"; }
         else if ("HTC 901e".equals(model)) { return "HTC 9060"; }
         else if ("HUAWEI G610-T11".equals(model)) { return "Huawei G610"; }
+        else if ("HUAWEI TIT-U02".equals(model)) { return "HUAWEI Y6 Pro"; }
         else if ("HUAWEI MediaPad M1 8.0".equals(model)) { return "HUAWEI MediaPad M1 8.0"; }
         else if ("HP Slate 7 Plus".equals(model)) { return "HP Slate7 Plus"; }
         else if ("HTC ChaCha A810b".equals(model)) { return "HTC Chacha"; }
@@ -3180,6 +3277,7 @@ public final class DeviceNames {
         else if ("HUAWEI P6-T00V".equals(model)) { return "Huawei P6"; }
         else if ("HTC Desire 700 dual sim".equals(model)) { return "HTC Desire 700 dual sim"; }
         else if ("HTC One S Special Edition".equals(model)) { return "HTC One S Special Edition"; }
+        else if ("HTC One mini".equals(model)) { return "HTC One mini"; }
         else if ("HTC Desire 628 dual sim".equals(model)) { return "HTC Desire 628 dual sim"; }
         else if ("HUAWEI MT1-T00".equals(model)) { return "Huawei Mate"; }
         else if ("HUAWEI P7 mini".equals(model)) { return "Huawei P7 mini"; }
@@ -3375,6 +3473,7 @@ public final class DeviceNames {
         else if ("HS-EG916".equals(model)) { return "HIsense HS-EG916"; }
         else if ("HUAWEI CAM-L21".equals(model)) { return "HUAWEI Y6II"; }
         else if ("HUAWEI CAM-L23".equals(model)) { return "HUAWEI Y6II"; }
+        else if ("HUAWEI LUA-L03".equals(model)) { return "HUAWEI ECO"; }
         else if ("HUAWEI Y625-U13".equals(model)) { return "Huawei Y625"; }
         else if ("HUAWEI Y536A1".equals(model)) { return "HUAWEI Y536"; }
         else if ("HTC_M9px".equals(model)) { return "HTC_M9px"; }
@@ -3480,6 +3579,7 @@ public final class DeviceNames {
         else if ("HUAWEI NMO-L31".equals(model)) { return "HUAWEI GT3"; }
         else if ("HTC One max".equals(model)) { return "HTC One max"; }
         else if ("HUAWEI Y360-U12".equals(model)) { return "Huawei Y360"; }
+        else if ("HUAWEI TAG-L03".equals(model)) { return "HUAWEI GR3"; }
         else if ("HUAWEI TAG-L01".equals(model)) { return "HUAWEI GR3"; }
         else if ("HTC E9w".equals(model)) { return "HTC E9w"; }
         else if ("HTC E9t".equals(model)) { return "HTC E9t"; }
@@ -3511,6 +3611,7 @@ public final class DeviceNames {
         else if ("HUAWEI TAG-L22".equals(model)) { return "HUAWEI GR3"; }
         else if ("HUAWEI TAG-L23".equals(model)) { return "HUAWEI GR3"; }
         else if ("HTC Desire 820s dual sim".equals(model)) { return "HTC Desire 820s dual sim"; }
+        else if ("HUAWEI CUN-U29".equals(model)) { return "HUAWEI Y5II"; }
         else if ("HTC Desire 300".equals(model)) { return "HTC Desire 300"; }
         else if ("HTC Flyer".equals(model)) { return "HTC Flyer"; }
         else if ("HTC_B810x".equals(model)) { return "HTC Butterfly 2"; }
@@ -3520,7 +3621,6 @@ public final class DeviceNames {
         else if ("HUAWEI CRR-CL00".equals(model)) { return "Huawei Mate S"; }
         else if ("HUAWEI GRA-UL10".equals(model)) { return "Huawei GRA"; }
         else if ("HTC One E9s dual sim".equals(model)) { return "HTC One E9s dual sim"; }
-        else if ("HTC One mini".equals(model)) { return "HTC One mini"; }
         else if ("HUAWEI P6-C00".equals(model)) { return "Huawei P6"; }
         else if ("HP Slate 6 Voice Tab II".equals(model)) { return "HP Slate 6 Voice Tab II"; }
         else if ("HTC Desire 620G dual sim".equals(model)) { return "HTC Desire 620G dual sim"; }
@@ -3530,6 +3630,7 @@ public final class DeviceNames {
         else if ("HTC One 801s".equals(model)) { return "HTC One 801e"; }
         else if ("HTC One 801e".equals(model)) { return "HTC One 801e"; }
         else if ("HUAWEI Y523-L176".equals(model)) { return "Huawei Y523"; }
+        else if ("HUAWEI CAN-L11".equals(model)) { return "HUAWEI CAN-L11"; }
         else if ("HUAWEI TIT-AL00".equals(model)) { return "HUAWEI Y6 Pro"; }
         else if ("HTC D626w".equals(model)) { return "HTC Desire D626w"; }
         else if ("HUAWEI CAM-U22".equals(model)) { return "HUAWEI Y6II"; }
@@ -3619,6 +3720,7 @@ public final class DeviceNames {
         else if ("HUAWEI Y300-0100".equals(model)) { return "Huawei Y300"; }
         else if ("HTC_VLE_U".equals(model)) { return "HTC One S"; }
         else if ("HS-EG936D".equals(model)) { return "EG936D Hisense"; }
+        else if ("HUAWEI LUA-L13".equals(model)) { return "HUAWEI ECO"; }
         else if ("HTC One_M8 dual sim".equals(model)) { return "HTC One (M8)"; }
         else if ("HERO_X".equals(model)) { return "Mobicell HERO X"; }
         else if ("HUAWEI Y530-U00".equals(model)) { return "Huawei Y530"; }
@@ -3697,6 +3799,7 @@ public final class DeviceNames {
         else if ("HUAWEI Y360-U23".equals(model)) { return "Huawei Y360"; }
         else if ("HUAWEI RIO-CL00".equals(model)) { return "HUAWEI RIO"; }
         else if ("HTC 8060".equals(model)) { return "HTC 8060"; }
+        else if ("HTC Desire 500 dual sim".equals(model)) { return "HTC Desire 500 dual sim"; }
         else if ("HUAWEI G610-T00".equals(model)) { return "Huawei G610"; }
         else if ("HTC-PG762".equals(model)) { return "HTC Wildfire S A515c"; }
         else if ("Hive V 3G".equals(model)) { return "Plaisio Hive V 3G"; }
@@ -3737,7 +3840,6 @@ public final class DeviceNames {
         else if ("H-27".equals(model)) { return "Opticon H-27"; }
         else if ("Hisense E51-M".equals(model)) { return "Hisense E51-M"; }
         else if ("H30-U10".equals(model)) { return "Huawei Honor3"; }
-        else if ("HTC Desire 500 dual sim".equals(model)) { return "HTC Desire 500 dual sim"; }
         else if ("HUAWEI HN3-U00".equals(model)) { return "Huawei Honor3"; }
         else if ("HUAWEI HN3-U01".equals(model)) { return "Huawei Honor3"; }
         else if ("H30-L02".equals(model)) { return "Huawei H30"; }
@@ -3845,6 +3947,7 @@ public final class DeviceNames {
         else if ("HTC_D816x".equals(model)) { return "HTC Desire 816"; }
         else if ("HUAWEI Y560-U02".equals(model)) { return "Huawei Y560"; }
         else if ("HUAWEI Y560-U03".equals(model)) { return "HUAWEI Y5"; }
+        else if ("HTC_One_max".equals(model)) { return "HTC One max"; }
         else if ("HTC Desire 601".equals(model)) { return "HTC Desire 601"; }
         else if ("HTC Desire 600".equals(model)) { return "HTC Desire 600"; }
         else if ("HUAWEI Y530".equals(model)) { return "Huawei Y530"; }
@@ -3889,7 +3992,6 @@ public final class DeviceNames {
         else if ("HUAWEI Y320-C00".equals(model)) { return "Huawei Y320"; }
         else if ("HTCD160LVW".equals(model)) { return "HTC Desire 530"; }
         else if ("HUAWEI CRR-UL00".equals(model)) { return "Huawei Mate S"; }
-        else if ("HTC T329d".equals(model)) { return "HTC T329d"; }
         else if ("HTC M9pw".equals(model)) { return "HTC M9pw"; }
         else if ("HTC M9pt".equals(model)) { return "HTC One M9+"; }
         else if ("HUAWEI Y220-T10".equals(model)) { return "Huawei Y220"; }
@@ -3901,7 +4003,7 @@ public final class DeviceNames {
         else if ("HUAWEI M2-802L".equals(model)) { return "Huawei M2"; }
         else if ("HUAWEI Y560-L01".equals(model)) { return "Huawei Y560"; }
         else if ("HUAWEI MediaPad T1 10 4G".equals(model)) { return "Huawei T1 10"; }
-        else if ("HUAWEI Y560-L03".equals(model)) { return "Huawei Y560"; }
+        else if ("HTC T329d".equals(model)) { return "HTC T329d"; }
         else if ("HUAWEI Y560-L02".equals(model)) { return "HUAWEI Y5"; }
         else if ("HTC VLE_U".equals(model)) { return "HTC One S"; }
         else if ("HUAWEI Y300-0000".equals(model)) { return "Huawei Y300"; }
@@ -3989,7 +4091,6 @@ public final class DeviceNames {
         else if ("HTC M8e".equals(model)) { return "HTC One (M8)"; }
         else if ("HUAWEI Y535D-C00".equals(model)) { return "Huawei Y535D"; }
         else if ("HTC Flyer P510e".equals(model)) { return "HTC Flyer"; }
-        else if ("HTC_One_max".equals(model)) { return "HTC One max"; }
         else if ("HUAWEI Y320-U351".equals(model)) { return "Huawei Y320"; }
         else if ("HP Slate 7 HD".equals(model)) { return "HP Slate 7 HD"; }
         else if ("HTC_E9pw".equals(model)) { return "HTC_E9pw"; }
@@ -4001,6 +4102,7 @@ public final class DeviceNames {
         else if ("HTC6545LVW".equals(model)) { return "HTC 10"; }
         else if ("HS-E260T".equals(model)) { return "Hisense E260T"; }
         else if ("HUAWEI Y511-U30".equals(model)) { return "Huawei Y511"; }
+        else if ("HUAWEI CAN-L01".equals(model)) { return "HUAWEI CAN-L01"; }
         else if ("HM_1SW".equals(model)) { return "Xiaomi Redmi"; }
         else if ("HUAWEI MT7-J1".equals(model)) { return "Huawei Ascend Mate7"; }
         else if ("HTC Panache".equals(model)) { return "HTC myTouch 4G"; }
@@ -4237,6 +4339,7 @@ public final class DeviceNames {
         else if ("MI 4W".equals(model)) { return "Xiaomi MI 4LTE"; }
         else if ("MI 4C".equals(model)) { return "Xiaomi MI 4LTE"; }
         else if ("M220".equals(model)) { return "Huawei M220"; }
+        else if ("MyPhone my93 DTV".equals(model)) { return "MyPhone my93 DTV"; }
         else if ("MEDION S5004".equals(model)) { return "Medion S5004"; }
         else if ("MTC 960".equals(model)) { return "MTC 960"; }
         else if ("M5".equals(model)) { return "Mint M5"; }
@@ -4257,7 +4360,6 @@ public final class DeviceNames {
         else if ("MTC_982O".equals(model)) { return "TPS MTC 982o"; }
         else if ("Mozart".equals(model)) { return "Toshiba tt300/tt301/tt302"; }
         else if ("MID4X07".equals(model)) { return "Polaroid MID4X07"; }
-        else if ("my Pad P3".equals(model)) { return "ZTE V9A"; }
         else if ("ME302KL".equals(model)) { return "Asus MeMO Pad FHD 10 (ME302KL)"; }
         else if ("MI 2S".equals(model)) { return "Xiaomi MI 2"; }
         else if ("Micromax Q324".equals(model)) { return "Micromax Bolt"; }
@@ -4269,6 +4371,7 @@ public final class DeviceNames {
         else if ("MiTV2".equals(model)) { return "Xiaomi MiTV2"; }
         else if ("MS60".equals(model)) { return "Multilaser MS60"; }
         else if ("MiBOX_PRO".equals(model)) { return "Xiaomi MIBOXPRO"; }
+        else if ("MTN-TBW5982C3".equals(model)) { return "MTN-5982C3"; }
         else if ("MediaPad 7 Lite II".equals(model)) { return "Huawei Vogue7"; }
         else if ("myPadP4".equals(model)) { return "ZTE V9S"; }
         else if ("Micromax Q372".equals(model)) { return "Micromax Unite3"; }
@@ -4310,6 +4413,7 @@ public final class DeviceNames {
         else if ("M7808".equals(model)) { return "Haier M7808"; }
         else if ("Micromax A99".equals(model)) { return "Micromax Canvas Xpress"; }
         else if ("movo".equals(model)) { return "TCL LE50UHDE5692G"; }
+        else if ("MyPhone_my76 DTV".equals(model)) { return "MyPhone my76 DTV"; }
         else if ("MS45S".equals(model)) { return "Multilaser MS45S"; }
         else if ("Micromax Q345".equals(model)) { return "Micromax Canvas Selfie Lens"; }
         else if ("Micromax Q340".equals(model)) { return "Micromax Selfie 2"; }
@@ -4320,6 +4424,7 @@ public final class DeviceNames {
         else if ("M9021G".equals(model)) { return "Click M9021G"; }
         else if ("MediaPad X1 7.0".equals(model)) { return "HUAWEI MediaPad X1 7.0"; }
         else if ("MT-803G".equals(model)) { return "Huawei T802"; }
+        else if ("MyPhone my28S DTV".equals(model)) { return "MyPhone my28S DTV"; }
         else if ("MediaPad 10 FHD".equals(model)) { return "Huawei S10"; }
         else if ("Micromax E471".equals(model)) { return "Micromax Canvas Knight2"; }
         else if ("MT11a".equals(model)) { return "Sony Ericsson Xperia neo V"; }
@@ -4392,6 +4497,7 @@ public final class DeviceNames {
         else if ("MOCHE SMART A16".equals(model)) { return "ZTE Kis 3"; }
         else if ("MS50M".equals(model)) { return "Multilaser MS50M"; }
         else if ("Motorola XT720".equals(model)) { return "Motorola Motoroi"; }
+        else if ("my Pad P3".equals(model)) { return "ZTE V9A"; }
         else if ("Micromax A069".equals(model)) { return "Micromax BOLT"; }
         else if ("Micromax A066".equals(model)) { return "Micromax Bolt"; }
         else if ("Micromax A067".equals(model)) { return "Micromax Bolt"; }
@@ -4406,7 +4512,6 @@ public final class DeviceNames {
         else if ("MTAB-07530A".equals(model)) { return "Memorex MTAB-07530A"; }
         else if ("Micromax A104".equals(model)) { return "Micromax Canvas Fire"; }
         else if ("Micromax A107".equals(model)) { return "Micromax Canvas Fire4"; }
-        else if ("MTN-TBW5982C3".equals(model)) { return "MTN-5982C3"; }
         else if ("MC40N0".equals(model)) { return "Zebra MC40"; }
         else if ("MF97B_T".equals(model)) { return "ZTE MF97B_T"; }
         else if ("Micromax AQ5001".equals(model)) { return "Micromax Canvas Juice2"; }
@@ -4418,6 +4523,7 @@ public final class DeviceNames {
         else if ("MTC975".equals(model)) { return "MTC975"; }
         else if ("MS50_4G".equals(model)) { return "Multilaser MS50_4G"; }
         else if ("Micromax A82".equals(model)) { return "Micromax Bolt"; }
+        else if ("M3CR".equals(model)) { return "CZ Electronics M3CR"; }
         else if ("M9000".equals(model)) { return "ZTE V793"; }
         else if ("MEDION E5004".equals(model)) { return "MEDION E5004"; }
         else if ("MXG408".equals(model)) { return "Haier MXG408"; }
@@ -4614,6 +4720,7 @@ public final class DeviceNames {
         else if ("MB865".equals(model)) { return "Motorola Atrix 2"; }
         else if ("MID107".equals(model)) { return "Takara MID 107"; }
         else if ("ME600".equals(model)) { return "Motorola Backflip"; }
+        else if ("MyPhone my73 DTV".equals(model)) { return "MyPhone my73 DTV"; }
         else if ("MegaFon Login 3".equals(model)) { return "MegaFon Login 3"; }
         else if ("Meitu M4".equals(model)) { return "Meitu M4"; }
         else if ("MediaPad M1 8.0".equals(model)) { return "HUAWEI MediaPad M1 8.0"; }
@@ -4643,10 +4750,13 @@ public final class DeviceNames {
         else if ("MiBOX2".equals(model)) { return "Xiaomi MiBOX2"; }
         else if ("MTC 982".equals(model)) { return "Vodafone 785"; }
         else if ("MicromaxP680".equals(model)) { return "Micromax Canvas tab"; }
+        else if ("MyPhone my89 DTV".equals(model)) { return "MyPhone my89 DTV"; }
         else if ("MI 2A".equals(model)) { return "Xiaomi MI 2A"; }
         else if ("MID7055".equals(model)) { return "Anydata COBY MID7055"; }
         else if ("M2mini".equals(model)) { return "Gionee M2mini"; }
         else if ("MTC 1055".equals(model)) { return "ZTE V9"; }
+        else if ("Motorola Electrify".equals(model)) { return "Motorola Photon 4G"; }
+        else if ("MyPhone my72 DTV".equals(model)) { return "MyPhone my72 DTV"; }
         else if ("myPhone Cube".equals(model)) { return "myPhone CUBE"; }
         else if ("MotoroiX".equals(model)) { return "Motorola Droid X"; }
         else if ("MEDION P5004".equals(model)) { return "Medion P5004"; }
@@ -4727,13 +4837,13 @@ public final class DeviceNames {
         else if ("MB861".equals(model)) { return "Motorola Atrix"; }
         else if ("msm8625".equals(model)) { return "Hisense HS-EG929"; }
         else if ("MZ617".equals(model)) { return "Motorola XOOM 2"; }
-        else if ("Motorola Electrify".equals(model)) { return "Motorola Photon 4G"; }
         else if ("MY1306P".equals(model)) { return "Lazer MY1306P"; }
         else if ("M97".equals(model)) { return "Anydata Matsunichi M97"; }
         else if ("Micromax A73".equals(model)) { return "Micromax A73"; }
         else if ("Micromax A77".equals(model)) { return "Micromax Canvas Juice"; }
         else if ("Micromax A79".equals(model)) { return "Micromax Bolt"; }
         else if ("MTAB-07535AK".equals(model)) { return "Memorex MTAB-0753AK"; }
+        else if ("MyPhone my77 DTV".equals(model)) { return "MyPhone my77 DTV"; }
         else if ("Micromax Q382".equals(model)) { return "Micromax Canvas Juice 4"; }
         else if ("Micromax Q381".equals(model)) { return "Micromax Bolt"; }
         else if ("Micromax Q380".equals(model)) { return "Micromax Canvas Spark"; }
@@ -4814,10 +4924,11 @@ public final class DeviceNames {
         else if ("LC-58UE1H".equals(model)) { return "Sharp LC-58UE1H"; }
         else if ("LC-58UE1M".equals(model)) { return "Sharp LC-58UE1M"; }
         else if ("Lenovo A3800-d".equals(model)) { return "Lenovo A3800"; }
+        else if ("Lenovo A806".equals(model)) { return "Lenovo A806"; }
+        else if ("LG-K430".equals(model)) { return "LG K10 LTE"; }
         else if ("LIFETAB_E10310".equals(model)) { return "Lenovo LIFETAB E10310"; }
         else if ("LIFETAB_E10316".equals(model)) { return "Medion LIFETAB E10316"; }
         else if ("Lenovo TAB 2 A10-70LC".equals(model)) { return "Lenovo TAB 2 A10"; }
-        else if ("Lenovo A808t".equals(model)) { return "Lenovo A808t"; }
         else if ("LGLS996".equals(model)) { return "LG G Flex2"; }
         else if ("LGLS991".equals(model)) { return "LG G4"; }
         else if ("LGLS990".equals(model)) { return "LG G3"; }
@@ -4838,7 +4949,6 @@ public final class DeviceNames {
         else if ("Liquid Metal".equals(model)) { return "Acer LiquidMT"; }
         else if ("LE43B7600A".equals(model)) { return "Haier LE43B7600A"; }
         else if ("LG-H900".equals(model)) { return "LG V10"; }
-        else if ("LG-H901".equals(model)) { return "LG V10"; }
         else if ("LEX L10ig".equals(model)) { return "Motorola Solutions LEX L10ig"; }
         else if ("LED32K360J".equals(model)) { return "Hisense LED32K360J"; }
         else if ("LG-V500".equals(model)) { return "LG G Pad 8.3"; }
@@ -4900,6 +5010,7 @@ public final class DeviceNames {
         else if ("Lenovo S820_ROW".equals(model)) { return "Lenovo S820"; }
         else if ("Lenovo A376".equals(model)) { return "Lenovo A376"; }
         else if ("LG-V507L".equals(model)) { return "LG G Pad 8.3 homeBoy"; }
+        else if ("LED50K360J".equals(model)) { return "Hisense LED50K360J"; }
         else if ("Lenovo TB3-710I".equals(model)) { return "Lenovo TB3-710I"; }
         else if ("Lenovo S5000-H".equals(model)) { return "Lenovo S5000"; }
         else if ("Lenovo K910e".equals(model)) { return "Lenovo K910e"; }
@@ -4929,7 +5040,7 @@ public final class DeviceNames {
         else if ("LG-P350g".equals(model)) { return "LG Pecan"; }
         else if ("Lenovo 2 A8-50F".equals(model)) { return "Lenovo TAB 2 A8"; }
         else if ("LG-F370K".equals(model)) { return "LG F70"; }
-        else if ("Lenovo K30-T".equals(model)) { return "Lenovo K30"; }
+        else if ("LG-F370L".equals(model)) { return "LG F70"; }
         else if ("Lenovo K30-W".equals(model)) { return "Lenovo K30"; }
         else if ("Lenovo K30-E".equals(model)) { return "Lenovo K30"; }
         else if ("LG-F370S".equals(model)) { return "LG F70"; }
@@ -4946,7 +5057,11 @@ public final class DeviceNames {
         else if ("LT610".equals(model)) { return "LT610"; }
         else if ("LIFETAB_P831X.2".equals(model)) { return "Medion LIFETAB P831X"; }
         else if ("LG-F570S".equals(model)) { return "LG F570S"; }
+        else if ("Lenovo YT3-X90L".equals(model)) { return "Lenovo YT3-X90L/YOGA3 Tablet Pro"; }
         else if ("Lenovo YT3-X90F".equals(model)) { return "Lenovo YT3-X90F/YOGA3 Tablet Pro"; }
+        else if ("Lenovo YT3-X90Z".equals(model)) { return "Lenovo YT3-X90Z/YOGA3 Tablet Pro"; }
+        else if ("Lenovo YT3-X90X".equals(model)) { return "Lenovo YT3-X90X/YOGA3 Tablet Pro"; }
+        else if ("Lenovo YT3-X90Y".equals(model)) { return "Lenovo YT3-X90Y/YOGA3 Tablet Pro"; }
         else if ("Lenovo Z90-3".equals(model)) { return "Lenovo Z90/VIBE Shot"; }
         else if ("LIFETAB_S1036X".equals(model)) { return "Medion LIFETAB_S1036X"; }
         else if ("LG-F770S".equals(model)) { return "LG X5"; }
@@ -5001,7 +5116,6 @@ public final class DeviceNames {
         else if ("Lenovo A6020l36".equals(model)) { return "Lenovo K5"; }
         else if ("Lenovo A6020l37".equals(model)) { return "Lenovo K5"; }
         else if ("Lenovo S580".equals(model)) { return "Lenovo S580"; }
-        else if ("LGL17AG".equals(model)) { return "LG Classic"; }
         else if ("LT18a".equals(model)) { return "Sony Ericsson Xperia arc S"; }
         else if ("LT18i".equals(model)) { return "Sony Ericsson Xperia arc S"; }
         else if ("LG-LS970".equals(model)) { return "LG Optimus G"; }
@@ -5059,9 +5173,8 @@ public final class DeviceNames {
         else if ("Los Angeles".equals(model)) { return "One Touch 990"; }
         else if ("LG-H420".equals(model)) { return "LG Spirit"; }
         else if ("Lenovo A7600-HV".equals(model)) { return "Lenovo A7600"; }
-        else if ("LED50K360J".equals(model)) { return "Hisense LED50K360J"; }
+        else if ("Logic Instrument Fieldbook F1".equals(model)) { return "Logic Instrument Fieldbook F1"; }
         else if ("LG-E410B".equals(model)) { return "LG Optimus L1II"; }
-        else if ("Lenovo A1010a20".equals(model)) { return "Lenovo A1010"; }
         else if ("LG-E410f".equals(model)) { return "LG Optimus L1II"; }
         else if ("LG-E410g".equals(model)) { return "LG Optimus L1II"; }
         else if ("LG-E410c".equals(model)) { return "LG Optimus L1II"; }
@@ -5078,7 +5191,6 @@ public final class DeviceNames {
         else if ("Lenovo A3300-HV".equals(model)) { return "Lenovo A3300"; }
         else if ("LG-X132".equals(model)) { return "LG L45"; }
         else if ("LG-X137".equals(model)) { return "LG L60"; }
-        else if ("Lenovo A7600-H".equals(model)) { return "Lenovo A7600"; }
         else if ("L-06DJOJO".equals(model)) { return "LG Optimus Vu"; }
         else if ("Lenovo A7600-m".equals(model)) { return "Lenovo A7600"; }
         else if ("LGUK410".equals(model)) { return "LG G Pad 7.0 LTE"; }
@@ -5087,7 +5199,6 @@ public final class DeviceNames {
         else if ("Lenovo S938t".equals(model)) { return "Lenovo S938t"; }
         else if ("Lenovo A938t".equals(model)) { return "Lenovo A938t"; }
         else if ("LG-E460".equals(model)) { return "LG Optimus L5 II"; }
-        else if ("Lenovo A806".equals(model)) { return "Lenovo A806"; }
         else if ("LG-K371".equals(model)) { return "LG Phoenix 2"; }
         else if ("LG-K373".equals(model)) { return "LG Phoenix 2"; }
         else if ("LGMS659".equals(model)) { return "LG Optimus F3"; }
@@ -5102,6 +5213,7 @@ public final class DeviceNames {
         else if ("LG-P880".equals(model)) { return "LG Optimus 4X HD"; }
         else if ("LS-5504".equals(model)) { return "ZTE N939Sc"; }
         else if ("Lenovo TAB 2 A7-30HC".equals(model)) { return "Lenovo TAB 2 A7"; }
+        else if ("LED42K610J3DP".equals(model)) { return "Hisense LED42K610J3DP"; }
         else if ("L-ITE 402".equals(model)) { return "Logicom L-ITE402"; }
         else if ("Lenovo A656".equals(model)) { return "Lenovo A656"; }
         else if ("LG-V480".equals(model)) { return "LG G pad 8.0"; }
@@ -5235,7 +5347,6 @@ public final class DeviceNames {
         else if ("LG-D802TR".equals(model)) { return "LG G2"; }
         else if ("LG-D950G".equals(model)) { return "LG G Flex"; }
         else if ("LG-P698".equals(model)) { return "LG Optimus Net Dual"; }
-        else if ("LG-P690".equals(model)) { return "LG Optimus Spirit"; }
         else if ("l4300".equals(model)) { return "Toshiba L4300"; }
         else if ("L697".equals(model)) { return "Hisense L697"; }
         else if ("LGL82VL".equals(model)) { return "LG Stylo 2"; }
@@ -5297,6 +5408,7 @@ public final class DeviceNames {
         else if ("LG-AS840".equals(model)) { return "LG Optimus LTE Tag"; }
         else if ("LED42L288".equals(model)) { return "Hisense LED42L288"; }
         else if ("LG-F440L".equals(model)) { return "LG Ice cream Smart"; }
+        else if ("LG-H901".equals(model)) { return "LG V10"; }
         else if ("Lenovo S898t+".equals(model)) { return "Lenovo S898t+"; }
         else if ("Lenovo S8-50LC".equals(model)) { return "Lenovo TAB S8"; }
         else if ("LED47K610J3DP".equals(model)) { return "Hisense LED47K610J3DP"; }
@@ -5305,6 +5417,8 @@ public final class DeviceNames {
         else if ("LED55L288".equals(model)) { return "Hisense LED55L288"; }
         else if ("LGL51AL".equals(model)) { return "LGE LG Treasure"; }
         else if ("Lenovo X3c70".equals(model)) { return "Lenovo X3c70"; }
+        else if ("Logic Instrument Fieldbook F53".equals(model)) { return "Logic Instrument Fieldbook F53"; }
+        else if ("Logic Instrument Fieldbook K80".equals(model)) { return "Logic Instrument Fieldbook K80"; }
         else if ("Lenovo P90".equals(model)) { return "Lenovo P90"; }
         else if ("LG-H525".equals(model)) { return "LG G4c"; }
         else if ("LG-H830".equals(model)) { return "LG G5"; }
@@ -5316,7 +5430,6 @@ public final class DeviceNames {
         else if ("LED50K370".equals(model)) { return "Hisense LED50K370"; }
         else if ("LED40K260X3D".equals(model)) { return "Hisense LED40K260X3D"; }
         else if ("LT-TLA".equals(model)) { return "NEC LifeTouch L"; }
-        else if ("Lenovo A768t".equals(model)) { return "Lenovo A768t"; }
         else if ("LG-P990".equals(model)) { return "LG Optimus 2X"; }
         else if ("Lenovo A889".equals(model)) { return "Lenovo A889"; }
         else if ("LG-P716".equals(model)) { return "LG Optimus L7II"; }
@@ -5374,7 +5487,7 @@ public final class DeviceNames {
         else if ("LIFETAB_S733X".equals(model)) { return "Medion LIFETAB E732X"; }
         else if ("Lenovo A858t".equals(model)) { return "Lenovo A858t"; }
         else if ("LGLS675".equals(model)) { return "LG M1"; }
-        else if ("Lenovo A805e".equals(model)) { return "Lenovo A805e"; }
+        else if ("LGLS676".equals(model)) { return "LGE LG X Style"; }
         else if ("L-EMENT_TAB1042BTK".equals(model)) { return "Logicom L-EMENTTAB1042"; }
         else if ("LG-P505CH".equals(model)) { return "LG Optimus One"; }
         else if ("Lenovo A300t".equals(model)) { return "Lenovo A300t"; }
@@ -5395,13 +5508,14 @@ public final class DeviceNames {
         else if ("LG-P503".equals(model)) { return "LG Optimus One"; }
         else if ("LG-P500".equals(model)) { return "LG Optimus One"; }
         else if ("L-IXIR_TAB_840".equals(model)) { return "Logicom L-IXIR TAB 840"; }
+        else if ("LGL17AG".equals(model)) { return "LG Classic"; }
         else if ("Lenovo TB3-X70N".equals(model)) { return "Lenovo TAB3 X70N"; }
         else if ("LG-F480K".equals(model)) { return "LG Wine Smart"; }
         else if ("LG-LG855".equals(model)) { return "LG Marquee"; }
         else if ("LG-F480S".equals(model)) { return "LG Wine Smart"; }
         else if ("LG-K212".equals(model)) { return "LGE LG X power"; }
         else if ("LavaX10".equals(model)) { return "Lava X10"; }
-        else if ("LG-F460L".equals(model)) { return "LG G3 Cat.6"; }
+        else if ("LG-P700".equals(model)) { return "LG Optimus L7"; }
         else if ("Lenovo S920".equals(model)) { return "Lenovo S920"; }
         else if ("Lenovo_A2105".equals(model)) { return "Lenovo A2105"; }
         else if ("Lenovo X2Pt5".equals(model)) { return "Lenovo X2 Pro"; }
@@ -5411,14 +5525,17 @@ public final class DeviceNames {
         else if ("LG-F640S".equals(model)) { return "LG Volt S"; }
         else if ("Lenovo A7600-F".equals(model)) { return "Lenovo A7600"; }
         else if ("Lenovo P780".equals(model)) { return "Lenovo P780"; }
-        else if ("LG-X135".equals(model)) { return "LG L60"; }
+        else if ("Lenovo A7600-H".equals(model)) { return "Lenovo A7600"; }
         else if ("LED48K370".equals(model)) { return "Hisense LED48K370"; }
         else if ("LG-H788".equals(model)) { return "LG AKA"; }
         else if ("LG-LU8300".equals(model)) { return "LG Optimus PAD LTE"; }
         else if ("LG-D858HK".equals(model)) { return "LG G3"; }
         else if ("l5550".equals(model)) { return "Toshiba L5550/L5551/L5552"; }
         else if ("LGAS323".equals(model)) { return "LG L70"; }
+        else if ("LG-F800K".equals(model)) { return "LGE V20"; }
+        else if ("LG-F800L".equals(model)) { return "LGE V20"; }
         else if ("LGMS345".equals(model)) { return "LG Leon 4G LTE"; }
+        else if ("LG-F800S".equals(model)) { return "LGE V20"; }
         else if ("LG-K550".equals(model)) { return "LG Stylo 2 Plus"; }
         else if ("LG-K557".equals(model)) { return "LG Stylo 2 Plus"; }
         else if ("LG-F660L".equals(model)) { return "LGE LG Gentle"; }
@@ -5427,7 +5544,6 @@ public final class DeviceNames {
         else if ("LS-5507".equals(model)) { return "Hipstreet LS-5507"; }
         else if ("LG-E400R".equals(model)) { return "LG Optimus L3"; }
         else if ("LIFETAB_S786X".equals(model)) { return "Medion LIFETAB S786x"; }
-        else if ("LS-5503".equals(model)) { return "ZTE Blade S6 Plus"; }
         else if ("Lenovo A328t".equals(model)) { return "Lenovo A328t"; }
         else if ("Lenovo A7700".equals(model)) { return "Lenovo A7700"; }
         else if ("LG-E455g".equals(model)) { return "LG Optimus L5 II"; }
@@ -5497,6 +5613,7 @@ public final class DeviceNames {
         else if ("LED47K560J3D".equals(model)) { return "Hisense LED47K560J3D"; }
         else if ("Lenovo A1000".equals(model)) { return "Lenovo A1000"; }
         else if ("l5450".equals(model)) { return "Toshiba L5450ME"; }
+        else if ("LS-5503".equals(model)) { return "ZTE Blade S6 Plus"; }
         else if ("L-IXIR TAB 701 3G".equals(model)) { return "Logicom L-IXIR TAB 701 3G"; }
         else if ("Lenovo B6000-H".equals(model)) { return "Lenovo B6000"; }
         else if ("LED50K360X3D".equals(model)) { return "Hisense LED50K360X3D"; }
@@ -5520,6 +5637,7 @@ public final class DeviceNames {
         else if ("LNV-Lenovo A560".equals(model)) { return "Lenovo A560"; }
         else if ("LC-S3H-01".equals(model)) { return "Sharp LC-S3H-01"; }
         else if ("LT-8001".equals(model)) { return "Lyf LT-8001"; }
+        else if ("LG-X135".equals(model)) { return "LG L60"; }
         else if ("LG-D375".equals(model)) { return "LG L80 Single"; }
         else if ("LG-D370".equals(model)) { return "LG L80 Single"; }
         else if ("LG-D373".equals(model)) { return "LG L80 Single"; }
@@ -5537,15 +5655,15 @@ public final class DeviceNames {
         else if ("LG-V510".equals(model)) { return "LG G Pad 8.3 Google Play Edition"; }
         else if ("Lenovo A7010a48".equals(model)) { return "Lenovo VIBE X3 Lite"; }
         else if ("LenovoTV 32A3".equals(model)) { return "Lenovo 32A3   40A3   43A3   49A3"; }
-        else if ("LG-K430".equals(model)) { return "LG K10 LTE"; }
+        else if ("Lenovo A768t".equals(model)) { return "Lenovo A768t"; }
         else if ("Lenovo A680_ROW".equals(model)) { return "Lenovo A680"; }
         else if ("LIFETAB_S1033X".equals(model)) { return "Medion LIFETAB S1033X"; }
         else if ("LG-F740L".equals(model)) { return "LG X Skin"; }
         else if ("LG-P990hN".equals(model)) { return "LG Optimus 2X"; }
         else if ("LG-C660R".equals(model)) { return "LG Optimus Pro"; }
         else if ("LG-C660h".equals(model)) { return "LG Optimus Pro"; }
-        else if ("LG-E420f".equals(model)) { return "LG Optimus L1II"; }
         else if ("LT750".equals(model)) { return "Walton LT750"; }
+        else if ("Life Max".equals(model)) { return "Blu Life Max"; }
         else if ("LG-K535".equals(model)) { return "LG Stylus2 Plus"; }
         else if ("LG-F620K".equals(model)) { return "LG Class"; }
         else if ("LG-F620L".equals(model)) { return "LG Class"; }
@@ -5592,7 +5710,7 @@ public final class DeviceNames {
         else if ("LG-H788SG".equals(model)) { return "LG AKA"; }
         else if ("LGV33".equals(model)) { return "LGE Qua phone PX"; }
         else if ("LGV32".equals(model)) { return "LG G4"; }
-        else if ("LGLS676".equals(model)) { return "LGE LG X Style"; }
+        else if ("Lenovo A805e".equals(model)) { return "Lenovo A805e"; }
         else if ("LCD-V3A".equals(model)) { return "Sharp LCD-V3A"; }
         else if ("LG-P875".equals(model)) { return "LG Optimus F5"; }
         else if ("LG-E467f".equals(model)) { return "LG Optimus L4 II Dual"; }
@@ -5623,10 +5741,13 @@ public final class DeviceNames {
         else if ("LGT01".equals(model)) { return "LGE LG G Pad 8.0 L Edition"; }
         else if ("LED50K610X3D".equals(model)) { return "Hisense LED50K610X3D"; }
         else if ("LG-D722J".equals(model)) { return "LG G3 Beat"; }
+        else if ("Logic Fieldbook G1".equals(model)) { return "Archos Fieldbook G1"; }
         else if ("LYF_LS-4006".equals(model)) { return "Lyf LS-4006"; }
         else if ("Lenovo A3600-d".equals(model)) { return "Lenovo A3600"; }
+        else if ("Lenovo TB-8703N".equals(model)) { return "Lenovo TB3 8 Plus"; }
         else if ("LG-VS700PP".equals(model)) { return "LG Enlighten"; }
-        else if ("LNV-Lenovo A395e".equals(model)) { return "Lenovo A395e"; }
+        else if ("Lenovo TB-8703F".equals(model)) { return "Lenovo TB3 8 Plus"; }
+        else if ("Lenovo TB-8703R".equals(model)) { return "Lenovo TAB3 8 Plus"; }
         else if ("Lenovo A369".equals(model)) { return "Lenovo A369"; }
         else if ("LC-50UE1H".equals(model)) { return "Sharp LC-50UE1H"; }
         else if ("LC-50UE1M".equals(model)) { return "Sharp LC-50UE1M"; }
@@ -5644,6 +5765,7 @@ public final class DeviceNames {
         else if ("LIFETAB_E732X".equals(model)) { return "Medion LIFETAB E732X"; }
         else if ("LG-SU540".equals(model)) { return "LG PRADA 3.0"; }
         else if ("LNV-Lenovo A505e".equals(model)) { return "Lenovo A505e"; }
+        else if ("LNV-Lenovo A395e".equals(model)) { return "Lenovo A395e"; }
         else if ("LG-T540".equals(model)) { return "LG Magna"; }
         else if ("LG-D605".equals(model)) { return "LG Optimus L9 II"; }
         else if ("LG-F200L".equals(model)) { return "LG Optimus Vu2"; }
@@ -5689,6 +5811,7 @@ public final class DeviceNames {
         else if ("Le X527".equals(model)) { return "LeTV Le 2"; }
         else if ("Le X526".equals(model)) { return "LeTV Le 2"; }
         else if ("Le X520".equals(model)) { return "Leeco Le s2"; }
+        else if ("Lenovo K53b37".equals(model)) { return "Lenovo VIBE K6 Note"; }
         else if ("LG-C710h".equals(model)) { return "LG Shine Plus with Google"; }
         else if ("LG-E415g".equals(model)) { return "LG Optimus L1II"; }
         else if ("Lenovo A808t-i".equals(model)) { return "Lenovo A808t"; }
@@ -5760,12 +5883,15 @@ public final class DeviceNames {
         else if ("LT-W1".equals(model)) { return "Hisense E100TAE"; }
         else if ("Lenovo A788t".equals(model)) { return "Lenovo A788t"; }
         else if ("Lenovo A708t".equals(model)) { return "Lenovo"; }
+        else if ("Lenovo P2c72".equals(model)) { return "Lenovo P2"; }
         else if ("LG-K535n".equals(model)) { return "LG Stylus2 Plus"; }
         else if ("Lenovo S6000L-F".equals(model)) { return "Lenovo S6000L"; }
         else if ("Lenovo A628t".equals(model)) { return "Lenovo A628t"; }
         else if ("Lenovo K50-t5".equals(model)) { return "Lenovo K50"; }
         else if ("LC-LX565H".equals(model)) { return "Sharp LC-LX565H"; }
+        else if ("Lenovo YT-X703X".equals(model)) { return "Lenovo Yoga TAB3 Plus"; }
         else if ("Lenovo B6000-HV".equals(model)) { return "Lenovo B6000"; }
+        else if ("Lenovo YT-X703L".equals(model)) { return "Lenovo Yoga TAB3 Plus"; }
         else if ("Lenovo YT-X703F".equals(model)) { return "Lenovo Yoga TAB3 Plus"; }
         else if ("LS-5506".equals(model)) { return "Reliance LS-5506"; }
         else if ("LG-H525n".equals(model)) { return "LG G4c"; }
@@ -5777,7 +5903,6 @@ public final class DeviceNames {
         else if ("Lenovo K860".equals(model)) { return "Lenovo K860"; }
         else if ("LT-NA7".equals(model)) { return "NEC LifeTouch Note"; }
         else if ("LT700 PRO".equals(model)) { return "QMobile LT700 PRO"; }
-        else if ("Lenovo A916".equals(model)) { return "Lenovo A916"; }
         else if ("LG-E411g".equals(model)) { return "LG Optimus L1 II"; }
         else if ("LG-E411f".equals(model)) { return "LG Optimus L1II"; }
         else if ("Lava A89".equals(model)) { return "Lava A89"; }
@@ -5792,6 +5917,7 @@ public final class DeviceNames {
         else if ("Lenovo TAB 2 A8-50F".equals(model)) { return "Lenovo TAB 2 A8"; }
         else if ("Lenovo S680".equals(model)) { return "Lenovo S680"; }
         else if ("L-EMENT501".equals(model)) { return "Logicom L-EMENT501"; }
+        else if ("Lenovo A1010a20".equals(model)) { return "Lenovo A1010"; }
         else if ("LG-E410".equals(model)) { return "LG Optimus L1II"; }
         else if ("LGMS428".equals(model)) { return "LG K10"; }
         else if ("LGMS395".equals(model)) { return "LG Optimus F60"; }
@@ -5813,13 +5939,14 @@ public final class DeviceNames {
         else if ("Lenovo A6000".equals(model)) { return "Lenovo A6000"; }
         else if ("LG Android TV V4".equals(model)) { return "LG GA7800"; }
         else if ("LED65XT880G3D".equals(model)) { return "Hisense LED65XT880G3D"; }
-        else if ("LG-F370L".equals(model)) { return "LG F70"; }
+        else if ("Lenovo K30-T".equals(model)) { return "Lenovo K30"; }
         else if ("Light Tab".equals(model)) { return "ZTE V9"; }
         else if ("LED48K360X3D".equals(model)) { return "Hisense LED48K360X3D"; }
         else if ("Lenovo K50-T5".equals(model)) { return "Lenovo K50"; }
         else if ("L10".equals(model)) { return "Camelus L10"; }
         else if ("LED40K360X3D".equals(model)) { return "Hisense LED40K360X3D"; }
         else if ("LG-K100".equals(model)) { return "LG K3 LTE"; }
+        else if ("Lenovo P2a42".equals(model)) { return "Lenovo P2"; }
         else if ("LG-P936".equals(model)) { return "LG Optimus LTE"; }
         else if ("LG-P935".equals(model)) { return "LG Optimus LTE"; }
         else if ("LG-H868".equals(model)) { return "LG G5"; }
@@ -5868,7 +5995,6 @@ public final class DeviceNames {
         else if ("LG-E610".equals(model)) { return "LG Optimus L5"; }
         else if ("LED42K330X3D".equals(model)) { return "Hisense LED42K330X3D"; }
         else if ("LG-F340S".equals(model)) { return "LG G Flex"; }
-        else if ("LG-F340K".equals(model)) { return "LG G Flex"; }
         else if ("LG-F340L".equals(model)) { return "LG G Flex"; }
         else if ("LED40K370".equals(model)) { return "Hisense LED40K370"; }
         else if ("L35".equals(model)) { return "Inhon L35"; }
@@ -5903,6 +6029,7 @@ public final class DeviceNames {
         else if ("Lenovo Z2w".equals(model)) { return "Lenovo Z2w"; }
         else if ("LG-D165AR".equals(model)) { return "LG Optimus L40"; }
         else if ("LG-V400S1".equals(model)) { return "LG G Pad 7.0"; }
+        else if ("Lenovo A808t".equals(model)) { return "Lenovo A808t"; }
         else if ("Lenovo S90-e".equals(model)) { return "Lenovo S90"; }
         else if ("LED40K681X3DU".equals(model)) { return "Hisense LED40K681X3DU"; }
         else if ("LG-LG730".equals(model)) { return "LG Venice"; }
@@ -5948,6 +6075,7 @@ public final class DeviceNames {
         else if ("LG-D700".equals(model)) { return "LG Optimus L9"; }
         else if ("LGL96G".equals(model)) { return "LG Optimus L7"; }
         else if ("LG-D693TR".equals(model)) { return "LG G3 Stylus"; }
+        else if ("LG-P690".equals(model)) { return "LG Optimus Spirit"; }
         else if ("Lenovo A278t".equals(model)) { return "Lenovo A278t"; }
         else if ("LG-D802T".equals(model)) { return "LG G2"; }
         else if ("LG-E450f".equals(model)) { return "LG Optimus L5 II"; }
@@ -5992,7 +6120,7 @@ public final class DeviceNames {
         else if ("LG-F460S".equals(model)) { return "LG G3 Cat.6"; }
         else if ("LG-P705".equals(model)) { return "LG Optimus L7"; }
         else if ("LG-F460K".equals(model)) { return "LG G3 Cat.6"; }
-        else if ("LG-P700".equals(model)) { return "LG Optimus L7"; }
+        else if ("LG-F460L".equals(model)) { return "LG G3 Cat.6"; }
         else if ("LG-K520".equals(model)) { return "LG Stylus 2"; }
         else if ("LG-D728".equals(model)) { return "LG G3 Beat"; }
         else if ("LG-D729".equals(model)) { return "LG G3 Beat"; }
@@ -6014,6 +6142,7 @@ public final class DeviceNames {
         else if ("LG-D682TR".equals(model)) { return "LG G Pro Lite"; }
         else if ("Lenovo A688t".equals(model)) { return "Lenovo A688t"; }
         else if ("Lenovo A2800-d".equals(model)) { return "Lenovo A2800"; }
+        else if ("Lenovo A390t".equals(model)) { return "Lenovo A390t"; }
         else if ("L-01E".equals(model)) { return "LG Optimus G"; }
         else if ("L-01F".equals(model)) { return "G2"; }
         else if ("Lenovo Z2".equals(model)) { return "Lenovo Z2"; }
@@ -6023,6 +6152,7 @@ public final class DeviceNames {
         else if ("LG-US670".equals(model)) { return "LG Optimus One"; }
         else if ("LG-K200".equals(model)) { return "LG X Style"; }
         else if ("LG-D325".equals(model)) { return "LG L70"; }
+        else if ("LG-E420f".equals(model)) { return "LG Optimus L1II"; }
         else if ("LG-D321".equals(model)) { return "LG Optimus L70"; }
         else if ("llium Pad L8".equals(model)) { return "Lanix llium Pad L8"; }
         else if ("LNV-Lenovo S870e".equals(model)) { return "Lenovo S870e"; }
@@ -6033,8 +6163,8 @@ public final class DeviceNames {
         else if ("Lenovo S930".equals(model)) { return "Lenovo S930_ROW"; }
         else if ("Lenovo S939".equals(model)) { return "Lenovo S939"; }
         else if ("Lenovo A3000-H".equals(model)) { return "Lenovo A3000"; }
-        else if ("Lenovo A390t".equals(model)) { return "Lenovo A390t"; }
         else if ("Lenovo A399".equals(model)) { return "Lenovo A399"; }
+        else if ("LG-F340K".equals(model)) { return "LG G Flex"; }
         else if ("L-05E".equals(model)) { return "LG optimus it L-05E"; }
         else if ("LG-H542".equals(model)) { return "LG G4 Stylus"; }
         else if ("Lenovo S668t".equals(model)) { return "Lenovo S668t"; }
@@ -6055,9 +6185,9 @@ public final class DeviceNames {
         else if ("LG-F410S".equals(model)) { return "LG G3 A"; }
         else if ("LG-F610K".equals(model)) { return "LGE LG Wine Smart Jazz"; }
         else if ("LG-K120GT".equals(model)) { return "LG K4"; }
+        else if ("Lenovo A916".equals(model)) { return "Lenovo A916"; }
         else if ("LG-K220".equals(model)) { return "LG X power"; }
         else if ("L-EMENT_TAB1040_BT".equals(model)) { return "Logicom L-EMENT_TAB1040_BT"; }
-        else if ("LED42K610J3DP".equals(model)) { return "Hisense LED42K610J3DP"; }
         else if ("LG-LU6200".equals(model)) { return "LG Optimus LTE"; }
         else if ("LG-P655H".equals(model)) { return "LG Optimus F3"; }
         else if ("LG-D852G".equals(model)) { return "LG G3"; }
@@ -6313,7 +6443,9 @@ public final class DeviceNames {
         else if ("NX535J".equals(model)) { return "ZTE NX535J"; }
         else if ("NEO".equals(model)) { return "Mobicell NEO"; }
         else if ("NEC-NE-201A1A".equals(model)) { return "NEC NE-201"; }
+        else if ("N9132".equals(model)) { return "ZTE N9132"; }
         else if ("NX501_APT".equals(model)) { return "ZTE NX501_APT"; }
+        else if ("Now".equals(model)) { return "NGM Italia SRL Danamic Now"; }
         else if ("nJoy_Arcas_7".equals(model)) { return "NJoy Arcas 7"; }
         else if ("N5206".equals(model)) { return "Oppo N3"; }
         else if ("N5207".equals(model)) { return "Oppo N3"; }
@@ -6378,7 +6510,6 @@ public final class DeviceNames {
         else if ("Neffos Y5L".equals(model)) { return "Neffos Y5L"; }
         else if ("NOS NEVA 80".equals(model)) { return "ZTE NOS NEVA 80"; }
         else if ("N9130".equals(model)) { return "ZTE N9130"; }
-        else if ("N9132".equals(model)) { return "ZTE N9132"; }
         else if ("NX506J".equals(model)) { return "ZTE NX506J"; }
         else if ("N799D".equals(model)) { return "ZTE N799D"; }
         else if ("NOS NOVU II".equals(model)) { return "ZTE NOS NOVU II"; }
@@ -6393,7 +6524,6 @@ public final class DeviceNames {
         else if ("N9515".equals(model)) { return "ZTE N9515"; }
         else if ("NX008HD8G".equals(model)) { return "Anydata Nextbook NX008HD8G Tablet"; }
         else if ("NS-P16AT08".equals(model)) { return "Insignia NS-P16AT08"; }
-        else if ("Now".equals(model)) { return "NGM Italia SRL Danamic Now"; }
         else if ("N8303".equals(model)) { return "ZTE N8303"; }
         else if ("N810".equals(model)) { return "ZTE N810"; }
         else if ("N817".equals(model)) { return "ZTE N817"; }
@@ -6488,6 +6618,8 @@ public final class DeviceNames {
         else if ("QH-10".equals(model)) { return "Huawei T102"; }
         else if ("QOOQ".equals(model)) { return "QOOQV3"; }
         else if ("Q4T7IN".equals(model)) { return "Auchan Q4T7IN"; }
+        else if ("QMobile S6S".equals(model)) { return "QMobile S6S"; }
+        else if ("Qilive 50 QC".equals(model)) { return "Archos Qilive 50 QC"; }
         else if ("Q-Touch".equals(model)) { return "Plus4 Q-Touch"; }
         else if ("Q4T10INK".equals(model)) { return "Auchan QILIVE"; }
         else if ("Q6S5IN4G".equals(model)) { return "Auchan Q6S5IN4G"; }
@@ -6519,6 +6651,7 @@ public final class DeviceNames {
         else if ("Q6T10IN".equals(model)) { return "Auchan Q6T10IN"; }
         else if ("Q4S6IN4G".equals(model)) { return "Auchan Q4S6IN4G"; }
         else if ("QUANTUM_550".equals(model)) { return "GoClever QUANTUM_550"; }
+        else if ("Qilive 45 - 4G".equals(model)) { return "Archos Qilive 45 - 4G"; }
         else if ("Q4T8IN".equals(model)) { return "Auchan Q4T8IN"; }
         else if ("Q.3778".equals(model)) { return "Qilive Q.3778"; }
         else if ("Quest".equals(model)) { return "AG Mobile Quest"; }
@@ -6536,10 +6669,12 @@ public final class DeviceNames {
         else if ("Q7T7INK".equals(model)) { return "Auchan Q7T7INK"; }
         else if ("Qilive 45".equals(model)) { return "Archos Auchan QiLive 45"; }
         else if ("quattro".equals(model)) { return "Positivo quattro"; }
+        else if ("Q7S5IN4G".equals(model)) { return "Auchan Q7S5IN4G"; }
         else if ("Qilive 40".equals(model)) { return "Archos Auchan Qilive 40"; }
         else if ("QTAQZ3".equals(model)) { return "Verizon Wireless Ellipsis 8"; }
         else if ("QMobile S1 Lite".equals(model)) { return "QMobile S1 Lite"; }
         else if ("Qilive 97R-2".equals(model)) { return "Archos Qilive 97R2"; }
+        else if ("Quantum Fly".equals(model)) { return "Positivo Quantum FLY"; }
         else if ("Qilive 7".equals(model)) { return "Archos Qilive 7"; }
         else if ("QMobile X32".equals(model)) { return "QMobile X32"; }
         else if ("QiLive 97".equals(model)) { return "Archos Auchan Qilive97"; }
@@ -6564,7 +6699,7 @@ public final class DeviceNames {
         else if ("PSP5516DUO".equals(model)) { return "Prestigio PSP5516DUO"; }
         else if ("PLT7109G".equals(model)) { return "Proscan PLT7109G"; }
         else if ("PX3000".equals(model)) { return "Hisense PX3000"; }
-        else if ("Pluri_M7".equals(model)) { return "Vonino Pluri M7"; }
+        else if ("Pavapro10bk".equals(model)) { return "Pavapro10"; }
         else if ("PRO10D".equals(model)) { return "Prestige PRO10D"; }
         else if ("PRO5043".equals(model)) { return "Polaroid PRO5043"; }
         else if ("Polar M600".equals(model)) { return "Polar M600"; }
@@ -6591,15 +6726,18 @@ public final class DeviceNames {
         else if ("PX510".equals(model)) { return "Hisense PX510"; }
         else if ("PMT3767_3G".equals(model)) { return "Prestigio PMT3767_3G"; }
         else if ("PLK-CL00".equals(model)) { return "Huawei PLK-CL00"; }
+        else if ("PGN509".equals(model)) { return "Condor PGN509"; }
         else if ("PSP3531DUO".equals(model)) { return "Prestigio PSP3531DUO"; }
         else if ("Philips_W3500".equals(model)) { return "Philips_W3500"; }
         else if ("Pop4".equals(model)) { return "Pop4"; }
         else if ("PMT7177_3G".equals(model)) { return "Prestigio PMT7177_3G"; }
         else if ("PSP3457DUO".equals(model)) { return "Prestigio PSP3457DUO"; }
+        else if ("PAD712".equals(model)) { return "Haier PAD712"; }
         else if ("P01W".equals(model)) { return "Asus ZenPad 7.0 (Z370C)"; }
         else if ("PTM-Z-mini".equals(model)) { return "Tecno PHANTOM-Z-mini"; }
         else if ("Panasonic ELUGA L 4G".equals(model)) { return "Panasonic ELUGA L 4G"; }
         else if ("PG86100".equals(model)) { return "HTC Evo 3D"; }
+        else if ("PGN521".equals(model)) { return "Condor PGN521"; }
         else if ("PGN522".equals(model)) { return "Condor PGN522"; }
         else if ("PMT3377_Wi".equals(model)) { return "Prestigio MultiPad Thunder 7.0i"; }
         else if ("PantechP9070".equals(model)) { return "Pantech Burst"; }
@@ -6695,7 +6833,9 @@ public final class DeviceNames {
         else if ("Positivo Ypy AB7EC".equals(model)) { return "Positivo YPY AB7"; }
         else if ("PAP5430".equals(model)) { return "BYD Prestigio PAP5430"; }
         else if ("Positivo Ypy 7 - TB07STA".equals(model)) { return "Positivo YPY7 wifi"; }
+        else if ("Pixel XL".equals(model)) { return "Google Pixel XL"; }
         else if ("Positivo Ypy L700 Ed. Especial".equals(model)) { return "Positivo Ypy L700"; }
+        else if ("Power Rage Evo".equals(model)) { return "HighScreen PowerRageEvo"; }
         else if ("Panasonic P81".equals(model)) { return "Panasonic P81"; }
         else if ("Primo NX4".equals(model)) { return "Walton Primo NX4"; }
         else if ("Positivo Ypy AB10H".equals(model)) { return "Positivo Ypy AB10H"; }
@@ -6751,7 +6891,6 @@ public final class DeviceNames {
         else if ("Phoenix2".equals(model)) { return "Hipstreet Phoenix2"; }
         else if ("PNDPP44QC10".equals(model)) { return "pendo PNDPP44QC10"; }
         else if ("PSP7557".equals(model)) { return "Prestigio Grace"; }
-        else if ("PGN509".equals(model)) { return "Condor PGN509"; }
         else if ("Panasonic P55 Novo".equals(model)) { return "Panasonic P55 Novo"; }
         else if ("P740X".equals(model)) { return "Medion Media Base P740X"; }
         else if ("PMT3408_4G".equals(model)) { return "Prestigio Multipad Wize 3408 4G"; }
@@ -6765,6 +6904,7 @@ public final class DeviceNames {
         else if ("PSP5550DUO".equals(model)) { return "Prestigio PSP5550DUO"; }
         else if ("Philips W536".equals(model)) { return "Anydata Philips W536"; }
         else if ("PC_Smart_PTSGOB8".equals(model)) { return "PC Smart PTSGOB8"; }
+        else if ("P6_plus".equals(model)) { return "AllView P6  Plus"; }
         else if ("PMT3031_3G".equals(model)) { return "Prestigio PMT3031_3G"; }
         else if ("PMT3351_3G".equals(model)) { return "Prestigio PMT3351_3G"; }
         else if ("POC2".equals(model)) { return "POC2"; }
@@ -6780,6 +6920,7 @@ public final class DeviceNames {
         else if ("PandA_m14".equals(model)) { return "PandA_m14"; }
         else if ("PSP5470DUO".equals(model)) { return "Prestigio Grace X5"; }
         else if ("PLT7803G".equals(model)) { return "Proscan PLT7803G"; }
+        else if ("Philips_X586".equals(model)) { return "Philips X586"; }
         else if ("PT2200".equals(model)) { return "BenQ PT2200"; }
         else if ("PMT7787_3G".equals(model)) { return "Prestigio PMT7787_3G"; }
         else if ("PX2800".equals(model)) { return "Hisense PX2800"; }
@@ -6801,17 +6942,17 @@ public final class DeviceNames {
         else if ("Pulse".equals(model)) { return "Huawei U8220"; }
         else if ("Project Tango Tablet Development Kit".equals(model)) { return "Google Project Tango Tablet Development Kit"; }
         else if ("Philips W336".equals(model)) { return "Anydata Philips W336"; }
+        else if ("P7_PRO".equals(model)) { return "AllView P7 PRO"; }
         else if ("Primo GH5".equals(model)) { return "Walton Primo GH5"; }
         else if ("PMT7008_4G".equals(model)) { return "Prestigio PMT7008_4G"; }
-        else if ("PLANET".equals(model)) { return "Pantech PLANET"; }
         else if ("PE-UL00".equals(model)) { return "Huawei PE-UL00"; }
         else if ("Philips S337".equals(model)) { return "Philips S337"; }
         else if ("Panasonic_P61".equals(model)) { return "Panasonic P61"; }
         else if ("PLT7223G".equals(model)) { return "Anydata Proscan PLT7223G"; }
         else if ("P330X".equals(model)) { return "P330X"; }
         else if ("PMT3121_Wi".equals(model)) { return "Prestigio MULTIPAD WIZE 3121"; }
-        else if ("PAD712".equals(model)) { return "Haier PAD712"; }
         else if ("PMT3017_WI".equals(model)) { return "Prestigio MultiPad Wize 3017"; }
+        else if ("Pixel".equals(model)) { return "Google Pixel"; }
         else if ("PantechP8010".equals(model)) { return "Pantech Flex"; }
         else if ("Planet".equals(model)) { return "Explay Planet"; }
         else if ("P470".equals(model)) { return "Micromax Canvas tab"; }
@@ -6854,7 +6995,6 @@ public final class DeviceNames {
         else if ("PGN518".equals(model)) { return "Condor PGN518"; }
         else if ("PRO5544PEE01".equals(model)) { return "Polaroid PRO5544PEE01"; }
         else if ("PMT3008_Wi_C".equals(model)) { return "Prestigio PMT3008_Wi"; }
-        else if ("PGN521".equals(model)) { return "Condor PGN521"; }
         else if ("PGN523".equals(model)) { return "Condor PGN523"; }
         else if ("Philips W8555".equals(model)) { return "Philips W8555"; }
         else if ("PTL21".equals(model)) { return "Pantech PTL21"; }
@@ -6881,6 +7021,7 @@ public final class DeviceNames {
         else if ("Primo 81".equals(model)) { return "MSI Primo81"; }
         else if ("Positivo Ypy L1050F".equals(model)) { return "Positivo Ypy L1050"; }
         else if ("Positivo Ypy L1050E".equals(model)) { return "Positivo Ypy L1050E"; }
+        else if ("P909".equals(model)) { return "Southern Telecom P909"; }
         else if ("Panasonic T9".equals(model)) { return "Panasonic T9"; }
         else if ("P8_Energy".equals(model)) { return "AllView P8 Energy"; }
         else if ("P5L".equals(model)) { return "Gionee P5L"; }
@@ -6888,6 +7029,7 @@ public final class DeviceNames {
         else if ("P01Y".equals(model)) { return "Asus ZenPad C 7.0 (Z170CG)"; }
         else if ("P01M".equals(model)) { return "Asus ZenPad S 8.0 (Z580C)"; }
         else if ("P5W".equals(model)) { return "Gionee P5W"; }
+        else if ("P9_Energy_mini".equals(model)) { return "AllView P9 Energy mini"; }
         else if ("Panasonic P11".equals(model)) { return "Panasonic P11"; }
         else if ("PLUM".equals(model)) { return "Mobicell PLUM"; }
         else if ("PMT5487_3G".equals(model)) { return "Prestigio PMT5487_3G"; }
@@ -6934,6 +7076,7 @@ public final class DeviceNames {
         else if ("Preo_P2".equals(model)) { return "Teknosa Preo P2"; }
         else if ("PI3100Z3_93".equals(model)) { return "Philips PI3100Z3/93"; }
         else if ("PSP5507DUO".equals(model)) { return "Prestigio PSP5507DUO"; }
+        else if ("Pavapro7bk".equals(model)) { return "PavaPro7bk"; }
         else if ("PI3110".equals(model)) { return "Philips PI3110"; }
         else if ("PE-TL10".equals(model)) { return "Huawei PE-TL10"; }
         else if ("PNDPP47GP".equals(model)) { return "Haier PNDPP47GP"; }
@@ -6966,6 +7109,7 @@ public final class DeviceNames {
         else if ("P7 Max".equals(model)) { return "Gionee P7 Max"; }
         else if ("PMT3027_Wi".equals(model)) { return "Prestigio MULTIPAD WIZE 3027"; }
         else if ("PSP5455DUO".equals(model)) { return "Prestigio MultiPhone 5455 DUO"; }
+        else if ("PLANET".equals(model)) { return "Pantech PLANET"; }
         else if ("PMT3037_3G".equals(model)) { return "Prestigio MultiPad Wize 3037 3G"; }
         else if ("Prime10ES".equals(model)) { return "Visual Land Prestige Prime10ES"; }
         else if ("PX3100".equals(model)) { return "Hisense PX3100"; }
@@ -7042,6 +7186,7 @@ public final class DeviceNames {
         else if ("Play".equals(model)) { return "WeTek Play"; }
         else if ("P5Life".equals(model)) { return "AllView P5Life"; }
         else if ("PSP3452DUO".equals(model)) { return "Prestigio Muze A3"; }
+        else if ("Pluri_M7".equals(model)) { return "Vonino Pluri M7"; }
         else if ("Primo_ZX2".equals(model)) { return "Walton Primo ZX2"; }
         else if ("PMT5021_3G".equals(model)) { return "Prestigio PMT5021_3G"; }
         else if ("PMT3331_3G".equals(model)) { return "Prestigio MULTIPAD WIZE 3331 3G"; }
@@ -7067,6 +7212,7 @@ public final class DeviceNames {
         else if ("Positivo Mini I".equals(model)) { return "Positivo mini I"; }
         else if ("P5_Lite".equals(model)) { return "AllView P5 Lite"; }
         else if ("PSP3423DUO".equals(model)) { return "Prestigio PSP3423DUO"; }
+        else if ("P41_eMagic_TM".equals(model)) { return "AllView P41 eMagic"; }
         else if ("PMT5877C".equals(model)) { return "Prestigio PMT5877C"; }
         else if ("PADCT1010W".equals(model)) { return "Haier PADCT1010W"; }
         else if ("PSP3459DUO".equals(model)) { return "Prestigio PSP3459DUO"; }
@@ -7129,6 +7275,7 @@ public final class DeviceNames {
         else if ("SHW-M500W".equals(model)) { return "Samsung Galaxy Note 8.0"; }
         else if ("SM-T561Y".equals(model)) { return "Samsung Galaxy Tab E 9.6"; }
         else if ("SM-T561M".equals(model)) { return "Samsung Galaxy Tab E 9.6"; }
+        else if ("SM-G7102T".equals(model)) { return "Samsung Galaxy Grand2"; }
         else if ("SHW-M180K".equals(model)) { return "Samsung Galaxy Tab"; }
         else if ("SHW-M180L".equals(model)) { return "Samsung Galaxy Tab"; }
         else if ("SHW-M180S".equals(model)) { return "Samsung Galaxy Tab"; }
@@ -7170,6 +7317,7 @@ public final class DeviceNames {
         else if ("SM-J510MN".equals(model)) { return "Samsung Galaxy J5"; }
         else if ("SH530U".equals(model)) { return "Foxconn SH530U"; }
         else if ("STK_Sync_5c".equals(model)) { return "Santok SYNC 5C"; }
+        else if ("STK_Sync_5e".equals(model)) { return "STK(Santok) Sync 5e"; }
         else if ("SCH-I535PP".equals(model)) { return "Samsung Galaxy S III"; }
         else if ("SM-N916S".equals(model)) { return "Samsung Galaxy Note4"; }
         else if ("SM-N916L".equals(model)) { return "Samsung Galaxy Note4"; }
@@ -7193,6 +7341,7 @@ public final class DeviceNames {
         else if ("SM-T567V".equals(model)) { return "Samsung Galaxy Tab E 9.6"; }
         else if ("ST27i".equals(model)) { return "Sony Ericsson Xperia go"; }
         else if ("SM-G360GY".equals(model)) { return "Samsung Galaxy Core Prime"; }
+        else if ("SM-A500FU".equals(model)) { return "Samsung Galaxy A5"; }
         else if ("Swift 2".equals(model)) { return "Wileyfox Swift 2 Plus"; }
         else if ("SM-T800X".equals(model)) { return "Samsung Galaxy TabS 10.5"; }
         else if ("SM-J320W8".equals(model)) { return "Samsung Galaxy J3"; }
@@ -7200,7 +7349,8 @@ public final class DeviceNames {
         else if ("SM-P550".equals(model)) { return "Samsung Galaxy Tab A 9.7"; }
         else if ("SpiceMi-449".equals(model)) { return "Spice Smart Flo Mi-449"; }
         else if ("SM-G3508J".equals(model)) { return "Samsung Galaxy Trend3"; }
-        else if ("SMART 4G 5.5 Enterprise".equals(model)) { return "SMART 4G 5.5 Enterprise"; }
+        else if ("SM-G610Y".equals(model)) { return "Samsung Galaxy J7 Prime"; }
+        else if ("SM-G610M".equals(model)) { return "Samsung Galaxy J7 Prime"; }
         else if ("SM-G610F".equals(model)) { return "Samsung Galaxy On7(2016)"; }
         else if ("SAMSUNG-SM-T217A".equals(model)) { return "Samsung Galaxy Tab3 7.0"; }
         else if ("SPH-M900".equals(model)) { return "Samsung Moment"; }
@@ -7216,7 +7366,6 @@ public final class DeviceNames {
         else if ("SGH-T599".equals(model)) { return "Samsung Galaxy Exhibit"; }
         else if ("SCH-i889".equals(model)) { return "Samsung Galaxy Note"; }
         else if ("SAMSUNG-SM-T817A".equals(model)) { return "Samsung Galaxy Tab S2 9.7"; }
-        else if ("SAMSUNG-EK-GC100".equals(model)) { return "Samsung Galaxy Camera"; }
         else if ("STJR76".equals(model)) { return "Smartab STJR76"; }
         else if ("SM-N930R4".equals(model)) { return "Samsung Galaxy Note7"; }
         else if ("SM-N930R6".equals(model)) { return "Samsung Galaxy Note7"; }
@@ -7224,6 +7373,7 @@ public final class DeviceNames {
         else if ("SM-J710MN".equals(model)) { return "Samsung Galaxy J7"; }
         else if ("S440".equals(model)) { return "Positivo S440"; }
         else if ("SM-G530H".equals(model)) { return "Samsung Galaxy Tab3 Lite 7.0"; }
+        else if ("SM-G530M".equals(model)) { return "Samsung Galaxy Grand Prime"; }
         else if ("ST25i".equals(model)) { return "Sony Xperia U"; }
         else if ("ST25a".equals(model)) { return "Sony Xperia U"; }
         else if ("SM-A310Y".equals(model)) { return "Samsung Galaxy A3"; }
@@ -7269,7 +7419,6 @@ public final class DeviceNames {
         else if ("SM-G316U".equals(model)) { return "Samsung Galaxy Ace4 Lite"; }
         else if ("SAMSUNG-SGH-I997R".equals(model)) { return "Samsung Infuse"; }
         else if ("SM-A5108".equals(model)) { return "Samsung Galaxy A5"; }
-        else if ("SM-G7102T".equals(model)) { return "Samsung Galaxy Grand2"; }
         else if ("SCH-M828C".equals(model)) { return "Samsung Galaxy Precedent"; }
         else if ("SC-02H".equals(model)) { return "Samsung SC-02H"; }
         else if ("SGH-T959V".equals(model)) { return "Samsung Galaxy S 4G"; }
@@ -7293,7 +7442,6 @@ public final class DeviceNames {
         else if ("SM-A9000".equals(model)) { return "Samsung Galaxy A9"; }
         else if ("SCH-R530X".equals(model)) { return "Samsung Galaxy S III"; }
         else if ("SCH-R530U".equals(model)) { return "Samsung Galaxy S III"; }
-        else if ("SKi630t".equals(model)) { return "Hisense SKi630t"; }
         else if ("SM-T320NU".equals(model)) { return "Samsung Galaxy Tab Pro 8.4"; }
         else if ("SHV-E140L".equals(model)) { return "Samsung Galaxy Tab 8.9"; }
         else if ("SHV-E140K".equals(model)) { return "Samsung Galaxy Tab 8.9"; }
@@ -7548,7 +7696,6 @@ public final class DeviceNames {
         else if ("SHV-E400K".equals(model)) { return "Samsung Galaxy Golden"; }
         else if ("SHV-E400S".equals(model)) { return "Samsung Galaxy Golden"; }
         else if ("SM-G530F".equals(model)) { return "Samsung Galaxy Grand Prime"; }
-        else if ("SM-G530M".equals(model)) { return "Samsung Galaxy Grand Prime"; }
         else if ("SAMSUNG-SM-T337A".equals(model)) { return "Samsung Galaxy Tab4 8.0"; }
         else if ("SGH-T769".equals(model)) { return "Samsung Galaxy S Blaze"; }
         else if ("SAMSUNG-SGH-I727".equals(model)) { return "Samsung Skyrocket"; }
@@ -7603,6 +7750,7 @@ public final class DeviceNames {
         else if ("S1".equals(model)) { return "Lava Flair S1"; }
         else if ("S7".equals(model)) { return "Aikun Solely Tab S7"; }
         else if ("S6".equals(model)) { return "Gionee S6"; }
+        else if ("SM-G532G".equals(model)) { return "Samsung Galaxy J2 Prime"; }
         else if ("SM-J510FN".equals(model)) { return "Samsung Galaxy J5"; }
         else if ("SHW-M380K".equals(model)) { return "Samsung Galaxy Tab 10.1"; }
         else if ("SM-G3508I".equals(model)) { return "Samsung Galaxy Trend3"; }
@@ -7620,7 +7768,6 @@ public final class DeviceNames {
         else if ("SM-G355H".equals(model)) { return "Samsung Galaxy Core2"; }
         else if ("SM-G7508Q".equals(model)) { return "Samsung Galaxy Mega2"; }
         else if ("SCL21".equals(model)) { return "Samsung Galaxy S III"; }
-        else if ("SCV33".equals(model)) { return "Samsung Galaxy S7 edge"; }
         else if ("Samba".equals(model)) { return "Mobicell Samba"; }
         else if ("SM-G928V".equals(model)) { return "Samsung Galaxy S6 Edge+"; }
         else if ("SM-G900RZWAUSC".equals(model)) { return "Samsung Galaxy S5"; }
@@ -7630,6 +7777,7 @@ public final class DeviceNames {
         else if ("SM-E500M".equals(model)) { return "Samsung Galaxy E5"; }
         else if ("SM-E500H".equals(model)) { return "Samsung Galaxy E5"; }
         else if ("SCH-S960L".equals(model)) { return "Samsung Galaxy S III"; }
+        else if ("SMART 4G 5.5 Enterprise".equals(model)) { return "SMART 4G 5.5 Enterprise"; }
         else if ("SM-G130BU".equals(model)) { return "Samsung Galaxy Young2 Pro"; }
         else if ("SM-G130BT".equals(model)) { return "Samsung Galaxy Young2"; }
         else if ("SM-T3777".equals(model)) { return "Samsung Galaxy Tab E 8.0"; }
@@ -7691,7 +7839,6 @@ public final class DeviceNames {
         else if ("S3T10IN3G".equals(model)) { return "Auchan S3T10IN3G"; }
         else if ("SM-G550T".equals(model)) { return "Samsung Galaxy On5"; }
         else if ("SAMSUNG-SGH-I957".equals(model)) { return "Samsung Galaxy Tab 8.9"; }
-        else if ("SM-G935W8".equals(model)) { return "Samsung Galaxy S7 Edge"; }
         else if ("SPH-P100".equals(model)) { return "Samsung Galaxy Tab 7.0"; }
         else if ("SmartTab10".equals(model)) { return "ZTE SmartTab10"; }
         else if ("SCL-CL00".equals(model)) { return "Huawei Honor 4A"; }
@@ -7785,7 +7932,6 @@ public final class DeviceNames {
         else if ("SM-T587".equals(model)) { return "Samsung Galaxy Tab A 10.1"; }
         else if ("SM-T580".equals(model)) { return "Samsung Galaxy Tab A 10.1"; }
         else if ("SM-J710F".equals(model)) { return "Samsung Galaxy J7"; }
-        else if ("SM-J710K".equals(model)) { return "Samsung Galaxy J7"; }
         else if ("SM-J7109".equals(model)) { return "Samsung Galaxy J7"; }
         else if ("SM-J7108".equals(model)) { return "Samsung Galaxy J7"; }
         else if ("SM-G310HN".equals(model)) { return "Samsung Galaxy Ace Style"; }
@@ -7827,6 +7973,7 @@ public final class DeviceNames {
         else if ("SM-T807P".equals(model)) { return "Samsung Galaxy TabS 10.5"; }
         else if ("SHW-M110S".equals(model)) { return "Samsung Galaxy S"; }
         else if ("SPH-P500".equals(model)) { return "Samsung Galaxy Tab2 10.1"; }
+        else if ("SAMSUNG-EK-GC100".equals(model)) { return "Samsung Galaxy Camera"; }
         else if ("SPH-M950".equals(model)) { return "Samsung Galaxy Reverb"; }
         else if ("SPH-M820-BST".equals(model)) { return "Samsung Galaxy Prevail"; }
         else if ("SHW-M290K".equals(model)) { return "Samsung Galaxy Gio"; }
@@ -7969,6 +8116,7 @@ public final class DeviceNames {
         else if ("SGH-T889V".equals(model)) { return "Samsung Galaxy Note2"; }
         else if ("SM-G3509I".equals(model)) { return "Samsung Galaxy Trend3"; }
         else if ("SCH-I879E".equals(model)) { return "Samsung Galaxy Grand Neo+"; }
+        else if ("SM-T587P".equals(model)) { return "Samsung Galaxy TAB A PLUS 10.1"; }
         else if ("SHF33".equals(model)) { return "Sharp AQUOS K SHF33"; }
         else if ("SMART Sprint".equals(model)) { return "TPS SMART Sprint"; }
         else if ("SPH-L710T".equals(model)) { return "Samsung Galaxy S III"; }
@@ -7986,6 +8134,7 @@ public final class DeviceNames {
         else if ("SH-01E".equals(model)) { return "Sharp AQUOS PHONE si SH-01E"; }
         else if ("SH-01D".equals(model)) { return "Sharp AQUOS PHONE SH-01D"; }
         else if ("SM-J700H".equals(model)) { return "Samsung Galaxy J7"; }
+        else if ("SM-G935W8".equals(model)) { return "Samsung Galaxy S7 Edge"; }
         else if ("SCH-I905".equals(model)) { return "Samsung Galaxy Tab 10.1"; }
         else if ("SCH-I679".equals(model)) { return "Samsung Galaxy Ace3"; }
         else if ("SOLO Aspire M".equals(model)) { return "SOLO Aspire M"; }
@@ -8005,6 +8154,8 @@ public final class DeviceNames {
         else if ("SM-G9008W".equals(model)) { return "Samsung Galaxy S5"; }
         else if ("SM-T285YD".equals(model)) { return "Samsung Galaxy Tab A 7.0"; }
         else if ("SM-G5108Q".equals(model)) { return "Samsung Galaxy Core Max Duos"; }
+        else if ("SM-A810S".equals(model)) { return "Samsung Galaxy A8(2016)"; }
+        else if ("Spin Max".equals(model)) { return "Cherry Mobile Spin Max"; }
         else if ("SM-G313MY".equals(model)) { return "Samsung Galaxy Ace 4"; }
         else if ("SM-C5000".equals(model)) { return "Samsung Galaxy C5"; }
         else if ("SM-P355C".equals(model)) { return "Samsung Galaxy Tab A 8.0"; }
@@ -8069,7 +8220,9 @@ public final class DeviceNames {
         else if ("SH-M03".equals(model)) { return "Sharp AQUOS mini SH-M03"; }
         else if ("SH-M02".equals(model)) { return "Sharp AQUOS SH-M02"; }
         else if ("SM-J500FN".equals(model)) { return "Samsung Galaxy J5"; }
+        else if ("Symphony R100".equals(model)) { return "SYMPHONY R100"; }
         else if ("SM-G3558".equals(model)) { return "Samsung Galaxy Core2"; }
+        else if ("Studio XL 2".equals(model)) { return "Blu Studio XL 2"; }
         else if ("SAMSUNG-SM-G890A".equals(model)) { return "Samsung Galaxy S6"; }
         else if ("SCH-i589".equals(model)) { return "Samsung Galaxy Ace Duos"; }
         else if ("SBM007SHK".equals(model)) { return "Sharp SoftBank 007SH KT"; }
@@ -8216,6 +8369,7 @@ public final class DeviceNames {
         else if ("SGH-I748".equals(model)) { return "Samsung Galaxy S III"; }
         else if ("SM-G313ML".equals(model)) { return "Samsung Galaxy Ace4"; }
         else if ("SM-G313MU".equals(model)) { return "Samsung Galaxy Ace4"; }
+        else if ("SM-S903VL".equals(model)) { return "Samsung Galaxy S5"; }
         else if ("Stilo T725".equals(model)) { return "Positivo Stilo T725"; }
         else if ("SCH-i909".equals(model)) { return "Samsung Galaxy S"; }
         else if ("SM-G530BT".equals(model)) { return "Samsung Galaxy Grand Prime"; }
@@ -8258,6 +8412,7 @@ public final class DeviceNames {
         else if ("SM-G935T".equals(model)) { return "Samsung Galaxy S7 Edge"; }
         else if ("SCH-R950".equals(model)) { return "Samsung Galaxy Note2"; }
         else if ("SM-J710FQ".equals(model)) { return "Samsung Galaxy J7"; }
+        else if ("SM-J710FN".equals(model)) { return "Samsung Galaxy On8"; }
         else if ("Spice Mi-496".equals(model)) { return "Coolpad Spice Mi-496"; }
         else if ("Spice Mi-498".equals(model)) { return "Spice Dream Uno"; }
         else if ("SCL-AL00".equals(model)) { return "Huawei Honor 4A"; }
@@ -8335,6 +8490,7 @@ public final class DeviceNames {
         else if ("SM-G318MZ".equals(model)) { return "Samsung Galaxy Ace4 Lite"; }
         else if ("SM-G318ML".equals(model)) { return "Samsung Galaxy Ace4 Lite"; }
         else if ("SAMSUNG-SM-C105A".equals(model)) { return "Samsung Galaxy S4 Zoom"; }
+        else if ("STK Sync 5z".equals(model)) { return "STK(Santok) Sync 5z"; }
         else if ("SM-G5108".equals(model)) { return "Samsung Galaxy Core Max"; }
         else if ("SAMSUNG-SGH-I257".equals(model)) { return "Samsung Galaxy S4 Mini"; }
         else if ("SM-G350L".equals(model)) { return "Samsung Galaxy Core Plus"; }
@@ -8351,6 +8507,7 @@ public final class DeviceNames {
         else if ("samsung-printer-tablet".equals(model)) { return "Samsung ProXpress M4580"; }
         else if ("SGH-I467M".equals(model)) { return "Samsung Galaxy Note 8.0"; }
         else if ("SM-G530R7".equals(model)) { return "Samsung Galaxy Grand Prime"; }
+        else if ("SCV33".equals(model)) { return "Samsung Galaxy S7 edge"; }
         else if ("SAMSUNG-SM-G925A".equals(model)) { return "Samsung Galaxy S6 Edge"; }
         else if ("SM-G530FZ".equals(model)) { return "Samsung Galaxy Grand Prime"; }
         else if ("SM-G3509".equals(model)) { return "Samsung Galaxy Trend3"; }
@@ -8360,6 +8517,7 @@ public final class DeviceNames {
         else if ("SM-J320FN".equals(model)) { return "Samsung Galaxy J3"; }
         else if ("SM-A710L".equals(model)) { return "Samsung Galaxy A7"; }
         else if ("SM-A710M".equals(model)) { return "Samsung Galaxy A7"; }
+        else if ("SM-N9208".equals(model)) { return "Samsung Galaxy Note5"; }
         else if ("SM-A710F".equals(model)) { return "Samsung Galaxy A7"; }
         else if ("SM-N920F".equals(model)) { return "Samsung Galaxy Note5"; }
         else if ("SM-N920G".equals(model)) { return "Samsung Galaxy Note5"; }
@@ -8376,6 +8534,7 @@ public final class DeviceNames {
         else if ("SM-A500YZ".equals(model)) { return "Samsung Galaxy A5"; }
         else if ("SM-T111M".equals(model)) { return "Samsung Galaxy Tab3 Lite"; }
         else if ("S30".equals(model)) { return "Cat S30"; }
+        else if ("SM-G570F".equals(model)) { return "Samsung Galaxy J5 Prime"; }
         else if ("SM-T810X".equals(model)) { return "Samsung Galaxy Tab S2 9.7"; }
         else if ("Smart_TAB_1003s".equals(model)) { return "Sourcing Creation ST1003S"; }
         else if ("SM-G350".equals(model)) { return "Samsung Galaxy Core Plus"; }
@@ -8431,6 +8590,7 @@ public final class DeviceNames {
         else if ("S53".equals(model)) { return "Acer Liquid X1"; }
         else if ("S50".equals(model)) { return "Cat S50"; }
         else if ("S59".equals(model)) { return "Acer Liquid X2"; }
+        else if ("SH960C-LN".equals(model)) { return "LinkNet SH960C-LN"; }
         else if ("S7043G".equals(model)) { return "Click S7043G"; }
         else if ("STARTRAIL 6 4G".equals(model)) { return "Hisense STARTRAIL 6 4G"; }
         else if ("STARSHINE II".equals(model)) { return "SFR Star Shine II"; }
@@ -8445,6 +8605,7 @@ public final class DeviceNames {
         else if ("SUNSET".equals(model)) { return "Wiko SUNSET"; }
         else if ("SM-T707V".equals(model)) { return "Samsung Galaxy Tab S 8.4"; }
         else if ("SM-T255S".equals(model)) { return "Samsung Galaxy W"; }
+        else if ("Studio C HD".equals(model)) { return "Blu Studio C HD"; }
         else if ("SMT-E5015".equals(model)) { return "Samsung olleh"; }
         else if ("SM-T320X".equals(model)) { return "Samsung Galaxy Tab Pro 8.4"; }
         else if ("SM-T677NK".equals(model)) { return "Samsung Galaxy view"; }
@@ -8486,6 +8647,7 @@ public final class DeviceNames {
         else if ("SM-G3815".equals(model)) { return "Samsung Galaxy Express II"; }
         else if ("SM-G3818".equals(model)) { return "Samsung Galaxy Win Pro"; }
         else if ("SM-G3819".equals(model)) { return "Samsung Galaxy Win Pro"; }
+        else if ("SUGAR Y8".equals(model)) { return "Wiko U FEEL FAB"; }
         else if ("SM-J510K".equals(model)) { return "Samsung Galaxy J5"; }
         else if ("SGH-I827D".equals(model)) { return "Samsung Galaxy Ace Q"; }
         else if ("SCV31".equals(model)) { return "Samsung Galaxy S6 Edge"; }
@@ -8549,7 +8711,10 @@ public final class DeviceNames {
         else if ("SM-G800X".equals(model)) { return "Samsung Galaxy S5 mini"; }
         else if ("SM-G800Y".equals(model)) { return "Samsung Galaxy S5 mini LTE"; }
         else if ("SM-T335".equals(model)) { return "Samsung Galaxy Tab4 8.0"; }
+        else if ("SM-J106H".equals(model)) { return "Samsung Galaxy J1 Mini Prime"; }
+        else if ("SM-J106F".equals(model)) { return "Samsung J1 Mini Prime"; }
         else if ("SGH-T989".equals(model)) { return "Samsung Galaxy S II"; }
+        else if ("SOV34".equals(model)) { return "Sony Xperia XZ"; }
         else if ("ST13".equals(model)) { return "Southern Telecom ST13"; }
         else if ("ST940I-UP".equals(model)) { return "LGU+ ST940I-UP"; }
         else if ("SM-A710X".equals(model)) { return "Samsung Galaxy A7"; }
@@ -8565,7 +8730,6 @@ public final class DeviceNames {
         else if ("Spice Mi-506".equals(model)) { return "Spice Stellar Mi-506"; }
         else if ("Smart501".equals(model)) { return "FarEasTone Smart501"; }
         else if ("Smart503".equals(model)) { return "Infocus Smart503"; }
-        else if ("SM-N9208".equals(model)) { return "Samsung Galaxy Note5"; }
         else if ("S50c".equals(model)) { return "CatS50c"; }
         else if ("SM-G360H".equals(model)) { return "Samsung Galaxy Core Prime"; }
         else if ("SM-S766C".equals(model)) { return "Samsung Galaxy Ace Style"; }
@@ -8615,14 +8779,17 @@ public final class DeviceNames {
         else if ("STK_Hero_X".equals(model)) { return "Santok Hero X"; }
         else if ("SHV-E230K".equals(model)) { return "Samsung Galaxy Note 10.1"; }
         else if ("SHV-E230L".equals(model)) { return "Samsung Galaxy Note 10.1"; }
+        else if ("SM-G5510".equals(model)) { return "Samsung Galaxy On5(2016)"; }
         else if ("SHV-E230S".equals(model)) { return "Samsung Galaxy Note 10.1"; }
         else if ("Skate Pro".equals(model)) { return "ZTE BLADE III"; }
         else if ("SM-N9100".equals(model)) { return "Samsung Galaxy Note4"; }
         else if ("SM-G935VC".equals(model)) { return "Samsung Galaxy S7 Edge"; }
         else if ("ST21a2".equals(model)) { return "Sony Xperia tipo dual"; }
+        else if ("SKi630t".equals(model)) { return "Hisense SKi630t"; }
         else if ("SCH-S738C".equals(model)) { return "Samsung Galaxy Centura"; }
         else if ("SM-G310R5".equals(model)) { return "Samsung Galaxy Ace"; }
         else if ("SM-T237V".equals(model)) { return "Samsung Galaxy Tab4 7.0"; }
+        else if ("Storm 2e Pluz".equals(model)) { return "STK(Santok) Storm 2e Pluz"; }
         else if ("Storm 2e Plus".equals(model)) { return "STK(Santok) Storm 2e  Plus"; }
         else if ("SGP612".equals(model)) { return "Sony Xperia Z3 Tablet Compact"; }
         else if ("STB9097".equals(model)) { return "Avoca STB9097"; }
@@ -8653,10 +8820,12 @@ public final class DeviceNames {
         else if ("SM-T580X".equals(model)) { return "Samsung Galaxy Tab A 10.1"; }
         else if ("STUDIO_G_HD".equals(model)) { return "Blu Studio G HD"; }
         else if ("ST21a".equals(model)) { return "Sony Xperia tipo"; }
+        else if ("SM-G5700".equals(model)) { return "Samsung Galaxy J5 Prime"; }
         else if ("SH837W".equals(model)) { return "Foxconn SHARP SH837W"; }
         else if ("SCH-I629".equals(model)) { return "Samsung Galaxy Fame"; }
+        else if ("SM-G570Y".equals(model)) { return "Samsung Galaxy J5 Prime"; }
         else if ("SGP521".equals(model)) { return "Sony Xperia Z2 Tablet"; }
-        else if ("SM-A500FU".equals(model)) { return "Samsung Galaxy A5"; }
+        else if ("SM-G570M".equals(model)) { return "Samsung Galaxy J5 Prime"; }
         else if ("SAMSUNG-SGH-I577".equals(model)) { return "Samsung Galaxy Exhilarate"; }
         else if ("SM-G925L".equals(model)) { return "Samsung Galaxy S6 Edge"; }
         else if ("SM-G925K".equals(model)) { return "Samsung Galaxy S6 Edge"; }
@@ -8688,9 +8857,12 @@ public final class DeviceNames {
         else if ("SM-A700FD".equals(model)) { return "Samsung Galaxy A7"; }
         else if ("SmartWatch 3".equals(model)) { return "Sony SmartWatch 3"; }
         else if ("SO-01H".equals(model)) { return "Sony Xperia Z5"; }
+        else if ("SO-01J".equals(model)) { return "Sony Xperia XZ"; }
         else if ("SGH-T869".equals(model)) { return "Samsung Galaxy Tab 7.0 Plus"; }
         else if ("SKY IM-A630K".equals(model)) { return "Pantech Izar"; }
         else if ("San Remo 4G".equals(model)) { return "Idol S"; }
+        else if ("SM-J710K".equals(model)) { return "Samsung Galaxy J7"; }
+        else if ("SM-A810YZ".equals(model)) { return "Samsung Galaxy A8(2016)"; }
         else if ("SM-S978L".equals(model)) { return "Samsung Galaxy E5"; }
         else if ("SGH-T599V".equals(model)) { return "Samsung Galaxy Exhibit"; }
         else if ("SGH-T599N".equals(model)) { return "Samsung Galaxy Exhibit"; }
@@ -8803,6 +8975,7 @@ public final class DeviceNames {
         else if ("R827".equals(model)) { return "Oppo R827"; }
         else if ("R820".equals(model)) { return "Oppo R820"; }
         else if ("R821".equals(model)) { return "Oppo R821"; }
+        else if ("R7c".equals(model)) { return "Oppo R7c"; }
         else if ("R7f".equals(model)) { return "Oppo R7f"; }
         else if ("R7g".equals(model)) { return "Oppo R7g"; }
         else if ("R7s".equals(model)) { return "Oppo R7s"; }
@@ -8817,7 +8990,6 @@ public final class DeviceNames {
         else if ("RTC-tablet".equals(model)) { return "Asus RTC-700A"; }
         else if ("ROBBY".equals(model)) { return "Wiko ROBBY"; }
         else if ("RCT6673W23M".equals(model)) { return "RCA 7 Mercury"; }
-        else if ("RCS13101T".equals(model)) { return "RCA RCS13101T"; }
         else if ("R7007".equals(model)) { return "OPPO R7007"; }
         else if ("R7005".equals(model)) { return "Oppo R7005"; }
         else if ("Redmi 3".equals(model)) { return "Xiaomi Redmi 3"; }
@@ -8826,10 +8998,10 @@ public final class DeviceNames {
         else if ("RAINBOW LITE".equals(model)) { return "Wiko RAINBOW LITE"; }
         else if ("RCT6077W2".equals(model)) { return "RCA RCT6077W2"; }
         else if ("Redmi 3S".equals(model)) { return "Xiaomi Redmi 3S"; }
+        else if ("RCS13101T".equals(model)) { return "RCA RCS13101T"; }
         else if ("RCT6673W-V1".equals(model)) { return "RCA RCT6673W-V1"; }
         else if ("RS988".equals(model)) { return "LG G5"; }
         else if ("RS987".equals(model)) { return "LGE V10"; }
-        else if ("R7c".equals(model)) { return "Oppo R7c"; }
         else if ("R7t".equals(model)) { return "Oppo R7t"; }
         else if ("R8007".equals(model)) { return "OPPO R8007"; }
         else if ("R8006".equals(model)) { return "OPPO R8006"; }
@@ -8868,7 +9040,6 @@ public final class DeviceNames {
     public static String uMethod (String model) {
         if ("umts".equals(model)) { return "Motorola Droid"; }
         else if ("U708".equals(model)) { return "OPPO U708"; }
-        else if ("U707".equals(model)) { return "Oppo U707"; }
         else if ("U705W".equals(model)) { return "Oppo Ulike2"; }
         else if ("U9180".equals(model)) { return "ZTE U9180"; }
         else if ("U8812D".equals(model)) { return "Huawei U8812D"; }
@@ -8878,6 +9049,7 @@ public final class DeviceNames {
         else if ("U972".equals(model)) { return "Hisense u972"; }
         else if ("U970".equals(model)) { return "Hisense U970"; }
         else if ("UZTE V817".equals(model)) { return "ZTE UZTE V817"; }
+        else if ("U707".equals(model)) { return "Oppo U707"; }
         else if ("URBANO PROGRESSO".equals(model)) { return "Kyocera URBANO PROGRESSO"; }
         else if ("U8652".equals(model)) { return "Huawei U8652"; }
         else if ("U8836D".equals(model)) { return "Huawei U8836D"; }
@@ -8894,13 +9066,13 @@ public final class DeviceNames {
         else if ("U680C".equals(model)) { return "Teleepoch UMX U680C"; }
         else if ("Ultym5".equals(model)) { return "Huawei G535-L11"; }
         else if ("UZTE V889M".equals(model)) { return "ZTE V889M"; }
-        else if ("U FEEL".equals(model)) { return "Wiko U FEEL"; }
         else if ("U3".equals(model)) { return "Oppo U3"; }
         else if ("U2".equals(model)) { return "Anydata HCL ME TABLET PC U2"; }
         else if ("USCC-C6721".equals(model)) { return "Kyocera Hydro XTRM"; }
         else if ("UVP".equals(model)) { return "Ubiquiti UVP"; }
         else if ("Ultra 2".equals(model)) { return "AG Mobile AG Ultra2"; }
         else if ("Ultra Charm".equals(model)) { return "Hyundai Ultra Charm"; }
+        else if ("Ultra Energy Lite".equals(model)) { return "Hyundai Ultra Energy Lite"; }
         else if ("U9500".equals(model)) { return "Huawei Ascend D"; }
         else if ("U FEEL GO".equals(model)) { return "Wiko U FEEL GO"; }
         else if ("U966".equals(model)) { return "Hisense U966"; }
@@ -8915,6 +9087,7 @@ public final class DeviceNames {
         else if ("UVP Pro".equals(model)) { return "Ubiquiti UVP Pro"; }
         else if ("Ultra".equals(model)) { return "AG Mobile ULTRA"; }
         else if ("Ultra Latitude".equals(model)) { return "Hyundai Ultra Latitude"; }
+        else if ("U FEEL".equals(model)) { return "Wiko U FEEL"; }
         else if ("U8230".equals(model)) { return "Huawei U8230"; }
         else if ("U675".equals(model)) { return "Teleepoch U675"; }
         else if ("UNO X10".equals(model)) { return "ODYS UNO X10"; }
@@ -8924,7 +9097,6 @@ public final class DeviceNames {
         else if ("U FEEL LITE".equals(model)) { return "Wiko U FEEL LITE"; }
         else if ("U FEEL FAB".equals(model)) { return "Wiko U FEEL FAB"; }
         else if ("U FEEL PRIME".equals(model)) { return "Wiko U FEEL PRIME"; }
-        else if ("Ultra Energy Lite".equals(model)) { return "Hyundai Ultra Energy Lite"; }
         else if ("Ultra Dream".equals(model)) { return "Hyundai Ultra Dream"; }
         else if ("U98".equals(model)) { return "Hisense HS-U98"; }
         else if ("USCCADR6230US".equals(model)) { return "HTC Wildfire S A515c"; }
@@ -8945,6 +9117,7 @@ public final class DeviceNames {
         else if ("TM772".equals(model)) { return "Apex TM772"; }
         else if ("Trio MINI".equals(model)) { return "Trio MINI"; }
         else if ("TBDG1073".equals(model)) { return "Zeki TBDG1073"; }
+        else if ("The Mission".equals(model)) { return "Nixon The Mission"; }
         else if ("TI320-DU".equals(model)) { return "LGUplus TV G"; }
         else if ("Telenor_One_Touch_C".equals(model)) { return "ALCATEL ONE TOUCH 985"; }
         else if ("TURKCELL T60".equals(model)) { return "ZTE TURKCELL T60"; }
@@ -8953,7 +9126,6 @@ public final class DeviceNames {
         else if ("TCL S960".equals(model)) { return "TCL S960"; }
         else if ("TCL P520L".equals(model)) { return "TCL P520L"; }
         else if ("TegraNote-P1640".equals(model)) { return "NVidia TegraNote"; }
-        else if ("T2702".equals(model)) { return "MJS T2702"; }
         else if ("T72HMs_3G".equals(model)) { return "Oysters T72HMs 3G"; }
         else if ("Transformer TF201".equals(model)) { return "Asus Eee Pad Transformer Prime"; }
         else if ("thunderc".equals(model)) { return "LG Optimus One"; }
@@ -8995,14 +9167,17 @@ public final class DeviceNames {
         else if ("Turbo-X_epsilon".equals(model)) { return "Plaisio Turbo-X_epsilon"; }
         else if ("TX201LA".equals(model)) { return "ASUS Transformer Book Trio"; }
         else if ("Transformer TF101".equals(model)) { return "Asus Eee Pad Transformer"; }
+        else if ("T1-A21W".equals(model)) { return "Huawei T1 10"; }
         else if ("T1-A21L".equals(model)) { return "Huawei T1 10"; }
         else if ("TBQC1063".equals(model)) { return "Zeki TBQC1063B"; }
+        else if ("T1-701us".equals(model)) { return "Huawei MediaPad"; }
         else if ("TCL S710".equals(model)) { return "ALCATEL ONE TOUCH 997D"; }
         else if ("TVE9603I".equals(model)) { return "Carrefour CT1050"; }
         else if ("TCL 302U".equals(model)) { return "TCL 302U"; }
         else if ("TM105A".equals(model)) { return "Gigabyte TM105A"; }
         else if ("TCL-D920".equals(model)) { return "TCL D920"; }
         else if ("TCL C995".equals(model)) { return "TCL C995"; }
+        else if ("TSP".equals(model)) { return "InFocus Epic 1"; }
         else if ("T785B".equals(model)) { return "Haier T785B"; }
         else if ("T1-A23L".equals(model)) { return "Huawei T1 10"; }
         else if ("TECNO-N6S".equals(model)) { return "TECNO-N6S"; }
@@ -9069,6 +9244,7 @@ public final class DeviceNames {
         else if ("TH-65DR800C".equals(model)) { return "Panasonic TH-65DR800C"; }
         else if ("T705".equals(model)) { return "Positivo T705"; }
         else if ("T700".equals(model)) { return "Toughshield T700_TABLET"; }
+        else if ("T2702".equals(model)) { return "MJS T2702"; }
         else if ("T2".equals(model)) { return "Lumigon T2"; }
         else if ("T3".equals(model)) { return "ZTE T3"; }
         else if ("ThinkVision28".equals(model)) { return "Lenovo ThinkVision28"; }
@@ -9103,6 +9279,7 @@ public final class DeviceNames {
         else if ("TURKCELL T50".equals(model)) { return "ZTE TURKCELL T50"; }
         else if ("Telpad Dual S".equals(model)) { return "Huawei S7"; }
         else if ("TAB-A02-SD".equals(model)) { return "Panasonic TAB-A02"; }
+        else if ("T452".equals(model)) { return "Navon T452"; }
         else if ("Telenor Smart Mini".equals(model)) { return "Telenor_Smart_Mini"; }
         else if ("TCL J938M".equals(model)) { return "TCL J938M"; }
         else if ("TCL-J320D".equals(model)) { return "TCL-J320D"; }
@@ -9117,6 +9294,7 @@ public final class DeviceNames {
         else if ("T1060C".equals(model)) { return "Positivo T1060"; }
         else if ("T1060B".equals(model)) { return "Positivo T1060"; }
         else if ("TM700A520L".equals(model)) { return "Nuvision TM700A520L"; }
+        else if ("T503".equals(model)) { return "Navon T503"; }
         else if ("TBDG874".equals(model)) { return "Zeki TBDG874 Tablet"; }
         else if ("TM75A-V2".equals(model)) { return "i-Buddie TM75A-V2"; }
         else if ("TCL J720".equals(model)) { return "TCL J720"; }
@@ -9165,7 +9343,6 @@ public final class DeviceNames {
         else if ("TCL Y910T".equals(model)) { return "TCL Y910T"; }
         else if ("TM9S775".equals(model)) { return "TMAX TM9S775"; }
         else if ("TECNO-N8".equals(model)) { return "TECNO-N8"; }
-        else if ("Telenor_SmartPlus".equals(model)) { return "Mobiwire Telenor SmartPlus"; }
         else if ("Trinity T900".equals(model)) { return "ESI Enterprises Trinity T900"; }
         else if ("TCL 6110A".equals(model)) { return "TCL_6110A"; }
         else if ("TQ150".equals(model)) { return "ZTE TQ150"; }
@@ -9176,6 +9353,7 @@ public final class DeviceNames {
         else if ("TCL i709M".equals(model)) { return "TCL i718M"; }
         else if ("TCL A990".equals(model)) { return "One Touch 990"; }
         else if ("Tab_2".equals(model)) { return "Beeline Tab 2"; }
+        else if ("TECNO_W4".equals(model)) { return "TECNO-W4"; }
         else if ("TStick".equals(model)) { return "CCC TSUTAYA Stick"; }
         else if ("TECNO-L8".equals(model)) { return "TECNO-L8"; }
         else if ("TECNO-L6".equals(model)) { return "Tecno Techno L6"; }
@@ -9208,6 +9386,7 @@ public final class DeviceNames {
         else if ("TLINK455".equals(model)) { return "Thomson TLink 455"; }
         else if ("TCL J320T".equals(model)) { return "TCL J320T"; }
         else if ("TCL J320C".equals(model)) { return "TCL J320C"; }
+        else if ("TECNO DP10A".equals(model)) { return "Tecno Droipad10"; }
         else if ("TCL J600T".equals(model)) { return "TCL J600T"; }
         else if ("Transformer Prime TF201".equals(model)) { return "Asus Eee Pad Transformer Prime"; }
         else if ("TAB-700".equals(model)) { return "Haier TAB-700"; }
@@ -9224,10 +9403,10 @@ public final class DeviceNames {
         else if ("TECNO-N2".equals(model)) { return "TECNO-N2"; }
         else if ("TECNO-N6".equals(model)) { return "TECNO-N6"; }
         else if ("TCL Y900".equals(model)) { return "TCL Y900"; }
+        else if ("Telenor_SmartPlus".equals(model)) { return "Mobiwire Telenor SmartPlus"; }
         else if ("TCL_U980".equals(model)) { return "TCL_U980"; }
         else if ("Tab770".equals(model)) { return "Bitmore LUXYA MID704DC Tablet / Bitmore Tab770"; }
         else if ("T1-701u".equals(model)) { return "Huawei MediaPad"; }
-        else if ("TH805".equals(model)) { return "Thinpad TH805"; }
         else if ("TP601C".equals(model)) { return "Neffos C5L"; }
         else if ("TP601B".equals(model)) { return "Neffos C5L"; }
         else if ("TP601A".equals(model)) { return "Neffos C5L"; }
@@ -9287,6 +9466,7 @@ public final class DeviceNames {
         else if ("TOSPASB".equals(model)) { return "TOSHIBA STB10"; }
         else if ("TCL-P306C".equals(model)) { return "TCL-P306C"; }
         else if ("TM800A550L".equals(model)) { return "Nuvision TM800A550L"; }
+        else if ("TH805".equals(model)) { return "Thinpad TH805"; }
         else if ("TCL_J636D".equals(model)) { return "TCL_J636D"; }
         else if ("Tactile internet".equals(model)) { return "Huawei T-Mobile Pulse"; }
         else if ("TCL P301C".equals(model)) { return "TCL P301C"; }
@@ -9319,7 +9499,6 @@ public final class DeviceNames {
         else if ("T802 PAD".equals(model)) { return "Huawei T802"; }
         else if ("TCC893X_EVM".equals(model)) { return "Hyundai CAR AVN SYSTEM"; }
         else if ("Trinity T101".equals(model)) { return "ESI Enterprises Trinity T101"; }
-        else if ("TECNO_W4".equals(model)) { return "TECNO-W4"; }
         else if ("T10".equals(model)) { return "BYD DynaVox T10"; }
         else if ("TF201".equals(model)) { return "Asus Eee Pad Transformer Prime"; }
         else if ("TZ55".equals(model)) { return "Irbis TZ55"; }
@@ -9460,6 +9639,7 @@ public final class DeviceNames {
         else if ("V817".equals(model)) { return "ZTE V817"; }
         else if ("V8285".equals(model)) { return "ZTE V8285"; }
         else if ("Viva_1001G".equals(model)) { return "AllView Viva 1001G"; }
+        else if ("vivo 1603".equals(model)) { return "Vivo Y55"; }
         else if ("Venue 7 3741".equals(model)) { return "Dell Venue 7"; }
         else if ("VSD231".equals(model)) { return "ViewSonic VSD231"; }
         else if ("VK700".equals(model)) { return "LG G Pad 10.1 LTE"; }
@@ -9487,7 +9667,6 @@ public final class DeviceNames {
         else if ("VFD 900".equals(model)) { return "Vodafone Smart platinum 7"; }
         else if ("vivo V3".equals(model)) { return "Vivo V3"; }
         else if ("vivo V1".equals(model)) { return "Vivo V1"; }
-        else if ("VK410".equals(model)) { return "LG GPAD 7.0 LTE"; }
         else if ("V1_Viper_I4G_PL".equals(model)) { return "AllView V1 Viper I4G"; }
         else if ("V8514".equals(model)) { return "ZTE V8514"; }
         else if ("V8510".equals(model)) { return "Huawei Y330-U11"; }
@@ -9545,6 +9724,7 @@ public final class DeviceNames {
         else if ("VK815".equals(model)) { return "LG G Pad X 8.3"; }
         else if ("VW_RCBKK1".equals(model)) { return "Panasonic Boukenkun-reciever"; }
         else if ("V6L".equals(model)) { return "Gionee ForwardZero"; }
+        else if ("VisionTouchLife".equals(model)) { return "Visiontouch Life"; }
         else if ("vsi7q_1_coho".equals(model)) { return "ViewSonic ViewPadi7Q"; }
         else if ("V.45".equals(model)) { return "Nextel V.45"; }
         else if ("V2s M".equals(model)) { return "Lava V2s"; }
@@ -9575,6 +9755,7 @@ public final class DeviceNames {
         else if ("Viewphone Q5".equals(model)) { return "ViewSonic Q5"; }
         else if ("Vodafone Smart II".equals(model)) { return "VF 860"; }
         else if ("VFD 700".equals(model)) { return "Vodafone Smart ultra 7"; }
+        else if ("V2_Viper_Xe".equals(model)) { return "AllView V2 Viper Xe"; }
         else if ("VK810 4G".equals(model)) { return "LG G Pad 8.3 LTE"; }
         else if ("Vodafone 858".equals(model)) { return "Huawei V858"; }
         else if ("vivo PD1524B".equals(model)) { return "Vivo V3M A"; }
@@ -9623,8 +9804,10 @@ public final class DeviceNames {
         else if ("Venue8 3840 LTE".equals(model)) { return "Dell Venue 8"; }
         else if ("VivaH8LTE".equals(model)) { return "AllView Viva H8 LTE"; }
         else if ("VT785P2-Celcus".equals(model)) { return "Vestel VT785P2"; }
+        else if ("V_TAB_8010".equals(model)) { return "Vestel V TAB 8010"; }
         else if ("VT785P2-Vestel".equals(model)) { return "Vestel VT785P2"; }
         else if ("Vodafone Smart 4G".equals(model)) { return "Coolpad Vodafone Smart 4G"; }
+        else if ("Vision Touch Inspire".equals(model)) { return "Visiontouch Inspire"; }
         else if ("vivo PD1501D".equals(model)) { return "Vivo X6Plus D"; }
         else if ("V TAB 8029".equals(model)) { return "Vestel V TAB 8029"; }
         else if ("vivo X6S A".equals(model)) { return "Vivo X6S A"; }
@@ -9650,6 +9833,7 @@ public final class DeviceNames {
         else if ("vsi8q_1_coho".equals(model)) { return "ViewSonic ViewPadi8Q"; }
         else if ("VS870 4G".equals(model)) { return "LG Lucid 2"; }
         else if ("V865M".equals(model)) { return "ZTE V865M"; }
+        else if ("vivo Y55".equals(model)) { return "Vivo Y55A"; }
         else if ("VS987".equals(model)) { return "LG G5"; }
         else if ("VS986".equals(model)) { return "LG G4"; }
         else if ("vivo Y51".equals(model)) { return "Vivo Y51"; }
@@ -9736,6 +9920,7 @@ public final class DeviceNames {
         else if ("V.35".equals(model)) { return "VSN V.35"; }
         else if ("VS500".equals(model)) { return "LG K8 V"; }
         else if ("VIE-L09".equals(model)) { return "Huawei P9 Plus"; }
+        else if ("VK410".equals(model)) { return "LG GPAD 7.0 LTE"; }
         else if ("vivo Y13iL".equals(model)) { return "Vivo PD1304DL"; }
         else if ("vivo X5M".equals(model)) { return "Vivo X5M"; }
         else if ("VERTU Ti".equals(model)) { return "VERTU Ti"; }
@@ -9808,6 +9993,7 @@ public final class DeviceNames {
         else if ("YP-GI2".equals(model)) { return "Samsung Galaxy 070"; }
         else if ("YP-GI1".equals(model)) { return "Samsung Galaxy Player 4.2"; }
         else if ("YPY_S405".equals(model)) { return "Positivo Ypy S405"; }
+        else if ("Ypy 7 - TB07FTA".equals(model)) { return "Positivo YPY7 3G"; }
         else if ("YU4711".equals(model)) { return "YUNIQUE"; }
         else if ("YOGA Tablet 2-830L".equals(model)) { return "Lenovo YOGA Tablet Pro-830L/Yoga Tablet 2"; }
         else if ("YOGA Tablet 2-830F".equals(model)) { return "Lenovo YogaTbalet2"; }
@@ -9823,7 +10009,6 @@ public final class DeviceNames {
         else if ("YBMK01".equals(model)) { return "iRiver Wow(Window of the world)"; }
         else if ("YPY_AB7DC".equals(model)) { return "Positivo AB7D"; }
         else if ("YPY_TQ7".equals(model)) { return "Positivo Ypy TQ7"; }
-        else if ("Ypy 7 - TB07FTA".equals(model)) { return "Positivo YPY7 3G"; }
         else if ("Y635-L01".equals(model)) { return "Huawei Y635"; }
         else if ("YPY_AB7K".equals(model)) { return "Positivo Ypy AB7K"; }
         else if ("YPY_S450".equals(model)) { return "Positivo Ypy S450"; }
@@ -9922,6 +10107,7 @@ public final class DeviceNames {
         else if ("Xino Z46 X4+".equals(model)) { return "Modecom Xino Z46 X4+"; }
         else if ("X2_Soul_Style".equals(model)) { return "AllView X2 Soul Style"; }
         else if ("Xlife-415".equals(model)) { return "Spice Xlife-441Q"; }
+        else if ("XDP-300R".equals(model)) { return "Pioneer XDP-300R"; }
         else if ("Xlife-Victor5".equals(model)) { return "Spice Victor5"; }
         else if ("XCD35".equals(model)) { return "ZTE Blade"; }
         else if ("XT535".equals(model)) { return "Motorola Moto Defy XT"; }
@@ -10019,7 +10205,6 @@ public final class DeviceNames {
         else if ("Xlife-450Q".equals(model)) { return "Spice Xlife"; }
         else if ("XT305".equals(model)) { return "Motorola Motosmart"; }
         else if ("XT1040".equals(model)) { return "Motorola Moto G w/4G LTE"; }
-        else if ("X12".equals(model)) { return "Lava X12"; }
         else if ("XT320".equals(model)) { return "Motorola Defy Mini"; }
         else if ("XT321".equals(model)) { return "Motorola Defy Mini"; }
         else if ("X3_Soul_PLUS".equals(model)) { return "AllView X3 Soul Plus"; }
@@ -10040,6 +10225,8 @@ public final class DeviceNames {
         else if ("XT1058".equals(model)) { return "Motorola Moto X"; }
         else if ("X1".equals(model)) { return "Moxee Technologies X1"; }
         else if ("XT1077".equals(model)) { return "Motorola Moto G with 4G LTE (2nd Gen)"; }
+        else if ("XT1663".equals(model)) { return "Lenovo Motorola M"; }
+        else if ("XT1662".equals(model)) { return "Lenovo Motorola Moto M"; }
         else if ("XT389".equals(model)) { return "Motorola Motosmart"; }
         else if ("X9079".equals(model)) { return "Oppo X9079"; }
         else if ("X9077".equals(model)) { return "Oppo X9077"; }
@@ -10050,6 +10237,7 @@ public final class DeviceNames {
         else if ("X18".equals(model)) { return "iRulu X18"; }
         else if ("X10".equals(model)) { return "Moxee Technologies X10"; }
         else if ("X11".equals(model)) { return "Lava X11"; }
+        else if ("X12".equals(model)) { return "Lava X12"; }
         else if ("X13".equals(model)) { return "Southern Telecom Streamachine"; }
         else if ("X17".equals(model)) { return "Lava X17"; }
         else if ("XDP-100R".equals(model)) { return "Pioneer XDP-100R"; }
@@ -10084,7 +10272,6 @@ public final class DeviceNames {
         else if ("ZTE_CLARO_Q1".equals(model)) { return "ZTE_LEO_Q1"; }
         else if ("ZTE V816W".equals(model)) { return "ZTE V815W"; }
         else if ("ZTE-C N600+".equals(model)) { return "ZTE Racer"; }
-        else if ("Z667".equals(model)) { return "ZTE Z667"; }
         else if ("ZTE T28 Prepaid".equals(model)) { return "ZTE T28"; }
         else if ("ZTE-U V760".equals(model)) { return "ZTE-U V760"; }
         else if ("Z353VL".equals(model)) { return "ZTE Z353VL"; }
@@ -10157,6 +10344,7 @@ public final class DeviceNames {
         else if ("ZTE G601U".equals(model)) { return "ZTE G601U"; }
         else if ("ZTE T660".equals(model)) { return "ZTE Blade V6"; }
         else if ("ZTE B880".equals(model)) { return "ZTE B880"; }
+        else if ("Z667".equals(model)) { return "ZTE Z667"; }
         else if ("ZTE Kis 3".equals(model)) { return "ZTE Kis 3"; }
         else if ("Z861BL".equals(model)) { return "ZTE Z861BL"; }
         else if ("ZTE Kis Q".equals(model)) { return "ZTE Kis Q"; }
@@ -10172,7 +10360,6 @@ public final class DeviceNames {
         else if ("Z740".equals(model)) { return "ZTE Z740"; }
         else if ("ZTE Blade Vec".equals(model)) { return "ZTE Blade Vec"; }
         else if ("ZTE U817".equals(model)) { return "ZTE U817"; }
-        else if ("ZTE U816".equals(model)) { return "ZTE U816"; }
         else if ("ZTE U818".equals(model)) { return "ZTE U818"; }
         else if ("ZTE N986".equals(model)) { return "ZTE N986"; }
         else if ("ZTE N983".equals(model)) { return "ZTE N983"; }
@@ -10200,7 +10387,6 @@ public final class DeviceNames {
         else if ("ZTE BLADE L110".equals(model)) { return "ZTE BLADE L110"; }
         else if ("Z992".equals(model)) { return "ZTE Z992"; }
         else if ("Z995".equals(model)) { return "ZTE Z995"; }
-        else if ("Z220".equals(model)) { return "Acer Liquid Z220"; }
         else if ("Z998".equals(model)) { return "ZTE Z998"; }
         else if ("Z716BL".equals(model)) { return "ZTE Z716BL"; }
         else if ("ZUN XO".equals(model)) { return "Vonino ZUN XO"; }
@@ -10225,6 +10411,7 @@ public final class DeviceNames {
         else if ("ZTE N900".equals(model)) { return "ZTE N900"; }
         else if ("ZTE N909".equals(model)) { return "ZTE N909"; }
         else if ("ZTE Q519T".equals(model)) { return "ZTE Q519T"; }
+        else if ("ZTE U816".equals(model)) { return "ZTE U816"; }
         else if ("ZTE_N9511".equals(model)) { return "ZTE_N9511"; }
         else if ("Z150".equals(model)) { return "Acer Liquid Z5"; }
         else if ("ZTE C310".equals(model)) { return "ZTE C310"; }
@@ -10254,7 +10441,6 @@ public final class DeviceNames {
         else if ("ZTE BLADE V0710".equals(model)) { return "ZTE BLADE V0710"; }
         else if ("ZTE V811W".equals(model)) { return "ZTE V811W"; }
         else if ("ZTE Blade L3 Apex".equals(model)) { return "ZTE Blade L3 Apex"; }
-        else if ("ZTE Blade Vec Pro".equals(model)) { return "ZTE Blade Vec Pro"; }
         else if ("ZTE Blade A430".equals(model)) { return "ZTE Blade Q Lux"; }
         else if ("ZTE V882".equals(model)) { return "ZTE 009Z"; }
         else if ("ZTE V880".equals(model)) { return "ZTE Blade"; }
@@ -10274,6 +10460,7 @@ public final class DeviceNames {
         else if ("ZT-701".equals(model)) { return "AtGames-zooti ZOOTI PAD ZT-701"; }
         else if ("ZTE Grand S II".equals(model)) { return "ZTE Grand S II"; }
         else if ("Zeus".equals(model)) { return "Sony Ericsson Xperia Play"; }
+        else if ("ZTE Blade 2".equals(model)) { return "ZTE V818"; }
         else if ("ZTE Blade A450".equals(model)) { return "ZTE Q509T"; }
         else if ("ZTE Fit 4G Smart".equals(model)) { return "ZTE Blade Q Lux"; }
         else if ("ZTE Blade G2".equals(model)) { return "ZTE V965"; }
@@ -10448,6 +10635,7 @@ public final class DeviceNames {
         else if ("Z988".equals(model)) { return "ZTE Grand X Max 2"; }
         else if ("ZTE V9800".equals(model)) { return "ZTE V9800"; }
         else if ("ZTE Blade V580".equals(model)) { return "ZTE Turk Telekom TT175"; }
+        else if ("ZTE Blade Vec Pro".equals(model)) { return "ZTE Blade Vec Pro"; }
         else if ("ZTE Blade C320".equals(model)) { return "ZTE V815W"; }
         else if ("ZTE Blade S6 Plus".equals(model)) { return "ZTE Blade S6 Plus"; }
         else if ("ZTE M1001".equals(model)) { return "ZTE GEEK II Pro"; }
@@ -10487,6 +10675,8 @@ public final class DeviceNames {
         else if ("ZTE V983".equals(model)) { return "ZTE V983"; }
         else if ("Z410".equals(model)) { return "Acer Liquid Z410"; }
         else if ("Z993".equals(model)) { return "ZTE Z993"; }
+        else if ("Z220".equals(model)) { return "Acer Liquid Z220"; }
+        else if ("ZTE BLADE A210".equals(model)) { return "ZTE Blade A210"; }
         else if ("ZTE Blade A410".equals(model)) { return "ZTE Orange Dive 30"; }
         else if ("ZTE Blade G".equals(model)) { return "ZTE Blade G"; }
         else if ("Z9 Plus".equals(model)) { return "QMobile Z9 Plus"; }
@@ -10494,7 +10684,6 @@ public final class DeviceNames {
         else if ("ZTE Blade V".equals(model)) { return "ZTE Blade V"; }
         else if ("ZTE Blade Q".equals(model)) { return "ZTE STARTRAIL 4"; }
         else if ("ZTE A2016".equals(model)) { return "ZTE A2016"; }
-        else if ("ZTE Blade 2".equals(model)) { return "ZTE V818"; }
         else if ("ZTE V993W".equals(model)) { return "ZTE V993W"; }
         else if ("ZTE BLADE A910".equals(model)) { return "ZTE BLADE A910"; }
         else if ("ZTE N9120".equals(model)) { return "ZTE N9120"; }
@@ -10532,7 +10721,6 @@ public final class DeviceNames {
         else if ("ZTE V891".equals(model)) { return "ZTE V891"; }
         else if ("ZTE-Z990G".equals(model)) { return "ZTE-Z990G"; }
         else if ("ZTE T320".equals(model)) { return "ZTE V831W"; }
-        else if ("ZTE Blade S6 Flex".equals(model)) { return "ZTE Blade S6 Flex"; }
         else if ("ZTE BLADE V7 LITE".equals(model)) { return "ZTE BLADE V7 LITE"; }
         else if ("Z815".equals(model)) { return "ZTE Fanfare 2"; }
         else if ("Z813".equals(model)) { return "ZTE Z813"; }
@@ -10546,6 +10734,7 @@ public final class DeviceNames {
         else if ("ZTE LEO Q2".equals(model)) { return "ZTE V769M"; }
         else if ("ZTE Blade C310".equals(model)) { return "ZTE C310"; }
         else if ("ZTE Blade C312".equals(model)) { return "ZTE Blade C312"; }
+        else if ("ZTE Blade S6 Flex".equals(model)) { return "ZTE Blade S6 Flex"; }
         else if ("ZTE G718C".equals(model)) { return "ZTE G718C"; }
         else if ("ZTE T81".equals(model)) { return "ZTE T81"; }
         else if ("ZTE V808".equals(model)) { return "ZTE V808"; }
@@ -10561,6 +10750,7 @@ public final class DeviceNames {
         else if ("7048X".equals(model)) { return "Go PLAY"; }
         else if ("7048W".equals(model)) { return "Go PLAY"; }
         else if ("7048S".equals(model)) { return "Go PLAY"; }
+        else if ("5025D".equals(model)) { return "ALCATEL ONETOUCH POP 3 (5.5)"; }
         else if ("9010X".equals(model)) { return "9010X"; }
         else if ("800P31C".equals(model)) { return "Mecer 800P31C"; }
         else if ("8DTB40".equals(model)) { return "Hipstreet Electron 2"; }
@@ -10680,6 +10870,7 @@ public final class DeviceNames {
         else if ("5145A".equals(model)) { return "ALCATEL PIXI 4 (5)"; }
         else if ("502SO".equals(model)) { return "Sony Xperia X Performance"; }
         else if ("502SH".equals(model)) { return "Sharp AQUOS Xx2"; }
+        else if ("5019D".equals(model)) { return "ALCATEL ONETOUCH PIXI 3 (4.5)"; }
         else if ("7DTB41".equals(model)) { return "Hipstreet Micron"; }
         else if ("101N".equals(model)) { return "NEC MEDIAS CH 101N"; }
         else if ("101K".equals(model)) { return "Kyocera HONEY BEE"; }
@@ -10695,6 +10886,7 @@ public final class DeviceNames {
         else if ("48AX600C".equals(model)) { return "Panasonic 48AX600C"; }
         else if ("31TL04".equals(model)) { return "Sanyo Benesse"; }
         else if ("8080".equals(model)) { return "8080"; }
+        else if ("769TPC".equals(model)) { return "IVIEW 769TPC"; }
         else if ("5095I".equals(model)) { return "POP 4S"; }
         else if ("404SC".equals(model)) { return "Samsung Galaxy S6 Edge"; }
         else if ("5054S".equals(model)) { return "5054S"; }
@@ -10742,7 +10934,7 @@ public final class DeviceNames {
         else if ("5042A".equals(model)) { return "POP 2"; }
         else if ("5042W".equals(model)) { return "POP2 (4.5)"; }
         else if ("5042T".equals(model)) { return "5042T"; }
-        else if ("8030Y".equals(model)) { return "8030Y"; }
+        else if ("8055".equals(model)) { return "8055"; }
         else if ("2PS64".equals(model)) { return "HTC 10"; }
         else if ("6070O".equals(model)) { return "IODL 4S"; }
         else if ("9DTB7".equals(model)) { return "Gigabyte Hipstreet 9DTB7 / Lazer MY9308P"; }
@@ -10756,7 +10948,6 @@ public final class DeviceNames {
         else if ("4009E".equals(model)) { return "ALCATEL ONETOUCH PIXI 3 (3.5)"; }
         else if ("4009X".equals(model)) { return "ALCATEL ONETOUCH PIXI 3 (3.5)"; }
         else if ("4018M".equals(model)) { return "Soul 3.5"; }
-        else if ("5025D".equals(model)) { return "ALCATEL ONETOUCH POP 3 (5.5)"; }
         else if ("2014812".equals(model)) { return "Xiaomi HM 2LTE"; }
         else if ("2014811".equals(model)) { return "Xiaomi HM 2LTE"; }
         else if ("2014817".equals(model)) { return "Xiaomi HM 2LTE"; }
@@ -10806,6 +10997,7 @@ public final class DeviceNames {
         else if ("502ZT".equals(model)) { return "ZTE Spro 2"; }
         else if ("7053D".equals(model)) { return "ALCATEL_ONETOUCH_7053D"; }
         else if ("4017F".equals(model)) { return "PIXI4 (3.5)"; }
+        else if ("8030Y".equals(model)) { return "8030Y"; }
         else if ("402LG".equals(model)) { return "LG Spray"; }
         else if ("7D-501u".equals(model)) { return "HUAWEI MediaPad X1 7.0"; }
         else if ("5057M".equals(model)) { return "Mirage"; }
@@ -10833,10 +11025,10 @@ public final class DeviceNames {
         else if ("9001X".equals(model)) { return "9001X"; }
         else if ("9001D".equals(model)) { return "9001D"; }
         else if ("9001I".equals(model)) { return "9001I"; }
-        else if ("8055".equals(model)) { return "8055"; }
         else if ("562".equals(model)) { return "TCL 562"; }
         else if ("9022S".equals(model)) { return "ONETOUCH PIXI 3 (8)"; }
         else if ("9022X".equals(model)) { return "ONETOUCH PIXI 3 (8)"; }
+        else if ("8753".equals(model)) { return "Spectralink PIVOT 8741/8753"; }
         else if ("5025X".equals(model)) { return "ALCATEL ONETOUCH POP 3 (5.5)"; }
         else if ("5025E".equals(model)) { return "ALCATEL ONETOUCH POP 3 (5.5)"; }
         else if ("5025G".equals(model)) { return "ALCATEL ONETOUCH POP 3 (5.5)"; }
@@ -10854,6 +11046,7 @@ public final class DeviceNames {
         else if ("5098S".equals(model)) { return "5098S"; }
         else if ("10DTB44".equals(model)) { return "Hipstreet Phantom2"; }
         else if ("0PCV1".equals(model)) { return "HTC Desire 510"; }
+        else if ("1070TPC".equals(model)) { return "IVIEW 1070TPC"; }
         else if ("10DTB42".equals(model)) { return "Hipstreet Pilot"; }
         else if ("9005X".equals(model)) { return "9005X"; }
         else if ("4033L".equals(model)) { return "ONE TOUCH 4033X"; }
@@ -10884,7 +11077,6 @@ public final class DeviceNames {
         else if ("5154A".equals(model)) { return "5154A"; }
         else if ("5065N".equals(model)) { return "5065N"; }
         else if ("4013M".equals(model)) { return "4013M"; }
-        else if ("5019D".equals(model)) { return "ALCATEL ONETOUCH PIXI 3 (4.5)"; }
         else if ("501SO".equals(model)) { return "Sony Xperia Z5"; }
         else if ("776TPCIII".equals(model)) { return "iView 776TPCIII"; }
         else if ("402SO".equals(model)) { return "Sony Xperia Z4"; }
@@ -10900,7 +11092,6 @@ public final class DeviceNames {
         else if ("101P51D".equals(model)) { return "Mecer 101P51D"; }
         else if ("503HW".equals(model)) { return "Huawei ALE-L02"; }
         else if ("800P71D".equals(model)) { return "Mecer 800P71D"; }
-        else if ("8753".equals(model)) { return "Spectralink PIVOT 8741/8753"; }
         else if ("4035X_Orange".equals(model)) { return "Soul 4"; }
         else if ("4034X".equals(model)) { return "ALCATEL ONETOUCH PIXI 4 (4)"; }
         else if ("204HW".equals(model)) { return "Huawei hw204HW"; }
