@@ -131,7 +131,7 @@ def generate_letter_functions(merged_dict):
     Generates a java method for each letter to make sure each method
     is below the 64K java limit.  e.g.
 
-        public static String $letterMethod(String model) {
+        private static String $letterMethod(String model) {
             // models starting with letter $letter
             $letter_devices
         }
