@@ -1,41 +1,32 @@
 package com.github.tslamic.dn
 
-import android.content.Context
 import android.database.sqlite.SQLiteDatabase
-import java.io.File
 
-class DeviceNamesDatabaseImpl(val context: Context) : DeviceNamesDatabase {
-  val databaseFile: File = context.getDatabasePath("adn.db")
-  var database: SQLiteDatabase? = null
+class DeviceNamesDatabaseImpl(val database: Database) : DeviceNamesDatabase {
+  var sqlite: SQLiteDatabase? = null
 
   override fun open() {
-    val timestamp = BuildConfig.GIT_TIMESTAMP
-    val prefs = context.getSharedPreferences("__adn", Context.MODE_PRIVATE)
-    val key = "timestamp"
-    if (timestamp != prefs.getLong(key, 0)) {
-      context.assets.open("adn.db").use { input ->
-        databaseFile.outputStream().use { output ->
-          if (input.copyTo(output) > 0) {
-            prefs.edit().putLong(key, BuildConfig.GIT_TIMESTAMP).apply()
-          }
-        }
-      }
+    if (sqlite.isValid()) {
+      throw IllegalStateException("the database is already open")
     }
-    val path = databaseFile.absolutePath
-    database = SQLiteDatabase.openDatabase(path, null, SQLiteDatabase.OPEN_READONLY)
+    database.copyFromAssets()
+    sqlite = database.instance()
+    if (!sqlite.isValid()) {
+      throw IllegalStateException("error opening the database")
+    }
   }
 
   override fun close() {
-    database?.close()
+    sqlite?.close()
   }
 
   override fun deviceName(model: String, fallback: String?): String? {
-    if (database.isClosed()) {
-      throw IllegalStateException("database closed")
+    if (!sqlite.isValid()) {
+      throw IllegalStateException("open() must be invoked first")
     }
-    database!!.rawQuery("SELECT name FROM adn WHERE model = ?", arrayOf(model)).use {
-      if (it.moveToFirst()) {
-        val name = it.getString(0)
+    sqlite!!.rawQuery("SELECT name FROM adn WHERE model = ?", arrayOf(model)).use { c ->
+      if (c.moveToFirst()) {
+        val name = c.getString(0)
         if (!name.isNullOrBlank()) {
           return name
         }
@@ -44,7 +35,7 @@ class DeviceNamesDatabaseImpl(val context: Context) : DeviceNamesDatabase {
     }
   }
 
-  fun SQLiteDatabase?.isClosed(): Boolean {
-    return this == null || !this.isOpen
+  private fun SQLiteDatabase?.isValid(): Boolean {
+    return this != null && isOpen
   }
 }

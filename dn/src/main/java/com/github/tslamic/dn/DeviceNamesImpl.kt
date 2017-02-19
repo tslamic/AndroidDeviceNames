@@ -1,10 +1,6 @@
 package com.github.tslamic.dn
 
-import android.content.Context
-
-class DeviceNamesImpl(context: Context) : DeviceNames {
-  val database = DeviceNamesDatabaseImpl(context)
-
+class DeviceNamesImpl(val database: DeviceNamesDatabase) : DeviceNames {
   override fun deviceName(model: String, fallback: String?): String? {
     try {
       database.open()
