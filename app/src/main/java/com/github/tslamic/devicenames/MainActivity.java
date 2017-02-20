@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     database.close();
   }
 
-  @SuppressWarnings("UnusedParameters") void query(View view) {
+  @SuppressWarnings("UnusedParameters") public void query(View view) {
     final String q = query.getText().toString();
     final String name = database.deviceName(q, "unknown");
     Toast.makeText(this, name, Toast.LENGTH_SHORT).show();
