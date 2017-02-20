@@ -45,7 +45,7 @@ String query(@NonNull String model) {
 Both `DeviceNames` and `DeviceNamesDatabase` offer three methods:
 
 | method | description |
-|:-|:-|
+| -----: | :---------- |
 | `currentDeviceName()` |  Returns a user-friendly current device name, or `null` if the model is unknown. |
 | `currentDeviceName(String fallback)`| Same as above, but returns `fallback` if the model is unknown. |
 | `deviceName(String model, String fallback)` | Returns a user-friendly name for the specified `model`, or `fallback`, if the model is unknown. |
