@@ -7,7 +7,7 @@ object AndroidDeviceNames {
    * Returns a [DeviceNames] instance. Use this if you need is a single query.
    */
   @JvmStatic fun deviceNames(context: Context): DeviceNames {
-    val database = deviceNamesDatabase(context.applicationContext)
+    val database = deviceNamesDatabase(context)
     return DeviceNamesImpl(database)
   }
 
@@ -17,7 +17,7 @@ object AndroidDeviceNames {
    * and [DeviceNamesDatabase.close] when you're done.
    */
   @JvmStatic fun deviceNamesDatabase(context: Context): DeviceNamesDatabase {
-    val db = DatabaseImpl(context.applicationContext)
-    return DeviceNamesDatabaseImpl(db)
+    val database = DatabaseImpl(context.applicationContext)
+    return DeviceNamesDatabaseImpl(database)
   }
 }

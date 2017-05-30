@@ -1,5 +1,5 @@
 
-Android Device Names v2
+Android Device Names v2 [![Build Status](https://travis-ci.org/tslamic/AndroidDeviceNames.svg?branch=master)](https://travis-ci.org/tslamic/AndroidDeviceNames)
 ===
 
 This tiny Android library transforms a device model name into something people can understand. For example, a useless `SM-N910W8` becomes `Samsung Galaxy Note4` with a single method call. :tada:
@@ -7,7 +7,7 @@ This tiny Android library transforms a device model name into something people c
 To use it, add the following to your list of dependencies:
 
 ```groovy
-compile 'com.github.tslamic:dn2:1.0'
+compile 'com.github.tslamic:dn2:1.1'
 ```
 
 If you only want to extract the current device name, or perform a single query, `DeviceNames` is what you're after:
