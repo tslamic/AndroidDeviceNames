@@ -20,6 +20,6 @@ android {
 }
 
 dependencies {
-  compile 'com.android.support:appcompat-v7:25.1.0'
-  compile 'com.github.tslamic:dn2:1.0'
+  compile 'com.android.support:appcompat-v7:25.3.1'
+  compile 'com.github.tslamic:dn2:2.0'
 }
