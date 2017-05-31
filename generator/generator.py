@@ -58,7 +58,7 @@ def _log(message):
 
 
 def _main():
-    gen = Generator(GooglePlayEngine(), CorcoranGithubEngine())
+    gen = Generator(CorcoranGithubEngine(), GooglePlayEngine())
     gen.create_database()
 
 
@@ -119,8 +119,8 @@ class CorcoranGithubEngine(Engine):
     """ Jeff Corcoran GitHub device list. """
 
     DELIMITER = ' = '
-    URL = "https://github.com/corcoran/AndroidDeviceNames/blob/master" \
-          "/generator/devices/cached.devices"
+    URL = "https://raw.githubusercontent.com/corcoran" \
+          "/android-device-names-registry/master/parsed.devices"
 
     def devices(self):
         tuple_list = []
