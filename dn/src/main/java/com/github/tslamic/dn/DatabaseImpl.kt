@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.database.sqlite.SQLiteDatabase
 import java.io.File
+import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream
 
@@ -15,6 +16,9 @@ class DatabaseImpl(val context: Context) : Database {
   override fun copyFromAssets() {
     val key = "version"
     if (!database.isValid() || version != prefs.getLong(key, 0)) {
+      if (!database.parentFile.exists() && !database.parentFile.mkdir()) {
+        throw IOException("Couldn't create db dir")
+      }
       val src = context.assets.open("dn.db")
       copy(src, database.outputStream(), key, version)
     }
