@@ -8,7 +8,7 @@ It currently recognizes more than 25k devices, including all [Google Play suppor
 To use it, add the following to your list of dependencies:
 
 ```groovy
-compile 'com.github.tslamic:dn2:2.0'
+compile 'com.github.tslamic:dn2:2.1'
 ```
 
 To extract the current device name, or perform a single query, `DeviceNames` is what you're after:
@@ -58,7 +58,7 @@ If you've been using AndroidDeviceNames v1, please note that v2 is not backwards
 
 ### Contributions
 
-Special thanks to @corcoran for making numerous improvements to the lib.
+Special thanks to [@corcoran](https://github.com/corcoran) for making numerous improvements to the lib.
 
 ### In the wild
 
