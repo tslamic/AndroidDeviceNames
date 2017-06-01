@@ -16,11 +16,12 @@ class DatabaseImpl(val context: Context) : Database {
   override fun copyFromAssets() {
     val key = "version"
     if (!database.isValid() || version != prefs.getLong(key, 0)) {
-      if (!database.parentFile.exists() && !database.parentFile.mkdir()) {
-        throw IOException("Couldn't create db dir")
+      if (!database.parentFile.exists() && !database.parentFile.mkdirs()) {
+        throw IOException("context.getDatabasePath does not exist and could not be created")
       }
       val src = context.assets.open("dn.db")
-      copy(src, database.outputStream(), key, version)
+      val dst = database.outputStream()
+      copy(src, dst, key, version)
     }
   }
 
