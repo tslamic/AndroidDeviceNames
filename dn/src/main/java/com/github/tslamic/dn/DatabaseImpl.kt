@@ -11,7 +11,7 @@ import java.io.OutputStream
 class DatabaseImpl(val context: Context) : Database {
   val prefs: SharedPreferences = context.getSharedPreferences("__dn__", Context.MODE_PRIVATE)
   val database: File = context.getDatabasePath("dn.db")
-  val version: Long = 3L
+  val version: Long = 4L
 
   override fun copyFromAssets() {
     val key = "version"
