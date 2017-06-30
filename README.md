@@ -8,7 +8,7 @@ It currently recognizes more than 25k devices, including all [Google Play suppor
 To use it, add the following to your list of dependencies:
 
 ```groovy
-compile 'com.github.tslamic:dn2:2.2'
+compile 'com.github.tslamic:dn2:2.3'
 ```
 
 To extract the current device name, or perform a single query, `DeviceNames` is what you're after:
