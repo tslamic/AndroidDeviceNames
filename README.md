@@ -1,49 +1,67 @@
-
-Android Device Names v2 [![Build Status](https://travis-ci.org/tslamic/AndroidDeviceNames.svg?branch=master)](https://travis-ci.org/tslamic/AndroidDeviceNames)
+Android Device Names [![Build Status](https://travis-ci.org/tslamic/AndroidDeviceNames.svg?branch=master)](https://travis-ci.org/tslamic/AndroidDeviceNames)
 ===
 
-This tiny Android library transforms a device model name into something people can understand. For example, a useless `SM-N910W8` becomes `Samsung Galaxy Note4` with a single method call. :tada:
-It currently recognizes more than 25k devices, including all [Google Play supported devices](https://support.google.com/googleplay/answer/1727131).
+This tiny Android library transforms a device model name into something people can understand. For example, a useless `SM-N910W8` becomes `Samsung Galaxy Note4` with a single method call. :tada: It currently recognizes about 15k devices, including all [Google Play supported devices](https://support.google.com/googleplay/answer/1727131).
+
+**It does not require network connectivity, ever. No, really.** 
 
 To use it, add the following to your list of dependencies:
 
 ```groovy
-compile 'com.github.tslamic:dn2:2.3'
+compile 'com.github.tslamic:dn3:3.0'
 ```
 
-To extract the current device name, or perform a single query, `DeviceNames` is what you're after:
+There are two classes you can use:
+
+ 1. `DeviceNames` use this if all you need is a *single* query.
+ 2. `DeviceNamesDatabase` usefeul to perform multiple queries. Don't forget to close it afterwards!
+
+To get `DeviceNames` using a good ol' callback, do this:
 
 ```java
-DeviceNames names = AndroidDeviceNames.deviceNames(context);
-String device = names.currentDeviceName();
+AndroidDeviceNames.deviceNames(context,
+  new AndroidDeviceNames.Callback<DeviceNames>() {
+    @Override 
+    public void onReady(@NonNull DeviceNames instance) {
+      String name = instance.currentDeviceName(); 
+    }
+  });
 ```
 
-For multiple queries, `DeviceNamesDatabase` will perform better. Since you have to explicitly open and close it, it's probably best to make it follow a lifecycle, e.g.:
+However, RxJava2 is supported out of the box, so you can also do this:
 
 ```java
-private DeviceNamesDatabase database;
+AndroidDeviceNames.deviceNames(context)
+  .subscribeOn(Schedulers.io())
+  .observeOn(AndroidSchedulers.mainThread())
+  .subscribe(names -> awwYis(names));
+```
 
-@Override protected void onCreate(Bundle savedInstanceState) {
-  // ...
-  database = AndroidDeviceNames.deviceNamesDatabase(this);
-}
-
-@Override protected void onStart() {
+You can obtain an instance of `DeviceNamesDatabase` in a similar fashion. After you're done using it, don't forget to explicitly call `close()`. For example:
+ 
+```java
+@Override
+protected void onStart() {
   super.onStart();
-  database.open();
+  AndroidDeviceNames.deviceNamesDatabase(this,
+    new AndroidDeviceNames.Callback<DeviceNamesDatabase>() {
+      @Override
+      public void onReady(@NonNull DeviceNamesDatabase instance) {
+        database = instance;
+      }
+    });
 }
 
-@Override protected void onStop() {
+@Override
+protected void onStop() {
   super.onStop();
-  database.close();
-}
-
-String query(@NonNull String model) {
-  return database.deviceName(model, "UNKNOWN");
+  if (database != null) {
+    database.close();
+  }
 }
 ```
 
-Both `DeviceNames` and `DeviceNamesDatabase` offer three methods:
+Both `DeviceNames` and `DeviceNamesDatabase` have three methods:
 
 | method | description |
 | -----: | :---------- |
@@ -51,10 +69,10 @@ Both `DeviceNames` and `DeviceNamesDatabase` offer three methods:
 | `currentDeviceName(String fallback)`| Same as above, but returns `fallback` if the model is unknown. |
 | `deviceName(String model, String fallback)` | Returns a user-friendly name for the specified `model`, or `fallback`, if model is unknown. |
 
-### Not backwards compatible with v1
+### Not backwards compatible with v1 or v2, sorry.
 
-If you've been using AndroidDeviceNames v1, please note that v2 is not backwards compatible. Updating should be trivial and result in minimal code change though.
-
+If you've been using AndroidDeviceNames v1 or v2, please note that this version is not backwards compatible. 
+Updating should be trivial, result in minimal code change and is highly encouraged.
 
 ### Contributions
 

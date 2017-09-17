@@ -18,6 +18,7 @@ import os
 import re
 import sqlite3
 import sys
+import zipfile
 
 try:
     import requests
@@ -57,9 +58,16 @@ def _log(message):
     print message
 
 
+def _zip(filename):
+    destination = '{}.zip'.format(filename)
+    with zipfile.ZipFile(destination, 'w', zipfile.ZIP_DEFLATED) as f:
+        f.write(filename)
+
+
 def _main():
     gen = Generator(CorcoranGithubEngine(), GooglePlayEngine())
-    gen.create_database()
+    database = gen.create_database()
+    _zip(database)
 
 
 class Generator(object):
@@ -67,6 +75,8 @@ class Generator(object):
         """
         Constructs a new Generator instance using the list of provided
         Engines.
+
+        Returns the created database path.
         """
         super(Generator, self).__init__()
         self.engines = engines
@@ -83,6 +93,7 @@ class Generator(object):
                 db.executemany(SQL_INSERT, devices)
             count = db.execute(SQL_COUNT).fetchone()[0]
             _log("total devices in the database: {}".format(count))
+        return database_path
 
 
 class Engine(object):

@@ -1,11 +1,7 @@
 package com.github.tslamic.dn
 
+// Not using java.io.Closeable because it clutters the API with IOException.
 interface DeviceNamesDatabase : DeviceNames {
-  /**
-   * Opens the database.
-   */
-  fun open()
-
   /**
    * Closes the database.
    */

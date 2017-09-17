@@ -1,16 +1,17 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 25
-  buildToolsVersion "25.0.2"
+  compileSdkVersion 26
+  buildToolsVersion "26.0.1"
   defaultConfig {
     applicationId "com.github.tslamic.devicenames"
     minSdkVersion 14
-    targetSdkVersion 25
+    targetSdkVersion 26
     versionCode 1
     versionName "1.0"
     testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
   }
+
   buildTypes {
     release {
       minifyEnabled false
@@ -20,6 +21,7 @@ android {
 }
 
 dependencies {
-  compile 'com.android.support:appcompat-v7:25.3.1'
-  compile 'com.github.tslamic:dn2:2.0'
+  implementation 'com.android.support:appcompat-v7:26.0.2'
+  implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+  implementation project(':dn')
 }
