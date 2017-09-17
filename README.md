@@ -14,9 +14,18 @@ compile 'com.github.tslamic:dn3:3.0'
 There are two classes you can use:
 
  1. `DeviceNames` use this if all you need is a *single* query.
- 2. `DeviceNamesDatabase` usefeul to perform multiple queries. Don't forget to close it afterwards!
+ 2. `DeviceNamesDatabase` for multiple queries. Don't forget to close it afterwards!
 
-To get `DeviceNames` using a good ol' callback, do this:
+RxJava2 is supported out of the box. Obtaining a `DeviceNames` instance is easy:
+
+```java
+AndroidDeviceNames.deviceNames(context)
+  .subscribeOn(Schedulers.io())
+  .observeOn(AndroidSchedulers.mainThread())
+  .subscribe(names -> doSomethingWith(names));
+```
+
+but good ol' callbacks are supported too, in case you don't feel reactive:
 
 ```java
 AndroidDeviceNames.deviceNames(context,
@@ -26,15 +35,6 @@ AndroidDeviceNames.deviceNames(context,
       String name = instance.currentDeviceName(); 
     }
   });
-```
-
-However, RxJava2 is supported out of the box, so you can also do this:
-
-```java
-AndroidDeviceNames.deviceNames(context)
-  .subscribeOn(Schedulers.io())
-  .observeOn(AndroidSchedulers.mainThread())
-  .subscribe(names -> awwYis(names));
 ```
 
 You can obtain an instance of `DeviceNamesDatabase` in a similar fashion. After you're done using it, don't forget to explicitly call `close()`. For example:
@@ -61,7 +61,7 @@ protected void onStop() {
 }
 ```
 
-Both `DeviceNames` and `DeviceNamesDatabase` have three methods:
+Both `DeviceNames` and `DeviceNamesDatabase` come with three methods:
 
 | method | description |
 | -----: | :---------- |
